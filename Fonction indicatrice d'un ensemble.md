@@ -57,7 +57,7 @@ Ceci implique alors que $x \in B$, d'où $A \subseteq B$
 
 
 ### Intersection de deux ensembles
-$$ \mathbb{1}_{A \cap B} = \mathbb{1}_A \times \mathbb{1}_B$$
+$$ \mathbb{1}_{A \cap B} = \mathbb{1}_A \times \mathbb{1}_B = \min(\mathbb{1}_A, \mathbb{1}_B)$$
 #### Démonstration
 On pose $f := \mathbb{1}_A \times \mathbb{1}_B$ et soit $x \in \Omega$
 - Si $x \in A \cap B$, $\mathbb{1}_A(x) = \mathbb{1}_B(x) = 1$ et on a bien $f(x) = 1$
@@ -84,4 +84,6 @@ Ainsi donc remarquons plus brièvement que, $\forall x \in \Omega$
 D'où la possibilité d'affirmer, $f := \mathbb{1}_{\overline{A}}$, d'où $\mathbb{1}_{\overline{A}} = 1 - \mathbb{1}_A$
 
 ### Réunion d'un ensemble
-$$ \mathbb{1}_{A \cup B} = \mathbb{1}_A
+$$ \mathbb{1}_{A \cup B} = \mathbb{1}_A + \mathbb{1}_B - \mathbb{1}_A \times \mathbb{1}_B = \max(\mathbb{1}_A, \mathbb{1}_B)$$
+
+#### Démonstration
