@@ -27,4 +27,8 @@ Montrons que $\mathbb{1}_A = \mathbb{1}_B$, autrement dit: $\forall x \in \Omega
 Soit $x \in \Omega$
 - Si $x \in A$ alors $\mathbb{1}_A(x) = 1$. Puisque $A=B$, $x \in B$, donc $\mathbb{1}_B(x) =1$, dans ce cas: $\mathbb{1}_A(x) = \mathbb{1}_B(x)$
 - Si $x \not \in A$ alors $\mathbb{1}_A(x) = 0$. Puisque $A=B$, $x \not \in B$, donc $\mathbb{1}_B(x) =0$, dans ce cas: $\mathbb{1}_A(x) = \mathbb{1}_B(x)$
-Dans tous les cas on a bien que $\mathbb{1}_A = \mathbb{1}_B$
+Dans tous les cas on a bien que $\mathbb{1}_A = \mathbb{1}_B$ 
+
+$$\begin{proof} test \end{proof}$$
+
+
