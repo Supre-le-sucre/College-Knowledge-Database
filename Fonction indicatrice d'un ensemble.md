@@ -70,3 +70,17 @@ Ainsi donc remarquons plus brièvement que, $\forall x \in \Omega$:
 - Si $x \in A \cap B, f(x) =1$
 - Si $x \not \in A \cap B, f(x) = 0$
 D'où la possibilité d'affirmer $f := \mathbb{1}_{A \cap B}$, d'où $\mathbb{1}_{A\cap B} = \mathbb{1}_A \times \mathbb{1}_B$
+
+### Complémentaire d'un ensemble
+$$ \mathbb{1}_{\overline{A}} = 1 - \mathbb{1}_A$$
+#### Démonstration
+On pose $f := 1 - \mathbb{1}_A$ et soit $x \in \Omega$
+- Si $x \in A$, on a $\mathbb{1}_A(x) = 1$, d'où $f(x) = 0$
+- Si $x \not \in A$, on a $\mathbb{1}_A(x) = 0$, d'où $f(x) = 1$
+
+Ainsi donc remarquons plus brièvement que, $\forall x \in \Omega$
+- Si $x \in \overline{A}, f(x) = 1$
+- Si $x \not \in \overline{A}, f(x) =0$
+D'où la possibilité d'affirmer, $f := \mathbb{1}_{\overline{A}}$, d'où $\mathbb{1}_{\overline{A}} = 1 - \mathbb{1}_A$
+
+### Réunion d'un ensemble
