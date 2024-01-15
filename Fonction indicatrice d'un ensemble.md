@@ -88,4 +88,5 @@ $$ \mathbb{1}_{A \cup B} = \mathbb{1}_A + \mathbb{1}_B - \mathbb{1}_A \times \ma
 
 #### Démonstration
 On pose $f:= \mathbb{1}_A + \mathbb{1}_B - \mathbb{1}_A \times \mathbb{1}_B$, et soit $x \in \Omega$
-- Si $x \in A \cup B$, 
+- Si $x \in A \cup B$, on a deux possibilités:
+	- 
