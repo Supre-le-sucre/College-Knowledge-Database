@@ -58,3 +58,15 @@ Ceci implique alors que $x \in B$, d'où $A \subseteq B$
 
 ### Intersection de deux ensembles
 $$ \mathbb{1}_{A \cap B} = \mathbb{1}_A \times \mathbb{1}_B$$
+#### Démonstration
+On pose $f := \mathbb{1}_A \times \mathbb{1}_B$ et soit $x \in \Omega$
+- Si $x \in A \cap B$, $\mathbb{1}_A(x) = \mathbb{1}_B(x) = 1$ et on a bien $f(x) = 1$
+- Si $x \not \in A \cap B$, trois possibilités sont à développer
+	- Si $x \in A$, $\mathbb{1}_A(x) = 1$ et $\mathbb{1}_B(x) =0$ donc $f(x) = 0$
+	- Si $x \in B$, $\mathbb{1}_B(x) = 1$ et $\mathbb{1}_A(x) =0$ donc $f(x) = 0$
+	- Si $x \not \in A \cup B$, $\mathbb{1}_A(x) = \mathbb{1}_B(x) = 0$, donc $f(x) =0$
+
+Ainsi donc remarquons plus brièvement que, $\forall x \in \Omega$:
+- Si $x \in A \cap B, f(x) =1$
+- Si $x \not \in A \cap B, f(x) = 0$
+D'où la possibilité de
