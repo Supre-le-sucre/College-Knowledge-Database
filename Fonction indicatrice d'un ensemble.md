@@ -69,4 +69,4 @@ On pose $f := \mathbb{1}_A \times \mathbb{1}_B$ et soit $x \in \Omega$
 Ainsi donc remarquons plus brièvement que, $\forall x \in \Omega$:
 - Si $x \in A \cap B, f(x) =1$
 - Si $x \not \in A \cap B, f(x) = 0$
-D'où la possibilité de
+D'où la possibilité d'affirmer $f := \mathbb{1}_{A \cap B}$,
