@@ -15,5 +15,5 @@ La négation est alors la définition de l'intersection vue plus haut.
 
 De la même manière, on en déduit aussi que:
 $$\overline{\bigcap_{i\in I}A_i} = \bigcup_{i\in I}\overline{A_i}$$
-Puisque la négation de $\forall i \in I, \omega \in A_i$ se traduit par $\exist i \in I, \omega \not \in A_i$, où $\omega \not \in A_i := \omega \in \overline{A_i}$
+Puisque la négation de $\forall i \in I, \omega \in A_i$ se traduit par $\exists i \in I, \omega \not \in A_i$, où $\omega \not \in A_i := \omega \in \overline{A_i}$
 La négation est alors la définition de l'union vue plus haut.
