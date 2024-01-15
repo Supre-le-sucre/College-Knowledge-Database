@@ -84,3 +84,4 @@ Ainsi donc remarquons plus brièvement que, $\forall x \in \Omega$
 D'où la possibilité d'affirmer, $f := \mathbb{1}_{\overline{A}}$, d'où $\mathbb{1}_{\overline{A}} = 1 - \mathbb{1}_A$
 
 ### Réunion d'un ensemble
+$$ \mathbb{1}_{A \cup B} = \mathbb{1}_A
