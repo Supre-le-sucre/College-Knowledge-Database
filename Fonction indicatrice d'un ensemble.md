@@ -29,6 +29,10 @@ Soit $x \in \Omega$
 - Si $x \not \in A$ alors $\mathbb{1}_A(x) = 0$. Puisque $A=B$, $x \not \in B$, donc $\mathbb{1}_B(x) =0$, dans ce cas: $\mathbb{1}_A(x) = \mathbb{1}_B(x)$
 Dans tous les cas on a bien que $\mathbb{1}_A = \mathbb{1}_B$ 
 
+### Inclusion de deux ensembles
+$$ A \subseteq B \Leftrightarrow \forall x \in \Omega, \mathbb{1}_A(x) \leq \mathbb{1}_B(x)$$
+
+
 
 
 
