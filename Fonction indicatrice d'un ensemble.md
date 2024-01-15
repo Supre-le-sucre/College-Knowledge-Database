@@ -17,8 +17,8 @@ $$ \mathbb{1}_A = \mathbb{1}_B \Leftrightarrow A=B$$
 $\Rightarrow$
 Soit $\mathbb{1}_A = \mathbb{1}_B$
 Montrons que $A=B$ par double inclusion:
-Soit $x \in A$, $\mathbb{1}_A(x) = 1$, puisque $\mathbb{1}_A = \mathbb{1}_B$, $\mathbb{1}_B(x) = 1$, donc $x \in B$, finalement $A \subseteq B$
-Soit $x \in B$, $\mathbb{1}_B(x) = 1$, puisque $\mathbb{1}_A = \mathbb{1}_B$, $\mathbb{1}_A(x) = 1$, donc $x \in A$, finalement $B \subseteq A$
+- Soit $x \in A$, $\mathbb{1}_A(x) = 1$, puisque $\mathbb{1}_A = \mathbb{1}_B$, $\mathbb{1}_B(x) = 1$, donc $x \in B$, finalement $A \subseteq B$
+- Soit $x \in B$, $\mathbb{1}_B(x) = 1$, puisque $\mathbb{1}_A = \mathbb{1}_B$, $\mathbb{1}_A(x) = 1$, donc $x \in A$, finalement $B \subseteq A$
 Puisqu'on a $A \subseteq B$ et $B\subseteq A$, on a indubitablement $A=B$
 
 $\Leftarrow$
