@@ -55,3 +55,6 @@ Ceci implique alors que $x \in B$, d'où $A \subseteq B$
 
 
 
+
+### Intersection de deux ensembles
+$$ \mathbb{1}_{A \cap B} = \mathbb{1}_A \times \mathbb{1}_B$$
