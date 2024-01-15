@@ -87,3 +87,5 @@ D'où la possibilité d'affirmer, $f := \mathbb{1}_{\overline{A}}$, d'où $\math
 $$ \mathbb{1}_{A \cup B} = \mathbb{1}_A + \mathbb{1}_B - \mathbb{1}_A \times \mathbb{1}_B = \max(\mathbb{1}_A, \mathbb{1}_B)$$
 
 #### Démonstration
+On pose $f:= \mathbb{1}_A + \mathbb{1}_B - \mathbb{1}_A \times \mathbb{1}_B$, et soit $x \in \Omega$
+- Si $x \in A \cup B$, 
