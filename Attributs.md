@@ -3,3 +3,6 @@ Un attribut modélise une caractéristique d'une [[Classe d'entités]], il poss�
 L'attribut est atomique, il ne contient donc qu'une seule valeur pour chaque [[Entités]]
 
 Par exemple: un nom, un prénom, une adresse, un matricule.
+
+## Attributs d'une association
+
