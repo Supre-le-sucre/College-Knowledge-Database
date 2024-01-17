@@ -1,3 +1,4 @@
+#db
 ## Différence entre un SGBD et un système de fichiers
 Les différences entre la gestion d'une base de données et celle d'un système de fichiers sont multiples, bien qu'ils sont similaires.
 

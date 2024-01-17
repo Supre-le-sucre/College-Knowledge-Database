@@ -1,3 +1,4 @@
+#db
 Une classe d'[[Association]] est un ensemble d'association.
 Il en existe différent types:
 

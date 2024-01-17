@@ -1,3 +1,4 @@
+#db
 Tout objet du monde réel pertinent pour l'application, peut être concret ou abstrait.
 
 Une entité est une identité d'un objet du monde réel, et peut donc être abstrait ou concret.

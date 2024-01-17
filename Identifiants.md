@@ -1,3 +1,4 @@
+#db
 Un identifiant est un sous-ensemble d'[[Attributs]] d'une [[Classe d'entités]]
 
 Notamment, elle permet de distinguer une entité de la même classe, l'identifiant est donc unique, une [[Entités]] d'une [[Classe d'entités]] a un identifiant unique.

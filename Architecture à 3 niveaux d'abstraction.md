@@ -1,3 +1,4 @@
+#db
 Dans la majorité des [[Système de gestion de bases de données]], il est nécessaire de développer différents niveaux d'abstraction pour s'adapter aux données stockées.
 
 Il existe 3 différents niveaux d'abstractions nécessaires à la conception d'une base de données.

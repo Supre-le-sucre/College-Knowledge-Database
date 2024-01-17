@@ -1,3 +1,4 @@
+#db
 Pour communiquer avec une base de données, le langage concerné se doit de respecter différentes caractéristiques.
 
 Notamment le langage se doit d'être **déclaratif**, cela signifie qu'il doit se concentrer sur la logique de l'application, et non pas sur l'accès aux données.

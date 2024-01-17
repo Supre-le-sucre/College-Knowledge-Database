@@ -1,3 +1,4 @@
+#db
 Afin de concevoir un [[Système de gestion de bases de données]] il est nécessaire d'en discuter sa structure
 
 Temporellement, la structuration se fait en plusieurs étapes
