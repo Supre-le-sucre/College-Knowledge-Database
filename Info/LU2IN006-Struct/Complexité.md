@@ -17,6 +17,6 @@ C'est le cas où, à l'opposé, l'algorithme effectue le nombre minimum d'opéra
 Pour exprimer la complexité temporelle formellement, on utilise [[La notation Landau]]
 
 # Complexité spatiale
-La complexité spatiale se focalise sur l'estimation de l'espace mémoire occupée en fonction du paramètre fournie.
+La complexité spatiale se focalise sur l'estimation de l'espace mémoire occupée en fonction du paramètre fourni.
 Il s'exprime de la même manière que la [[La notation Landau]]
 
