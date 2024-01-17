@@ -6,4 +6,8 @@ Une association est unique, mais peut se regrouper avec d'autres associations de
 
 Pour certaines association, il est nécessaire de limiter son nombre et/ou de rendre obligatoire sa création un certain nombre de fois.
 
-Par exemple, dans le cas d'un étudiant inscrit à l'université. Son inscription dans un module est obligatoire, et il ne peut pas être inscrit dans plus de 7 modules. Ainsi, la cardinalité d'une telle association est de [1, 7] de l'étudiant vers le module.
+**Par exemple,** dans le cas d'un étudiant inscrit à l'université. 
+
+Son inscription dans un module est obligatoire, et il ne peut pas être inscrit dans plus de 7 modules. Ainsi, la cardinalité d'une telle association est de [1, 7] de l'étudiant vers le module.
+
+On peut aussi dire qu'un module ne peut s'ouvrir, seulement si un étudiant est inscrit, sa cardinalité est donc de [1, N] (N car il n'y aucune limite aux nombres d'étudiants sur un module)
