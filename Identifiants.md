@@ -17,4 +17,4 @@ Une [[Association]] est identifiée au moyen des identifiants des entités qu'el
 
 Puisqu'on ne peut pas associer des entités avec la même association sémantique, un identifiant classique d'une association est simplement la concaténation des deux identifiants des [[Entités]] associée.
 
-Si une [[Association]] possède un [[Attributs]], alors il est nécessaire de les différencier
+Si une [[Association]] possède un [[Attributs]], alors il est nécessaire de les différencier. On peut dans ce cas, intégrer cette attribut dans l'identifiant de l'[[Association]]
