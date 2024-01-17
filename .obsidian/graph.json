@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#db  ",
+      "color": {
+        "a": 1,
+        "rgb": 6074838
+      }
+    },
+    {
+      "query": "tag:#suites  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069596
+      }
+    },
+    {
+      "query": "tag:topo",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#probas  ",
+      "color": {
+        "a": 1,
+        "rgb": 6058198
+      }
+    },
+    {
+      "query": "tag:#struct  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.854498269896194,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 166,
+  "scale": 0.5873273465354906,
+  "close": false
+}

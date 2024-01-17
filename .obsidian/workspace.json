@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "ef42b35e025b5aee",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2474cfbe86567d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "378eb4b0da16e6a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cca5d5859e705456",
+    "type": "split",
+    "children": [
+      {
+        "id": "50a1c3a63e8acaf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66f29628d5c4b9ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7eb24b0a440d129d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"Info/LU2IN009-DB/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96fe9b9edc08027c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "45e12f0592c47e14",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb41d5f3977fdcf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19c8804a3a805030",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ae0efff0fa684d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1c83a17bc053a1a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b7016c25eb1018f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7eb24b0a440d129d",
+  "lastOpenFiles": [
+    "Info/Untitled.canvas",
+    "Info/LU2IN006-Struct/La notation Landau.md",
+    "Info/LU2IN009-DB/Construction d'une base de données.md",
+    "Info/LU2IN009-DB/Langages pour les DB.md",
+    "Info/LU2IN006-Struct/Complexité.md",
+    "README.md",
+    "Info/LU2IN009-DB/Association.md",
+    "Info/LU2IN006-Struct",
+    "Info/LU2IN009-DB",
+    "Info",
+    "Maths",
+    "Info/LU2IN006-Struct/Structure de données.md",
+    "Info/LU2IN009-DB/Architecture à 3 niveaux d'abstraction.md",
+    "Maths/Normes.md",
+    "Maths/Inégalité triangulaire.md",
+    "Maths/Théorie des ensembles.md",
+    "Info/LU2IN009-DB/Identifiants.md",
+    "Info/LU2IN009-DB/Modèle Entité-Association.md",
+    "Maths/Unicité de la limite.md",
+    "Info/LU2IN009-DB/Système de gestion de bases de données.md",
+    "Maths/Fonction indicatrice d'un ensemble.md",
+    "Maths/Famille de sous-ensemble.md",
+    "Info/LU2IN009-DB/Entités.md",
+    "Maths/Différence symétrique.md",
+    "Maths/Convergence d'une suite.md",
+    "Info/LU2IN009-DB/Classe d'entités.md",
+    "Info/LU2IN009-DB/Classe d'associations.md",
+    "Info/LU2IN009-DB/Attributs.md",
+    "Info/LU2IN009-DB/Modèle relationnel.md",
+    "Opération sur les ensembles.md",
+    "Nouveau Microsoft Publisher Document.pub"
+  ]
+}
