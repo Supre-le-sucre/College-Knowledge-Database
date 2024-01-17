@@ -1,0 +1,1 @@
+Une association est un lien entre des [[Entités]], et il est possible d'avoir plusieurs associations entre les mêmes entités
