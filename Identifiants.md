@@ -16,3 +16,5 @@ Par exemple: un matricule, le numéro d'une salle et son emplacement, un prénom
 Une [[Association]] est identifiée au moyen des identifiants des entités qu'elle met en relation. 
 
 Puisqu'on ne peut pas associer des entités avec la même association sémantique, un identifiant classique d'une association est simplement la concaténation des deux identifiants des [[Entités]] associée.
+
+Si une [[Association]] possède un [[Attributs]], alors il est nécessaire de les différencier
