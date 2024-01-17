@@ -1,3 +1,4 @@
+#suites 
 Si on a [[Convergence d'une suite]] $(u_n)_{n\in\mathbb{N}}$ vers une limite $l$, alors cette limite est unique
 
 ## Preuve

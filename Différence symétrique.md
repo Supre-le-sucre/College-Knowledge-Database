@@ -1,3 +1,4 @@
+#probas
 Dans la [[Théorie des ensembles]], il existe une opération sur les ensembles qu'est la différence symétrique
 
 Soit $A$ et $B$ deux ensembles dans l'univers $\Omega$

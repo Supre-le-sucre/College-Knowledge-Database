@@ -1,3 +1,4 @@
+#topo
 On définit une norme sur $\mathbb{R}^n$, une application $N: \mathbb{R}^n \to \mathbb{R}$ telle que:
 
 - La __séparation__ est vérifiée
