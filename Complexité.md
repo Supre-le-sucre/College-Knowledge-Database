@@ -7,9 +7,9 @@ La complexité temporelle décrit le temps nécessaire pour l'exécution d'un al
 
 Pour la majorité des algorithme, le nombre d'opérations élémentaires dépend des paramètres d'entrée. 
 
-Il existe une distinction de cas
+Il existe une distinction de cas:
 ### Pire des cas
-C'est le cas où l'algorithme effectue le nombre maximum d'opérations élémentaires possibles
+C'est le cas où l'algorithme effectue le nombre maximum d'opérations élémentaires possibles.
 
 ### Meilleur des cas
-C'est le cas où, à l'opposé, l'algorithme effectue le nombre minimum d'opérations élémentaires possibles
+C'est le cas où, à l'opposé, l'algorithme effectue le nombre minimum d'opérations élémentaires possibles.
