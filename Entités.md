@@ -9,3 +9,7 @@ Une entité est une identité d'un objet du monde réel, et peut donc être abst
 
 - Abstrait
 	Un virement, un contrat
+
+## Entités faibles
+Une entité faible possèdent des attributs discriminants dont les valeurs sont unique dans le contexte d'une entité forte.
+La cardinalité de ses associations est obligatoire [1:1]
