@@ -10,7 +10,7 @@ Il existe 3 différents niveaux d'abstractions nécessaires à la conception d'u
 
 - Niveau physique (concepteur et administrateur)
 		Comment les données sont stockée -> [[Schéma]] physique
-		Ce niveau d'abstractions est aussi appelé _database engine_
+		Ce niveau d'abstraction est aussi appelé _database engine_
 
 La notion d'indépendances entre ces niveaux est fondamental pour la sécurité des données et leur accessibilité
 
