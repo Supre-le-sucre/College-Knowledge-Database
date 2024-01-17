@@ -10,3 +10,9 @@ Un identifiant peut être de deux types différents:
 - Artificiel, rajouté aux [[Attributs]] de la classe, lorsque les [[Attributs]] de la classe ne permettent pas de définir un identifiant
 
 Par exemple: un matricule, le numéro d'une salle et son emplacement, un prénom (si chaque prénom est différent)
+
+## Identifiant d'une association
+
+Une [[Association]] est identifiée au moyen des identifiants des entités qu'elle met en relation. 
+
+Puisqu'on ne peut pas associer des entités avec la même association sémantique, un identifiant classique d'une association est simplement la concaténation des deux identifiants des [[Entités]] associée.
