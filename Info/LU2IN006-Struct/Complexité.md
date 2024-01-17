@@ -1,6 +1,6 @@
 #struct 
 
-Il existe différent types de complexité
+Il existe différents types de complexité
 
 # Complexité temporelle
 La complexité temporelle décrit le temps nécessaire pour l'exécution d'un algorithme. On l'estime en comptant le nombre d'opération élémentaires durant l'exécution.

@@ -39,7 +39,7 @@
       "query": "tag:#struct  ",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 16580398
       }
     }
   ],
@@ -50,9 +50,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.5,
-  "repelStrength": 10,
+  "repelStrength": 12.9757785467128,
   "linkStrength": 1,
   "linkDistance": 166,
-  "scale": 0.5873273465354906,
+  "scale": 0.5002388674770938,
   "close": false
 }
