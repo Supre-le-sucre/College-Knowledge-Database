@@ -3,7 +3,7 @@
 Il existe différents types de complexité
 
 # Complexité temporelle
-La complexité temporelle décrit le temps nécessaire pour l'exécution d'un algorithme. On l'estime en comptant le nombre d'opération élémentaires durant l'exécution.
+La complexité temporelle décrit le temps nécessaire pour l'exécution d'un algorithme. On l'estime en comptant le nombre d'opérations élémentaires durant l'exécution.
 
 Pour la majorité des algorithmes, le nombre d'opérations élémentaires dépend des paramètres d'entrée. 
 
