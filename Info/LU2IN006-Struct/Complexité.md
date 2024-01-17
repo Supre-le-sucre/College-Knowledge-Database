@@ -20,3 +20,5 @@ Pour exprimer la complexité temporelle formellement, on utilise [[La notation L
 La complexité spatiale se focalise sur l'estimation de l'espace mémoire occupée en fonction du paramètre fourni.
 Il s'exprime de la même manière que la [[La notation Landau]]
 
+
+
