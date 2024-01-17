@@ -1,3 +1,4 @@
-Dans ce modèle de données, on met en place une description haut niveau des données entités et les liens entre elles (association).
+Ce type de modèle a été proposé par **_Peter Chen_** en 1976.
+Son principe est de transcrire les besoins en termes de [[Classe d'entités]] et de _classes d'association_
 
-Cette modélisation se fait entre le concepteur et le client 
+Cette modélisation se fait entre le concepteur et le client.
