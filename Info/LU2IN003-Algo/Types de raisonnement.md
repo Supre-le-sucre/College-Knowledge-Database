@@ -32,4 +32,4 @@ Ce $n$ est divisible par 1 et par $n$, puisqu'il est pair, il est aussi divisibl
 #### Raisonnement par contraposée
 Il faut alors montrer que $\forall n \in \mathbb{N}, n$ pair $\Rightarrow$ $n$ non premier ou $n \leq 2$
 
-Soit $n \in \mathbb{N}$ 
+Soit $n \in \mathbb{N}$ pair, 
