@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/Exemple notation de Landau.md",
+                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/Exemple notation de Landau.md",
+                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/Exemple notation de Landau.md",
+                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/Exemple notation de Landau.md"
+                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md"
               }
             }
           }
@@ -191,11 +191,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66f29628d5c4b9ed",
+  "active": "0b62b9fad3e14f94",
   "lastOpenFiles": [
+    "Info/LU2IN006-Struct/La notation de Landau.md",
+    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
     "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
-    "Info/Exemple notation de Landau.md",
-    "Info/LU2IN006-Struct/La notation Landau.md",
     "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Maths/Fonction indicatrice d'un ensemble.md",

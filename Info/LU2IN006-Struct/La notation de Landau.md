@@ -1,4 +1,5 @@
-#struct
+#struct #algo
+cf. [[Ordres de grandeurs]] pour des exemples
 ## Borne supérieure O
 Soit $f(n)$ et $g(n)$ deux fonctions positives définies sur $\mathbb{N}$, On dit que $f(n)$ est en $O(g(n))$ si la fonction $f$ est asymptotiquement bornée supérieurement par la fonction $g$ a un facteur près.
 
