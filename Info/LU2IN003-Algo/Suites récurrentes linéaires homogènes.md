@@ -8,7 +8,16 @@ Remarquons que la suite de Fibonacci est une suite récurrente linéaire homogè
 On détermine le polynôme caractéristique d'une telle suite
 $$P(r) = r^2 - ar - b $$
 
-Avec $r$ la racine de ce polynôme. La suite $r^n$ satisfait $\forall n \geq 2$ la relation de récurrence $u_n = r^n$
-### Preuve
-$$r^n = r^{n-2} \times r^2 = r^{(n-2)}(ar - b)$$
+Avec $r$ la racine de ce polynôme. 
+Il y a alors 2 cas:
+### 2 racines
+La solution générale de la récurrence est de la forme
+$$u_n = \alpha_1 r_1^n + \alpha_2 r_2^n$$
+Avec $\alpha_1$ et $\alpha_2$ satisfaisant le système suivant
+$$\begin{cases} 
+      \alpha_1 + \alpha_2 = u_0\\
+      1 & x \in A 
+   \end{cases}
+$$
+
 Ainsi par exemple, pour la suite de Fibonacci, le polynôme caractéristique

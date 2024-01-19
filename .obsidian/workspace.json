@@ -179,11 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66f29628d5c4b9ed",
+  "active": "a08c0197632f032f",
   "lastOpenFiles": [
+    "Maths/Fonction indicatrice d'un ensemble.md",
+    "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
-    "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
     "Info/LU2IN003-Algo",
     "Info/LU2IN006-Struct/La notation Landau.md",
     "Info/LU2IN006-Struct/Complexité.md",
@@ -205,7 +206,6 @@
     "Info/LU2IN009-DB/Modèle Entité-Association.md",
     "Maths/Unicité de la limite.md",
     "Info/LU2IN009-DB/Système de gestion de bases de données.md",
-    "Maths/Fonction indicatrice d'un ensemble.md",
     "Maths/Famille de sous-ensemble.md",
     "Info/LU2IN009-DB/Entités.md",
     "Maths/Différence symétrique.md",
