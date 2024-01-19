@@ -9,6 +9,8 @@ $$ (a+b)^2 + (a-b)^2 $$
 $$= a^2 + 2ab + b^2 + a^2 - 2ab + b^2$$
 $$ = 2a^2 + 2b^2 = 2(a^2 + b^2) = 2(a+b)^2 -4ab$$
 ## Implication
+
+L'implication est simplifiable logiquement: $a \Rightarrow b \equiv \neg a \vee b$
 ### Raisonnement équivalent
 $$ a \Rightarrow b \equiv \neg a \vee b \equiv \neg (\neg b) \vee \neg a \equiv \neg b \Rightarrow \neg a $$
 ### Négation d'une implication
@@ -32,4 +34,13 @@ Ce $n$ est divisible par 1 et par $n$, puisqu'il est pair, il est aussi divisibl
 #### Raisonnement par contraposée
 Il faut alors montrer que $\forall n \in \mathbb{N}, n$ pair $\Rightarrow$ $n$ non premier ou $n \leq 2$
 
-Soit $n \in \mathbb{N}$ pair, 
+Soit $n \in \mathbb{N}$ pair, il existe alors 2 cas de figure:
+- 1er cas, $n=2$, on a donc que $n \leq 2$
+- 2e cas, $n \geq 2$, $n$ a au moins 3 diviseurs différents, 1, 2, et $n$, donc $n$ n'est pas premier.
+
+#### Raisonnement par l'absurde II
+Prouvons qu'il existe une infinité de nombre premiers.
+Cette preuve ne peut pas être résolue par contraposée.
+
+Supposons qu'il y ait un nombre fini $N$ de nombre premiers.
+On les note $(p_1, \cdots, p_N)$
