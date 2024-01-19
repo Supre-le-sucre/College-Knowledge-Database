@@ -1,10 +1,12 @@
 #algo 
 ## Définition
 On définit une suite récurrente linéaire homogène comme une suite d'élément sur $\mathbb{N}$ telle que
-$$\forall n \geq 2, u_n = \lambda_1u_{n-1} + \lambda_2u_{n-2} + \cdots + \lambda_k u_{n-k}$$ Où $(\lambda_1, \cdots, \lambda_k) \in \mathbb{R}^k$
+$$\forall n \geq k, u_n = \lambda_1u_{n-1} + \lambda_2u_{n-2} + \cdots + \lambda_k u_{n-k}$$ Où $(\lambda_1, \cdots, \lambda_k) \in \mathbb{R}^k$
 Remarquons que la suite de Fibonacci est une suite récurrente linéaire homogène
 
 ## Polynôme caractéristique
+
+On détermine une suite récurrente linéaire homogène d'ordre 2
 On détermine le polynôme caractéristique d'une telle suite
 $$P(r) = r^2 - ar - b $$
 
