@@ -25,7 +25,7 @@ $$ \forall n \in \mathbb{N}, \sum^n_{i=0} i = \frac{n(n+1)}{2} $$
 
 *Cas de base:* Montrer que pour un $k \in \mathbb{N}, \Pi(k)$ est vraie (généralement $k=0$)
 *Induction:* Montrer que
-$$ \forall n_0 \geq k, (\forall n \leq n_0, \Pi(n)) \Rightarrow \Pi(n+1) $$
+$$ \forall n_0 \geq k, (\forall n \leq n_0, \Pi(n)) \Rightarrow \Pi(n_0+1) $$
 ### Exemple
 Montrer $\forall n \in \mathbb{N}, n \geq 2, \Pi(n):$ $n$ admet au moins un diviseur premier
 
