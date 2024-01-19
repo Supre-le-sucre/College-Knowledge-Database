@@ -38,9 +38,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a08c0197632f032f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Raisonnement par réccurrence.md"
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md"
               }
             }
           }
@@ -167,9 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "549ea0f40c564088",
+  "active": "66f29628d5c4b9ed",
   "lastOpenFiles": [
     "Info/LU2IN003-Algo/Types de raisonnement.md",
+    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
     "Info/LU2IN003-Algo",
     "Info/LU2IN006-Struct/La notation Landau.md",
@@ -200,7 +213,6 @@
     "Info/LU2IN009-DB/Classe d'entités.md",
     "Info/LU2IN009-DB/Classe d'associations.md",
     "Info/LU2IN009-DB/Attributs.md",
-    "Info/LU2IN009-DB/Modèle relationnel.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
