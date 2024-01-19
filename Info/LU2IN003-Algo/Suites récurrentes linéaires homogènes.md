@@ -22,7 +22,7 @@ $$
 
 ### 1 racine double
 La solution générale de la récurrence est de la forme
-$$u_n = \alpha_1 r_1^n + \alpha_2nr_1^n$$
+$$u_n = r_1^n (\alpha_1+\alpha_2n)$$
 Avec $\alpha_1$ et $\alpha_2$ satisfaisant le système suivant
 $$\begin{cases} 
       \alpha_1 + \alpha_2 = u_0\\
