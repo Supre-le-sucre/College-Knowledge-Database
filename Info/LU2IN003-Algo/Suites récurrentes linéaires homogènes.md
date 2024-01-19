@@ -8,7 +8,9 @@ Remarquons que la suite de Fibonacci est une suite récurrente linéaire homogè
 On détermine le polynôme caractéristique d'une telle suite
 $$P(r) = r^2 - ar - b $$
 
-Avec $r$ la racine de ce polynôme. 
+On a que $\forall r \in \mathbb{R}$
+
+
 Il y a alors 2 cas:
 ### 2 racines
 La solution générale de la récurrence est de la forme
