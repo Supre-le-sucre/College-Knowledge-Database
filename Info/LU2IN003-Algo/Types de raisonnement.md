@@ -3,6 +3,8 @@
 L'algorithmie est utilisé pour prouver mathématiquement le bon fonctionnement d'un programme.
 Ainsi donc les différents types de raisonnement de base sont en rigueur.
 
+Un raisonnement important est aussi le [[Raisonnement par réccurrence]] distinguable en plusieurs types
+
 ## Raisonnement calculatoire
 *Exemple*: Montrer que $(a+b)^2 + (a-b)^2 = 2(a+b)^2-4ab$
 $$ (a+b)^2 + (a-b)^2 $$
@@ -44,3 +46,5 @@ Cette preuve ne peut pas être résolue par contraposée.
 
 Supposons qu'il y ait un nombre fini $N$ de nombre premiers.
 On les note $(p_1, \cdots, p_N)$
+On pose $P = \prod_{i=1}^N p_i$ +1
+$P$ n'est divisible par aucun $p_i$, donc $P$ est premier, ceci est absurde, car il y aura alors $N+1$ premiers.
