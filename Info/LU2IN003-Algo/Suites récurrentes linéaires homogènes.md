@@ -16,8 +16,16 @@ $$u_n = \alpha_1 r_1^n + \alpha_2 r_2^n$$
 Avec $\alpha_1$ et $\alpha_2$ satisfaisant le système suivant
 $$\begin{cases} 
       \alpha_1 + \alpha_2 = u_0\\
-      1 & x \in A 
+      r_1\alpha_1 + r_2\alpha_2 =u_1
    \end{cases}
 $$
 
-Ainsi par exemple, pour la suite de Fibonacci, le polynôme caractéristique
+### 1 racine double
+La solution générale de la récurrence est de la forme
+$$u_n = \alpha_1 r_1^n + \alpha_2nr_1^n$$
+Avec $\alpha_1$ et $\alpha_2$ satisfaisant le système suivant
+$$\begin{cases} 
+      \alpha_1 + \alpha_2 = u_0\\
+      r_1(\alpha_1 + \alpha_2) =u_1
+   \end{cases}
+$$
