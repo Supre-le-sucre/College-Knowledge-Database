@@ -6,7 +6,7 @@ Les matrices à 2 dimensions peuvent être codée comme des tableaux à 2 dimens
 
 ```c
 // Matrice 2x3
-int** mat = (int*) malloc(2*sizeof(int));
+int** mat = (int*) malloc(2*sizeof(int*));
 for(int i = 0; i<2; i++) {
 	mat[i] = (int*) malloc(3*sizeof(int));
 }
