@@ -13,4 +13,5 @@ for(int i = 0; i<2; i++) {
 ```
 
 **Remarque:** Il est aussi courant en C, d'"aplatir" la matrice, et donc de dresser un tableau ayant les couples d'éléments `(i,j)` triés.
-Pour accéder à la case `(i,j)`, on accèdera alors à l'index `i*n+j`
+Pour accéder à la case `(i,j)` d'une matrice $n\times n$, on accèdera alors à l'index `i*n+j`
+Cette méthode est en générale la plus utilisée pour les tableaux de moindre mesure.
