@@ -11,60 +11,15 @@
             "id": "378eb4b0da16e6a1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d366f86e45c4c4a9",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Types de raisonnement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "549ea0f40c564088",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a08c0197632f032f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b62b9fad3e14f94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md"
+                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md"
               }
             }
           }
@@ -191,13 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b62b9fad3e14f94",
+  "active": "378eb4b0da16e6a1",
   "lastOpenFiles": [
-    "Info/LU2IN006-Struct/La notation de Landau.md",
-    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
-    "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
     "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
+    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+    "Info/LU2IN006-Struct/La notation de Landau.md",
+    "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN003-Algo",
     "Info/LU2IN006-Struct/Complexité.md",
