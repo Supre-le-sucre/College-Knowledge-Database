@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
+                "file": "Info/LU2IN006-Struct/Matrices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
+                "file": "Info/LU2IN006-Struct/Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
+                "file": "Info/LU2IN006-Struct/Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md"
+                "file": "Info/LU2IN006-Struct/Matrices.md"
               }
             }
           }
@@ -148,15 +148,16 @@
   },
   "active": "378eb4b0da16e6a1",
   "lastOpenFiles": [
-    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
-    "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
-    "Info/LU2IN006-Struct/La notation de Landau.md",
+    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
+    "Info/LU2IN003-Algo/Types de raisonnement.md",
+    "Info/LU2IN006-Struct/Matrices.md",
+    "Info/LU2IN006-Struct/La notation de Landau.md",
+    "Info/LU2IN006-Struct/Structure de données.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN003-Algo",
     "Info/LU2IN006-Struct/Complexité.md",
-    "Info/LU2IN006-Struct/Structure de données.md",
     "Info/LU2IN009-DB/Association.md",
     "Info/Untitled.canvas",
     "Info/LU2IN009-DB/Construction d'une base de données.md",
@@ -179,7 +180,6 @@
     "Maths/Différence symétrique.md",
     "Maths/Convergence d'une suite.md",
     "Info/LU2IN009-DB/Classe d'entités.md",
-    "Info/LU2IN009-DB/Classe d'associations.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
