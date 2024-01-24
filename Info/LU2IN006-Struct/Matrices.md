@@ -23,3 +23,4 @@ Cette méthode est en générale la plus utilisée pour les tableaux de moindre 
 
 Les accès dans un tableau et une matrice sont de complexité $O(1)$
 Les recherche dans les matrices sont de complexité $O(n^2)$
+La suppression d'une matrice est de $
