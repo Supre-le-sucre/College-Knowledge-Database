@@ -19,7 +19,7 @@ for(int i = 0; i<2; i++) {
 Pour accéder à la case `(i,j)` d'une matrice $n\times n$, on accèdera alors à l'index `i*n+j`. Si ce tableau est définit statiquement, C va s'adapter, l'accès `mat[i][j]` est donc aussi valide
 Cette méthode est en générale la plus utilisée pour les tableaux de moindre mesure.
 
-## Complexité
+## ComplexitéaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 Les accès dans un tableau et une matrice sont de complexité $O(1)$
 Les recherche dans les matrices sont de complexité $O(n^2)$
