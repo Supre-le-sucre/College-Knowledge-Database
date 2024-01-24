@@ -1,3 +1,5 @@
+#struct
+
 Les matrices sont des [[Structure de données]] abstraites qui peuvent être à une ou à 2 dimensions.
 
 Les matrices à une dimension sont équivalentes aux listes dans le langages C.
@@ -13,5 +15,5 @@ for(int i = 0; i<2; i++) {
 ```
 
 **Remarque:** Il est aussi courant en C, d'"aplatir" la matrice, et donc de dresser un tableau ayant les couples d'éléments `(i,j)` triés.
-Pour accéder à la case `(i,j)` d'une matrice $n\times n$, on accèdera alors à l'index `i*n+j`
+Pour accéder à la case `(i,j)` d'une matrice $n\times n$, on accèdera alors à l'index `i*n+j`. Si ce tableau est définit statiquement, C va s'adapter, l'accès `mat[i][j]` est donc aussi valide
 Cette méthode est en générale la plus utilisée pour les tableaux de moindre mesure.
