@@ -3,7 +3,7 @@
 L'algorithmie est utilisé pour prouver mathématiquement le bon fonctionnement d'un programme.
 Ainsi donc les différents types de raisonnement de base sont en rigueur.
 
-Un raisonnement important est aussi le [[Raisonnement par réccurrence]] distinguable en plusieurs types
+Un raisonnement important est aussi le [[Raisonnement par récurrence]] distinguable en plusieurs types
 
 ## Raisonnement calculatoire
 *Exemple*: Montrer que $(a+b)^2 + (a-b)^2 = 2(a+b)^2-4ab$

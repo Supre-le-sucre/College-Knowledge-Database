@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithme.md",
+                "file": "Info/LU2IN003-Algo/Algorithme.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithme.md",
+                "file": "Info/LU2IN003-Algo/Algorithme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithme.md",
+                "file": "Info/LU2IN003-Algo/Algorithme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithme.md"
+                "file": "Info/LU2IN003-Algo/Algorithme.md"
               }
             }
           }
@@ -186,13 +186,13 @@
   "active": "6b4bd6444cdd724a",
   "lastOpenFiles": [
     "Info/LU2IN003-Algo/Programme.md",
-    "Algorithme.md",
-    "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
+    "Info/LU2IN003-Algo/Raisonnement par récurrence.md",
+    "Info/LU2IN003-Algo/Types de raisonnement.md",
+    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
+    "Info/LU2IN003-Algo/Algorithme.md",
     "Info/LU2IN003-Algo/Problème.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
-    "Info/LU2IN003-Algo/Types de raisonnement.md",
-    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN006-Struct/Matrices.md",
     "Info/LU2IN006-Struct/Files.md",
     "Info/LU2IN006-Struct/Piles.md",
