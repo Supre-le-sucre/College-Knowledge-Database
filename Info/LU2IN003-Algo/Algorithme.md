@@ -45,7 +45,7 @@ Pour plus de visibilité, dressons le tableau d'exécution pour $n =6$
 | $x_i$ | 0 | 1 | 1 | 2 | 3 | 5 |
 | $y_i$ | 1 | 1 | 2 | 3 | 5 | 8 |
 On sait aussi que les valeurs de Fibonacci sont les suivantes:
-$(F_n)_{n \in \mathbb{N}} = (0, 1, 1, 2, 3, 5, 8)$
+$(F_n)_{n \in \mathbb{N}} = (0, 1, 1, 2, 3, 5, 8, \cdots)$
 
 Les valeurs de $y_i$ semble prendre la forme de la valeur de $F_i$. Tentons alors de montrer que $y_i = F_i$
 Dans ce cas, puisque l'algorithme se termine lorsque $i = n$, et renvoie $y_n =F_n$, si notre égalité est vérifiée, le programme $\mathcal{P}$ est valide.
@@ -58,6 +58,8 @@ Soit $\Pi(i) : y_i = F_i$
 - Hérédité, montrons $\Pi(i) \Rightarrow \Pi(i+1)$
 	On sait que $y_i$ = $F_i$ mais on est bloqué. car $z_i = x_i + y_i$ et nous n'avons aucune information sur $x$
 
+
+#### Prouver la validité
 Reposons alors la propriété, cette fois-ci, en prenant compte de $x$
 
 Soit $\Pi(i) : y_i = F_i$ et $x_i = F_{i-1}$
