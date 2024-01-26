@@ -1,3 +1,5 @@
+#algo
+
 On définit un problème avec un nom, un ensemble de paramètre et une description de la solution.
 Un instance d'un problème est une valeur possible pour les paramètres du problème
 

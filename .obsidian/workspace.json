@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problèmes et Instances.md",
+                "file": "Info/LU2IN003-Algo/Problème.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eebb2e693e76b67a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN003-Algo/Programme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problèmes et Instances.md",
+                "file": "Info/LU2IN003-Algo/Programme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problèmes et Instances.md",
+                "file": "Info/LU2IN003-Algo/Programme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problèmes et Instances.md"
+                "file": "Info/LU2IN003-Algo/Programme.md"
               }
             }
           }
@@ -159,19 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7762dec5ec592afc",
+  "active": "eebb2e693e76b67a",
   "lastOpenFiles": [
-    "Info/LU2IN003-Algo/Types de raisonnement.md",
-    "Problèmes et Instances.md",
     "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
+    "Info/LU2IN003-Algo/Problème.md",
+    "Info/LU2IN003-Algo/Programme.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+    "Maths/Fonction indicatrice d'un ensemble.md",
+    "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN006-Struct/Matrices.md",
     "Info/LU2IN006-Struct/Files.md",
     "Info/LU2IN006-Struct/Piles.md",
     "Info/LU2IN006-Struct/La notation de Landau.md",
     "Info/LU2IN006-Struct/Structure de données.md",
-    "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN003-Algo",
     "Info/LU2IN006-Struct/Complexité.md",
     "Info/LU2IN009-DB/Association.md",
@@ -192,7 +205,6 @@
     "Maths/Unicité de la limite.md",
     "Info/LU2IN009-DB/Système de gestion de bases de données.md",
     "Maths/Famille de sous-ensemble.md",
-    "Info/LU2IN009-DB/Entités.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
