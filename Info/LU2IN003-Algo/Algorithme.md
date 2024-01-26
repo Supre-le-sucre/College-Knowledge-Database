@@ -103,4 +103,37 @@ le plus petit élément entre les indices 1 et 4 est 1, son indice est 2 donc:
 `recherche_min(tab, d, f) = 2`
 
 Vérifions si notre programme est valide pour $I$.
-On dresse le tableau des variables pour une tel exécution
+On dresse le tableau des variables pour une telle exécution
+
+| i      | 1 | 2 | 3 | 4 | 5 |
+|--------|---|---|---|---|---|
+| $i_{min_i}$ | 0 | 1 | 2 | 2 | 2 |
+Le programme est valide pour l'instance $I$
+
+### Identification de l'invariant
+
+Remarquons que $\forall i \in [d+1, f+1]$, $i_{min_i}$ est l'indice du plus petit élément entre les indices $d$ et $i-1$ (i.e. $\forall k \in [d, i-1], tab[k] \geq tab[i_{min_i}]$)
+
+### Preuve de la validité
+
+On prouvera la validité par [[Raisonnement par récurrence]] sur $i \in [d+1, f+1]$
+On pose $\Pi(i) = \forall k \in [d, i-1], tab[k] \geq tab[i_{min_i}]$
+
+- Initialisation
+	$i=d+1$ et $i_{min_i}=i_{min_{d+1}} = d$
+	On a que $k \in [d, i-1]$ donc $k = d$
+	Soit alors $tab[k] = tab[d] \geq tab[i_{min_{d+1}}]$ 
+
+- Hérédité
+	Soit $i \in [d+1, f]$ tel que $\Pi(i)$ est vraie
+	- 1er cas $tab[i] < tab[i_{min_i}]$
+		Dans ce cas $i_{min_{i+1}}$
+		Par $\Pi(i)$, on a que $\forall k \in [d, i-1], tab[k] \geq tab[i_{min_i}]$
+		Et $tab[i_{min_i}] > tab[i] = tab[i_{min_{i+1}}]$
+		Donc finalement $\forall k \in [d, i]$, $tab[k] \geq tab[i_{min_{i+1}}]$
+
+	- 2e cas $tab[i] \geq tab[i_{min_i}]$
+		$i_{min_{i+1}} = i_{min_i}$
+		Par $\Pi(i)$, on a que $\forall k \in [d, i-1], tab[k] \geq tab[i_{min_i}] = tab[i_{min_{i+1}}]$
+		Puisque $tab[i] \geq tab[i_{min_i}] = tab[i_{min_{i+1}}]$ 
+		On a bien que $\forall k \in [d, i]$, $tab[k] \geq tab[i_{min_{i+1}}]$
