@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN006-Struct/Files.md",
+                "file": "Info/LU2IN006-Struct/Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN006-Struct/Files.md",
+                "file": "Info/LU2IN006-Struct/Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN006-Struct/Files.md"
+                "file": "Info/LU2IN006-Struct/Matrices.md"
               }
             }
           }
