@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b4bd6444cdd724a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Programme.md",
+                "file": "Algorithme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Programme.md",
+                "file": "Algorithme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Programme.md"
+                "file": "Algorithme.md"
               }
             }
           }
@@ -171,11 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eebb2e693e76b67a",
+  "active": "6b4bd6444cdd724a",
   "lastOpenFiles": [
+    "Info/LU2IN003-Algo/Programme.md",
+    "Algorithme.md",
     "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
     "Info/LU2IN003-Algo/Problème.md",
-    "Info/LU2IN003-Algo/Programme.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
@@ -204,7 +217,6 @@
     "Info/LU2IN009-DB/Modèle Entité-Association.md",
     "Maths/Unicité de la limite.md",
     "Info/LU2IN009-DB/Système de gestion de bases de données.md",
-    "Maths/Famille de sous-ensemble.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
