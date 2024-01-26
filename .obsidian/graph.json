@@ -43,10 +43,10 @@
       }
     },
     {
-      "query": "tag:#al",
+      "query": "tag:#algo  ",
       "color": {
         "a": 1,
-        "rgb": 6073814
+        "rgb": 14048466
       }
     }
   ],

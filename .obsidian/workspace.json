@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "315e530b80493782",
+        "id": "84680707ef27d36d",
         "type": "tabs",
         "children": [
           {
-            "id": "be05fd9f19de892f",
+            "id": "fdde977742aba8ab",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN003-Algo/Algorithme.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Info/LU2IN003-Algo/Algorithme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Info/LU2IN003-Algo/Algorithme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Info/LU2IN003-Algo/Algorithme.md"
+              }
             }
           }
         ]
@@ -138,19 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be05fd9f19de892f",
+  "active": "fdde977742aba8ab",
   "lastOpenFiles": [
+    "Info/LU2IN003-Algo/Programme.md",
+    "Info/LU2IN003-Algo/Raisonnement par récurrence.md",
+    "Info/LU2IN006-Struct/Piles.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN003-Algo/Problème.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
     "Info/LU2IN003-Algo/Algorithme.md",
-    "Info/LU2IN003-Algo/Programme.md",
-    "Info/LU2IN003-Algo/Raisonnement par récurrence.md",
     "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN006-Struct/Matrices.md",
     "Info/LU2IN006-Struct/Files.md",
-    "Info/LU2IN006-Struct/Piles.md",
     "Info/LU2IN006-Struct/La notation de Landau.md",
     "Info/LU2IN006-Struct/Structure de données.md",
     "Info/LU2IN003-Algo",

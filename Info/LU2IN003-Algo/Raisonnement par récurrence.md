@@ -1,3 +1,4 @@
+#algo
 Soit $\Pi(n), n \in \mathbb{N}$ un propriété à démontrer
 ## Récurrence faible
 

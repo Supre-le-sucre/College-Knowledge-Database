@@ -1,3 +1,4 @@
+#struct
 Une pile est une [[Structure de données]] abstraite. Elle respecte le principe de LIFO (Last In First Out)
 
 De fait, l'ensemble de ses fonctions de manipulation sont de complexité O(1) dans tous les cas.
