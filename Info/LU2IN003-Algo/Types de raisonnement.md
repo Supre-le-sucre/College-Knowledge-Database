@@ -9,7 +9,8 @@ Un raisonnement important est aussi le [[Raisonnement par réccurrence]] disting
 *Exemple*: Montrer que $(a+b)^2 + (a-b)^2 = 2(a+b)^2-4ab$
 $$ (a+b)^2 + (a-b)^2 $$
 $$= a^2 + 2ab + b^2 + a^2 - 2ab + b^2$$
-$$ = 2a^2 + 2b^2 = 2(a^2 + b^2) = 2(a+b)^2 -4ab$$
+$$ = 2a^2 + 2b^2 = 2(a^2 + b^2)$$
+$$= 2(a+b)^2 -4ab$$
 ## Implication
 
 L'implication est simplifiable logiquement: $a \Rightarrow b \equiv \neg a \vee b$

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+                "file": "Info/LU2IN003-Algo/Types de raisonnement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7762dec5ec592afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problèmes et Instances.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+                "file": "Problèmes et Instances.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+                "file": "Problèmes et Instances.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Ordres de grandeurs.md"
+                "file": "Problèmes et Instances.md"
               }
             }
           }
@@ -146,16 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "378eb4b0da16e6a1",
+  "active": "7762dec5ec592afc",
   "lastOpenFiles": [
-    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
-    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+    "Info/LU2IN003-Algo/Types de raisonnement.md",
+    "Problèmes et Instances.md",
     "Info/LU2IN003-Algo/Raisonnement par réccurrence.md",
+    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+    "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Info/LU2IN006-Struct/Matrices.md",
     "Info/LU2IN006-Struct/Files.md",
     "Info/LU2IN006-Struct/Piles.md",
     "Info/LU2IN006-Struct/La notation de Landau.md",
-    "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN006-Struct/Structure de données.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN003-Algo",
@@ -179,7 +193,6 @@
     "Info/LU2IN009-DB/Système de gestion de bases de données.md",
     "Maths/Famille de sous-ensemble.md",
     "Info/LU2IN009-DB/Entités.md",
-    "Maths/Différence symétrique.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
