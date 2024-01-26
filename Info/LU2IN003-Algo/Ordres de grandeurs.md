@@ -24,4 +24,3 @@ Ainsi donc $5n+3 \in \Omega(1)$
 - si $\lim_{n \to +\infty} \frac{f(n)}{g(n)} = 0$ alors $f\in O(g)$ et $f \not \in \Omega(g)$
 - si $\lim_{n \to +\infty} \frac{f(n)}{g(n)} = +\infty$ alors $f\in \Omega(g)$ et $f \not \in O(g)$
 -  si $\lim_{n \to +\infty} \frac{f(n)}{g(n)} = a$ alors $f\in \Theta(g)$
-- 
