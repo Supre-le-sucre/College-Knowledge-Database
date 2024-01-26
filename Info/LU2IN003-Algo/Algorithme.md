@@ -47,6 +47,7 @@ Pour plus de visibilité, dressons le tableau d'exécution pour $n =6$
 On sait aussi que les valeurs de Fibonacci sont les suivantes:
 $(F_n)_{n \in \mathbb{N}} = (0, 1, 1, 2, 3, 5, 8, \cdots)$
 
+
 Les valeurs de $y_i$ semble prendre la forme de la valeur de $F_i$. Tentons alors de montrer que $y_i = F_i$
 Dans ce cas, puisque l'algorithme se termine lorsque $i = n$, et renvoie $y_n =F_n$, si notre égalité est vérifiée, le programme $\mathcal{P}$ est valide.
 
@@ -77,3 +78,29 @@ Pour $i=n$, $y_n = F_n$, et le programme renvoie $y_n$
 Le programme est valide.
 
 Finalement le programme $\mathcal{P}$ est bien un algorithme $\mathcal{A}$ permettant de calculer la suite de Fibonacci
+
+
+## Exemple minimum dans un tableau
+
+On pose le problème $P$ suivant:
+`tab[0 ... n-1]` est un tableau de $n$ entiers
+`recherche_min(tab, d, f)` retourne l'indice d'un élément du tableau `tab[d ... f]` de valeur minimum pour $0 \leq d \leq f <n$
+
+On propose alors le programme $\mathcal{P}$ suivant
+```python
+def recherche_min(tab, d, f):
+	imin = d; i=d+1
+	while i <= f:
+		if tab[i]<tab[imin]:
+			imin = i
+		i=i+1
+	return imin
+```
+
+### Validité pour une instance particulière
+On considère l'instance $I$ du problème $P$ pour $tab=[6, 3, 1, 7, 5], d=1, f=4$
+le plus petit élément entre les indices 1 et 4 est 1, son indice est 2 donc:
+`recherche_min(tab, d, f) = 2`
+
+Vérifions si notre programme est valide pour $I$.
+On dresse le tableau des variables pour une tel exécution
