@@ -97,6 +97,9 @@ def recherche_min(tab, d, f):
 	return imin
 ```
 
+### Terminaison
+
+Le corps de la boucle n'est composé que d'opérations élémentaires, et la boucle s'exécute $f-d$ fois, donc le programme $\mathcal{P}$ s'arrête $\forall f, d$
 ### Validité pour une instance particulière
 On considère l'instance $I$ du problème $P$ pour $tab=[6, 3, 1, 7, 5], d=1, f=4$
 le plus petit élément entre les indices 1 et 4 est 1, son indice est 2 donc:
@@ -137,3 +140,5 @@ On pose $\Pi(i) = \forall k \in [d, i-1], tab[k] \geq tab[i_{min_i}]$
 		Par $\Pi(i)$, on a que $\forall k \in [d, i-1], tab[k] \geq tab[i_{min_i}] = tab[i_{min_{i+1}}]$
 		Puisque $tab[i] \geq tab[i_{min_i}] = tab[i_{min_{i+1}}]$ 
 		On a bien que $\forall k \in [d, i]$, $tab[k] \geq tab[i_{min_{i+1}}]$
+
+Ainsi donc le programme $\mathcal{P}$ est bien un algorithme $\mathcal{A}$ répondant au problème $P$
