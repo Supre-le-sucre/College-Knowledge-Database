@@ -14,10 +14,10 @@ Une fonction de hachage est de la forme $h: U \to \set{1, \cdots, n}$ où $U$ re
 Si le nombre de case du tableau est au moins proportionnel au nombre d'éléments à stocker: $\alpha = \frac{n}{m} = O(m)/m = O(1)$
 Dans ce cas, l'ajout, la recherche d'éléments et la suppression dans les listes doublement chaînée est en $O(1)$
 
-
 Ces fonctions peuvent créer de la superposition.
 
 *Exemple:*
 On pose $h(k) = k\%7$
 Plusieurs clé auront la même valeur de hachage, pour remédier à ce problème, il est courant d'utiliser une liste chaîné qui associe à la valeur de k, la nouvelle clé concernée.
 
+Une bonne fonction de hachage est de complexité $O(1)$ et minimise un maximum les collisions
