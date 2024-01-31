@@ -18,6 +18,10 @@ Ces fonctions peuvent créer de la superposition.
 
 *Exemple:*
 On pose $h(k) = k\%7$
+
+Une bonne fonction de hachage est de complexité $O(1)$ et minimise les collisions
+
+### Contrer la collision
 Plusieurs clé auront la même valeur de hachage, pour remédier à ce problème, il est courant d'utiliser une liste chaîné qui associe à la valeur de k, la nouvelle clé concernée.
 
-Une bonne fonction de hachage est de complexité $O(1)$ et minimise un maximum les collisions
+Il est aussi possible d'utiliser la méthode d'adressage ouvert. Cette fois-ci, notre fonction de hachage prend deux paramètres. On parcours le tableau jusqu'à ce qu'une case soit vide.
