@@ -9,6 +9,8 @@ Attention néanmoins, il peut exister des collisions qu'il faudra résoudre !
 ## Fonctions de hachage
 Une fonction de hachage est de la forme $h: U \to \set{1, \cdots, n}$ où $U$ représente l'univers des clé et $\set{1, ..., n}$ l'ensemble des indices sur le tableau.
 
+**Important**: Une fonction de hachage doit avoir une complexité de $O(1)$
+
 Ces fonctions peuvent créer de la superposition.
 
 *Exemple:*
