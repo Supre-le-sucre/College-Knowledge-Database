@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme.md",
+                "file": "Info/LU2IN009-DB/Modèle relationnel.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme.md",
+                "file": "Info/LU2IN009-DB/Modèle relationnel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme.md",
+                "file": "Info/LU2IN009-DB/Modèle relationnel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme.md"
+                "file": "Info/LU2IN009-DB/Modèle relationnel.md"
               }
             }
           }
@@ -148,13 +148,13 @@
   },
   "active": "fdde977742aba8ab",
   "lastOpenFiles": [
+    "Info/LU2IN003-Algo/Algorithme.md",
     "Info/LU2IN003-Algo/Programme.md",
     "Info/LU2IN003-Algo/Raisonnement par récurrence.md",
     "Info/LU2IN006-Struct/Piles.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN003-Algo/Problème.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
-    "Info/LU2IN003-Algo/Algorithme.md",
     "Info/LU2IN003-Algo/Suites récurrentes linéaires homogènes.md",
     "Maths/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN006-Struct/Matrices.md",
