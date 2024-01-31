@@ -11,7 +11,7 @@ Une fonction de hachage est de la forme $h: U \to \set{1, \cdots, n}$ où $U$ re
 
 **Important**: Une fonction de hachage doit avoir une complexité de $O(1)$
 
-Si le nombre de case du tableau est au moins proportionnel au nombre d'éléments à stocker: $\alpha = \frac{n}{m} = O(m)/m = O(1)$
+Si le nombre de case du tableau est au moins proportionnel au nombre d'éléments à stocker: $\alpha = \frac{n}{m} = O(m)/m = O(1)$ C'est le facteur de charge.
 Dans ce cas, l'ajout, la recherche d'éléments et la suppression dans les listes doublement chaînée est en $O(1)$
 
 Ces fonctions peuvent créer de la superposition.
