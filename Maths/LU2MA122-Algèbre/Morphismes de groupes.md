@@ -28,8 +28,37 @@ Si $x=1_G$, alors il s'agit de l'automorphisme identité: $Id_G$ donné par $y \
 ## L'ensemble des automorphismes est un groupe
 
 ### Propriété
-Soit $G$, un groupe. L'ensemble $Aut(G)$ des automorphismes de $G$, couplé avec la <u>composition</u> des applications comme [[Loi de composition interne (LCI)|LCI]] est un groupe.
+Soit $G$, un groupe. L'ensemble $Aut(G)$ des automorphismes de $G$, couplé avec la <u>composition</u> des applications comme [[Loi de composition interne (LCI)|LCI]] est un [[Groupe|groupe]].
 
 #### Démonstration
-La loi de composition est associative: $\forall \sigma \in Aut(G), Id_G\circ\sigma = \sigma \circ Id_G = \sigma$
-De plus comme $\sigma$ est bijective
+On rappelle qu'un [[Groupe|groupe]] est un [[Monoïde|monoïde]] admettant un inverse pour chaque élément.
+
+On doit montrer l'associativité et l'élément neutre pour montrer que $(Aut(G), \psi)$ est un [[Monoïde]].
+La loi de composition comme composition des application est associative, car chacune d'elle est associative.
+On remarque que $\forall \sigma \in Aut(G), Id_G\circ\sigma = \sigma \circ Id_G = \sigma$ donc $Id_G$ est l'élément neutre.
+
+Montrons maintenant qu'il existe un inverse pour chaque élément de $Aut(G)$
+
+Comme $\sigma$ est bijective, on note $\sigma^{-1}$ son inverse et on a $\sigma \circ \sigma^{-1} = \sigma^{-1} \circ \sigma = Id$.
+Montrons que $\sigma^{-1} \in Aut(G)$. Vérifions d'abord qu'il s'agit ici d'un morphisme de groupe.
+
+Considérons $1_G$, l'élément neutre du groupe $G$. Montrons que $\sigma^{-1}(1_G) = 1_G$
+On a par définition $\sigma(1_G) = 1_G$, de la même manière alors $\sigma^{-1}(1_G) = 1_G$
+
+Maintenant, on cherche à montrer que $\forall (x,y) \in G^2, \sigma^{-1}(x.y) = \sigma^{-1}(x).\sigma^{-1}(y)$ 
+On sait que $\sigma$ est un automorphisme. De fait.
+$$ \sigma(\sigma^{-1}(x).\sigma^{-1}(y)) = \sigma(\sigma^{-1}(x)).\sigma(\sigma^{-1}(y)) = x.y$$
+Et on sait aussi que, par définition
+$$ x.y = \sigma(\sigma^{-1}(x.y))$$
+Comme $\sigma$ est un automorphisme, $\sigma$ est bijective, et donc injective.
+Soit alors l'assertion suivante:
+$$ \sigma(\sigma^{-1}(x).\sigma^{-1}(y)) = \sigma(\sigma^{-1}(x.y)) \Rightarrow \sigma^{-1}(x).\sigma^{-1}(y) = \sigma^{-1}(x.y)$$
+Ainsi donc $\sigma^{-1}$ est un morphisme de groupe.
+Remarquons aussi, que par définition $\sigma^{-1}$ est un endomorphisme sur $G$
+Et que par définition également $\sigma^{-1}$ est aussi bijective.
+
+Ainsi donc $\sigma^{-1}$ est un automorphisme, d'où $\sigma^{-1} \in Aut(G)$.
+Il existe donc bien un inverse à tout élément de $Aut(G)$; la fonction inverse de ce dit élément: $Aut(G)$ est un groupe.
+$$\tag*{$\blacksquare$}$$
+
+
