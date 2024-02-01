@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8fca7272046e669b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Monoïde.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Monoïde.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Monoïde.md"
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md"
               }
             }
           }
@@ -160,10 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6010983d0f08d880",
+  "active": "8fca7272046e669b",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
+    "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Untitled 1.md",
     "Maths/LU2MA122-Algèbre",
     "Info/LU2IN009-DB/Modèle relationnel.md",
@@ -194,7 +207,6 @@
     "Maths",
     "Info/LU2IN009-DB/Architecture à 3 niveaux d'abstraction.md",
     "Maths/Normes.md",
-    "Maths/Inégalité triangulaire.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
