@@ -8,6 +8,9 @@ Avec $e$ l'élément neutre du monoïde. On parle de groupe abélien si $(E, *)$
 
 ## Unicité de l'élément neutre et de l'inverse
 
-<b><u>Lemme</u></b> 
+### Lemme 
 Soit $(E, *)$ un ensemble avec une [[Loi de composition interne (LCI)]], si elle admet un élément neutre (cf. [[Monoïde]]), alors celui-ci est unique.
 Si de plus $(E, *)$ est un [[Groupe]], alors il y a unicité de l'inverse.
+
+#### Démonstration
+
