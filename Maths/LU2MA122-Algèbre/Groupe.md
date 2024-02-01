@@ -28,3 +28,9 @@ Il est donc possible d'écrire par ce lemme: $x^{-1}$ l'inverse de $x$.
 Aussi, observons que $(x*y)^{-1} = y^{-1} * x^{-1}$
 
 En effet, $$(x*y)*(y^{-1}* x^{-1}) = x * (y * y^{-1})*x^{-1} = x * x^{-1} = e $$$$\tag*{$\blacksquare$}$$
+## Erreurs courantes
+
+### Distribution de la puissance
+$$(xy)^n \not = x^n * y^n \text{ en général}$$
+Il est nécessaire d'avoir la <b><u>commutativité</b></u>
+*Exemple:* Les matrices ne respecte effectivement pas cette distribution
