@@ -31,4 +31,5 @@ Si $x=1_G$, alors il s'agit de l'automorphisme identité: $Id_G$ donné par $y \
 Soit $G$, un groupe. L'ensemble $Aut(G)$ des automorphismes de $G$, couplé avec la <u>composition</u> des applications comme [[Loi de composition interne (LCI)|LCI]] est un groupe.
 
 #### Démonstration
-La loi de composition estb
+La loi de composition est associative: $\forall \sigma \in Aut(G), Id_G\circ\sigma = \sigma \circ Id_G = \sigma$
+De plus comme $\sigma$ est bijective

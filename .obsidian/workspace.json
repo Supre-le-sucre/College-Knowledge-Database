@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md"
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md"
               }
             }
           }
@@ -196,12 +196,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "105e101a7edc7fdf",
+  "active": "19113824f99f507e",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
-    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
+    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Maths/LU2MA122-Algèbre/Untitled 1.md",
     "Maths/LU2MA122-Algèbre",
