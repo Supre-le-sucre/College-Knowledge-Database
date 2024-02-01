@@ -40,5 +40,12 @@ On a bien la stabilité propre aux sous groupe. Donc $\phi(G')$ est un sous grou
 Observons que par définition, on a l'équivalence suivante $(1)$
 $$ x \in \phi^{-1}(H') \Leftrightarrow \phi(x) \in H'$$
 
-Puisque $\phi$ un morphisme de groupe: $\phi(1_G) = 1_H$
-Par $(1)$
+Puisque $\phi$ un morphisme de groupe: $\phi(1_G) = 1_H \in H'$
+Par $(1)$ on a donc $1_G \in \phi^{-1}(H')$
+
+On considère $x,y \in \phi^{-1}(H')$.
+Par $(1)$, $\phi(x) \in H', \phi(y) \in H'$, par stabilité des sous-groupe...
+$\phi(x).\phi(y)^{-1} = \phi(x.y^{-1}) \in H'$, A nouveau par $(1)$, $x.y^{-1} \in \phi^{-1}(H')$
+
+Il y a donc bien la stabilité propre au sous groupe. Donc $\phi^{-1}(H')$ est un sous groupe.
+$$\tag*{$\blacksquare$}$$
