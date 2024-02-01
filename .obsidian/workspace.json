@@ -8,63 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "130afa7d51e3b984",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6010983d0f08d880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Monoïde.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fca7272046e669b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19113824f99f507e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "105e101a7edc7fdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+                "file": "Maths/LU2MA122-Algèbre/Sous-groupe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+                "file": "Maths/LU2MA122-Algèbre/Sous-groupe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+                "file": "Maths/LU2MA122-Algèbre/Sous-groupe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md"
+                "file": "Maths/LU2MA122-Algèbre/Sous-groupe.md"
               }
             }
           }
@@ -192,12 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19113824f99f507e",
+  "active": "105e101a7edc7fdf",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
-    "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
+    "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA122-Algèbre/Untitled 1.md",
     "Maths/LU2MA122-Algèbre",
