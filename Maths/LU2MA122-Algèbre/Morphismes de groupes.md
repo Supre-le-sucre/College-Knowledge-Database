@@ -99,3 +99,12 @@ On prouvera $(1) \Rightarrow (2) \Rightarrow (3) \Rightarrow (1)$
 
 $(1) \Rightarrow (2)$:
 Soit $\phi$ injective. On a donc $|G| = |\phi(G)|$, or $|G| = |H|$ donc $|\phi(G)| = |H|$
+Comme $\phi(G) \subseteq H$, on a bien $\phi(G) = H$ et donc $\phi$ est surjective ([[Morphismes de groupes#Définition de l'image et du noyau|d'après la définition.]])
+
+$(2) \Rightarrow (3)$:
+Soit $\phi$ surjective, alors $\phi(G) = H$. Si $\phi$ n'était pas injective, alors on aurait que $|H| = |\phi(G)| < |G|$. Ceci contredit l'hypothèse de cardinalité égale. 
+Donc $\phi$ est injective.
+Comme elle est à la fois surjective et injective, $\phi$ est bijective.
+
+$(3) \Rightarrow (1)$
+Si $\phi$ est bijective, alors elle est trivialement injective
