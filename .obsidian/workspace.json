@@ -131,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md"
+              }
             }
           }
         ]
