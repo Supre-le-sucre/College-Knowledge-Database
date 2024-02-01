@@ -108,3 +108,4 @@ Comme elle est à la fois surjective et injective, $\phi$ est bijective.
 
 $(3) \Rightarrow (1)$
 Si $\phi$ est bijective, alors elle est trivialement injective
+$$\tag*{$\blacksquare$}$$
