@@ -60,5 +60,42 @@ Et que par définition également $\sigma^{-1}$ est aussi bijective.
 Ainsi donc $\sigma^{-1}$ est un automorphisme, d'où $\sigma^{-1} \in Aut(G)$.
 Il existe donc bien un inverse à tout élément de $Aut(G)$; la fonction inverse de ce dit élément: $Aut(G)$ est un groupe.
 $$\tag*{$\blacksquare$}$$
+## Définition de l'image et du noyau
 
+Soit $\phi: G \to H$ un morphisme de groupe.
+$1_G$ et $1_H$ respectivement les éléments neutres de $G$ et $H$
 
+1. On définit son image, noté $Im(\phi)$ comme étant le sous groupe $\phi(G) \subset H$. On a $Im(\phi) = H$ si et seulement si $\phi$ est surjective
+2. On définit son noyau, noté $Ker(\phi)$ comme étant le sous groupe $\phi^{-1}({1_H}) \subset G$
+
+*Exemple:*
+- $\phi: \mathbb{C} \to \mathbb{R}$ donnée par $z \mapsto \Re(z)$ est surjectif. Donc $Im(\phi) = \mathbb{R}$. De plus, $Ker(\phi) = i\mathbb{R}$
+- $\phi: (\mathbb{R}, +) \to (\mathbb{U}, \times)$ est surjectif, de noyau $2\pi\mathbb{Z}$
+
+## Injectivité par le noyau
+
+### Proposition
+Soit $\phi : G \to H$ un morphisme de groupes. Alors $\phi$ est injectif si et seulement si $Ker(\phi) = \set{1_G}$
+
+#### Démonstration
+
+$\Rightarrow$: Soit $x \in G$ tel que $\phi(x) = 1_H = \phi(1_G)$
+Par injectivité de $\phi$, $x = 1_G$, donc $Ker(\phi) = \set{1_G}$
+
+$\Leftarrow$: 
+Soit $(x, x') \in G^2$, on a $\phi(x) = \phi(x')$, alors $\phi(x).\phi(x')^{-1} = 1_H$
+D'après les [[Morphismes de groupes#Remarques importantes|remarques importantes]] on a donc $\phi(x.x'^{-1}) = 1_H$
+
+Par hypothèse que $Ker(\phi) = \set{1_G}$, on sait que $x.x'^{-1} \in \set{1_G}$, donc $x.x'^{-1} = 1_G$
+Soit alors $x = x'$. Donc $\phi$ est injective
+$$\tag*{$\blacksquare$}$$
+## Equivalence entre injection et surjection en groupe fini de même cardinal
+
+### Proposition
+Soit $\phi : G \to H$ un morphisme de groupes finis de même cardinal, alors on a l'équivalence suivante:
+$$ \phi \text{ injective} \Leftrightarrow \phi \text{ surjective} \Leftrightarrow \phi \text{ bijective}$$
+#### Démonstration
+On prouvera $(1) \Rightarrow (2) \Rightarrow (3) \Rightarrow (1)$
+
+$(1) \Rightarrow (2)$:
+Soit $\phi$ injective. On a donc $|G| = |\phi(G)|$, or $|G| = |H|$ donc $|\phi(G)| = |H|$
