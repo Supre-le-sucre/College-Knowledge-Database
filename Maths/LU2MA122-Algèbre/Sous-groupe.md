@@ -14,10 +14,31 @@ $$ H \not = \emptyset, x \in H \Rightarrow x.x^{-1} = e \in H$$
 
 ### Lemme
 On pose $\phi : G \to H$ un [[Morphismes de groupes]].
-Soient $G' \subset G, H' \subset H$ des sous groupes. On a alors $\phi(G')$ et $\phi^{-1}(G)$ sont aussi des sous-groupes.
+Soient $G' \subset G, H' \subset H$ des sous groupes. On a alors $\phi(G')$ et $\phi^{-1}(H')$ sont aussi des sous-groupes.
 
 #### Démonstration
-On prend $e \in G'$. 
-Comme $G'$ est un sous groupe, on a que $\phi(e) = e' \in \phi(G')$. 
-Observons que $\phi(x)\phi(y)^{-1} = \phi(xy^{-1})$ par propriété de [[Morphismes de groupes]]
+Soient $\phi : G \to H$, un [[Morphismes de groupes]] et $G' \subset G, H' \subset H$ avec $G,H$ des groupes, $G', H'$ des sous-groupes.
+Soit $1_G, 1_H$ les éléments neutres respectifs de $G$ et $H$
 
+- Montrons que $\phi(G')$ est un sous groupe.
+Autrement dit, montrons la stabilité par opération d'un inverse de $\phi(G')$
+
+On sait que $1_G \in G'$ (cf. [[Sous-groupe#Remarques importantes]])
+
+Comme $G'$ est un sous groupe, $G' \subset G$, on a que $\phi(1_G) = 1_H \in \phi(G')$.
+On a donc que $\phi(G') \not = \emptyset$.
+
+Soit $x,y \in G'$
+Observons que $\phi(x).\phi(y)^{-1} = \phi(x.y^{-1})$ par propriété de [[Morphismes de groupes#Remarques importantes]].
+Puisque $G'$ est un sous groupe, par stabilité: $x.y^{-1} \in G'$ 
+Donc $\phi(x.y^{-1}) \in \phi(G')$, autrement dit: $\phi(x).\phi(y)^{-1} \in \phi(G')$
+
+On a bien la stabilité propre aux sous groupe. Donc $\phi(G')$ est un sous groupe.
+
+- Montrons que $\phi^{-1}(H')$ est un sous groupe
+
+Observons que par définition, on a l'équivalence suivante $(1)$
+$$ x \in \phi^{-1}(H') \Leftrightarrow \phi(x) \in H'$$
+
+Puisque $\phi$ un morphisme de groupe: $\phi(1_G) = 1_H$
+Par $(1)$
