@@ -34,7 +34,7 @@ Soit $G$, un groupe. L'ensemble $Aut(G)$ des automorphismes de $G$, couplé avec
 On rappelle qu'un [[Groupe|groupe]] est un [[Monoïde|monoïde]] admettant un inverse pour chaque élément.
 
 On doit montrer l'associativité et l'élément neutre pour montrer que $(Aut(G), \psi)$ est un [[Monoïde]].
-La loi de composition comme composition des application est associative, car chacune d'elle est associative.
+La loi de composition $\psi$, comme composition des application est associative, car chacune d'elle est associative.
 On remarque que $\forall \sigma \in Aut(G), Id_G\circ\sigma = \sigma \circ Id_G = \sigma$ donc $Id_G$ est l'élément neutre.
 
 Montrons maintenant qu'il existe un inverse pour chaque élément de $Aut(G)$

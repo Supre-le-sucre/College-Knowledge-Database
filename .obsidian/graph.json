@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 14048466
       }
+    },
+    {
+      "query": "tag:#algebre  ",
+      "color": {
+        "a": 1,
+        "rgb": 16746496
+      }
     }
   ],
   "collapse-display": false,
@@ -60,6 +67,6 @@
   "repelStrength": 12.9757785467128,
   "linkStrength": 1,
   "linkDistance": 166,
-  "scale": 0.5717737648045668,
+  "scale": 0.9368387354568533,
   "close": false
 }
