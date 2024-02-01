@@ -1,7 +1,7 @@
 #algebre 
 ## Définition
 
-Soit $(G, .)$ un [[Groupe |groupe]]. Une partie non vide $H \subseteq G$ est qualifiée de sous-groupe si celui-ci est stable par application avec un inverse. i.e:
+Soit $(G, .)$ un [[Groupe |groupe]]. Une partie non vide $H \subseteq G$ est qualifiée de sous-groupe si celui-ci est stable par opération avec un inverse. i.e:
 $$ \forall (x,y) \in H^2, x.y^{-1} \in H $$
 *Exemple:* $(\mathbb{Q}^*, \times)$ est un sous-groupe de $({R^*, \times})$
 ### Remarques importantes
