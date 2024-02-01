@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "84680707ef27d36d",
+        "id": "83b934d524462606",
         "type": "tabs",
         "children": [
           {
-            "id": "fdde977742aba8ab",
+            "id": "130afa7d51e3b984",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN009-DB/Modèle relationnel.md",
+                "file": "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "da1f043f81e8235c",
+            "id": "6010983d0f08d880",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Les structures de hachages.md",
+                "file": "Maths/LU2MA122-Algèbre/Monoïde.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "45e12f0592c47e14",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Les structures de hachages.md",
+                "file": "Maths/LU2MA122-Algèbre/Monoïde.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Les structures de hachages.md",
+                "file": "Maths/LU2MA122-Algèbre/Monoïde.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Les structures de hachages.md"
+                "file": "Maths/LU2MA122-Algèbre/Monoïde.md"
               }
             }
           }
@@ -159,8 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da1f043f81e8235c",
+  "active": "6010983d0f08d880",
   "lastOpenFiles": [
+    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+    "Maths/LU2MA122-Algèbre/Monoïde.md",
+    "Maths/LU2MA122-Algèbre/Untitled 1.md",
+    "Maths/LU2MA122-Algèbre",
     "Info/LU2IN009-DB/Modèle relationnel.md",
     "Les structures de hachages.md",
     "Info/LU2IN003-Algo/Algorithme.md",
@@ -190,9 +195,6 @@
     "Info/LU2IN009-DB/Architecture à 3 niveaux d'abstraction.md",
     "Maths/Normes.md",
     "Maths/Inégalité triangulaire.md",
-    "Maths/Théorie des ensembles.md",
-    "Info/LU2IN009-DB/Identifiants.md",
-    "Info/LU2IN009-DB/Modèle Entité-Association.md",
     "Nouveau Microsoft Publisher Document.pub"
   ]
 }
