@@ -13,4 +13,18 @@ Soit $(E, *)$ un ensemble avec une [[Loi de composition interne (LCI)]], si elle
 Si de plus $(E, *)$ est un [[Groupe]], alors il y a unicité de l'inverse.
 
 #### Démonstration
+Soit $(E, *)$ un tel ensemble et $e$ et $e'$ deux éléments neutres.
+Par définition de l'élément neutre: $e * e' = e$ et $e*e' = e'$, d'où $e=e'$
 
+Supposons que $(E, *)$ est une groupe.
+Soit $y$ et $y'$ les inverses de l'élément $x$ dans un tel groupe.
+
+Dans ce cas, observons que $y = y*(x*y')$ car $(x*y') = e$ 
+Soit alors par commutativité, sachant aussi que $(y*x) =e$
+$$y = y * (x*y') = (y*x)*y' = y'$$
+$$\tag*{$\blacksquare$}$$
+#### Corollaire
+Il est donc possible d'écrire par ce lemme: $x^{-1}$ l'inverse de $x$.
+Aussi, observons que $(x*y)^{-1} = y^{-1} * x^{-1}$
+
+En effet, $$(x*y)*(y^{-1}* x^{-1}) = x * (y * y^{-1})*x^{-1} = x * x^{-1} = e $$$$\tag*{$\blacksquare$}$$
