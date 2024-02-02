@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e670a3d9344f1ef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN003-Algo/Combinaison.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Contexte d'une fonction.md",
+                "file": "Info/LU2IN003-Algo/Combinaison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Contexte d'une fonction.md",
+                "file": "Info/LU2IN003-Algo/Combinaison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Contexte d'une fonction.md"
+                "file": "Info/LU2IN003-Algo/Combinaison.md"
               }
             }
           }
@@ -146,15 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "900643b086a4a412",
+  "active": "e670a3d9344f1ef3",
   "lastOpenFiles": [
+    "Info/LU2IN003-Algo/Contexte d'une fonction.md",
+    "Info/LU2IN003-Algo/Combinaison.md",
     "Info/LU2IN003-Algo/Programme.md",
     "Info/LU2IN003-Algo/Raisonnement par récurrence.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Info/LU2IN003-Algo/Algorithme.md",
     "Info/LU2IN009-DB/Langages pour les DB.md",
     "Info/LU2IN006-Struct/Les structures de hachages.md",
-    "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Maths/LU2MA122-Algèbre/Groupe.md",
     "Info/LU2IN003-Algo/Fonctions récursives.md",
     "Info/LU2IN006-Struct/Piles.md",
@@ -175,7 +189,6 @@
     "Info/LU2IN006-Struct/La notation de Landau.md",
     "Info/LU2IN006-Struct/Structure de données.md",
     "Info/LU2IN003-Algo",
-    "Info/LU2IN006-Struct/Complexité.md",
     "Info/Untitled.canvas",
     "Info/LU2IN006-Struct",
     "Info/LU2IN009-DB",
