@@ -1,3 +1,4 @@
+#algo
 Le contexte d'une fonction est une [[Piles|pile]] contenant l'ensemble des valeurs des paramètres et des variables des fonctions.
 
 Lorsqu'une fonction à terminer de s'exécuter, son contexte est progressivement retiré de la pile de gestion:
