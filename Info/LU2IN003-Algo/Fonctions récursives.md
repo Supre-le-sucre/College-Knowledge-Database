@@ -11,4 +11,4 @@ def factorielle(n):
 		return n*factorielle(n-1)
 ```
 
-Lors d'un appel récursif, on utilise une [[Piles]], qui permet de gérer le dernier élément arrivé en premier (et donc la fonction qui gère le cas d'arrêt de la fonction récursive) 
+Lors d'un appel récursif, on utilise une [[Piles]] pour gérer le [[Contexte d'une fonction]]
