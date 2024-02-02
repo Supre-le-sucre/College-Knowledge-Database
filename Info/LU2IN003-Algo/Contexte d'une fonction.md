@@ -49,7 +49,7 @@ Resultat pour n = 3, 6
 Resultat pour n = 4, 24
 ```
 On observe bien l'empilement et le dépilement de la pile.
-## Preuve de la terminaison
+## Preuve de la terminaison et de la validité
 
 Par récurrence sur $n \in \mathbb{N}$, on note $\Pi(n)$: "`factorielle(n)` se termine et renvoie $n!$"
 
