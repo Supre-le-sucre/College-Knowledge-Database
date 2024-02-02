@@ -12,7 +12,7 @@ def factorielle(n):
 		res = 1
 	else:
 		res = n*factorielle(n-1)
-	print("Resultat pour n = ", res)
+	print("Resultat pour n = ", n, res)
 	return res
 
 factorielle(4)
