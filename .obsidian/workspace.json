@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Combinaison.md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Combinaison.md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Combinaison.md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Combinaison.md"
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "e670a3d9344f1ef3",
   "lastOpenFiles": [
+    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Info/LU2IN003-Algo/Combinaison.md",
     "Info/LU2IN003-Algo/Programme.md",
@@ -175,7 +176,6 @@
     "Maths/LU2MA122-Algèbre/Untitled.md",
     "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
-    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Maths/LU2MA122-Algèbre/Untitled 1.md",
     "Maths/LU2MA122-Algèbre",
