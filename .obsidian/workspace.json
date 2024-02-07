@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c324d94f7ab2ff83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN009-DB/SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4990cd693428878c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN009-DB/Requête.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN009-DB/Division.md",
+                "file": "Info/LU2IN009-DB/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN009-DB/Division.md",
+                "file": "Info/LU2IN009-DB/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN009-DB/Division.md"
+                "file": "Info/LU2IN009-DB/SQL.md"
               }
             }
           }
@@ -160,10 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66f29628d5c4b9ed",
+  "active": "c324d94f7ab2ff83",
   "lastOpenFiles": [
-    "Info/LU2IN009-DB/Calcul relationnel de n-uplets.md",
     "Info/LU2IN009-DB/Division.md",
+    "Info/LU2IN009-DB/SQL.md",
+    "Info/LU2IN009-DB/Requête.md",
+    "Info/LU2IN009-DB/Autojointure.md",
+    "Info/LU2IN009-DB/Calcul relationnel de n-uplets.md",
     "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Maths/LU2MA216-Topologie/Unicité de la limite.md",
     "Maths/LU2MA216-Topologie/Variables aléatoires discrètes.md",
@@ -187,10 +214,7 @@
     "Info/LU2IN006-Struct/Les structures de hachages.md",
     "Info/LU2IN003-Algo/Fonctions récursives.md",
     "Info/LU2IN006-Struct/Piles.md",
-    "Maths/LU2MA122-Algèbre/Untitled.md",
-    "Maths/LU2MA122-Algèbre/Untitled 1.md",
     "Maths/LU2MA122-Algèbre",
-    "Info/LU2IN009-DB/Modèle relationnel.md",
     "Info/LU2IN003-Algo",
     "Info/Untitled.canvas",
     "Info/LU2IN006-Struct",

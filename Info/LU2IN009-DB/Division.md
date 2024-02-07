@@ -19,7 +19,7 @@ Considérant la base de donnée suivante:
 - On parcourt tous les modules ($\forall$)
 - Pour lesquels une inscription au matricule de l'étudiant et le module ($\exists$)
 
-$$\set{e.matricule | Etudiants(e) \wedge \forall m(Module(m) \wedge \exists i(Inscription(i) \wedge e.matricule = i.matricule \wedge i.code = m.code))}$$
+$$\set{e.matricule | Etudiants(e) \wedge \forall m(Module(m) \Rightarrow \exists i(Inscription(i) \wedge e.matricule = i.matricule \wedge i.code = m.code))}$$
 On l'exprime avec un il existe en appliquant la double négation:
 
 $$\set{e.matricule | Etudiants(e) \wedge \neg\exists m(Module(m) \wedge \neg \exists i(Inscription(i) \wedge e.matricule = i.matricule \wedge i.code = m.code))}$$
@@ -29,6 +29,6 @@ $$\set{e.matricule | Etudiants(e) \wedge \neg\exists m(Module(m) \wedge \neg \ex
 - On itère sur les modules
 - On cherche tous les étudiants ($\forall)$
 - Pour lesquels une inscription au matricule de l'étudiant et du module ($\exists$)
-$$\set{m.code | Module(m) \wedge \forall e(Etudiant(e) \wedge \exists i(Inscription(i) \wedge i.matricule = e.matricule \wedge i.code = m.code))}$$
+$$\set{m.code | Module(m) \wedge \forall e(Etudiant(e) \Rightarrow \exists i(Inscription(i) \wedge i.matricule = e.matricule \wedge i.code = m.code))}$$
 On l'exprime avec un il existe en appliquant la double négation:
-$$\set{m.code | Module(m) \wedge \neg \exists e(Etudiant(e) \wedge \neg\exists i(Inscription(i) \wedge i.matricule = e.matricule \wedge i.code = m.code))}$$
+$$\set{m.code | Module(m) \wedge m.niveau=\text{'L3'} \wedge \neg \exists e(Etudiant(e) \wedge \neg\exists i(Inscription(i) \wedge i.matricule = e.matricule \wedge i.code = m.code))}$$
