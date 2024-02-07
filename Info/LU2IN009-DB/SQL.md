@@ -175,3 +175,11 @@ Soit la base de donnée suivante:
 ```sql
 (SELECT City From Emp) UNION (Select Town From Project);
 ```
+##### Noms des villes où habitent des employés et où sont localisés des projets
+```sql
+(SELECT City From Emp) INTERSECTION (Select Town From Project);
+```
+##### Noms des villes où habitent des employés et où ne sont pas localisés des projets
+```sql
+(SELECT City From Emp) EXCEPT (Select Town From Project);
+```
