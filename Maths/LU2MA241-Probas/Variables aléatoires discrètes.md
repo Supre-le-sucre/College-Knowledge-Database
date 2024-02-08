@@ -1,3 +1,4 @@
+#probas 
 ## Définition
 On dit que $X$ est une variable aléatoire discrète si $X:  \Omega \to E$ une application respectant les conditions suivantes:
 

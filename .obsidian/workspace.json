@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN009-DB/SQL.md",
+                "file": "Maths/LU2MA241-Probas/Densité discrète.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "45e12f0592c47e14",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN009-DB/SQL.md",
+                "file": "Maths/LU2MA241-Probas/Densité discrète.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN009-DB/SQL.md",
+                "file": "Maths/LU2MA241-Probas/Densité discrète.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN009-DB/SQL.md"
+                "file": "Maths/LU2MA241-Probas/Densité discrète.md"
               }
             }
           }
@@ -184,18 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c324d94f7ab2ff83",
+  "active": "66f29628d5c4b9ed",
   "lastOpenFiles": [
-    "Info/LU2IN009-DB/Division.md",
+    "Maths/LU2MA241-Probas/Variables aléatoires discrètes.md",
+    "Maths/LU2MA241-Probas/Loi de X.md",
     "Info/LU2IN009-DB/SQL.md",
+    "Info/LU2IN009-DB/Division.md",
     "Info/LU2IN009-DB/Requête.md",
     "Info/LU2IN009-DB/Autojointure.md",
     "Info/LU2IN009-DB/Calcul relationnel de n-uplets.md",
     "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Maths/LU2MA216-Topologie/Unicité de la limite.md",
-    "Maths/LU2MA216-Topologie/Variables aléatoires discrètes.md",
-    "Maths/LU2MA216-Topologie/Loi de X.md",
-    "Maths/LU2MA216-Topologie/Densité discrète.md",
+    "Maths/LU2MA241-Probas/Densité discrète.md",
     "Maths/LU2MA241-Probas/Famille de sous-ensemble.md",
     "Maths/LU2MA216-Topologie",
     "Maths/LU2MA241-Probas/Différence symétrique.md",
