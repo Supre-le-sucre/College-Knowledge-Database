@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Densité discrète.md",
+                "file": "Info/LU2IN009-DB/Calcul relationnel de n-uplets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Densité discrète.md",
+                "file": "Info/LU2IN009-DB/Calcul relationnel de n-uplets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Densité discrète.md"
+                "file": "Info/LU2IN009-DB/Calcul relationnel de n-uplets.md"
               }
             }
           }
