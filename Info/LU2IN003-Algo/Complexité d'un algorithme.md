@@ -58,8 +58,8 @@ Sa complexité est donc aussi de $\Theta(n)$
 #### Itératif
 ```python
 def fibo_it(n):
-	if(n == 0):
-		return 0
+	if(n == 0) or (n==1):
+		return n
 	x = 0; y = 1;
 	for i in range(2, n+1):
 		z = x + y; x = y; y = z;
