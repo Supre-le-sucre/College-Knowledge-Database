@@ -7,3 +7,7 @@ Il ne s'agit pas de faire un comptage précis selon les paramètres, mais de fai
 L'évaluation de la complexité dépend du paramètre fourni à l'algorithme. 
 On peut évaluer la complexité dans le pire des cas, donc la borne supérieur (c'est en général celle qu'on utilise pour étudie un algorithme).
 Mais il est aussi possible d'évaluer le meilleur cas.
+
+*Exemple*: Lorsqu'on recherche un élément dans le tableau...
+- Le meilleur des cas est $\Omega(1)$, l'élément est à la première cas du tableau.
+- Le pire des cas est $O(n)$, l'élément n'est pas dans le tableau.
