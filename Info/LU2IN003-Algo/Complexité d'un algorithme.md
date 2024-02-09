@@ -11,3 +11,5 @@ Mais il est aussi possible d'évaluer le meilleur cas.
 *Exemple*: Lorsqu'on recherche un élément dans le tableau...
 - Le meilleur des cas est $\Omega(1)$, l'élément est à la première cas du tableau.
 - Le pire des cas est $O(n)$, l'élément n'est pas dans le tableau.
+
+**ATTENTION**: La complexité est asymptotique, lorsque l'on étudie, c'est lorsque $n$ est grand. Il est absurde de justifier une complexité en fonction de la taille de $n$
