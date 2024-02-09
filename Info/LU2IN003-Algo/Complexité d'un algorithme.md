@@ -68,7 +68,7 @@ def fibo_it(n):
 
 Soit $c_i$ le nombre d'addition effectué à la $i^{ème}$ itération. On alors:
 $$\sum_{i=2}^{n+1}c_i = n $$
-La complexité est alors de $\Omega(n)$
+La complexité est alors de $\Theta(n)$
 #### Récursif
 ```python
 def fibRec(n):
