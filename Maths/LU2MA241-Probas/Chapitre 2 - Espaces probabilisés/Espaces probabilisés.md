@@ -54,7 +54,10 @@ Soit $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espaces probabilisés]], on a #!
 <!--ID: 1707589760449-->
 #### Preuve
 On se proposera ici d'étudier des événement disjoints.
-Montrer la continuité par le bas permet aussi de montrer celle par le haut par complémentarité
+Montrer la continuité par le bas permet aussi de montrer celle par le haut par complémentarité.
+
+On pose $C_0 = A_0, C_1 = A_1 \setminus A_0, \cdots C_n = A_n \setminus A_{n-1}$
+Les événement $C_i$ sont tous deux à deux disjoints. Avec de plus $\bigcup^n_{i=0} C_i = A_n$ 
 
 
 
