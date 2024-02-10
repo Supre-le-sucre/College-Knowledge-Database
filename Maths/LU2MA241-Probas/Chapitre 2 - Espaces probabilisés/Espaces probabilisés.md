@@ -23,7 +23,10 @@ Plus particulièrement, on observe que: $\mathbb P(A) \leq \mathbb P(B)$ et que 
 On considère l'espace probabilisé $(\Omega, \mathcal{F}, \mathbb{P})$ Soit $A,B \in \mathcal{F}$. Il est possible de déduire une propriété pour $\mathbb{P}(A \cup B)$ #!
 $$ \mathbb P(A \cup B) = \mathbb P(A) + \mathbb P(B) - \mathbb P(A \cap B) $$
 Ainsi donc, on observe que $\mathbb P(A \cup B) \leq \mathbb P(A) + \mathbb P(B)$ 
-<!--ID: 1707588372393-->
+<!--ID: 1707588800764-->
+
+
+
 
 
 
