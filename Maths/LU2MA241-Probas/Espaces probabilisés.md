@@ -1,3 +1,4 @@
+#probas
 ## Définition
 - Soit $\Omega$ un espace d'état qui constitue notre univers
 - Soit $\mathcal{F}$ une [[Tribu]] de $\Omega$ l'ensemble des événement.
