@@ -14,5 +14,5 @@ est une variable aléatoire discrètes.
 
 ## Vocabulaire
 
-- Pour chaque $X_i$, on a une [[Loi de X|loi]] $\mu_{X_i}$, appelée loi marginale sur $E_i$ et une [[Densité discrète]] $p_{X_i}$ appelée densité discrète marginale
-- Pour $Z$, en considérant [[Variables aléatoires discrètes#Espace produit|l'espace produit]]. On a une [[Loi de X|loi]] $\mu_{Z}$, appelée ==loi jointe== sur $E$ et une [[Densité discrète]] $p_{Z}$ appelée ==densité jointe.==
+- Pour chaque $X_i$, on a une [[Loi de X|loi]] $\mu_{X_i}$, appelée loi marginale sur $E_i$ et une [[Maths/LU2MA241-Probas/Densité discrète]] $p_{X_i}$ appelée densité discrète marginale
+- Pour $Z$, en considérant [[Variables aléatoires discrètes#Espace produit|l'espace produit]]. On a une [[Loi de X|loi]] $\mu_{Z}$, appelée ==loi jointe== sur $E$ et une [[Maths/LU2MA241-Probas/Densité discrète]] $p_{Z}$ appelée ==densité jointe.==
