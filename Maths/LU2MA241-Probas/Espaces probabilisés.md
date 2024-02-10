@@ -15,4 +15,5 @@ On qualifie $\mathbb{P} : \mathcal{F} \to [0,1]$ une probabilité si elle vérif
 ## Propriétés fondamentales opératoires
 On considère ici, l'espace probabilisé $(\Omega, \mathcal{F}, \mathbb{P})$
 
-### 
+### Privation entre ensemble inclus
+
