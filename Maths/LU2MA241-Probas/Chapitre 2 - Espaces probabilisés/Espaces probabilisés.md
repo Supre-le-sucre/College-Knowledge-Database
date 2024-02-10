@@ -19,14 +19,42 @@ $$ \mathbb{P}(B \setminus A) = \mathbb P(B) - \mathbb P(A)$$
 Plus particulièrement, on observe que: $\mathbb P(A) \leq \mathbb P(B)$ et que $\mathbb P(A^c) = 1 - \mathbb P(A)$ 
 <!--ID: 1707588267113-->
 
+#### Preuve
+Soit $A \subseteq B$. On pose $C_1 = A, C_2 = B\setminus A$. On a que $C_1 \cap C_2 = \emptyset$
+Par [[#Axiome de probabilité|sigma-additivité]] $\mathbb P(C_1 \cup C_2) = \mathbb P(C_1) + \mathbb P(C_2) = \mathbb P(A) + \mathbb{P}(A \setminus B)$ 
+
+Et $\mathbb{P}(C_1 \cup C_2) = \mathbb P (B)$ d'où $\mathbb{P}(B)= \mathbb{P}(A) + \mathbb{P}(A \setminus B)$ 
+$$\tag*{$\blacksquare$}$$
+
 ### Union de deux événements
 On considère l'[[Espaces probabilisés]] $(\Omega, \mathcal{F}, \mathbb{P})$ Soit $A,B \in \mathcal{F}$. Il est possible de déduire une propriété pour $\mathbb{P}(A \cup B)$ #!
 $$ \mathbb P(A \cup B) = \mathbb P(A) + \mathbb P(B) - \mathbb P(A \cap B) $$
 Ainsi donc, on observe que $\mathbb P(A \cup B) \leq \mathbb P(A) + \mathbb P(B)$ 
 <!--ID: 1707588800764-->
 
+#### Preuve
+Il est possible de réécrire: $B \setminus A = B \setminus (A \cap B)$ ne retirant que les éléments de $A$ étant dans $B$.
+De plus $A \cup B = A \cup (B \setminus A)$ est une union disjointe
+
+Par [[#Axiome de probabilité|sigma-additivité]],
+$$\mathbb P(A \cup B) = \mathbb P(A) + \mathbb P(B \setminus (A \cap B)$$
+Puis par [[#Privatisation avec inclusion|la propriété précédente]] 
+$$\mathbb P(A \cup B) = \mathbb P(A) + \mathbb P(B) - \mathbb P (A \cap B)$$
+$$\tag*{$\blacksquare$}$$
+
 ### Formule d'inclusion exclusion
-Soit $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espaces probabilisés]]
+Soit $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espaces probabilisés]], pour n'importe quel événement $A_1, \cdots A_n \in \mathcal{F}$ on a #!
+$$ \mathbb{P}(A_1 \cup \cdots \cup A_n) = \sum_{k=1}^n(-1)^{k+1} \sum_{I \subseteq\set{1, \cdots, n}, |I| = k} \mathbb P \left(\bigcap_{i \in I}A_i\right) $$
+<!--ID: 1707589371896-->
+
+### Continuité par le bas et par le haut
+Soit $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espaces probabilisés]], on a #!
+- <u>Continuité par le bas:</u> Si $(A_n)_{n \geq 1}$ est une suite croissante par inclusion d'événements $\forall n \in \mathbb{N}$ alors: $$\mathbb{P}\left(\bigcup_{n=1}^\infty A_n\right) = \lim_{n\to + \infty} \mathbb{P}(A_n)$$
+- <u>Continuité par le haut</u> Si $(A_n)_{n \geq 1}$ est une suite décroissante par inclusion d'événements $\forall n \in \mathbb{N}$ alors: $$\mathbb{P}\left(\bigcap_{n=1}^\infty A_n\right) = \lim_{n\to + \infty} \mathbb{P}(A_n)$$
+<!--ID: 1707589760449-->
+#### Preuve
+On se proposera ici d'étudier des événement disjoints.
+Montrer la continuité par le bas permet aussi de montrer celle par le haut par complémentarité
 
 
 
