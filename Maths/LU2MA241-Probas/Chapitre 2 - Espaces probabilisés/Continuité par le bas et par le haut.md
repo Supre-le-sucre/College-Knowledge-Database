@@ -27,3 +27,9 @@ et aussi
 $$ \mathbb P \left(\bigcap^\infty_{n=1}A_n\right) = \lim_{n \to \infty} \mathbb P \left(\bigcap^n_{k=1}A_k\right)$$
 <!--ID: 1707591980020-->
 
+## Corollaire (sous-additivité)
+Soit $(A_n)_{n \in \geq 1}$ une suite d'événements Alors #!
+$$ \mathbb P\left(\bigcup^\infty_{n=1} A_n\right) \leq \sum^\infty_{n=1} \mathbb P(A_n)$$
+<!--ID: 1707592317220-->
+
+
