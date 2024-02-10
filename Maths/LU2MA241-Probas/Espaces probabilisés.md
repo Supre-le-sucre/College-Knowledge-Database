@@ -14,10 +14,11 @@ On qualifie $\mathbb{P} : \mathcal{F} \to [0,1]$ une probabilité si elle vérif
 2. ($\sigma$-additivité) Pour toute suite $(A_n)_{n\geq 1}$ d'événements disjoints (i.e $\forall (i,j), i \not = j, A_i \cap A_j = \emptyset$) on a $$\mathbb{P}\left(\bigcup_{n=1}^{+\infty}A_n\right) = \sum_{n=1}^{+\infty}\mathbb{P}(A_n)$$
 **Remarque:** la $\sigma$-additivité entraîne l'additivité finie entre événement disjoints.
 <!--ID: 1707585287993-->
-
-## Propriétés fondamentales opératoires
+## P
 On considère ici, l'espace probabilisé $(\Omega, \mathcal{F}, \mathbb{P})$
-<!--ID: 1707585287997-->
+<!--ID: 1707585750675-->
+
+
 
 
 
