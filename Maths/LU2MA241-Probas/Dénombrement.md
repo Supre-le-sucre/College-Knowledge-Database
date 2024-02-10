@@ -1,3 +1,4 @@
+#probas
 ## Définition
 On dit qu'un ensemble est dénombrable, s'il est fini, ou qu'il existe une bijection entre cet ensemble et $\mathbb{N}$.
 ## Lemme de dénombrabilité selon les applications (admis)

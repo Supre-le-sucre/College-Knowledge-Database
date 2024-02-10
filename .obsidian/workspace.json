@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Dénombrement.md",
+                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Dénombrement.md",
+                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Dénombrement.md",
+                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Dénombrement.md"
+                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md"
               }
             }
           }
@@ -173,12 +173,13 @@
   },
   "active": "f2eb1756d38ed814",
   "lastOpenFiles": [
-    "Maths/LU2MA241-Probas/Injection Surjection.md",
-    "Maths/LU2MA241-Probas/Famille de sous-ensemble.md",
-    "Maths/LU2MA241-Probas/Différence symétrique.md",
     "Maths/LU2MA241-Probas/Dénombrement.md",
     "Maths/LU2MA241-Probas/Variables aléatoires discrètes.md",
     "Maths/LU2MA241-Probas/Théorie des ensembles.md",
+    "Maths/LU2MA241-Probas/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Injection Surjection.md",
+    "Maths/LU2MA241-Probas/Famille de sous-ensemble.md",
+    "Maths/LU2MA241-Probas/Différence symétrique.md",
     "Maths/LU2MA241-Probas/Densité discrète.md",
     "Maths/LU2MA241-Probas/Fonction indicatrice d'un ensemble.md",
     "Maths/LU2MA241-Probas/Loi de X.md",
@@ -200,7 +201,6 @@
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA241-Probas",
-    "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Maths/LU2MA122-Algèbre",
     "Info/LU2IN003-Algo",
     "Info/Untitled.canvas",
