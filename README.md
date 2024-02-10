@@ -8,7 +8,7 @@ This obsidian vault utilize the usage of [Obsidian_to_anki](https://github.com/O
 
 This allows to create a basic Anki card with this patern:
 
-Front of the card #!
+Front of the card #!  
 Back of the card
 
 This vault syncing is done via `git` using the [Obsidian Git](https://github.com/denolehov/obsidian-git) plugin. This plugin is also compatible on mobile, allowing this vault to be updated on all my devices.
