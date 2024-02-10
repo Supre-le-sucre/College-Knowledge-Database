@@ -5,6 +5,12 @@ On qualifie le triplet $(\Omega, \mathcal{F}, \mathbb{P})$ d'espace probabilisé
 - Soit $\mathcal{F}$ une [[Tribu]] de $\Omega$ l'ensemble des événement.
 - Soit une probabilité $\mathbb{P}$, une application de la forme $\mathbb{P} : \mathcal{F} \to [0,1]$ respectant l'[[#Axiome de probabilité]]
 <!--ID: 1707586301874-->
+
+### Vocabulaire
+On qualifie d'événement presque sûr un événement $A$ tel que #!
+$\mathbb P(A) = 1$
+<!--ID: 1707592075745-->
+
 ## Axiome de probabilité
 Soit $\Omega$ un espace d'état et $\mathcal{F}$ une [[Tribu]] de $\Omega$. On qualifie $\mathbb{P} : \mathcal{F} \to [0,1]$ une probabilité si elle vérifie l'ensemble des propriétés suivantes: #!
 1. $\mathbb{P}(\Omega) = 1$

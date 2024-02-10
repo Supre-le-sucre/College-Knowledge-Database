@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md"
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md"
               }
             }
           }
@@ -161,10 +160,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "acddfc6a0b7ed6bb",
+  "active": "f2eb1756d38ed814",
   "lastOpenFiles": [
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Fonction indicatrice d'un ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
