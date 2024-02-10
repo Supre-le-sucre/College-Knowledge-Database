@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Théorie des ensembles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Théorie des ensembles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Théorie des ensembles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Espaces probabilisés.md"
+                "file": "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Théorie des ensembles.md"
               }
             }
           }
@@ -147,18 +147,19 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f2eb1756d38ed814",
+  "active": "66f29628d5c4b9ed",
   "lastOpenFiles": [
+    "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Dénombrement.md",
+    "Maths/LU2MA241-Probas/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement",
     "Maths/LU2MA241-Probas/Famille de sous-ensemble.md",
-    "Maths/LU2MA241-Probas/Théorie des ensembles.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Théorie des ensembles.md",
     "Maths/LU2MA241-Probas/Tribu.md",
     "Maths/LU2MA241-Probas/Loi de X.md",
-    "Maths/LU2MA241-Probas/Fonction indicatrice d'un ensemble.md",
-    "Maths/LU2MA241-Probas/Dénombrement.md",
-    "Maths/LU2MA241-Probas/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Fonction indicatrice d'un ensemble.md",
     "Maths/LU2MA241-Probas/Variables aléatoires discrètes.md",
     "Maths/LU2MA241-Probas/Densité discrète.md",
-    "Maths/LU2MA241-Probas/Différence symétrique.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Dénombrement/Différence symétrique.md",
     "Maths/LU2MA241-Probas/Injection Surjection.md",
     "Info/LU2IN003-Algo/Liste.md",
     "Info/LU2IN003-Algo/Complexité d'un algorithme.md",
@@ -175,7 +176,6 @@
     "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Maths/LU2MA216-Topologie/Unicité de la limite.md",
     "Maths/LU2MA216-Topologie",
-    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA241-Probas",
     "Maths/LU2MA122-Algèbre",
     "Info/LU2IN003-Algo",
