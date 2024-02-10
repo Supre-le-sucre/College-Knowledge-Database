@@ -1,26 +1,27 @@
 #probas
 ## Définition
-On dit qu'un ensemble est dénombrable, s'il est fini, ou qu'il existe une bijection entre cet ensemble et $\mathbb{N}$.
+On dit qu'un ensemble est dénombrable, #!
+s'il est fini, ou qu'il existe une bijection entre cet ensemble et $\mathbb{N}$.
+<!--ID: 1707587154940-->
+
 ## Lemme de dénombrabilité selon les applications (admis)
-On a le lemme suivant:
+Le lemme suivant permet de déduire la dénombrabilité selon les propriétés d'une application: #!
 Soient $A$ et $B$ deux ensembles. 
 - S'il existe une injection de $A$ dans $B$ et que $B$ est dénombrable, alors $A$ est dénombrable
 - S'il existe une surjection de $A$ dans $B$ et que $A$ est dénombrable, alors $B$ est dénombrable
-<!--ID: 1707585763618-->
+<!--ID: 1707587154946-->
 
 
 ## Opérations sur les ensembles dénombrables
 
-On a la propriété suivante:
+La propriété suivante nous indique la stabilité du dénombrement suivant des opérations sur des ensembles: #!
 1. Si $A_1, \cdots, A_n$ sont des ensembles dénombrables, alors $A_1 \times \cdots \times A_n$ , $\bigcup^n_{i=1}A_i$, $\bigcap^n_{i=1} A_i$   sont aussi des ensembles dénombrables.
 2. Si $(A_i)_{i\in\mathbb{I}}$ est une [[Famille de sous-ensemble|famille]] dénombrable (i.e $I$ est dénombrable) d'ensemble finis ou dénombrables, alors $\bigcup^n_{i\in I}A_i$ est dénombrable. (Mais ceci n'est pas vraie pour l'intersection)
-<!--ID: 1707585763624-->
+<!--ID: 1707587154949-->
 
 
 ### Preuve
 La preuve reposera sur le [[#Lemme de dénombrabilité selon les applications (admis)]]
-<!--ID: 1707585763628-->
-
 
 On montre d'abord l'assertion 1.
 Par hypothèse on a que $\rho_1: A_1 \to \mathbb{N}, \cdots ,\rho_n:A_n \to \mathbb{N}$ sont des bijections.
@@ -39,11 +40,13 @@ Les autres propriétés se démontre suivant le même principe.
 $\mathbb{Z}$ et $\mathbb{Q}$ sont dénombrables.
 ## Injection et Surjection
 
-Soit $A$ et $B$ des ensembles finis. On donne $f: A \to B$ une application quelconque.
+Soit $A$ et $B$ des ensembles finis. On donne $f: A \to B$ une application quelconque. On peut déduire des propriétés sur la cardinalité de $A$ et de $B$ suivant les propriété de $f$: #!
 - Si $f$ est ==injective==, donc qu'un chaque élément de $A$ est associé au plus à un élément de $B$ , alors $|A| \leq |B|$
 - Si $f$ est ==surjective==, donc chaque élément de $B$ est l'image d'au moins un élément de $A$, alors $|A| \geq |B|$
 - Evidemment si $f$ est ==bijective== alors indubitablement $|A| = |B|$
-<!--ID: 1707585825956-->
+<!--ID: 1707587154953-->
+
+
 
 
 
