@@ -19,6 +19,13 @@ Soit $\Omega$ un espace d'état et $\mathcal{F}$ une [[Tribu]] de $\Omega$. On q
 <!--ID: 1707586321110-->
 
 ## Propriétés fondamentales
+
+### Définition de $\mathbb P$ pour un ensemble $\Omega$ fini
+En posant $\mathcal{F} = \mathcal{P}(\Omega)$ et en étudiant l'[[Espaces probabilisés]] $(\Omega, \mathcal{F}, \mathbb{P})$, On a que $\forall A \subseteq \Omega$ #!
+$$\mathbb{P}(A) = \frac{|A|}{|\Omega|}$$
+<!--ID: 1707605523404-->
+
+
 ### Privatisation avec inclusion
 On considère l'[[Espaces probabilisés]] $(\Omega, \mathcal{F}, \mathbb{P})$ Soit $A,B \in \mathcal{F}$ avec $A \subseteq B$. Il est possible de déduire une propriété pour $\mathbb{P}(B \setminus A)$ #!
 $$ \mathbb{P}(B \setminus A) = \mathbb P(B) - \mathbb P(A)$$

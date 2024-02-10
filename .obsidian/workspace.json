@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "acddfc6a0b7ed6bb",
+            "id": "ebbd9f728ddfae93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Densité discrète.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ebbd9f728ddfae93",
+            "id": "e62b0c39c6f31abd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "45e12f0592c47e14",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Untitled.md"
               }
             }
           }
@@ -172,15 +173,17 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "ebbd9f728ddfae93",
+  "active": "e62b0c39c6f31abd",
   "lastOpenFiles": [
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Densité discrète.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Untitled.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Différence symétrique.md",
+    "README.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Fonction indicatrice d'un ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Différence symétrique.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA241-Probas/Densité discrète.md",
@@ -200,8 +203,6 @@
     "Info/LU2IN009-DB/Division.md",
     "Info/LU2IN009-DB/Requête.md",
     "Info/LU2IN003-Algo/Fonctions récursives.md",
-    "Info/LU2IN009-DB/SQL.md",
-    "Info/LU2IN009-DB/Autojointure.md",
     "Maths/LU2MA216-Topologie",
     "Maths/LU2MA241-Probas",
     "Maths/LU2MA122-Algèbre",
