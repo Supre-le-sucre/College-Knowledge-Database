@@ -1,6 +1,5 @@
 #probas 
-Soit un univers $\Omega$, avec $A \in \mathcal{P}(\Omega)$.
-On définit la fonction indicatrice de l'ensemble A telle que:
+Soit un univers $\Omega$, avec $A \in \mathcal{P}(\Omega)$. On définit la fonction indicatrice de l'ensemble A telle que: #!
 $$\mathbb{1}_A : \Omega \to \set{0,1}$$
 $$
 \forall x \in A, \mathbb{1}_A(x) = \begin{cases} 
@@ -9,6 +8,7 @@ $$
    \end{cases}
 \
 $$
+<!--ID: 1707587521210-->
 
 ## Propriétés
 Dans la suite, on pose $\Omega$ un ensemble avec $A, B \in \mathcal{P}(\Omega)$
