@@ -6,8 +6,7 @@
 
 Alors on qualifie le triplet $(\Omega, \mathcal{F}, \mathbb{P})$ d'espace probabilisé
 ## Axiome de probabilité
-Q: Quelle est l'axiome de probabilité ?
-A: Soit $\Omega$ un espace d'état et $\mathcal{F}$ une [[Tribu]] de $\Omega$.
+Soit $\Omega$ un espace d'état et $\mathcal{F}$ une [[Tribu]] de $\Omega$.
 On qualifie $\mathbb{P} : \mathcal{F} \to [0,1]$ une probabilité si elle vérifie l'ensemble des propriétés suivantes:
 1. $\mathbb{P}(\Omega) = 1$
 2. ($\sigma$-additivité) Pour toute suite $(A_n)_{n\geq 1}$ d'événements disjoints (i.e $\forall (i,j), i \not = j, A_i \cap A_j = \emptyset$) on a $$\mathbb{P}\left(\bigcup_{n=1}^{+\infty}A_n\right) = \sum_{n=1}^{+\infty}\mathbb{P}(A_n)$$
