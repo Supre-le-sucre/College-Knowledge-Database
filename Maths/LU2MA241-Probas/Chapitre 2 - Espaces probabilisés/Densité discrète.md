@@ -1,3 +1,4 @@
+#probas 
 ## Définition
 On définit une densité discrète comme suit #!
 Soit $\Omega \not = \emptyset$ dénombrable. Toute fonction $p : \Omega \to \mathbb{R}$ satisfaisant:

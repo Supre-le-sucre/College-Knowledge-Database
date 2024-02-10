@@ -1,3 +1,4 @@
+#probas
 ## Définition
 On qualifie une probabilité de probabilité uniforme si et seulement si #!
 
