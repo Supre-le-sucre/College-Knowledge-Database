@@ -15,9 +15,6 @@ On qualifie $\mathbb{P} : \mathcal{F} \to [0,1]$ une probabilité si elle vérif
 **Remarque:** la $\sigma$-additivité entraîne l'additivité finie entre événement disjoints.
 <!--ID: 1707585287993-->
 
-
-
-
 ## Propriétés fondamentales opératoires
 On considère ici, l'espace probabilisé $(\Omega, \mathcal{F}, \mathbb{P})$
 <!--ID: 1707585287997-->
