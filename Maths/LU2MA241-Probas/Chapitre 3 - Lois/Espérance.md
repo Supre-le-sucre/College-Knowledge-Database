@@ -57,6 +57,10 @@ $$= \set{\omega \in \Omega, X(\omega) \in g^{-1}(\set{y})}$$ $$ = \bigcup \set{\
 Cette union est disjointe, et de plus, $a \in g^{-1}(\set{y}) \cap X(\Omega)$ un ensemble dénombrable, on a donc...
 $$\mathbb E[Y] = \sum_{y \in Y(\Omega)} \sum_{a \in g^{-1}(\set{y}) \cap X(\Omega)} y p_X(a)$$
 $$= \sum_{y \in Y(\Omega)} \sum_{a \in g^{-1}(\set{y}) \cap X(\Omega)} g(a) p_X(a)$$
+$$= \sum_{a \in X(\Omega)} g(a) p_X(a)$$
+$$\tag*{$\blacksquare$}$$
+2. Cas n°2: $g: E \to \mathbb R$
+En posant $g = g_+ - g_-$ on obtient le même raisonnement$$\tag*{$\blacksquare$}$$
 
 
 
