@@ -61,7 +61,3 @@ $$= \sum_{a \in X(\Omega)} g(a) p_X(a)$$
 $$\tag*{$\blacksquare$}$$
 2. Cas n°2: $g: E \to \mathbb R$
 En posant $g = g_+ - g_-$ on obtient le même raisonnement$$\tag*{$\blacksquare$}$$
-
-
-
-
