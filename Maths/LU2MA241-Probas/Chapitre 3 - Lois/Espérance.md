@@ -61,3 +61,11 @@ $$= \sum_{a \in X(\Omega)} g(a) p_X(a)$$
 $$\tag*{$\blacksquare$}$$
 2. Cas n°2: $g: E \to \mathbb R$
 En posant $g = g_+ - g_-$ on obtient le même raisonnement$$\tag*{$\blacksquare$}$$
+## Propriétés de l'espérance
+L'espérance respecte 3 différentes propriétés principales. Soit $X, Y$ deux [[Variables aléatoires discrètes]] admettant une espérance: #!
+
+1. <u>Monotonie</u> Si $\forall \omega \in \Omega, X(\omega) \leq Y(\omega)$ alors $\mathbb E[X] \leq \mathbb E[Y]$
+2. <u>Inégalité triangulaire</u> $|\mathbb E[X]| \leq \mathbb E[|X|]$
+3. <u>Linéarité</u> Si l'espérance de $X,Y$ est finie, alors $\forall (a,b) \in \mathbb R ^2, \mathbb E[aX + bY] = a\mathbb E[X] + b \mathbb E[Y]$
+<!--ID: 1707737809042-->
+
