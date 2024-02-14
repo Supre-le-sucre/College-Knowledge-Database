@@ -29,5 +29,4 @@ WHERE city NOT IN(
 	SELECT city 
 	FROM Project
 );
-
 ```
