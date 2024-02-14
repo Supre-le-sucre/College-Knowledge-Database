@@ -8,3 +8,4 @@ WHERE Condition
 ```
 
 Il est possible d'avoir la même table concaténé avec elle même. On parle donc d'[[Autojointure]].
+En connectant des tables différentes entre elles on utilise alors le principe de [[Jointure]]
