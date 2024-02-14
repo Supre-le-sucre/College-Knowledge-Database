@@ -50,3 +50,12 @@ SELECT ename, title
 FROM Emp, Works, Project
 WHERE Projet.city = 'Paris' AND Emp.eno = Works.eno AND Works.pno = Projet.pno; 
 ```
+
+### Noms des employés originaire de la même ville
+```sql
+SELECT E1.ename, E2.ename
+FROM Emp E1, Emp E2
+WHERE E1.City = E2.City AND E1.ename > E2.ename;
+```
+
+**Remarque** On utilise ici l'ordre alphabétique pour éviter les redondances que l'on n'aurait pas pu supprimer avec `DISTINCT`
