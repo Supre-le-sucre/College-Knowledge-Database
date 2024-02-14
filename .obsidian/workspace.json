@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "91898c98e7d0e3af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN009-DB/Jointure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b1ca4970329e1c00",
             "type": "leaf",
             "state": {
@@ -174,8 +186,9 @@
   },
   "active": "0f535a2a2210941a",
   "lastOpenFiles": [
-    "Info/LU2IN009-DB/SQL.md",
+    "Info/LU2IN009-DB/Jointure.md",
     "Info/LU2IN009-DB/Requêtes complexes.md",
+    "Info/LU2IN009-DB/SQL.md",
     "Info/LU2IN009-DB/Autojointure.md",
     "Info/LU2IN009-DB/Requête.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
@@ -202,7 +215,6 @@
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
-    "Maths/LU2MA241-Probas/Injection Surjection.md",
     "Maths/LU2MA216-Topologie",
     "Maths/LU2MA241-Probas",
     "Maths/LU2MA122-Algèbre",
