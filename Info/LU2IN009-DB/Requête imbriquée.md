@@ -30,3 +30,14 @@ WHERE city NOT IN(
 	FROM Project
 );
 ```
+
+### Noms des projets ayant le plus gros budget
+```sql
+SELECT pname
+FROM Project p1
+WHERE NOT EXISTS(
+	SELECT *
+	FROM Project p2
+	WHERE p2.buget > p1.budget
+);
+```
