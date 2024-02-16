@@ -1,5 +1,5 @@
 #algo
-Le Quick sort est l'[[Algorithme de tri]] le plus répandu et le plus rapide, sa complexité étant $\mathcal O(nlog(n))$.
+Le Quick sort est l'[[Algorithme de tri]] le plus répandu.
 L'objectif est d'avoir un pivot au milieu de chaque listes est de trier les sous listes ensembles dépednant du pivot.
 
 L'algorithme est récursif et se construit de la façon suivante:
@@ -23,3 +23,11 @@ def Eclatement(L, L1, L2):
 		else:
 			L2.append(y)
 ```
+
+## Complexité
+
+La complexité de l'éclatement est en $\Theta(n)$.
+Dans le meilleur des cas, le quick sort aura une complexité de $\Omega(nlog(n))$
+Mais dans le pire des cas, sa complexité sera de $\mathcal O(n^2)$
+
+En revanche, il est appelé quick sort, car très souvent, le cas moyen est vraiment proche de $nlog(n)$ 
