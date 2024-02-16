@@ -1,6 +1,6 @@
 #algo
 Le Quick sort est l'[[Algorithme de tri]] le plus répandu.
-L'objectif est d'avoir un pivot au milieu de chaque listes est de trier les sous listes ensembles dépednant du pivot.
+L'objectif est d'avoir un pivot au milieu de chaque listes est de trier les sous listes ensembles dépendant du pivot.
 
 L'algorithme est récursif et se construit de la façon suivante:
 ```python 

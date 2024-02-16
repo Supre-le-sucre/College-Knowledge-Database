@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "7ef659be75d98a37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/LU2IN003-Algo/Tri fusion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91898c98e7d0e3af",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Quick sort.md",
+                "file": "Info/LU2IN003-Algo/Tri fusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Quick sort.md",
+                "file": "Info/LU2IN003-Algo/Tri fusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Quick sort.md"
+                "file": "Info/LU2IN003-Algo/Tri fusion.md"
               }
             }
           }
@@ -208,10 +220,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "54b7c4c47b5d26ae",
+  "active": "7ef659be75d98a37",
   "lastOpenFiles": [
-    "Info/LU2IN003-Algo/Algorithme de tri.md",
     "Info/LU2IN003-Algo/Quick sort.md",
+    "Info/LU2IN003-Algo/Tri fusion.md",
+    "Info/LU2IN003-Algo/Algorithme de tri.md",
     "Info/LU2IN009-DB/Requête imbriquée.md",
     "Info/LU2IN009-DB/Requêtes complexes.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
@@ -236,7 +249,6 @@
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilité uniforme.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Différence symétrique.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
     "Maths/LU2MA216-Topologie",
