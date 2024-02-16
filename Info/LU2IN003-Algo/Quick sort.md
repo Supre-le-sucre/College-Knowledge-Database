@@ -28,6 +28,8 @@ def Eclatement(L, L1, L2):
 
 La complexité de l'éclatement est en $\Theta(n)$.
 Dans le meilleur des cas, le quick sort aura une complexité de $\Omega(nlog(n))$
-Mais dans le pire des cas, sa complexité sera de $\mathcal O(n^2)$: C'est lorsque le pivot est le plus grand ou le plus petit élément de la liste. Etonnement donc, le pire cas n'arrive que lorsque la liste est triée !
 
-En revanche, il est appelé quick sort, car très souvent, le cas moyen est vraiment proche de $nlog(n)$ 
+Mais dans le pire des cas, sa complexité sera de $\mathcal O(n^2)$: C'est lorsque le pivot est le plus grand ou le plus petit élément de la liste. Etonnement donc, le pire cas n'arrive que lorsque la liste est triée !
+Pour éviter un tel phénomène, on pourrait prendre comme pivot, un élément au milieu de la liste.
+
+Mais ce pire cas existerait toujours si la liste était formée de tel sorte à ce que l'élément du mileiu soit toujours le plus grand (ou le plus petit).
