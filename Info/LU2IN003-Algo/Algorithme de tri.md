@@ -13,5 +13,10 @@ Un algorithme de tri est dit stable s'il n'inverse pas l'ordre de deux élément
 
 Par exemple: Trier les étudiants seront leur notes les affichera dans l'autre alphabétique s'ils ont la même note.
 
+### Exemple tri par insertion
+Le tri par insertion consiste à ajouter un élément à une liste, puis trier la liste en conséquence. Ce tri est dit *stable*. Dans le meilleur des cas, le tableau initial est déjà trié, et sa complexité est donc $\Omega(n)$. Autrement, sa complexité est de $\mathcal{O}(n^2)$ dans le pire des cas.
+
+Remarquons que ce tri créer alors une nouvelle à chaque triage
+
 # En place
 un algorithme de tri est dit en place s'il ne nécessite pas de dupliquer une partie des éléments une partie des éléments à trier 
