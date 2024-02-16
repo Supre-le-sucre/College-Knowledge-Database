@@ -1,6 +1,10 @@
 #algo 
 # Comparaison
 Un algorithme de tri est dit de comparaison s'il compare les éléments deux à deux pour les trier
+
+## Complexité minimale
+Un algorithme de tri de comparaison à un complexité minimal de $O(nlog(n)$) dans le pire cas.
+
 # Stable
 Un algorithme de tri est dit stable s'il n'inverse pas l'ordre de deux éléments de même clef.
 
