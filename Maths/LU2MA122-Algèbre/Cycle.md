@@ -67,4 +67,9 @@ On pose alors $\sigma_{1}= (1, \sigma(1), \cdots, \sigma^{i_1-1}(1))$. On note $
 On a alors l'union disjointe suivante:
 $$[1,n] = F_{1}\cup F_1^c$$
 Et $\sigma$ est stable sur $F_1$ et son complémentaire:
-Si $x \not \in F_1$ et que $\sigma(x) \in F_1$, on a qu'il existe $r \in \mathbb{N}^*$ tel que $\sigma^{r}(1)= \sigma(x)$, d'où  
+Si $x \not \in F_1$ et que $\sigma(x) \in F_1$, on a qu'il existe $r \in \mathbb{N}$ tel que $\sigma^{r}(1)= \sigma(x)$, d'où $\sigma^{r-1}(1)= x$ d'où $x \in F_1$ ceci est absurde.
+
+Comme $\sigma$ est injective, on obtient $\sigma' = \sigma_{|F_{1}^{c}}$ une bjection sur $F_1^c$. Par hypothèse de récurrence on alors que $\sigma'$ décomposable et on a que $\sigma = \sigma_{1}\circ \sigma'$, avec $\sigma'$ un élément de $S_n$ par prolongement proposé dans [[#Morphisme canonique]].
+
+### Proposition
+Cette décomposition est unique à permutations de facteurs près.
