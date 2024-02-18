@@ -50,4 +50,3 @@ $$(a_{1}, \cdots, a_{k})= (a_{1}a_{2})(a_{2}a_{3})\cdots(a_{k-1}a_k)$$
 
 De plus, on observe $(ij)=(1i)(1j)(1i)$
 $$\tag*{$\blacksquare$}$$
-
