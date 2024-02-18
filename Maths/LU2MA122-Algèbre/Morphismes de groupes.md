@@ -110,7 +110,7 @@ $(3) \Rightarrow (1)$
 Si $\phi$ est bijective, alors elle est trivialement injective
 $$\tag*{$\blacksquare$}$$
 
-## Lemme sur l'existence d'une puissance neutre
+## Lemme sur l'existence d'une puissance neutre autre que 0
 
 ### Lemme
 Soit $G$ est un groupe fini,, alors $\forall x \in G, \exists n \in \mathbb{N}^*$ tel que $x^n =  1_G$
