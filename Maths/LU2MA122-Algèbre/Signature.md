@@ -6,4 +6,4 @@ Soit $n \in \mathbb{N}^*$, pour $\sigma \in S_n$ une permutation dans le [[Group
 $$\sigma.P=P(X_{\sigma(1)}, \cdots X_{\sigma(n)})$$
 ### Associativité de la permutation
 Pour $\sigma, \tau \in S_n$, on aurait alors
-$$\sigma.(\tau P) = \sigma.P(X_{\tau(1)}, \cdots, X_{\tau(n)})$$
+$$\sigma.(\tau P) = \sigma.P(X_{\tau(1)}, \cdots, X_{\tau(n)}) = P(X_{\sigma \circ\tau(1)}, \cdots, )$$
