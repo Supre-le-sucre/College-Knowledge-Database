@@ -40,4 +40,4 @@ De plus on a que:
 $$\Phi(\sigma)_{|F} \circ \Phi(\sigma')_{|F} = \sigma \circ \sigma' = \Phi(\sigma \circ \sigma')_{|F}$$
 Et de même dans l'autre restriction.
 $$\tag*{$\blacksquare$}$$
- 
+## Toute permutation est un produit de permutation
