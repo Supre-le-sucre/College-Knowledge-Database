@@ -73,3 +73,7 @@ Comme $\sigma$ est injective, on obtient $\sigma' = \sigma_{|F_{1}^{c}}$ une bje
 
 ### Proposition
 Cette décomposition est unique à permutations de facteurs près.
+
+### Preuve
+On pose $\sigma$ en 2 décomposition:
+$\sigma=\sigma_{1}\circ $
