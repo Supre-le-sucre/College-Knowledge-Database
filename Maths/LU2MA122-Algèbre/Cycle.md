@@ -48,7 +48,21 @@ Toute permutation $\sigma \in S_n$ est un produit $\sigma = \sigma_{1}\circ \cdo
 On se propose ici de raisonner par récurrence forte.
 Soit $\Pi(n): \sigma \in S_{n}$ admet une décomposition $\sigma = \sigma_{1}\circ \cdots \circ \sigma_{r}$ de cycle à support disjoints
 
-Pour $n=1$, on aura $\sigma \in S_1$, dans ce cas $\sigma = \sigma$ comme produit de cyle à support disjoint
+Pour $n=1$, on aura $\sigma \in S_1$, dans ce cas $\sigma = \sigma$ comme produit de cycle à support disjoint
 
 Montrons que $\forall k < n, \Pi(k) \Rightarrow \Pi(n)$
 Soit $\sigma \in S_n$.
+
+Si $\sigma(1) = 1$ alors comme $\sigma$ est une bijection, on a que $\sigma([2,n]) = [2,n]$.
+On a alors pour $\sigma_{1}= \sigma_{|[2,n]}$ qui induit une permutation de $\text{Bij}([2,n]) \simeq S_{n-1}$.
+
+Par hypothèse de récurrence on aurait donc que $\sigma_1$ est décomposable... 
+De plus $\sigma_1$ est une permutation de $S_n$ par prolongement proposé dans [[#Morphisme canonique]]
+Ainsi donc $\sigma=\sigma_1$ donc $\sigma$ est bien décomposé en cycles à support disjoints.
+
+Si $\sigma(1) \not = 1$, d'après [[Morphismes de groupes#Lemme sur l'existence d'une puissance neutre autre que 0|ce lemme]] on a qu'il existe $l \in \mathbb{N}^*$ tel que $\sigma^{l}= Id$.
+On prend $i_1$ le plus petit entier tel que $\sigma^{i_{1}}(1)= 1$.
+
+On pose alors $\sigma_{1}= (1, \sigma(1), \cdots, \sigma^{i_1-1}(1))$. On note $F_1$ le support de $\sigma_1$.
+On a alors l'union disjointe suivante:
+$$[1,n] = F_{1}\cup F_1^c$$
