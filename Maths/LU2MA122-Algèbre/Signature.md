@@ -22,4 +22,5 @@ $\forall \sigma \in S_n,$ on a que $\sigma.\Delta = \epsilon(\sigma)\Delta$  (cf
 L'application $\epsilon : (S_{n}, \circ) \to (\mathbb{Z}/2\mathbb{Z}, \times)$ appelée signature est un [[Morphismes de groupes]]
 
 ### Preuve
-
+Considérons la transposition $\tau=(rs)$ avec $1 \leq r < s \leq n$. Calculons $\tau.\Delta$, on a alors:
+$$\tau.\Delta = \prod_{1\leq i < j \leq n}(X_{i}- X_{\tau(j)})$$
