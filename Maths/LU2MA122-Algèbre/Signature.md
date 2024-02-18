@@ -2,7 +2,7 @@
 ## Permutation sur polynôme
 
 ### Action de $S_n$ sur $\mathbb Z[X]$
-Soit $n \in \mathbb{N}^*$, pour $\sigma \in S_n$ une transposition dans le [[Groupe symmétrique]] et $f(X_{1}, \cdots X_{n}) \in\mathbb{Z}[X_{1}, \cdots, X_{n}]$, on fait agir $S_n$ sur $\mathbb{Z}[X_{1},\cdots X_n]$ par:
+Soit $n \in \mathbb{N}^*$, pour $\sigma \in S_n$ dans le [[Groupe symmétrique]] et $f(X_{1}, \cdots X_{n}) \in\mathbb{Z}[X_{1}, \cdots, X_{n}]$, on fait agir $S_n$ sur $\mathbb{Z}[X_{1},\cdots X_n]$ par:
 $$\sigma.P=P(X_{\sigma(1)}, \cdots X_{\sigma(n)})$$
 ### Associativité et distributivité de la permutation
 Pour $\sigma, \tau \in S_n$, on aurait alors
@@ -23,4 +23,6 @@ L'application $\epsilon : (S_{n}, \circ) \to (\mathbb{Z}/2\mathbb{Z}, \times)$ a
 
 ### Preuve
 Considérons la transposition $\tau=(rs)$ avec $1 \leq r < s \leq n$. Calculons $\tau.\Delta$, on a alors:
-$$\tau.\Delta = \prod_{1\leq i < j \leq n}(X_{i}- X_{\tau(j)})$$
+$$\tau.\Delta = \prod_{1\leq i < j \leq n}(X_{\tau(i)}- X_{\tau(j)})=\prod_{1\leq i < j \leq n}\tau.(X_{i}- X_{j})$$
+On a déjà que $\tau.(X_r-X_{s})= -(X_r-X_s)$  
+Si un 
