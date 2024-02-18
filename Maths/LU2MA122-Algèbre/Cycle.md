@@ -70,10 +70,17 @@ Et $\sigma$ est stable sur $F_1$ et son complémentaire:
 Si $x \not \in F_1$ et que $\sigma(x) \in F_1$, on a qu'il existe $r \in \mathbb{N}$ tel que $\sigma^{r}(1)= \sigma(x)$, d'où $\sigma^{r-1}(1)= x$ d'où $x \in F_1$ ceci est absurde.
 
 Comme $\sigma$ est injective, on obtient $\sigma' = \sigma_{|F_{1}^{c}}$ une bjection sur $F_1^c$. Par hypothèse de récurrence on alors que $\sigma'$ décomposable et on a que $\sigma = \sigma_{1}\circ \sigma'$, avec $\sigma'$ un élément de $S_n$ par prolongement proposé dans [[#Morphisme canonique]].
+$$\tag*{$\blacksquare$}$$
 
 ### Proposition
 Cette décomposition est unique à permutations de facteurs près.
 
 ### Preuve
 On pose $\sigma$ en 2 décomposition:
-$\sigma=\sigma_{1} \circ \cdots \circ \sigma_r $
+$\sigma=\sigma_{1} \circ \cdots \circ \sigma_r$
+$\sigma=\sigma'_{1} \circ \cdots \circ \sigma'_s$
+Soit $i \in \text{supp}(\sigma_1)$, alors $\sigma_{1(i)}\not = i$ et il existe $t$ tel que $i \in \text{supp}(\sigma'_t))$.
+
+Or comme les deux sont des cycles, on a $\text{supp}(\sigma_{1})=\set{\sigma^{k(i),}k \in \mathbb{Z}} = \text{supp}(\sigma'_t)$ et $\sigma_1$ = $\sigma'_t$ que l'on peut donc simplifier des deux côté en itérant.
+On trouve alors que $r=s$ et $\sigma_{i}= \sigma'_i$ par simple réordonnancement. D'où l'unicité.
+$$\tag*{$\blacksquare$}$$

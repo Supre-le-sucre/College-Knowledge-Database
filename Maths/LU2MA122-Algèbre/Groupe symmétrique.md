@@ -34,3 +34,20 @@ Il faut remarquer que l'ensemble des éléments de $S_n$ peuvent être vues comm
 Comme il s'agit d'une bijection, on ne compte cette permutation qu'une seule et unique fois.
 Par produit on a bien $card(S_n) = n!$ 
 $$\tag*{$\blacksquare$}$$
+
+## Engendrement de $S_n$
+
+### Théorème
+Le groupe $S_n$ est engendré par les [[Transpositions]]. De plus, il est même engendré par les transpositions $(1i)$ pour $i \in [1,n]$
+
+**Remarque**: La décomposition en produit de transpositions n'est pas commutatif, et il n'existe donc pas d'unicité de la décomposition à permutations de facteurs près.
+
+### Preuve
+En se basant sur [[Cycle#Toute permutation est un produit de permutation|ce théorème]], il suffit de montrer qu'un [[Cycle]] est un produit de transposition.
+
+Ceci se remarque immédiatement:
+$$(a_{1}, \cdots, a_{k})= (a_{1}a_{2})(a_{2}a_{3})\cdots(a_{k-1}a_k)$$
+
+De plus, on observe $(ij)=(1i)(1j)(1i)$
+$$\tag*{$\blacksquare$}$$
+
