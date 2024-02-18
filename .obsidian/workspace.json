@@ -8,91 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b5fce761bee0838",
+            "id": "a93c27bccf1cdaf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN009-DB/SQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f535a2a2210941a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN009-DB/Requêtes complexes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9021d53a19393e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54b7c4c47b5d26ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN003-Algo/Quick sort.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ef659be75d98a37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91898c98e7d0e3af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN009-DB/Jointure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1ca4970329e1c00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md"
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md"
               }
             }
           }
@@ -220,8 +147,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "7ef659be75d98a37",
+  "active": "a93c27bccf1cdaf7",
   "lastOpenFiles": [
+    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
+    "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
+    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
+    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
     "Info/LU2IN003-Algo/Quick sort.md",
     "Info/LU2IN003-Algo/Algorithme de tri.md",
@@ -234,7 +166,6 @@
     "Info/LU2IN009-DB/Autojointure.md",
     "Info/LU2IN009-DB/Requête.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
-    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
@@ -244,11 +175,7 @@
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Variables aléatoires discrètes.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Pr.md",
     "Maths/LU2MA241-Probas/Densité discrète.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Densité discrète.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilité uniforme.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
     "Maths/LU2MA216-Topologie",
