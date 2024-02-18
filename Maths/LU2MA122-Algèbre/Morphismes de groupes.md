@@ -129,4 +129,5 @@ S'il n'existe pas de $n \in \mathbb{N}^*$ tel que $x^n = 1_G$, alors ce morphism
 Car en effet $f^{-1}(1_\mathbb{G}) = \set{1_\mathbb{Z}}$ (cf.[[#Définition de l'image et du noyau]])
 
 Or ceci impliquerait que le groupe $G$ est infini, car $\mathbb{Z}$ est infini. Ceci entre en contradiction avec l'hypothèse que $G$ soit fini.
+$$\tag*{$\blacksquare$}$$
 

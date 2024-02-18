@@ -12,6 +12,7 @@ Elle est aussi par définition associative.
 Et on prouve ensuite l'existence d'un inverse
 Or là encore, cet inverse est trivial.
 Soit $\sigma \in \text{Bij}(E)$, alors $\sigma^{-1}$ est clairement son inverse.
+$$\tag*{$\blacksquare$}$$
 
 ## Définition
 
@@ -32,4 +33,4 @@ Il faut remarquer que l'ensemble des éléments de $S_n$ peuvent être vues comm
 
 Comme il s'agit d'une bijection, on ne compte cette permutation qu'une seule et unique fois.
 Par produit on a bien $card(S_n) = n!$ 
-
+$$\tag*{$\blacksquare$}$$
