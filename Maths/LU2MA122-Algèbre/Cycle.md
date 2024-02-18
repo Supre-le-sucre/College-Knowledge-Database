@@ -41,3 +41,14 @@ $$\Phi(\sigma)_{|F} \circ \Phi(\sigma')_{|F} = \sigma \circ \sigma' = \Phi(\sigm
 Et de même dans l'autre restriction.
 $$\tag*{$\blacksquare$}$$
 ## Toute permutation est un produit de permutation
+### Théorème
+Toute permutation $\sigma \in S_n$ est un produit $\sigma = \sigma_{1}\circ \cdots \circ\sigma_{r}$ de cycles à supports disjoints. Si chaque $\sigma_i$ est de longueur $k_i$ on parle de $k_1 \times \cdots \times k_r$-cycle.
+
+### Preuve
+On se propose ici de raisonner par récurrence forte.
+Soit $\Pi(n): \sigma \in S_{n}$ admet une décomposition $\sigma = \sigma_{1}\circ \cdots \circ \sigma_{r}$ de cycle à support disjoints
+
+Pour $n=1$, on aura $\sigma \in S_1$, dans ce cas $\sigma = \sigma$ comme produit de cyle à support disjoint
+
+Montrons que $\forall k < n, \Pi(k) \Rightarrow \Pi(n)$
+Soit $\sigma \in S_n$.
