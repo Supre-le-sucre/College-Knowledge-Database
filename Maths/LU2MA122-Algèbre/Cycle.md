@@ -76,4 +76,4 @@ Cette décomposition est unique à permutations de facteurs près.
 
 ### Preuve
 On pose $\sigma$ en 2 décomposition:
-$\sigma=\sigma_{1}\circ $
+$\sigma=\sigma_{1} \circ \cdots \circ \sigma_r $
