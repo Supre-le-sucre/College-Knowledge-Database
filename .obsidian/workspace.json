@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Tri fusion.md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Tri fusion.md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Tri fusion.md",
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Tri fusion.md"
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md"
               }
             }
           }
@@ -222,8 +222,8 @@
   },
   "active": "7ef659be75d98a37",
   "lastOpenFiles": [
-    "Info/LU2IN003-Algo/Quick sort.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
+    "Info/LU2IN003-Algo/Quick sort.md",
     "Info/LU2IN003-Algo/Algorithme de tri.md",
     "Info/LU2IN009-DB/Requête imbriquée.md",
     "Info/LU2IN009-DB/Requêtes complexes.md",

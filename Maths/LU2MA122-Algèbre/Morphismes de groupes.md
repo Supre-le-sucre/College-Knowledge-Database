@@ -109,3 +109,24 @@ Comme elle est à la fois surjective et injective, $\phi$ est bijective.
 $(3) \Rightarrow (1)$
 Si $\phi$ est bijective, alors elle est trivialement injective
 $$\tag*{$\blacksquare$}$$
+
+## Lemme sur l'existence d'une puissance neutre
+
+### Lemme
+Soit $G$ est un groupe fini,, alors $\forall x \in G, \exists n \in \mathbb{N}^*$ tel que $x^n =  1_G$
+
+### Démonstration
+Admettons que ce ne soit pas le cas.
+Supposons le [[Morphismes de groupes]] tel que:
+$$ f: (\mathbb{Z}, +) \to (G, \times)$$
+$$f: k \mapsto x^k$$
+Il s'agit bien d'un morphisme de groupe car on a bien
+<u>La stabilité de l'élément neutre:</u>
+$$f(1_\mathbb{Z}) = f(0) = x^0 = 1_G$$
+<u>La stabilité de la </u>[[Loi de composition interne (LCI)|LCI]]:
+$$\forall p,q \in \mathbb{Z}, f(p+q) = x^{p+q} = x^p\times x^q = f(p)\times f(q)$$
+S'il n'existe pas de $n \in \mathbb{N}^*$ tel que $x^n = 1_G$, alors ce morphisme est injectif.
+Car en effet $f^{-1}(1_\mathbb{G}) = \set{1_\mathbb{Z}}$ (cf.[[#Définition de l'image et du noyau]])
+
+Or ceci impliquerait que le groupe $G$ est infini, car $\mathbb{Z}$ est infini. Ceci entre en contradiction avec l'hypothèse que $G$ soit fini.
+
