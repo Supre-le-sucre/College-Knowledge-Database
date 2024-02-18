@@ -32,6 +32,12 @@ $$\Phi : (\text{Bij}(F), \circ) \to (S_{n},\circ)$$
 De plus observons que si $p = card(F)$, alors on a $\text{Bij}(F) \simeq S_p$.
 
 ### Preuve
-Pour $\sigma \in \text{Bij}(F)$, il suffit de poser $\Phi(\sigma)$ tel que $\Phi(\sigma)_{|F} = \sigma$ (dit $\Phi$ restreint à $F$, i.e $\forall \sigma \in F, \Phi(\sigma)=\sigma$) et $\Phi(\sigma)_{|F^c} = Id_{|F^c}$
+Pour $\sigma \in \text{Bij}(F)$, il suffit de poser $\Phi(\sigma)$ tel que $\Phi(\sigma)_{|F} = \sigma$ (dit $\Phi$ restreint à $F$, i.e $\forall \sigma \in F, \Phi(\sigma)=\sigma$) et $\Phi(\sigma)_{|F^c} = Id_{|F}$
+On a alors que $\Phi(\sigma) \in S_n$ car ils se complètent tout deux pour former une bijection sur $[1,n]$
+Et de plus $\Phi$ est injective, car il est différent pour tout $\sigma$ différent
 
+De plus on a que:
+$$\Phi(\sigma)_{|F} \circ \Phi(\sigma')_{|F} = \sigma \circ \sigma' = \Phi(\sigma \circ \sigma')_{|F}$$
+Et de même dans l'autre restriction.
+$$\tag*{$\blacksquare$}$$
  
