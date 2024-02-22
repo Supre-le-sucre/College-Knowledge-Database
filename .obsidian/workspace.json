@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Signature.md",
+                "file": "Maths/LU2MA211-Lebesgue/Mesure.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Signature.md",
+                "file": "Maths/LU2MA211-Lebesgue/Mesure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Signature.md",
+                "file": "Maths/LU2MA211-Lebesgue/Mesure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Signature.md"
+                "file": "Maths/LU2MA211-Lebesgue/Mesure.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "dbf5fcfa45ee4de1",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
+    "Maths/LU2MA211-Lebesgue/Mesure.md",
+    "Maths/LU2MA211-Lebesgue",
+    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
     "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
@@ -187,7 +189,6 @@
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernoulli.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de X.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernouilli.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
@@ -197,7 +198,6 @@
     "Info/LU2IN003-Algo",
     "Info/Untitled.canvas",
     "Info/LU2IN006-Struct",
-    "Info/LU2IN009-DB",
-    "Info"
+    "Info/LU2IN009-DB"
   ]
 }
