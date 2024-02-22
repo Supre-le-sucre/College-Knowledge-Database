@@ -49,7 +49,7 @@ etc.
 ## Tribu trace
 ### Définition et propriété 
 Soit $\Omega$ un ensemble non vide et $\mathcal F$ une tribu de $\Omega$. On a que $A \subset \Omega$
-On note $\mathcal F_{A}= \set{A \cap B, B \in \mathcal F}$ la tribu trace de $\mathcal F$ $A$ (Autrement dit la tribu $\mathcal F$ restreinte à $A$).
+On note $\mathcal F_{A}= \set{A \cap B, B \in \mathcal F}$ la tribu trace de $\mathcal F$ sur $A$ (Autrement dit la tribu $\mathcal F$ restreinte à $A$).
 $\mathcal F_A$ est une tribu de $A$.
 
 ### Preuve
@@ -62,3 +62,5 @@ Ici un élément de $\mathcal F_A$ s'exprime $A \cap B$ d'où les preuves de sta
 
 - $\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $A\setminus(A\cap B) \in \mathcal F_A$ est stable par complémentaire
 - $\forall (B_n) \in \mathcal F^{\mathbb N}$, $\bigcup_{n \in \mathbb N}(A \cap B_{n}) = A \cap (\cup_{n \in \mathbb N} B_n)$ et $\cup_{n \in \mathbb N} B_{n}\in \mathcal F$ donc $\bigcup_{n \in \mathbb N}(A \cap B_{n}) \in \mathcal F_A$ est stable par union dénombrable
+
+
