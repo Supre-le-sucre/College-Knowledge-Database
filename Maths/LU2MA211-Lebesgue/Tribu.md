@@ -71,3 +71,5 @@ Soit $(E, d)$ un espace métrique avec $A \subset E$, on a que $\mathcal B(E)_{A
 ### Preuve
 Comme $\mathcal B(E)$ contient tous les ouverts de $E$, $\mathcal B(E)_A$ contient tous les ouverts de $A$
 On a donc que $\mathcal B(E)_{A}\subseteq \mathcal B(A)$
+
+Considérons maintenant $\mathcal D = \set{B \subset E, A \cap B \in \mathcal B(A)}$, on a que $\mathcal D$ une tribu des parties de $E$ (cf. [[#Preuve]])
