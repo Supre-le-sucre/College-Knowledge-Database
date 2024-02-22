@@ -41,4 +41,5 @@ On appelle la tribu borélienne de $E$, noté $\mathcal B(E)$, la [[#Tribu engen
 On appelle par ailleurs les éléments de cette tribu les boréliens de $E$
 
 ### Exemple
-Les ouverts sont évidemment des boréliens, mais les fermés aussi
+Les ouverts sont évidemment des boréliens, mais les fermés aussi par stabilité complémentaire.
+Les singletons sont aussi boréliens
