@@ -83,3 +83,6 @@ $f$ est mesurable si et seulement si l'ensemble des $f_i: \Omega \to \mathbb{R}$
 
 ### Proposition sur les opérations entre fonctions
 Si $f,g:(\Omega, \mathcal F) \to \mathbb R$ sont mesurables, alors $f + g, fg, f/g$ sont mesurables
+
+### Proposition sur la convergence uniforme
+Si $(f_n)_{n \in \mathbb N}$ est une suite d'applications mesurables de $\Omega$ dans $\mathbb R$, et si $f_n$ converge simplement vers $f$, alors $f$ est mesurable.
