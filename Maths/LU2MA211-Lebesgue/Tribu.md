@@ -47,6 +47,8 @@ etc.
 
 
 ## Tribu trace
-## Définition
+### Définition et propriété 
 Soit $\Omega$ un ensemble non vide et $\mathcal F$ une tribu de $\Omega$. On a que $A \subset \Omega$
 On note $\mathcal F_{A}= \set{A \cap B, B \in \mathcal F}$ la tribu trace de $A$ (Autrement dit la tribu $\mathcal F$ restreinte à $A$).
+
+$\mathcal F_A$ est une tribu 
