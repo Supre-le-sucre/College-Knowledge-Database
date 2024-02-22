@@ -46,4 +46,18 @@ Montrons que cet ensemble est une [[Tribu]]
 
 $\mathcal F_f$ est donc bien une tribu.
 Or $\mathcal C \subset \mathcal F_{f}$ par définition. Et comme $\mathcal F_f$ une tribu, $\mathcal F_{f}$ contient $\sigma(\mathcal C) = \mathcal F'$ par [[Tribu#Tribu engendrée|tribu engendrée]]
+Autrement dit on a bien que $\forall A \in \mathcal F', f^{-1}(A) \in \mathcal F$
+$$\tag*{$\blacksquare$}$$
+## Toute application continue dans les mesurables est mesurable
 
+### Propriété
+Si $\Omega$ et $\Omega'$ sont deux espaces métriques munies de leur [[Tribu#Tribu Borélienne|tribu borélienne]] alors toute application continue $f: \Omega \to \Omega'$ est mesurable
+
+### Preuve
+On utilise la [[#Simplification du critère de mesurabilité|propriété précédente]] avec $\mathcal O$ l'ensemble des ouvert...
+
+On a que $\mathcal B(\Omega') = \sigma(\mathcal{O})$ par [[Tribu#Tribu engendrée par des partitions de $ Omega$|cette propriété]] 
+Comme $f$ est continue, on sait par [[#Similitude avec la définition de continuité topologique|définition de la continuité topologique]] que $f^{-1}(O)$ est un ouvert de $\Omega$, donc que $\forall O \in \mathcal O, f^{-1}(O) \in \sigma(\mathcal O) = \mathcal B(\Omega')$  
+
+Ainsi donc $f$ est mesurable
+$$\tag*{$\blacksquare$}$$
