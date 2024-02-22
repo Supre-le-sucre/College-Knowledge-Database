@@ -56,5 +56,6 @@ $\mathcal F_A$ est une tribu de $A$.
 Souvenons nous que $\mathcal F_A$ est une tribu **DE** $A$
 
 Le complémentaire d'un ensemble $B$ selon $\Omega$ s'exprime $\Omega \setminus B$
-Donc le complémentaire d'un ensemble $B$ selon $A$ s'exprime A \setminus
-$\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $\mathcal F_A$ est stable par complémentaire
+Donc le complémentaire d'un ensemble $B$ selon $A$ s'exprime $A \setminus B$
+
+$\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $A \cap (B^{c})\in \mathcal F_A$ est stable par complémentaire
