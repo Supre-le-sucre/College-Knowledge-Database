@@ -58,5 +58,7 @@ Souvenons nous que $\mathcal F_A$ est une tribu **DE** $A$
 Le complémentaire d'un ensemble $B$ selon $\Omega$ s'exprime $\Omega \setminus B$
 Donc le complémentaire d'un ensemble $B$ selon $A$ s'exprime $A \setminus B$
 
-Ici un élément de $\mathcal F_A$ s'exprime $A \cap B$ d'où ka o 
-$\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $A \cap (B^{c})\in \mathcal F_A$ est stable par complémentaire
+Ici un élément de $\mathcal F_A$ s'exprime $A \cap B$ d'où la preuve de la stabilité par complémentaire:
+
+- $\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $A \cap (B^{c})\in \mathcal F_A$ est stable par complémentaire
+- $\forall (B_n) \in \mathcal F^{\mathbb N}$ 
