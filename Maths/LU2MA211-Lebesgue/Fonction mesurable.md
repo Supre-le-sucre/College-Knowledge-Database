@@ -12,6 +12,12 @@ Remarquons que la mesurabilité d'une fonction ne dépend aucunement de la mesur
 	$\mathbb 1^{-1}(1) = E$ et $\mathbb 1^{-1}(0) = E^c$. 
 	Ainsi donc $\mathbb 1_{E}$ mesurable $\Leftrightarrow$ $E \in \mathcal F$ ($E$ mesurable)
 
+- Les suites numériques
+	 Les suites numériques sont des applications de $\mathbb{N}$ dans $\mathbb R$
+	 Il est naturel de prendre comme tribu de $\mathbb N$, l'ensemble $\mathcal P(\mathbb N)$
+	 Et l'image réciproque d'une telle application sera toujours dans $\mathcal P(\mathbb N)$.
+	 Ainsi donc, toutes les suites numériques sont mesurables à condition d'être d'avoir ces images dans n'importe quel ensemble mesurable
+
 
 ### Similitude avec la définition de continuité topologique
 Une application $f: E \to E'$ entre deux espaces métriques est continue si et seulement si
