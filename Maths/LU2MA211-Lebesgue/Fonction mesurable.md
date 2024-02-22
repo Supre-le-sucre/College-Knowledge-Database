@@ -57,7 +57,11 @@ Si $\Omega$ et $\Omega'$ sont deux espaces métriques munies de leur [[Tribu#Tri
 On utilise la [[#Simplification du critère de mesurabilité|propriété précédente]] avec $\mathcal O$ l'ensemble des ouvert...
 
 On a que $\mathcal B(\Omega') = \sigma(\mathcal{O})$ par [[Tribu#Tribu engendrée par des partitions de $ Omega$|cette propriété]] 
-Comme $f$ est continue, on sait par [[#Similitude avec la définition de continuité topologique|définition de la continuité topologique]] que $f^{-1}(O)$ est un ouvert de $\Omega$, donc que $\forall O \in \mathcal O, f^{-1}(O) \in \sigma(\mathcal O) = \mathcal B(\Omega')$  
+Comme $f$ est continue, on sait par [[#Similitude avec la définition de continuité topologique|définition de la continuité topologique]] que $f^{-1}(O)$ est un ouvert de $\Omega$, donc que $\forall O \in \mathcal O, f^{-1}(O) \in \mathcal B(\Omega)$  
 
 Ainsi donc $f$ est mesurable
 $$\tag*{$\blacksquare$}$$
+### Conséquence: la translation est stable dans les boréliens
+Soit $v \in \mathbb R ^{n}$ et $\tau_{v}:\mathbb R ^{n} \to \mathbb{R}^{n}$ tel que $x \mapsto x-v$ une translation 
+La translation $\tau_v$ est continue et donc par [[#Toute application continue dans les mesurables est mesurable|la propriété précédente]] $$\forall A \subset \mathbb R^{n}, \tau_{v}(A)= A+v \in \mathcal B(\Omega)$$
+Autrement dit, si $A \subset \mathbb R^n$ est un borélien, alors $\forall v \in \mathbb{R}^{n}, A+v$ l'est aussi
