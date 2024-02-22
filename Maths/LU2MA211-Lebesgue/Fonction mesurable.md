@@ -3,9 +3,14 @@ Soit $(\Omega, \mathcal F)$ et $(\Omega', \mathcal F')$ deux espaces mesurables.
 $$\forall A \in \mathcal F', f^{-1}(A) \in \mathcal F$$
 Remarquons que la mesurabilité d'une fonction ne dépend aucunement de la mesure.
 ### Exemple
-Tout application constante de $\Omega$ dans $\mathbb R$ est mesurable
-En effet pour $f = k$ si on considère l'espace mesurable $(\Omega, \mathcal F)$ on a que
-$\forall A \in \mathcal P(\Omega)$, si $k \in A$, alors $f^{-1}(A) = \Omega \in \mathcal F$, sinon $f^{-1}(A) = \emptyset \in \mathcal F$ (cf. [[Maths/LU2MA211-Lebesgue/Tribu#Propriétés issue de la définition|Tribu]])
+- Tout application constante de $\Omega$ dans $\mathbb R$ est mesurable
+	En effet pour $f = k$ si on considère l'espace mesurable $(\Omega, \mathcal F)$ on a que
+	$\forall A \in \mathcal P(\Omega)$, si $k \in A$, alors $f^{-1}(A) = \Omega \in \mathcal F$, sinon $f^{-1}(A) = \emptyset \in \mathcal F$ (cf. [[Maths/LU2MA211-Lebesgue/Tribu#Propriétés issue de la définition|Tribu]])
+
+- ==Les fonctions indicatrices==
+	Soit $(\Omega, \mathcal F)$ un espace mesurable, en prenant $E \subset \Omega$ on a que:
+	$\mathbb 1^{-1}(1) = E$ et $\mathbb 1^{-1}(0) = E^c$. 
+	Ainsi donc $\mathbb 1_{E}$ mesurable $\Leftrightarrow$ $E \in \mathcal F$ ($E$ mesurable)
 
 
 ### Similitude avec la définition de continuité topologique
