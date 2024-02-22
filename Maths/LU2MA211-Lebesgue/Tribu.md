@@ -45,4 +45,6 @@ Les ouverts sont évidemment des boréliens, mais les fermés aussi par stabilit
 Les singletons sont aussi boréliens car c'est un fermé
 etc.
 
-### Familles généra $\mathcal B(\mathbb R)$ 
+### Familles génératrices de $\mathcal B(\mathbb R)$ 
+A des fins de simplifications, on peut aussi observer que $\mathcal B(\mathbb R) = \sigma(I)$ où $I$ est tel que
+- $I = \$
