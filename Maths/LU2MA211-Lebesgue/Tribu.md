@@ -46,3 +46,7 @@ Les singletons sont aussi boréliens car c'est un fermé
 etc.
 
 
+## Tribu trace
+## Définition
+Soit $\Omega$ un ensemble non vide et $\mathcal F$ une tribu de $\Omega$. On a que $A \subset \Omega$
+On note $\mathcal F$
