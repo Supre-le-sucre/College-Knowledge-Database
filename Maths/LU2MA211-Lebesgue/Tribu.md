@@ -39,3 +39,5 @@ Soit $(E, d)$ un espace métrique (donc $d$ une distance). On note $\mathcal O$ 
 On appelle la tribu borélienne de $E$, noté $\mathcal B(E)$, la [[#Tribu engendrée]] par $\sigma(\mathcal O)$
 
 On appelle par ailleurs les éléments de cette tribu les boréliens de $E$
+
+### Exemple
