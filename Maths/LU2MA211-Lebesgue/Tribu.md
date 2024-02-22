@@ -53,4 +53,5 @@ On note $\mathcal F_{A}= \set{A \cap B, B \in \mathcal F}$ la tribu trace de $A$
 $\mathcal F_A$ est une tribu de $A$.
 
 ### Preuve
+Souvenons nous que $\math$
 $\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $\mathcal F_A$ est stable par complémentaire
