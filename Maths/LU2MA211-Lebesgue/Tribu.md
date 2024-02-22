@@ -25,4 +25,4 @@ Par définition d'une tribu $\mathcal{F}$ de $\Omega$, il est aussi possible de 
 
 ## Tribu engendrée
 Soit $\mathcal C \in \mathcal P(\Omega)$. On définit la tribu engendrée par $\mathcal C$, noté $\sigma(\mathcal C)$ la plus petite tribu de $\Omega$ contenant l'ensemble $\mathcal C$.
-On peut remarquer que $\sigma(\mathcal C)$ e
+On peut remarquer que $\sigma(\mathcal C)$ est l'intersection de toutes les tribus de $\mathca$
