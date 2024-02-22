@@ -33,3 +33,4 @@ On peut remarquer que $\sigma(\mathcal C)$ est l'intersection de toutes les trib
 #### Propriété
 Soit $\mathcal C = \set{P_1, \dots, P_n}$ une partition de $\Omega$, alors on a que $\sigma(\mathcal C) = \set{\bigcup_{i \in I} P_{i}| I \subset \set{1, \dots, n}}$.
 
+## Tribu Borélienne
