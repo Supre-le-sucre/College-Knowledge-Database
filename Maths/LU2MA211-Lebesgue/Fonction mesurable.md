@@ -67,5 +67,12 @@ La translation $\tau_v$ est continue et donc par [[#Toute application continue d
 Autrement dit, si $A \subset \mathbb R^n$ est un borélien, alors $\forall v \in \mathbb{R}^{n}, A+v$ l'est aussi
 
 ## Stabilité
+
+### Proposition
 Soient, $(\Omega,\mathcal F)$, $(\Omega',\mathcal F')$ et $(\Omega'',\mathcal F'')$ trois espaces mesurables.
-Soit $f: \Omega \to \Omega'$ et $g: \Omega' \to \Omega''$ sont mesurables. Alors $g \circ f: \Omega \to \Omega''$ est mesurable
+Soit $f: \Omega \to \Omega'$ et $g: \Omega' \to \Omega''$ sont mesurables. Alors $g \circ f: \Omega \to \Omega''$ est mesurable.
+
+### Preuve
+Soit $A \in \mathcal F''$ $(g \circ f)^{-1}(A)=f^{-1}(g^{-1}(A))$ 
+Donc $g^{-1}(A) \in \mathcal F'$ et donc $f^{-1}(g^{-1}(A)) \in \mathcal F$
+$$\tag*{$\blacksquare$}$$
