@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Cycle.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Cycle.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Cycle.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Cycle.md"
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   "active": "a93c27bccf1cdaf7",
   "lastOpenFiles": [
     "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Cycle.md",
+    "Maths/LU2MA122-Algèbre/Signature.md",
+    "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Info/LU2IN003-Algo/Liste.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
@@ -160,14 +163,11 @@
     "Info/LU2IN003-Algo/Algorithme de tri.md",
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
-    "Maths/LU2MA122-Algèbre/Signature.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue",
-    "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
-    "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
     "Info/LU2IN003-Algo/Quick sort.md",
     "Info/LU2IN009-DB/Requête imbriquée.md",
