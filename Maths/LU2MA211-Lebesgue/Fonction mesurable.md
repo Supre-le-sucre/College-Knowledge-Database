@@ -56,7 +56,7 @@ Si $\Omega$ et $\Omega'$ sont deux espaces métriques munies de leur [[Tribu#Tri
 ### Preuve
 On utilise la [[#Simplification du critère de mesurabilité|propriété précédente]] avec $\mathcal O$ l'ensemble des ouvert...
 
-On a que $\mathcal B(\Omega') = \sigma(\mathcal{O})$ par [[Tribu#Tribu engendrée par des partitions de $ Omega$|cette propriété]] 
+On a que $\mathcal B(\Omega') = \sigma(\mathcal{O})$ par [[Tribu#Tribu Borélienne|définition de la tribu borélienne]]
 Comme $f$ est continue, on sait par [[#Similitude avec la définition de continuité topologique|définition de la continuité topologique]] que $f^{-1}(O)$ est un ouvert de $\Omega$, donc que $\forall O \in \mathcal O, f^{-1}(O) \in \mathcal B(\Omega)$  
 
 Ainsi donc $f$ est mesurable
