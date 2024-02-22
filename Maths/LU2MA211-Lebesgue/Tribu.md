@@ -30,4 +30,5 @@ Soit $\mathcal C \in \mathcal P(\Omega)$. On définit la tribu engendrée par $\
 On peut remarquer que $\sigma(\mathcal C)$ est l'intersection de toutes les tribus de $\mathcal P(\Omega)$ contenant $\mathcal C$
 
 ### Tribu engendrée par des partitions de $\Omega$
-####
+#### Propriété
+Soit $\mathcal C = \set{P_1, \dots, P_n}$ une partition de $\Omega$ 
