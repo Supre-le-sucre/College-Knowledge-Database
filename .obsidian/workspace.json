@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Mesure.md",
+                "file": "Maths/LU2MA122-Algèbre/Signature.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "578d44a831279a15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Mesure.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Mesure.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Mesure.md"
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md"
               }
             }
           }
@@ -160,8 +172,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "dbf5fcfa45ee4de1",
+  "active": "578d44a831279a15",
   "lastOpenFiles": [
+    "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue",
@@ -188,7 +201,6 @@
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernoulli.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de X.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
