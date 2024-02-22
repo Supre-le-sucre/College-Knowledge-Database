@@ -23,3 +23,4 @@ Par définition d'une tribu $\mathcal{F}$ de $\Omega$, il est aussi possible de 
 	Ceci est une conséquence de la stabilité par intersection dénombrable et du complémentaire:
 	$B \setminus A = (B \cap A^c)$ or $A^{c}\in \mathcal F$ par stabilité du complémentaire
 
+## Tribu engendrée
