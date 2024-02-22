@@ -53,3 +53,4 @@ On note $\mathcal F_{A}= \set{A \cap B, B \in \mathcal F}$ la tribu trace de $A$
 $\mathcal F_A$ est une tribu de $A$.
 
 ### Preuve
+$\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}$
