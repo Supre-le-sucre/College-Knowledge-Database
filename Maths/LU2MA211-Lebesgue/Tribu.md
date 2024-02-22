@@ -44,3 +44,5 @@ On appelle par ailleurs les éléments de cette tribu les boréliens de $E$
 Les ouverts sont évidemment des boréliens, mais les fermés aussi par stabilité complémentaire.
 Les singletons sont aussi boréliens car c'est un fermé
 etc.
+
+### Familles généra $\mathcal B(\mathbb R)$ 
