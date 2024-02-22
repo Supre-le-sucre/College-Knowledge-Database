@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
+                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "45e12f0592c47e14",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
+                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
+                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Tribu.md"
+                "file": "Info/LU2IN003-Algo/Algorithme de tri.md"
               }
             }
           }
@@ -174,8 +173,9 @@
   },
   "active": "578d44a831279a15",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
+    "Info/LU2IN003-Algo/Algorithme.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
+    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue",
@@ -200,7 +200,6 @@
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernoulli.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
