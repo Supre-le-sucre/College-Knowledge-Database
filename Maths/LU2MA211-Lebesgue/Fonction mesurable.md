@@ -4,4 +4,4 @@ $$\forall A \in \mathcal F', f^{-1}(A) \in \mathcal F$$
 
 ### Similitude avec la définition de continuité topologique
 Une application $f: E \to E'$ entre deux espace métriques est continue si et seulement si
-$$\forall O \subset$$
+$$\forall \mathcal O \subset E' \text{ ouvert}, f^{-1}(\mathcal O) \subset E \text{ ouvert}$$
