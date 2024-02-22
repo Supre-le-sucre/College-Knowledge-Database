@@ -41,4 +41,9 @@ Montrons que cet ensemble est une [[Tribu]]
 
 - Stabilité par union dénombrable
 	Soit $A_{i}\in \mathcal F_f^{\mathbb N}$, On a alors que $\bigcup_{i \in \mathbb N}f^{-1}(A_{i})\in \mathcal F$ par stabilité d'union dénombrable de $\mathcal F$ 
-	Or $\bigcup_{i \in \mathbb N}f^{-1}(A_{i})= \set{x \in \Omega \; | \; \exists i, f(x) \in A_i}$ 
+	Or $\bigcup_{i \in \mathbb N}f^{-1}(A_{i})= \set{x \in \Omega \; | \; \exists i, f(x) \in A_{i}}= f^{-1}(\bigcup_{i \in \mathbb N} A_i)$
+	Donc  $\bigcup_{i \in \mathbb N} A_{i}\in \mathcal F_f$ stable par union dénombrable
+
+$\mathcal F_f$ est donc bien une tribu.
+Or $\mathcal C \subset \mathcal F_{f}$ par définition. Et comme $\mathcal F_f$ une tribu, $\mathcal F_{f}$ contient $\sigma(\mathcal C) = \mathcal F'$ par [[Tribu#Tribu engendrée|tribu engendrée]]
+
