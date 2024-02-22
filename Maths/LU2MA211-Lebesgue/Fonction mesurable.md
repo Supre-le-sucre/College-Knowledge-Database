@@ -23,3 +23,22 @@ Remarquons que la mesurabilité d'une fonction ne dépend aucunement de la mesur
 Une application $f: E \to E'$ entre deux espaces métriques est continue si et seulement si
 $$\forall \mathcal O \subset E' \text{ ouvert}, f^{-1}(\mathcal O) \subset E \text{ ouvert}$$
 C'est en réalité une simple généralisation de la propriété de continuité sur $\mathbb R$ 
+
+## Simplification du critère de mesurabilité
+### Proposition
+Soient $(\Omega, \mathcal F)$ et $(\Omega', \mathcal F')$ deux espaces mesurables, et soit $f: \Omega \to \Omega'$.
+S'il existe $\mathcal C \subset \mathcal P(\Omega')$ telle que $\sigma(\mathcal C) = \mathcal F'$ ([[Tribu#Tribu engendrée|Tribu engendrée]]) avec
+$$\forall C \in \mathcal C, f^{-1}(C) \in \mathcal F$$ alors $f$ est mesurable
+
+### Preuve
+On pose l'ensemble $\mathcal F_{f}= \set{A \subset \Omega' \; | \; f^{-1}(A) \in \mathcal F}$
+Montrons que cet ensemble est une [[Tribu]] 
+
+- Stabilité par complémentaire
+	Soit $A \in \mathcal F_f$ donc $f^{-1}(A) \in \mathcal F$. Par stabilité du complémentaire de $\mathcal F$ on a que $(f^{-1}(A))^c \in \mathcal F$
+	Or $f^{-1}(A) = \set{x \in \Omega \; | \; f(x) \in A}$ d'où $(f^{-1}(A))^{c} = \set{x \in \Omega \; | \; f(x) \not \in A}=f^{-1}(A^c)$ 
+	Donc $f^{-1}(A^{c}) \in \mathcal F$ d'où $A^{c}\in \mathcal F_f$ stable par complémentaire
+
+- Stabilité par union dénombrable
+	Soit $A_{i}\in \mathcal F_f^{\mathbb N}$, On a alors que $\bigcup_{i \in \mathbb N}f^{-1}(A_{i})\in \mathcal F$ par stabilité d'union dénombrable de $\mathcal F$ 
+	Or $\bigcup_{i \in \mathbb N}f^{-1}(A_{i})= \set{x \in \Omega \; | \; \exists i, f(x) \in A_i}$ 
