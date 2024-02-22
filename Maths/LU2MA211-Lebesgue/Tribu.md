@@ -36,4 +36,6 @@ Soit $\mathcal C = \set{P_1, \dots, P_n}$ une partition de $\Omega$, alors on a 
 ## Tribu Borélienne
 ### Définition
 Soit $(E, d)$ un espace métrique (donc $d$ une distance). On note $\mathcal O$ l'ensemble des ouverts de $E$
-On appelle la tribu borélienne de $E$, noté $\mathcal B(E)$, la tribu 
+On appelle la tribu borélienne de $E$, noté $\mathcal B(E)$, la [[#Tribu engendrée]] par $\sigma(\mathcal O)$
+
+On appelle par ailleurs les éléments de cette tribu les boréliens de $E$
