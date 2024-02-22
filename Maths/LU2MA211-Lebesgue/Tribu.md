@@ -63,4 +63,7 @@ Ici un élément de $\mathcal F_A$ s'exprime $A \cap B$ d'où les preuves de sta
 - $\forall B \in \mathcal F, A\setminus(A\cap B) = A \cap (B^c)$ or $B^{c}\in \mathcal F$ donc $A\setminus(A\cap B) \in \mathcal F_A$ est stable par complémentaire
 - $\forall (B_n) \in \mathcal F^{\mathbb N}$, $\bigcup_{n \in \mathbb N}(A \cap B_{n}) = A \cap (\cup_{n \in \mathbb N} B_n)$ et $\cup_{n \in \mathbb N} B_{n}\in \mathcal F$ donc $\bigcup_{n \in \mathbb N}(A \cap B_{n}) \in \mathcal F_A$ est stable par union dénombrable
 
+## Trace des boréliens
+Soit $(E, d)$ un espace métrique avec $A \subset E$, on a que $\mathcal B(E)_{A}= \mathcal B(A)$
 
+##
