@@ -1,5 +1,5 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": false
 }
