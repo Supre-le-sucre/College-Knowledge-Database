@@ -42,4 +42,5 @@ On appelle par ailleurs les éléments de cette tribu les boréliens de $E$
 
 ### Exemple
 Les ouverts sont évidemment des boréliens, mais les fermés aussi par stabilité complémentaire.
-Les singletons sont aussi boréliens
+Les singletons sont aussi boréliens car c'est un fermé
+etc.
