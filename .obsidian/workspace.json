@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md"
+                "file": "Maths/LU2MA122-Algèbre/Groupe.md"
               }
             }
           }
@@ -148,22 +148,23 @@
   },
   "active": "9c7deced8c9b994f",
   "lastOpenFiles": [
+    "Maths/LU2MA122-Algèbre/Cycle.md",
+    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
+    "Maths/LU2MA122-Algèbre/Signature.md",
+    "Maths/LU2MA122-Algèbre/Monoïde.md",
+    "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
-    "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
     "Maths/LU2MA122-Algèbre/Groupe.md",
-    "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
-    "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernoulli.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
-    "Maths/LU2MA122-Algèbre/Signature.md",
     "Info/LU2IN003-Algo/Contexte d'une fonction.md",
     "Info/LU2IN003-Algo/Liste.md",
     "Maths/LU2MA216-Topologie/Normes.md",
@@ -174,7 +175,6 @@
     "Info/LU2IN003-Algo/Ordres de grandeurs.md",
     "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Maths/LU2MA211-Lebesgue",
-    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
