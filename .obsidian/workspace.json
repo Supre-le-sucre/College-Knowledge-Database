@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a93c27bccf1cdaf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9c7deced8c9b994f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md"
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md"
               }
             }
           }
@@ -159,13 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c7deced8c9b994f",
+  "active": "66f29628d5c4b9ed",
   "lastOpenFiles": [
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
+    "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
-    "Maths/LU2MA211-Lebesgue/Tribu.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernoulli.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
     "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
@@ -185,10 +176,6 @@
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
-    "Info/LU2IN003-Algo/Quick sort.md",
-    "Info/LU2IN009-DB/Requête imbriquée.md",
-    "Info/LU2IN009-DB/Requêtes complexes.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",

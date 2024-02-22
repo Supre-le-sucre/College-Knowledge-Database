@@ -74,4 +74,3 @@ On a donc que $\mathcal B(E)_{A}\subseteq \mathcal B(A)$
 
 Considérons maintenant $\mathcal D = \set{B \subset E, A \cap B \in \mathcal B(A)}$, on a que $\mathcal D$ une tribu des parties de $E$ (cf. [[#Preuve]]) et $\mathcal D$ contient les ouverts de $E$ et donc $\mathcal D \subseteq \mathcal B(E)$, d'où $\mathcal D_{A}\subseteq \mathcal B(E)_A$ et $\mathcal D_{A}= \mathcal B(A)$
 $$\tag*{$\blacksquare$}$$
-
