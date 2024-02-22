@@ -66,13 +66,20 @@ Soit $v \in \mathbb R ^{n}$ et $\tau_{v}:\mathbb R ^{n} \to \mathbb{R}^{n}$ tel 
 La translation $\tau_v$ est continue et donc par [[#Toute application continue dans les mesurables est mesurable|la propriété précédente]] $$\forall A \subset \mathbb R^{n}, \tau_{v}(A)= A+v \in \mathcal B(\Omega)$$
 Autrement dit, si $A \subset \mathbb R^n$ est un borélien, alors $\forall v \in \mathbb{R}^{n}, A+v$ l'est aussi
 
-## Stabilité
+## Stabilité universelle des fonctions mesurables
 
-### Proposition
+### Proposition de la composition
 Soient, $(\Omega,\mathcal F)$, $(\Omega',\mathcal F')$ et $(\Omega'',\mathcal F'')$ trois espaces mesurables.
 Soit $f: \Omega \to \Omega'$ et $g: \Omega' \to \Omega''$ sont mesurables. Alors $g \circ f: \Omega \to \Omega''$ est mesurable.
 
-### Preuve
+#### Preuve
 Soit $A \in \mathcal F''$ $(g \circ f)^{-1}(A)=f^{-1}(g^{-1}(A))$ 
 Donc $g^{-1}(A) \in \mathcal F'$ et donc $f^{-1}(g^{-1}(A)) \in \mathcal F$
 $$\tag*{$\blacksquare$}$$
+### Proposition des fonctions composantes
+Soit $f: \Omega \to \mathbb{R}^{n}$ tel que $x \mapsto (f_{1}(x)\dots, f_n(x))$
+$f$ est mesurable si et seulement si l'ensemble des $f_i: \Omega \to \mathbb{R}$ le sont
+
+
+### Proposition sur les opérations entre fonctions
+Si $f,g:(\Omega, \mathcal F) \to \mathbb R$ sont mesurables, alors $f + g, fg, f/g$ sont mesurables
