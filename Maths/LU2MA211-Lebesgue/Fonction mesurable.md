@@ -68,4 +68,4 @@ Autrement dit, si $A \subset \mathbb R^n$ est un borélien, alors $\forall v \in
 
 ## Stabilité
 Soient, $(\Omega,\mathcal F)$, $(\Omega',\mathcal F')$ et $(\Omega'',\mathcal F'')$ trois espaces mesurables.
-Soit $f: \Omega \to \Omega'$ et $g: \Omega' \to \Omega''$ sont mesurables
+Soit $f: \Omega \to \Omega'$ et $g: \Omega' \to \Omega''$ sont mesurables. Alors $g \circ f: \Omega \to \Omega''$ est mesurable
