@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md"
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "9c7deced8c9b994f",
   "lastOpenFiles": [
-    "Maths/LU2MA211-Lebesgue/Mesure.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
     "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+    "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Cycle.md",
@@ -187,7 +189,6 @@
     "Info/LU2IN009-DB/Requête imbriquée.md",
     "Info/LU2IN009-DB/Requêtes complexes.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
-    "Info/LU2IN009-DB/Système de gestion de bases de données.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
