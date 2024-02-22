@@ -31,4 +31,4 @@ On peut remarquer que $\sigma(\mathcal C)$ est l'intersection de toutes les trib
 
 ### Tribu engendrée par des partitions de $\Omega$
 #### Propriété
-Soit $\mathcal C = \set{P_1, \dots, P_n}$ une partition de $\Omega$ 
+Soit $\mathcal C = \set{P_1, \dots, P_n}$ une partition de $\Omega$, on a $\sigma(\mathcal C) = \set{\bigcup_{i \in I} P_{i}| I \subset \set{1, \dots, n}}$
