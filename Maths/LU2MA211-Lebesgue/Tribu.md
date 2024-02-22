@@ -24,4 +24,5 @@ Par définition d'une tribu $\mathcal{F}$ de $\Omega$, il est aussi possible de 
 	$B \setminus A = (B \cap A^c)$ or $A^{c}\in \mathcal F$ par stabilité du complémentaire
 
 ## Tribu engendrée
-Soit $\mathcal C \in \mathcal P(\Omega)$. On définit la 
+Soit $\mathcal C \in \mathcal P(\Omega)$. On définit la tribu engendrée par $\mathcal C$, noté $\sigma(\mathcal C)$ la plus petite tribu de $\Omega$ contenant l'ensemble $\mathcal C$.
+On peut remarquer que $\sigma(\mathcal C)$ e
