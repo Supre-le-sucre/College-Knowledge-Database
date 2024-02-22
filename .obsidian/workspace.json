@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbf5fcfa45ee4de1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Signature.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "578d44a831279a15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme de tri.md",
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Algorithme de tri.md"
+                "file": "Maths/LU2MA211-Lebesgue/Tribu.md"
               }
             }
           }
@@ -171,12 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "578d44a831279a15",
+  "active": "a93c27bccf1cdaf7",
   "lastOpenFiles": [
-    "Info/LU2IN003-Algo/Algorithme.md",
-    "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
+    "Info/LU2IN003-Algo/Algorithme.md",
+    "Info/LU2IN003-Algo/Algorithme de tri.md",
+    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
+    "Info/LU2IN003-Algo/Liste.md",
+    "Info/LU2IN003-Algo/Types de raisonnement.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
+    "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue",
     "Maths/LU2MA122-Algèbre/Cycle.md",
@@ -187,7 +166,6 @@
     "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
     "Info/LU2IN003-Algo/Quick sort.md",
-    "Info/LU2IN003-Algo/Algorithme de tri.md",
     "Info/LU2IN009-DB/Requête imbriquée.md",
     "Info/LU2IN009-DB/Requêtes complexes.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
@@ -197,9 +175,6 @@
     "Info/LU2IN009-DB/Autojointure.md",
     "Info/LU2IN009-DB/Requête.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
