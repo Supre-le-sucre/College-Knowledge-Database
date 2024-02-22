@@ -65,3 +65,7 @@ $$\tag*{$\blacksquare$}$$
 Soit $v \in \mathbb R ^{n}$ et $\tau_{v}:\mathbb R ^{n} \to \mathbb{R}^{n}$ tel que $x \mapsto x-v$ une translation 
 La translation $\tau_v$ est continue et donc par [[#Toute application continue dans les mesurables est mesurable|la propriété précédente]] $$\forall A \subset \mathbb R^{n}, \tau_{v}(A)= A+v \in \mathcal B(\Omega)$$
 Autrement dit, si $A \subset \mathbb R^n$ est un borélien, alors $\forall v \in \mathbb{R}^{n}, A+v$ l'est aussi
+
+## Stabilité
+Soient, $(\Omega,\mathcal F)$, $(\Omega',\mathcal F')$ et $(\Omega'',\mathcal F'')$ trois espaces mesurables.
+Soit $f: \Omega \to \Omega'$ et $g: \Omega' \to \Omega''$ sont mesurables
