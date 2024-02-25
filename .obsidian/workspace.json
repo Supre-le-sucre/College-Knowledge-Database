@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f9b552a8277cfd7b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c7deced8c9b994f",
+  "active": "f9b552a8277cfd7b",
   "lastOpenFiles": [
     "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
