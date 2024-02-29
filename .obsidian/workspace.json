@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA122-Algèbre/Cycle.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1ce7d42cc07666f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA122-Algèbre/Cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+                "file": "Maths/LU2MA122-Algèbre/Cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md"
+                "file": "Maths/LU2MA122-Algèbre/Cycle.md"
               }
             }
           }
@@ -150,13 +162,13 @@
   "lastOpenFiles": [
     "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Cycle.md",
+    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
-    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
     "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
