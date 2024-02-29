@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe.md",
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe.md"
+                "file": "Maths/LU2MA211-Lebesgue/Fonction mesurable.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "9c7deced8c9b994f",
   "lastOpenFiles": [
+    "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
-    "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Sous-groupe.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
