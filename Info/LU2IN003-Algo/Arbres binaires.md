@@ -75,5 +75,5 @@ $$\tag*{$\blacksquare$}$$
 Pour tout arbre de taille $n$ et de hauteur $h$ on a: $h \leq n \leq 2^h-1$
 
 ### Corollaire
-Pour tout arbre de taille $n$ et de hauteur $h$ on a: $log_{2(n+1)}\leq h \leq n$
+Pour tout arbre de taille $n$ et de hauteur $h$ on a: $log_2(n+1)\leq h \leq n$
 
