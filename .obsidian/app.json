@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "vimMode": true
 }
