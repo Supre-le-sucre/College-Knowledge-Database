@@ -77,3 +77,13 @@ Pour tout arbre de taille $n$ et de hauteur $h$ on a: $h \leq n \leq 2^h-1$
 ### Corollaire
 Pour tout arbre de taille $n$ et de hauteur $h$ on a: $log_2(n+1)\leq h \leq n$
 
+## Parcours d'arbre
+
+### Préfixe
+Il consiste à visiter la racine puis parcourir le sous arbre gauche puis droit
+
+### Infixe
+Il consiste à visiter d'abord l'arbre gauche, puis la racine et enfin l'arbre gauche
+
+## Suffixe
+Il consiste à visiter le fils gauche, puis le fils droit, puis la racine
