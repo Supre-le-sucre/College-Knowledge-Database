@@ -51,4 +51,29 @@ La hauteur d'un arbre est donné par le nombre de branche qu'il contient. On not
 Pour un arbre $T$, de taille $n$, la complexité des fonctions `n(T)` et `h(T)` est de $\Theta(n)$
 
 #### Preuve
-Par induction structurelle sur $T \in AB$, $P(T):$ "$| \mathcal I(T) | < |\mathcal F(T) |$"
+Soit la fonction suivante:
+```python
+def ABTaille(T):
+	if estABvide(T):
+		return 0
+	else:
+		return 1 + ABTaille(T.gauche) + ABTaille(T.droit)
+```
+
+Montrons que sa complexité est de $\Theta(n)$ en posant $c(T)$ le nombre d'addition effectuées par `ABTaille(T)`
+
+Par induction sur $T \in AB$, on prends $P(T):$ "$c(T)$ = 2`ABTaille(T)`"
+
+Initialisation: `ABTaille(ABvide()) = 0` pas d'addition à faire, donc $c(T) = 0$ et on a bien $P(0)$
+
+Hérédité: Soit $G, D \in AB$ vérifiant $P(G)$ et $P(D)$
+$c(T) = c(G) + c(D) + 2$
+$c(T) =$ 2`ABTaille(G)` + 2`ABTaille(D)` + 2 = 2(`ABTaille(G)` + `ABTaille(D)` + 1) = 2`ABTaille(T)`
+$$\tag*{$\blacksquare$}$$
+## Relations entre la hauteur et la taille d'un arbre
+### Théorème
+Pour tout arbre de taille $n$ et de hauteur $h$ on a: $h \leq n \leq 2^h-1$
+
+### Corollaire
+Pour tout arbre de taille $n$ et de hauteur $h$ on a: $log_{2(n+1)}\leq h \leq n$
+
