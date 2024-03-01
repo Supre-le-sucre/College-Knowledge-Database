@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9c7deced8c9b994f",
+            "id": "669150ce570f9db4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1ce7d42cc07666f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
+                "file": "Info/LU2IN003-Algo/Arbres binaires.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
+                "file": "Info/LU2IN003-Algo/Arbres binaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
+                "file": "Info/LU2IN003-Algo/Arbres binaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Groupe symmétrique.md"
+                "file": "Info/LU2IN003-Algo/Arbres binaires.md"
               }
             }
           }
@@ -155,39 +143,39 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "9c7deced8c9b994f",
+  "active": "669150ce570f9db4",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA211-Lebesgue/Tribu.md",
+    "Maths/LU2MA122-Algèbre/Signature.md",
+    "Info/LU2IN003-Algo/Arbres binaires.md",
+    "Maths/LU2MA211-Lebesgue/Mesure.md",
+    "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
+    "Maths/LU2MA211-Lebesgue",
+    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
     "Maths/LU2MA122-Algèbre/Cycle.md",
     "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
-    "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
-    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
-    "Maths/LU2MA122-Algèbre/Signature.md",
-    "Maths/LU2MA122-Algèbre/Monoïde.md",
-    "Maths/LU2MA211-Lebesgue/Mesure.md",
-    "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
-    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Bernoulli.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Tribu.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
-    "Info/LU2IN003-Algo/Contexte d'une fonction.md",
-    "Info/LU2IN003-Algo/Liste.md",
-    "Maths/LU2MA216-Topologie/Normes.md",
-    "Maths/LU2MA216-Topologie/Inégalité triangulaire.md",
-    "ani déteste les trans.png",
-    "Info/LU2IN003-Algo/Algorithme.md",
-    "Info/LU2IN003-Algo/Algorithme de tri.md",
-    "Info/LU2IN003-Algo/Ordres de grandeurs.md",
-    "Info/LU2IN003-Algo/Types de raisonnement.md",
-    "Maths/LU2MA211-Lebesgue",
+    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
+    "Maths/LU2MA122-Algèbre/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
+    "Info/LU2IN003-Algo/Quick sort.md",
+    "Info/LU2IN003-Algo/Algorithme de tri.md",
+    "Info/LU2IN009-DB/Requête imbriquée.md",
+    "Info/LU2IN009-DB/Requêtes complexes.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
+    "Info/LU2IN009-DB/Système de gestion de bases de données.md",
+    "Info/LU2IN009-DB/SQL.md",
+    "Info/LU2IN009-DB/Jointure.md",
+    "Info/LU2IN009-DB/Autojointure.md",
+    "Info/LU2IN009-DB/Requête.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
