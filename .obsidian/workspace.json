@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/LU2IN003-Algo/Arbres binaires.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "607115f047786123",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/LU2IN003-Algo/Arbres binaires.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/LU2IN003-Algo/Arbres binaires.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/LU2IN003-Algo/Arbres binaires.md"
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md"
               }
             }
           }
@@ -158,11 +147,23 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "607115f047786123",
+  "active": "669150ce570f9db4",
   "lastOpenFiles": [
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de X.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Variables aléatoires discrètes.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilité uniforme.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Densité discrète.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Différence symétrique.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Théorie des ensembles.md",
+    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Fonction indicatrice d'un ensemble.md",
+    "Info/LU2IN003-Algo/Arbres binaires.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
     "Maths/LU2MA122-Algèbre/Signature.md",
-    "Info/LU2IN003-Algo/Arbres binaires.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
     "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
     "Maths/LU2MA211-Lebesgue",
@@ -175,18 +176,6 @@
     "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
     "Info/LU2IN003-Algo/Quick sort.md",
-    "Info/LU2IN003-Algo/Algorithme de tri.md",
-    "Info/LU2IN009-DB/Requête imbriquée.md",
-    "Info/LU2IN009-DB/Requêtes complexes.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Espérance.md",
-    "Info/LU2IN009-DB/Système de gestion de bases de données.md",
-    "Info/LU2IN009-DB/SQL.md",
-    "Info/LU2IN009-DB/Jointure.md",
-    "Info/LU2IN009-DB/Autojointure.md",
-    "Info/LU2IN009-DB/Requête.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
-    "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
