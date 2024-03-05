@@ -79,6 +79,7 @@ Pour tout arbre de taille $n$ et de hauteur $h$ on a: $log_2(n+1)\leq h \leq n$
 
 ## Parcours d'arbre
 
+La complexité de tous les parcours ci-dessous est en $\Theta(n)$ si l'on considère la structure retournée comme une liste double chaînée.
 ### Préfixe
 Il consiste à visiter la racine puis parcourir le sous arbre gauche puis droit
 
