@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "45e12f0592c47e14",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md"
+                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md"
               }
             }
           }
@@ -149,13 +150,14 @@
   },
   "active": "669150ce570f9db4",
   "lastOpenFiles": [
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de X.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Variables aléatoires discrètes.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilité uniforme.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi géométrique.md",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de X.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Densité discrète.md",
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Différence symétrique.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Dénombrement.md",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Famille de sous-ensemble.md",
@@ -175,7 +177,6 @@
     "Maths/LU2MA122-Algèbre/Groupe.md",
     "Maths/LU2MA122-Algèbre/Monoïde.md",
     "Info/LU2IN003-Algo/Tri fusion.md",
-    "Info/LU2IN003-Algo/Quick sort.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
