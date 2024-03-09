@@ -57,4 +57,4 @@ Si l'on montre qu'il existe un unique $det(u)$ tel que $f_0 \circ u = det(u)f_0$
 
 Or $f_0$ est une forme $n$-linéaire, tout comme $f_0 \circ u$. Elles sont donc différentes à un coefficient près. Ce coefficient est bien $det(u)$
 
-## Propriété du déterminiant sur la composition
+## Propriété du déterminant sur la composition
