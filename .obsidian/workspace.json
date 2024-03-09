@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Anneaux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7f99bb4a80f2c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ef64cf257e12322",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c734fbc8aa523d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Adjoint d'un endomorphisme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0464797882c1679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df53690b90ee52ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -69,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "45e12f0592c47e14",
@@ -86,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md"
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md"
               }
             }
           }
@@ -148,10 +208,21 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "669150ce570f9db4",
+  "active": "df53690b90ee52ee",
   "lastOpenFiles": [
-    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Adjoint d'un endomorphisme.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Espaces vectoriels.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Anneaux.md",
+    "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Monoïde.md",
+    "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Groupe.md",
+    "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Cycle.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
+    "Maths/LU2MA122-Algèbre/Déterminants",
+    "Maths/LU2MA122-Algèbre/Groupe Symmétrique",
+    "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Continuité par le bas et par le haut.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Variables aléatoires discrètes.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilité uniforme.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Espaces probabilisés.md",
@@ -165,18 +236,9 @@
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles/Fonction indicatrice d'un ensemble.md",
     "Info/LU2IN003-Algo/Arbres binaires.md",
     "Maths/LU2MA211-Lebesgue/Tribu.md",
-    "Maths/LU2MA122-Algèbre/Signature.md",
+    "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Signature.md",
     "Maths/LU2MA211-Lebesgue/Mesure.md",
-    "Maths/LU2MA211-Lebesgue/Fonction mesurable.md",
     "Maths/LU2MA211-Lebesgue",
-    "Maths/LU2MA122-Algèbre/Groupe symmétrique.md",
-    "Maths/LU2MA122-Algèbre/Cycle.md",
-    "Maths/LU2MA122-Algèbre/Morphismes de groupes.md",
-    "Maths/LU2MA122-Algèbre/Loi de composition interne (LCI).md",
-    "Maths/LU2MA122-Algèbre/Sous-groupe.md",
-    "Maths/LU2MA122-Algèbre/Groupe.md",
-    "Maths/LU2MA122-Algèbre/Monoïde.md",
-    "Info/LU2IN003-Algo/Tri fusion.md",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés",
     "Maths/LU2MA241-Probas/Chapitre 1 - Ensembles",
@@ -184,8 +246,6 @@
     "Maths/LU2MA241-Probas",
     "Maths/LU2MA122-Algèbre",
     "Info/LU2IN003-Algo",
-    "Info/Untitled.canvas",
-    "Info/LU2IN006-Struct",
-    "Info/LU2IN009-DB"
+    "Info/Untitled.canvas"
   ]
 }
