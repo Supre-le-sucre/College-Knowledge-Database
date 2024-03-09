@@ -95,3 +95,4 @@ or puisqu'aucun élément $(x, b_2, \dots, b_n)$ n'est nulle et qu'elle détermi
 On a alors $det(u) = 0$, mais alors $det(u) \not \in \mathbb K^\times$
 
 ## Proposition
+Pour un $\mathbb K$-[[Espaces vectoriels]] $E$ de dimension $n$, si $B = (b_i)_{1 \leq i \leq n}, u \in \mathcal L(E)$, on note$Mat_B(u) = (u_{})$
