@@ -89,4 +89,4 @@ On prends alors $u$ non bijectif.
 
 Si $u$ est injectif ... ?
 Si $u$ n'est pas injectif
-Posons $x \in Ker(u)$ non-nul, alors on le complète en une base $(x, b_2, \dots, b_n)$ de $E$
+Posons $x \in Ker(u)$ non-nul, alors on le complète en une base $(x, b_2, \dots, b_n)$ de $E$, de telle sorte que si $f$ est une forme $n$-linéaire
