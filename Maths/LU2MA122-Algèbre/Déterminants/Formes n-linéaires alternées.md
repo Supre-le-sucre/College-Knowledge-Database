@@ -109,5 +109,7 @@ Remarquons donc que $det(u)$ ne dépend aucunement de la base choisie
 ### Preuve
 Soit $(b_1, \dots, b_n)$ une base de $E$, on calcule alors $f(u(b_1), \dots, u(b_n))$ pour alors trouver
 $$f(u(b_1), \dots, u(b_n)) = f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right)$$
-On peut utiliser le caractère linéaire de $f$ pour en sortir les coefficients $u_{ij}$ 
-$$f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right) = \ $$
+On peut utiliser le caractère linéaire de $f$ pour en sortir les coefficients $u_{ij}$. Pour le premier paramètre on obtient...
+$$f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right) = u_{11}f(b_1, \dots) +u_{21}f(b_2, \dots) + \dots = \sum_{j=1}^nu_{j1}f\left(b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right)$$
+Puis par le même raisonnement, on obtient par le second:
+$$\sum_{j=1}^nu_{j1}\left(\sum_{k=1}^n u_{k2}f\left(b_j, b_k, \dots, \sum_{j=1}^nu_{jn}b_j \right)\right)$$
