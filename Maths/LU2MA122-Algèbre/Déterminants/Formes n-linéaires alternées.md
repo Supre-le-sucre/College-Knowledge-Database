@@ -60,4 +60,7 @@ Or $f_0$ est une forme $n$-linéaire, tout comme $f_0 \circ u$. Elles sont donc 
 ## Propriété du déterminant sur la composition
 Soit $E$ un $\mathbb K$-[[Espaces vectoriels]] de dimension $n$, $u,v \in \mathcal L(E)$, alors on a l'égalité suivante sur la composition: #!
 
-$$det(u \circ v )$$
+$$det(u \circ v ) = det(u)det(v)$$
+
+### Preuve
+Soit $f \in \Lambda^nE^\vee$
