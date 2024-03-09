@@ -112,4 +112,24 @@ $$f(u(b_1), \dots, u(b_n)) = f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_
 On peut utiliser le caractère linéaire de $f$ pour en sortir les coefficients $u_{ij}$. Pour le premier paramètre on obtient...
 $$f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right) = u_{11}f(b_1, \dots) +u_{21}f(b_2, \dots) + \dots = \sum_{j=1}^nu_{j1}f\left(b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right)$$
 Puis par le même raisonnement, on obtient par le second:
-$$\sum_{j=1}^nu_{j1}\left(\sum_{k=1}^n u_{k2}f\left(b_j, b_k, \dots, \sum_{j=1}^nu_{jn}b_j \right)\right)$$
+$$\sum_{j=1}^nu_{j1}f\left(b_j, \sum_{k=1}^nu_{k2}b_k,\dots \right) = \sum_{j=1}^nu_{j1}(u_{12}f(b_j, b_1, \dots) +u_{22}f(b_j, b_2, \dots))$$
+$$=\sum_{j=1}^nu_{j1}\left(\sum_{k=1}^nu_{k2}f\left(b_j,b_k, \dots, \sum_{j=1}^nu_{jn}b_j \right)\right)$$
+
+Si on applique ce même raisonnement à tous les paramètres, on remarque que l'on obtient l'entièreté des permutations possibles sur le $n$-uplet $(b_1, \dots, b_n)$ en plus d'effectuer le de chacun des $u_{ij}$ eux aussi permuté.
+
+Au lieu de réécrire une quantité astronomique de somme imbriquée, observons que le résultat ci-dessous est logique:
+$$\sum_{\sigma \in S_n}\prod_{i=1}^n u_{\sigma(i)i}f(b_{\sigma(1)}, \dots, b_{\sigma(n)})$$
+A chaque produit de $u_{ij}$ on y associe la permutation de $\sigma$ (qui existe, d'après notre observation) on on choisit l'application de $f$ sur $(b_1, \dots, b_n)$ correspondant à une telle permutation.
+
+Or puisque:
+$$f(u(b_1), \dots, u(b_n)) = \sum_{\sigma \in S_n}\prod_{i=1}^n u_{\sigma(i)i}f(b_{\sigma(1)}, \dots, b_{\sigma(n)})$$
+et que 
+$$f(u(b_1), \dots, u(b_n)) = det(u)f(b_1, \dots, b_n)$$
+d'où finalement...
+$$det(u)f(b_1, \dots, b_n) =\sum_{\sigma \in S_n}\prod_{i=1}^n u_{\sigma(i)i}f(b_{\sigma(1)}, \dots, b_{\sigma(n)})$$
+
+Or on a vu plus haut par la [[#Propriété de permutation]] que $f(b_{\sigma(1)}, \dots, b_{\sigma(n)}) = \epsilon(\sigma)f(b_1, \dots, b_n)$, d'où notre résultat devenant:
+$$det(u)f(b_1, \dots, b_n) =\sum_{\sigma \in S_n}\epsilon(\sigma)\prod_{i=1}^n u_{\sigma(i)i}f(b_1, \dots, b_n)$$
+et comme $f(b_1, \dots, b_n) \not = 0$ on a bien que:
+$$det(u) =\sum_{\sigma \in S_n}\epsilon(\sigma)\prod_{i=1}^n u_{\sigma(i)i}$$
+$$\tag*{$\blacksquare$}$$
