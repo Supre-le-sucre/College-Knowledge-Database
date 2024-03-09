@@ -87,4 +87,5 @@ $\Rightarrow$
 On propose de raisonner par la contraposée, à savoir: $u$ n'est pas bijectif $\Rightarrow$ $det(u) \not \in \mathbb K^\times$ 
 On prends alors $u$ non bijectif.
 
+Si $u$ est injectif
 Posons $x \in Ker(u)$
