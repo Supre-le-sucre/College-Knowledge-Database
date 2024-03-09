@@ -87,5 +87,5 @@ $\Rightarrow$
 On propose de raisonner par la contraposée, à savoir: $u$ n'est pas bijectif $\Rightarrow$ $det(u) \not \in \mathbb K^\times$ 
 On prends alors $u$ non bijectif.
 
-$u$ ne peut pas être injectif, car comme $u$
+$u$ ne peut pas être injectif, car comme $u \in \mathcal L(E)$, elle serait bijective dans ce cas
 Posons $x \in Ker(u)$ non-nul, alors on le complète en une base $(x, b_2, \dots, b_n)$ de $E$, de telle sorte que si $f$ est une forme $n$-linéaire
