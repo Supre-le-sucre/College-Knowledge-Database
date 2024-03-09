@@ -61,6 +61,8 @@ Or $f_0$ est une forme $n$-linéaire, tout comme $f_0 \circ u$. Elles sont donc 
 Soit $E$ un $\mathbb K$-[[Espaces vectoriels]] de dimension $n$, $u,v \in \mathcal L(E)$, alors on a l'égalité suivante sur la composition: #!
 
 $$det(u \circ v ) = det(u)det(v)$$
+<!--ID: 1710023152442-->
+
 
 ### Preuve
 Soit $f \in \Lambda^nE^\vee$ non-nulle, on a par la [[#Définition du déterminant]] que:
@@ -73,6 +75,8 @@ $$det(u\circ v)f = det(v)det(u)f \Leftrightarrow det(u \circ v) = det(u)det(v)$$
 ### Corollaire
 Soit $E$ un $\mathbb K$-[[Espaces vectoriels]] de dimension finie, $u \in \mathcal L(E)$, alors on a l'équivalence suivante pour $det(u)$: #!
 $det(u) \in \mathbb K^\times$, si et seulement si $u$ est bijectif, et $det(u^{-1}) = det(u)^{-1}$
+<!--ID: 1710023152456-->
+
 
 **Remarque:** puisque que $\mathbb K$ est un [[Corps]], on a que $\mathbb K^\times =\mathbb K - \set{0}$
 #### Preuve
@@ -95,4 +99,12 @@ or puisqu'aucun élément $(x, b_2, \dots, b_n)$ n'est nulle et qu'elle détermi
 On a alors $det(u) = 0$, mais alors $det(u) \not \in \mathbb K^\times$
 
 ## Proposition
-Pour un $\mathbb K$-[[Espaces vectoriels]] $E$ de dimension $n$, si $B = (b_i)_{1 \leq i \leq n}, u \in \mathcal L(E)$, on note$Mat_B(u) = (u_{})$
+Pour un $\mathbb K$-[[Espaces vectoriels]] $E$ de dimension $n$, si $B = (b_i)_{1 \leq i \leq n}, u \in \mathcal L(E)$, on note$Mat_B(u) = (u_{ij})$ la matrice de $u$ dans la base $B$. On a alors la formule suivante pour $det(u)$: #!
+
+$$det(u) = \sum_{\sigma\in S_n}\epsilon(\sigma)\prod_{i=1}^nu_{\sigma(i)i}$$
+Remarquons donc que $det(u)$ ne dépend aucunement de la base choisie
+<!--ID: 1710023152461-->
+
+
+### Preuve
+Soit $(b_1, \dots, b_n)$ une base de $E$, on calcule alors $f(u(b_1), \dots, u(b_n))$
