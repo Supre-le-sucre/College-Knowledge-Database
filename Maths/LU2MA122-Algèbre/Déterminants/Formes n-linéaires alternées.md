@@ -94,3 +94,4 @@ Car comme $u(x) = 0$, donc la forme $f$ est nulle en premier paramètre.
 or puisqu'aucun élément $(x, b_2, \dots, b_n)$ n'est nulle et qu'elle détermine $f$, on a $f(x, b_2, \dots, b_n) \not = 0$ car $f \not = 0$.
 On a alors $det(u) = 0$, mais alors $det(u) \not \in \mathbb K^\times$
 
+## Proposition
