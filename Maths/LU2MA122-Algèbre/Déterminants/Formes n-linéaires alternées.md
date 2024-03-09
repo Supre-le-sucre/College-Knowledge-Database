@@ -90,4 +90,7 @@ On prends alors $u$ non bijectif.
 $u$ ne peut pas être injectif, car comme $u \in \mathcal L(E)$, elle serait bijective dans ce cas
 Posons $x \in Ker(u)$ non-nul, alors on le complète en une base $(x, b_2, \dots, b_n)$ de $E$, de telle sorte que si $f$ est une forme $n$-linéaire alternée non-nulle:
 $$f \circ u (x, b_2, \dots, b_n) = f(u(x), u(b_2), \dots, u(b_n)) = 0 = det(u)f(x, b_2, \dots, b_n)$$
+Car comme $u(x) = 0$, donc la forme $f$ est nulle en premier paramètre.
+or puisqu'aucun élément $(x, b_2, \dots, b_n)$ n'est nulle et qu'elle détermine $f$, on a $f(x, b_2, \dots, b_n) \not = 0$ car $f \not = 0$.
+On a alors $det(u) = 0$, mais alors $det(u) \not \in \mathbb K^\times$
 
