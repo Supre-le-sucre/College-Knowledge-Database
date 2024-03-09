@@ -63,4 +63,26 @@ Soit $E$ un $\mathbb K$-[[Espaces vectoriels]] de dimension $n$, $u,v \in \mathc
 $$det(u \circ v ) = det(u)det(v)$$
 
 ### Preuve
-Soit $f \in \Lambda^nE^\vee$
+Soit $f \in \Lambda^nE^\vee$ non-nulle, on a par la [[#Définition du déterminant]] que:
+$$f \circ u \circ v = det(u\circ v)f$$
+Puisque $f \circ u \in \Lambda^nE^\vee$ on a donc aussi:
+$$f \circ u \circ v = det(v)f \circ u = det(v)det(u)f$$
+d'où finalement l'égalité, car $f$ non nulle
+$$det(u\circ v)f = det(v)det(u)f \Leftrightarrow det(u \circ v) = det(u)det(v)$$
+
+### Corollaire
+Soit $E$ un $\mathbb K$-[[Espaces vectoriels]] de dimension finie, $u \in \mathcal L(E)$, alors on a l'équivalence suivante pour $det(u)$: #!
+$det(u) \in \mathbb K^\times$, si et seulement si $u$ est bijectif, et $det(u^{-1}) = det(u)^{-1}$
+
+**Remarque:** puisque que $\mathbb K$ est un [[Corps]], on a que $\mathbb K^\times =\mathbb K - \set{0}$
+#### Preuve
+$\Leftarrow$
+Si $u$ est une bijection, alors on peut noter $u^{-1}$ son application inverse
+On observe alors par [[#Propriété du déterminant sur la composition]] et sachant que $det(Id_E) = 1$
+$$det(u)det(u^{-1}) = 1$$
+Ceci montrant donc que $det(u)$ admet un inverse et donc que $det(u) \in \mathbb K^\times$
+On peut donc, comme cet inverse est unique, poser sans problème: $det(u^{-1}) = det(u)^{-1}$
+
+$\Rightarrow$
+On propose de raisonner par la contraposée, à savoir: $u$ n'est pas bijectif $\Rightarrow$ $det(u) \not \in \mathbb K^\times$ 
+On prends alors $u$ non bijectif.
