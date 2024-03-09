@@ -109,3 +109,5 @@ Remarquons donc que $det(u)$ ne dépend aucunement de la base choisie
 ### Preuve
 Soit $(b_1, \dots, b_n)$ une base de $E$, on calcule alors $f(u(b_1), \dots, u(b_n))$ pour alors trouver
 $$f(u(b_1), \dots, u(b_n)) = f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right)$$
+On peut utiliser le caractère linéaire, de $f$ pour obtenir...
+$$f\left(\sum_{j=1}^nu_{j1}b_j, \dots, \sum_{j=1}^nu_{jn}b_j \right) = \prod_{j=1}^n$$
