@@ -56,3 +56,4 @@ On sait aussi également que $dim(\Lambda ^nE^\vee) = 1$ d'après [[#Dimension d
 Si l'on montre qu'il existe un unique $det(u)$ tel que $f_0 \circ u = det(u)f_0$, on aura aussi montré ceci pour tout $f$ (car le $\lambda$ s'annulera des deux côté de l'égalité (il est inversible car dans un corps))
 
 Or $f_0$ est une forme $n$-linéaire, tout comme $f_0 \circ u$. Elles sont donc différentes à un coefficient près. Ce coefficient est bien $det(u)$
+
