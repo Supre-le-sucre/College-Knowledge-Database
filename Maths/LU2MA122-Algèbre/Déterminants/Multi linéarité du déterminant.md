@@ -15,4 +15,4 @@ Or par définition on a:
 $$f_can(C_1, \dots, C_n) = det(M) = \phi_C(C_1, \dots, C_n)$$
 Pour la remarque sur $\phi_L$, il suffit d'utiliser l'égalité $det(M) = det(^tM)$ (vu [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|ici]])
 $$\tag*{$\blacksquare$}$$
-**Remarque
+**Remarque**: Dans le cas d'un [[Anneaux]] commutatif, on dispose de la même manière la forme $f_{can}$ mais elle sera ici $n$-$A$-linéaire et alternée. Ici 
