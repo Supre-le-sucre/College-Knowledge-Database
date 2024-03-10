@@ -7,3 +7,4 @@ $$M = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
 On a par définition, que son déterminant est donné par $det(M) = ad-bc$
 comme on pourrait effectivement s'y attendre.
 
+## Théorème 
