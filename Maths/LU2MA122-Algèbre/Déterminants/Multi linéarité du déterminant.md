@@ -15,4 +15,7 @@ Or par définition on a:
 $$f_can(C_1, \dots, C_n) = det(M) = \phi_C(C_1, \dots, C_n)$$
 Pour la remarque sur $\phi_L$, il suffit d'utiliser l'égalité $det(M) = det(^tM)$ (vu [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|ici]])
 $$\tag*{$\blacksquare$}$$
-**Remarque**: Dans le cas d'un [[Anneaux]] commutatif, on dispose de la même manière la forme $f_{can}$ mais elle sera ici $n$-$A$-linéaire et alternée. Ici 
+**Remarque**: Dans le cas d'un [[Anneaux]] commutatif, on dispose de la même manière la forme $f_{can}$ mais elle sera ici $n$-$A$-linéaire et alternée. Ici $n$-$A$ linéaire veut dire que la forme est $A$-linéaire en chacune de ses variables. On dit qu'une application $u : A^n \to A^m$ est $A$-linéaire si
+$$u(x+\lambda y) = u(x)+\lambda u(y)$$
+avec $\lambda \in A$ et $(x,y) \in A^n$
+Il faut noter que cette [[Formes n-linéaires alternées#Proposition|proposition]] s'étend donc aussi dans les anneaux commutatif
