@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df53690b90ee52ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "22e56fedcb62b9c6",
             "type": "leaf",
             "state": {
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aa036770f03ff66e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md"
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md"
               }
             }
           }
@@ -159,11 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df53690b90ee52ee",
+  "active": "aa036770f03ff66e",
   "lastOpenFiles": [
     "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
-    "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Adjoint d'un endomorphisme.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Anneaux.md",
