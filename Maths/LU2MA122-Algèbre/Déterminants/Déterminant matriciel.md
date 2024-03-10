@@ -50,3 +50,10 @@ Or l'application $\Phi : \sigma \mapsto \sigma^{-1}$ est une bijection de $S_n$ 
 D'où finalement...
 $$det(^tM) = \sum_{\sigma \in S_n}\epsilon(\sigma^{-1})\prod_{j=1}^nm_{\sigma^{-1}(j)j} = \sum_{\sigma \in S_n}\epsilon(\sigma)\prod_{i=1}^nm_{\sigma(i)i} = det(M)$$
 $$\tag*{$\blacksquare$}$$
+
+Enfin montrons (3)
+Si on $A = \mathbb K$ est un corps, on l'a alors déjà démontré, car on aura $det(u_M) = det(M)$ si $u_M$ l'endomorphisme associé à la matrice $M$ (cf. [[Formes n-linéaires alternées#Propriété du déterminant sur la composition|propriété du déterminant sur la composition]])
+
+Dans le cas général, l'idéal est de calculer cette égalité comme une égalité polynomiale.
+Pour ce faire, considérons l'[[Anneaux]] universel: $\mathbb Z[B_{ij}, C_{ij}]_{1 \leq i,j \leq n}$ avec les matrices universelles $B$ et $C$
+
