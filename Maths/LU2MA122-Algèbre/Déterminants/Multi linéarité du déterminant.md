@@ -48,3 +48,5 @@ $$\exists(\lambda_1, \dots, \lambda_n) \in \mathbb K^n-\set{0}, \sum^n_{i=1}\lam
 Montrons $(1) \Leftrightarrow (3)$
 D'après le [[Formes n-linéaires alternées#Corollaire|corollaire]] ci-joint, on a $det(M) \not = 0$ si et seulement si $M$ est bijective (car elle admet un inverse dans ce cas). Ainsi donc, si $det(M) = 0$, $M$ n'est pas une bijection, et un tel $X$ non nul existe.
 Vice versa, si un tel $X$ non nul existe, alors $M$ n'est pas injective, et ne peut être une bijection.
+
+## Déterminant de Van der Monde
