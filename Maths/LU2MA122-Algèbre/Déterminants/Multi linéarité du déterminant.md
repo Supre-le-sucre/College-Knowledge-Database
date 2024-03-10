@@ -19,3 +19,9 @@ $$\tag*{$\blacksquare$}$$
 $$u(x+\lambda y) = u(x)+\lambda u(y)$$
 avec $\lambda \in A$ et $(x,y) \in A^n$
 Il faut noter que cette [[Formes n-linéaires alternées#Proposition|proposition]] s'étend donc aussi dans les anneaux commutatif
+
+### Corollaire
+Soit un anneau commutatif $A$, une opérations sur les colonnes du type $$C_i \leftarrow C_i + \sum_{j\not=i}\lambda_jC_j$$ #!
+ Ne change pas le déterminant
+#### Preuve
+Cela vient du fait direct de la linéarité de $\phi_C$ et sa forme alternée
