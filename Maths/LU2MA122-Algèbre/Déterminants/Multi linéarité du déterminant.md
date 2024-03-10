@@ -13,5 +13,6 @@ Or $det(u_m) = det(M)$ comme vu en [[Déterminant matriciel]] d'où...
 $$det(u_m)f_{can}(e_1, \dots, e_n) = det(M)f_{can}(e_1, \dots, e_n)= det(M)$$
 Or par définition on a:
 $$f_can(C_1, \dots, C_n) = det(M) = \phi_C(C_1, \dots, C_n)$$
-Pour la remarque sur $\phi_L$, il suffit d'utiliser l'égalité $det(M) = det(^tM)$ (vu en [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|]])
+Pour la remarque sur $\phi_L$, il suffit d'utiliser l'égalité $det(M) = det(^tM)$ (vu [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|ici]])
 $$\tag*{$\blacksquare$}$$
+**Remarque
