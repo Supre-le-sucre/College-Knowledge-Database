@@ -4,6 +4,8 @@ $(C_1, \dots, C_n) \mapsto det(C_1, \dots, C_n)$. Et soit aussi pour la base can
 
 On a alors $\phi_C = f_{can}$. Plus particulièrement, $\phi_C$ est une forme $n$-linéaire alternée
 Si on pose $\phi_L$ pour les lignes de $M_n$ cette fois, on aura alors $\phi_L = f_{can} \circ tr$ où $tr$ l'application de transposition.
+<!--ID: 1710074811655-->
+
 
 ### Preuve
 Soit $(C_1, \dots, C_n)$ un $n$-uplet de colonnes, $M$ la matrice associée d'endomorphisme $u_M$.
@@ -25,3 +27,4 @@ Soit un anneau commutatif $A$, une opérations sur les colonnes du type $$C_i \l
  Ne change pas le déterminant
 #### Preuve
 Cela vient du fait direct de la linéarité de $\phi_C$ et sa forme alternée
+<!--ID: 1710074811664-->
