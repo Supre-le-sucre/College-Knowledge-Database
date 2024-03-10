@@ -28,3 +28,23 @@ Soit un anneau commutatif $A$, une opérations sur les colonnes du type $$C_i \l
 #### Preuve
 Cela vient du fait direct de la linéarité de $\phi_C$ et sa forme alternée
 <!--ID: 1710074811664-->
+
+## Propriétés équivalentes
+Soit un corps $\mathbb K$ un corps, $m \in M_n(\mathbb K)$ les assertions suivantes sont équivalentes: #!
+
+1. Il existe $X \in \mathbb K^n$ tel que $MX =0$
+2. Les colonnes $C_1, \dots, C_n$ de $M$ sont liées
+3. On a $det(M) = 0$
+
+## Preuve
+
+Montrons $(1) \Leftrightarrow (2)$ 
+Si les colonnes $(C_1, \dots, C_n)$ de $M$ sont liées, alors on a que:
+$$\exists(\lambda_1, \dots, \lambda_n) \in \mathbb K^n-\set{0}, \sum^n_{i=1}\lambda_iC_i = 0$$
+En posant $X = (\lambda_1, \dots, \lambda_n)$, On aura $MX = 0$
+Vice versa, l'existence d'un tel $X$ nous dira que les colonnes sont liées, d'où:
+$$\exists(\lambda_1, \dots, \lambda_n) \in \mathbb K^n-\set{0}, \sum^n_{i=1}\lambda_iC_i = 0 \Leftrightarrow MX= 0$$
+
+Montrons $(1) \Leftrightarrow (3)$
+D'après le [[Formes n-linéaires alternées#Corollaire|corollaire]] ci-joint, on a $det(M) \not = 0$ si et seulement si $M$ est bijective (car elle admet un inverse dans ce cas). Ainsi donc, si $det(M) = 0$, $M$ n'est pas une bijection, et un tel $X$ non nul existe.
+Vice versa, si un tel $X$ non nul existe, alors $M$ n'est pas injective, et ne peut être une bijection.
