@@ -116,6 +116,7 @@ $$\sum_{j=1}^nu_{j1}f\left(b_j, \sum_{k=1}^nu_{k2}b_k,\dots \right) = \sum_{j=1}
 $$=\sum_{j=1}^nu_{j1}\left(\sum_{k=1}^nu_{k2}f\left(b_j,b_k, \dots, \sum_{j=1}^nu_{jn}b_j \right)\right)$$
 
 Si on applique ce même raisonnement à tous les paramètres, on remarque que l'on obtient l'entièreté des permutations possibles sur le $n$-uplet $(b_1, \dots, b_n)$ en plus d'effectuer le de chacun des $u_{ij}$ eux aussi permuté.
+Remarquons aussi que comme $f$ est alterné, les permutations ne peuvent être que des cycles. Car si $f$ contient deux paramètre égaux, il sera forcément annulé.
 
 Au lieu de réécrire une quantité astronomique de somme imbriquée, observons que le résultat ci-dessous est logique:
 $$\sum_{\sigma \in S_n}\prod_{i=1}^n u_{\sigma(i)i}f(b_{\sigma(1)}, \dots, b_{\sigma(n)})$$

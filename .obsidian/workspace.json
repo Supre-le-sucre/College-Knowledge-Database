@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md"
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md"
               }
             }
           }
@@ -160,14 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22e56fedcb62b9c6",
+  "active": "df53690b90ee52ee",
   "lastOpenFiles": [
-    "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Adjoint d'un endomorphisme.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Anneaux.md",
-    "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
     "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Signature.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Espaces vectoriels.md",
     "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Monoïde.md",
