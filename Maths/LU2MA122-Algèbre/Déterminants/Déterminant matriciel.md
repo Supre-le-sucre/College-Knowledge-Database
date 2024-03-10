@@ -23,5 +23,5 @@ Pour $M \in M_n(A)$ on a les propriétés suivantes: #!
 ### Preuve
 
 On commence d'abord par montrer (1)
-Si $M$ est triangulaire supérieure, alors vérifions que pour tout $\sigma \not = Id$ on a qu'il existe $i$ tel que $m_{\sigma(i)i} = 0$ 
+Si $M$ est triangulaire supérieure, alors vérifions que pour tout $\sigma \not = Id$ on a qu'il existe $i$ tel que $m_{\sigma(i)i} = 0$, autrement dit, que $\sigma(i) > i$
  
