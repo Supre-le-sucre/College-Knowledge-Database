@@ -51,8 +51,8 @@ Vice versa, si un tel $X$ non nul existe, alors $M$ n'est pas injective, et ne p
 
 ## Déterminant de Van der Monde
 On pose le résultat suivant:
-$$V(x_1, \dots, x_n) = \begin{vmatrix}1 & 1 & \cdots & 1  \\ x_1 & x_2 & \cdots & x_n \\ x_1^2 & x_2^2 & \cdots & x_n^2 \\ \vdots & \vdots & \ddots & \vdots \\ x_1^n & x_2^n & \cdots &x_n^n\end{vmatrix} = \prod_{1 \leq i,j \leq n}(x_j-x_i)$$
+$$V(x_1, \dots, x_n) = \begin{vmatrix}1 & 1 & \cdots & 1  \\ x_1 & x_2 & \cdots & x_n \\ x_1^2 & x_2^2 & \cdots & x_n^2 \\ \vdots & \vdots & \ddots & \vdots \\ x_1^{n-1} & x_2^{n-1} & \cdots &x_n^{n-1}\end{vmatrix} = \prod_{1 \leq i,j \leq n}(x_j-x_i)$$
 
 ### Preuve
 On effectue pour toutes les lignes l'opérations $L_i \leftarrow L_i - x_1L_{i-1}$ pour $i \geq 2$qui ne [[#Corollaire|ne change pas le déterminant]]
-$$V(x_1, \dots, x_n) = \begin{vmatrix}1 & 1 & \cdots & 1  \\ 0 & x_2 -x_1 & \cdots & x_n-x_1\\ 0 & x_2^2-x_1^2x_2 & \cdots & x_n^2 \\ \end{vmatrix}$$ 
+$$V(x_1, \dots, x_n) = \begin{vmatrix}1 & 1 & \cdots & 1  \\ 0 & x_2 -x_1 & \cdots & x_n-x_1\\ 0 & x_2^2-x_1x_2 & \cdots & x_n^2-x_1x_n \\ \vdots & \vdots & \ddots & \vdots \\ 0 & x_2^{n-1}-x_1x_2^{n-2} & \cdots &x_n^{n-1}-x_1x_n^{n-2}\end{vmatrix}$$ 
