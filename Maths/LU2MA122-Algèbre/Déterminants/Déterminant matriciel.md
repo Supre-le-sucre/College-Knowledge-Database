@@ -56,4 +56,16 @@ Si on $A = \mathbb K$ est un corps, on l'a alors déjà démontré, car on aura 
 
 Dans le cas général, l'idéal est de calculer cette égalité comme une égalité polynomiale.
 Pour ce faire, considérons l'[[Anneaux]] universel: $\mathbb Z[B_{ij}, C_{ij}]_{1 \leq i,j \leq n}$ avec les matrices universelles $B$ et $C$
+Observons son inclusion dans le corps des fractions rationnelles: $\mathbb Q(B_{ij}, C_{ij})$. Comme il s'agit d'un corps on a bien encore une fois:
+$$det(BC) = det(B)det(C)$$
+Applicable dans l'anneau considéré, car inclus dans le corps $\mathbb Q$
 
+Considérons maintenant l'anneau arbitraire $A$ pour obtenir la généralité. On pose $M=(m_{ij})$ et $M' = (m'_{ij})$ dans $M_n(A)$.
+On étudie le [[Anneaux#Définition d'un morphisme d'anneau|morphisme d'anneau]] suivant:
+$$\phi : M_n(\mathbb Z[B_{ij}, C_{ij}]) \to M_n(A)$$
+Tel que les $B_{ij}$ sont envoyé sur les $m_{ij}$, et les $C_{ij}$ sont envoyés sur les ${m'_{ij}}$ 
+Mais alors dans ce cas, on peut à nouveau appliquer l'égalité, comme celle-ci a été démontré pour $B$ et $C$
+
+d'où finalement:
+$$det(MM') = det(M)det(M')$$
+$$\tag*{$\blacksquare$}$$
