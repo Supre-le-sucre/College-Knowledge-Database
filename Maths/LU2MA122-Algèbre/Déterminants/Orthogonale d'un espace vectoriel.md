@@ -52,7 +52,7 @@ Ceci montre bien que $\phi \in F^\perp$ si et seulement si $\phi \in Vect(e_{r+1
 
 Observons d'autre part que
 $$x = \sum a_i e_i \in (F^\perp)^\circ \Leftrightarrow \forall i \in [r+1, n], e_i^*(x) = a_i = 0$$
-Donc $x$ n'est que généré sur $Vect(e_1, \dots, e_n) = F$ d'où $F = (F^\perp)^\circ$
+Donc $x$ n'est que généré sur $Vect(e_1, \dots, e_r) = F$ d'où $F = (F^\perp)^\circ$
 
 
 Pour la (2) le raisonnement est analogue

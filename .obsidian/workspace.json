@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Multi linéarité du déterminant.md",
-                "mode": "source",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Pivot de Gauss.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Pivot de Gauss.md",
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/LU2MA122-Algèbre/Déterminants/Pivot de Gauss.md"
+                "file": "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md"
               }
             }
           }
@@ -184,19 +184,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ec8b3545b1fb91d",
+  "active": "aa036770f03ff66e",
   "lastOpenFiles": [
+    "Maths/LU2MA122-Algèbre/Déterminants/Espaces vectoriels.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Anneaux.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
+    "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Multi linéarité du déterminant.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Pivot de Gauss.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Formes n-linéaires alternées.md",
-    "Maths/LU2MA122-Algèbre/Déterminants/Déterminant matriciel.md",
-    "Maths/LU2MA122-Algèbre/Déterminants/Corps.md",
     "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Cycle.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Orthogonale d'un espace vectoriel.md",
     "Maths/LU2MA122-Algèbre/Déterminants/Adjoint d'un endomorphisme.md",
-    "Maths/LU2MA122-Algèbre/Déterminants/Anneaux.md",
     "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Signature.md",
-    "Maths/LU2MA122-Algèbre/Déterminants/Espaces vectoriels.md",
     "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Monoïde.md",
     "Maths/LU2MA122-Algèbre/Groupe Symmétrique/Groupe.md",
     "Maths/LU2MA241-Probas/Chapitre 2 - Espaces probabilisés/Probabilités conditionnelles.md",
