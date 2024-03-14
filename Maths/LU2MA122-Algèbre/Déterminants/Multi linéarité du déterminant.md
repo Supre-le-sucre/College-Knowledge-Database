@@ -35,6 +35,8 @@ Soit un corps $\mathbb K$ un corps, $m \in M_n(\mathbb K)$ les assertions suivan
 1. Il existe $X \in \mathbb K^n$ tel que $MX =0$
 2. Les colonnes $C_1, \dots, C_n$ de $M$ sont liées
 3. On a $det(M) = 0$
+<!--ID: 1710412350122-->
+
 
 ## Preuve
 

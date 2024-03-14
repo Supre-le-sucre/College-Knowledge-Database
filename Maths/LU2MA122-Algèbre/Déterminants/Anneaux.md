@@ -1,5 +1,5 @@
 ## Définition
-Soit $(A, +, \cdot)$ un ensemble muni de deux [[Loi de composition interne (LCI)]]. On dit que $A$ est un noyau si: #!
+Soit $(A, +, \cdot)$ un ensemble muni de deux [[Loi de composition interne (LCI)]]. On dit que $A$ est un anneau si: #!
 
 1. $(A, +)$ est un [[Groupe#Définition|Groupe Abélien]]
 2. $(A, \cdot)$ est un [[Monoïde]]
