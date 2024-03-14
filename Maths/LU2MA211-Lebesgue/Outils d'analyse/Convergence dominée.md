@@ -17,4 +17,5 @@ Si $f \in \mathcal L^1(A)$ alors $$\lim_{n \to +\infty}\int_{A_n} f = \int_Af$$
 # Théorème de l'inversion $\int$ et $\sum$ 
 On donne le théorème suivant: #!
 
-Soit $A \subseteq \mathbb R^d$ mesurable et $(f_n)_{n \in \mathbb N}$ une suite de fonction mesurable tel que $\sum_{n=0}^{+\infty} \int_A |f_n| < +\infty$ alors on a $$\sum^{+\infty}_{n=0}$$ 
+Soit $A \subseteq \mathbb R^d$ mesurable et $(f_n)_{n \in \mathbb N}$ une suite de fonction mesurable tel que $\sum_{n=0}^{+\infty} \int_A |f_n| < +\infty$ alors on a $$\sum^{+\infty}_{n=0}\int_{A}f_n(t)dt = \int_{A}\sum^{+\infty}_{n=0}f_n(t)dt$$ 
+<!--ID: 1710447988710-->
