@@ -27,3 +27,4 @@ On définit ce lien comme suit: #!
  On alors que $$||f_n||_{\infty} \leq ||f_n-f||_{\infty} + ||f||_\infty$$ par inégalité triangulaire. D'où finalement, comme $f$ bornée:
  $$||f_n||_{\infty} \leq C$$
  Et donc la convergence dominée s'applique car $C$ intégrable sur un compact
+<!--ID: 1710449391184-->
