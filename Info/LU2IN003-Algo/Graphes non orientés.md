@@ -37,3 +37,10 @@ $$= \sum_{x \in V\setminus\set{u,v}} deg_H(x) + deg_H(u) + deg_H(v) + 2$$
 $$= \sum_{x \in V} deg_H(x) + 2$$
 $$= 2n +2 = 2(n+1)$$
 $$\tag*{$\blacksquare$}$$
+
+## Théorème d'Euler sur les graphes connexe
+
+Soit $G$ un graphe connexe
+- Si tous les sommets de $G$ ont un degré pair, alors il existe un circuit eulérien: (On passe par tous les sommets du graphes, sans repasser 2 fois par la même arrête)
+- Si tous les sommets sauf 2 ont un degré pair, il existe un chemin eulérien entre les 2 sommets impair
+- S'il y a 4 sommets ou plus de degrés impaires, il n'y a ni circuit, ni chemin eulérien.
