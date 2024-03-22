@@ -1,5 +1,5 @@
 ## Définition
-Un graphe est un ensemble de sommets $V$ (pour vertex) et d'arrêtes $E$ (pour edge) qui est une paire de sommet.
+Un graphe est un couple entre un ensemble de sommets $V$ (pour vertex) et un ensemble d'arrêtes $E$ (pour edge) qui est une paire de sommet. On note $G = (V, E)$
 
 ## Voisins
 On appelle les voisins d'une arrête $v$, l'ensemble de sommets notés $\Gamma(v)$ définie tel que:
