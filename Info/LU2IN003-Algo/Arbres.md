@@ -13,7 +13,7 @@ On dit d'un [[Graphes non orientés]] qu'il est maximal acyclique si $G$ est san
 (i.e pour tout couple de sommets $\set{x, y}$ non adjacents dans $G$. On a que $G' = (V, E \cup \set{\set{x, y}}$ contient un cycle)
 
 ## Théorème
-Soit $T = (V, E)$ un [[Graphes non orientés]], alors les assertions suivantes sont éuivalentes:
+Soit $T = (V, E)$ un [[Graphes non orientés]], alors les assertions suivantes sont équivalentes:
 - T est un arbre
 - T est minimal connexe
 - T est maximal acyclique
