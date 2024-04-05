@@ -1,3 +1,4 @@
+#algo 
 ## Définition
 Un graphe est un couple entre un ensemble de sommets $V$ (pour vertex) et un ensemble d'arrêtes $E$ (pour edge) qui est une paire de sommet. On note $G = (V, E)$
 

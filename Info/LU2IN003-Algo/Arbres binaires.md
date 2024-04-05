@@ -1,3 +1,4 @@
+#algo
 ## Définition
 Un arbre binaire est défini inductivement de la façon suivante.
 Soit $T$ l'ensemble des arbres binaires étiquetés sur $E$ est tel que:

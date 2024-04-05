@@ -1,3 +1,4 @@
+#algebre 
 ## Lemme du groupe inversible
 Soit $(A^\times, \times)$ l'ensembles des éléments inversibles par la [[Loi de composition interne (LCI)|LCI]] $\times$, ceci est un [[Groupe]] appelé #!
 groupe des inversibles

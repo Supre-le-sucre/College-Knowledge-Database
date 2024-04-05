@@ -1,3 +1,4 @@
+#algebre 
 
 ## Problématique
 Soit $E$ un $\mathbb K$-[[Espaces vectoriels]] de dimension finie et $E^\vee$ son dual. Bien que $dim(E^\vee) = dim(E)$, ce deux espaces vectoriels ne sont pas canoniquement isomorphes et il n'existe pas d'application canoniquement vraie entre $E$ et $E^\vee$

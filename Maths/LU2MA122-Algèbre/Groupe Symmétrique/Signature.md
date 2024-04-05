@@ -1,4 +1,4 @@
-
+#algebre 
 ## Permutation sur polynôme
 
 ### Action de $S_n$ sur $\mathbb Z[X]$

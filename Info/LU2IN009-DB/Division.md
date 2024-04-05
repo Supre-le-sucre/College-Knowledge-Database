@@ -1,3 +1,4 @@
+#db
 ## Définition
 Une division est une [[Requête]] spécifique qui demande à diviser l'ensemble global en plusieurs sous ensemble de propriété unique.
 

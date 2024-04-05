@@ -1,3 +1,4 @@
+#db
 En [[SQL]], il est aussi possible de gérer des requêtes plus complexes, sur plusieurs tables en simultanée et ainsi utiliser leur produit cartésien.
 La syntaxe est la même, mais avec une énumération de table:
 

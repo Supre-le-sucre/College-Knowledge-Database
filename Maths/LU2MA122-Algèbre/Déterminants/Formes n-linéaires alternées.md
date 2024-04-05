@@ -1,3 +1,4 @@
+#algebre 
 ## Définition
 On définit $E_1, \dots, E_r$ $r$ $\mathbb K$-[[Espaces vectoriels]]
 On dit que $f: E_1 \times \cdots \times E_r$ est une forme $r$-linéaire si et seulement si: #!

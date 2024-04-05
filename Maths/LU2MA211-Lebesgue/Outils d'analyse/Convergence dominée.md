@@ -1,3 +1,4 @@
+#lebesgue 
 # Théorème
 Le théorème de convergence dominée, plus fort que [[Beppo-Levi]] peut s'énoncer comme suit: #!
 

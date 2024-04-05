@@ -1,3 +1,4 @@
+#algebre 
 ## Définition
 Soit $\mathbb K$ un [[Corps]]. On appelle un $\mathbb K$-espace vectoriel, un ensemble $E$ muni d'une [[Loi de composition interne (LCI)|LCI]] $+$ telle que: #!
 

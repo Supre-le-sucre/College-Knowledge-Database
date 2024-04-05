@@ -1,3 +1,4 @@
+#algebre 
 ## Définition
 Pour $1 \leq k \leq n$, on appelle la permutation $\sigma \in S_n$ la  un $k$-cycle caractérisé par le support de cycle $\set{a_1, \cdots, a_k}$  si cette permutation est définie telle que:
 

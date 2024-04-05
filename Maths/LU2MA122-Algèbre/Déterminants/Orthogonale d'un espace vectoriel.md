@@ -1,3 +1,4 @@
+#algebre 
 ## Définition d'éléments orthogonaux
 Des éléments $x \in E$ et $\phi \in E^\vee$ sont dits orthogonaux si #!
 $$\phi(x) = \langle x, \phi \rangle = 0$$

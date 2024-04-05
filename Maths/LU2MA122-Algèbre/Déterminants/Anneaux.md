@@ -1,3 +1,4 @@
+#algebre
 ## Définition
 Soit $(A, +, \cdot)$ un ensemble muni de deux [[Loi de composition interne (LCI)]]. On dit que $A$ est un anneau si: #!
 

@@ -1,3 +1,4 @@
+#probas
 ## Définition
 On a que $X \sim Bern(p)$ si et seulement si #!
 

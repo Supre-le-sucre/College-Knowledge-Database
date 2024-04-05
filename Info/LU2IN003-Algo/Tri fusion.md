@@ -1,3 +1,4 @@
+#algo
 Le tri fusion consiste à comparer deux éléments entre deux listes et de concaténer l'élément le plus petit dans la liste finale et d'avancer d'un indice sur la liste qui a été concaténée.
 
 Une fois que l'indice dépasse la taille d'une des listes fournies, il s'arrête, et concatène le reste des éléments à la fin.

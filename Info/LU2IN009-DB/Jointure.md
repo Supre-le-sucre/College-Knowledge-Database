@@ -1,3 +1,4 @@
+#db
 Une jointure est une mise en correspondance d'une table entre une autre table.
 Elles sont souvent utilisées dans le contexte d'éléments liés entre eux dans le [[Modèle Entité-Association]].
 
