@@ -26,3 +26,11 @@ Soit $X$ une variable aléatoire admettant un [[Moments]] d'ordre 2. On a alors 
 ## Indépendance sur la variance
 Si $X_1, \dots, X_n$ sont des variables aléatoires indépendantes admettant un moment d'ordre 2 alors on a: #!
 $$Var\left(\sum_{i=1}^nX _i\right) = \sum_{i=1}^nVar(X_i)$$
+## Variances des lois classiques
+On se souviendra des variances suivantes: #!
+
+- Loi Uniforme: $X \sim Unif(n), Var(X) = \frac{n^2 - 1}{12}$
+- [[Loi de Bernoulli]]: $X \sim Bern(p), Var(X) = p(1-p)$
+- [[Loi binomiale]]: $X \sim Bin(n, p), Var(X) = np(1-p)$
+- [[Loi de Poisson]]:  $X \sim Poi(\lambda), Var(X) = \lambda$
+- [[Loi géométrique]]: $X \sim Geo(p), Var(X) = \frac{1-p}{p^2}$ 
