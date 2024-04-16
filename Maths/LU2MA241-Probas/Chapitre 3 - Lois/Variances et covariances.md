@@ -23,4 +23,6 @@ Soit $X$ une variable aléatoire admettant un [[Moments]] d'ordre 2. On a alors 
 - $Var(X) = 0$ si et seulement si $X$ est constante presque partout
 - Si $X_1, \dots X_n$ sont des variables aléatoires admettant un moment d'ordre 2 fini on a $$Var\left(\sum_{i=1}^nX_i\right) = \sum_{i=1}^nVar(X_i) + \sum_{1 \leq i ,j\leq n, i \not = j} Cov(X_i, X_j) =  \sum_{i=1}^nVar(X_i) + 2\sum_{1 \leq i<j\leq n} Cov(X_i, X_j) $$
 
-
+## Indépendance sur la variance
+Si $X_1, \dots, X_n$ sont des variables aléatoires indépendantes admettant un moment d'ordre 2 alors on a: #!
+$$Var\left(\sum_{i=1}^nX _i\right) = \sum_{i=1}^nVar(X_i)$$
