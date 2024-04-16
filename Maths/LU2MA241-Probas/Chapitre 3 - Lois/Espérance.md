@@ -72,11 +72,15 @@ L'espérance respecte 3 différentes propriétés principales. Soit $X, Y$ deux 
 ## Remarque sur l'espérance nulle
 Si l'espérance d'une variable aléatoire $X$ est nulle alors #!
 $X$ est nulle presque sûrement, i.e: $\mathbb P(X =0) = 1$
+<!--ID: 1713305360772-->
+
 
 ## Indépendance sur l'espérance
 Soit $X$ et $Y$, deux variables aléatoires indépendantes, alors on a que: #!
 $$\mathbb E(XY) = \mathbb E(X)\mathbb E(Y)$$Pour $X$ et $Y$ positif, ou s'ils ont tout deux une espérance finie.
 On observe alors que, si celle-ci est définie alors la [[Variances et covariances|Covariance]] $Cov(X, Y) = 0$ !
+<!--ID: 1713305360776-->
+
 
 
 ## Espérance des lois classiques
@@ -87,3 +91,4 @@ On se souviendra des espérances suivantes: #!
 - [[Loi binomiale]]: $X \sim Bin(n, p), \mathbb E(X) = np$
 - [[Loi de Poisson]]:  $X \sim Poi(\lambda), \mathbb E(X) = \lambda$
 - [[Loi géométrique]]: $X \sim Geo(p), \mathbb E(X) = \frac{1}{p}$
+<!--ID: 1713305360779-->
