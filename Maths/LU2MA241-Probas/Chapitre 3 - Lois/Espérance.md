@@ -69,3 +69,6 @@ L'espérance respecte 3 différentes propriétés principales. Soit $X, Y$ deux 
 3. <u>Linéarité</u> Si l'espérance de $X,Y$ est finie, alors $\forall (a,b) \in \mathbb R ^2, \mathbb E[aX + bY] = a\mathbb E[X] + b \mathbb E[Y]$
 <!--ID: 1707737809042-->
 
+## Remarque sur l'espérance nulle
+Si l'espérance d'une variable aléatoire $X$ est nulle alors #!
+$X$ est nulle presque sûrement, i.e: $\mathbb P(X =0) = 1$
