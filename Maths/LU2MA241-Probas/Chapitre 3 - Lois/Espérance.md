@@ -75,4 +75,5 @@ $X$ est nulle presque sûrement, i.e: $\mathbb P(X =0) = 1$
 
 ## Indépendance sur l'espérance
 Soit $X$ et $Y$, deux variables aléatoires indépendantes, alors on a que: #!
-$$\mathbb E(XY) = \mathbb E(X)\mathbb E(Y)$$
+$$\mathbb E(XY) = \mathbb E(X)\mathbb E(Y)$$Pour $X$ et $Y$ positif, ou s'ils ont tout deux une espérance finie.
+On observe alors que, si celle-ci est définie alors la [[Variances et covariances|Covariance]] $Cov(X, Y) = 0$ !
