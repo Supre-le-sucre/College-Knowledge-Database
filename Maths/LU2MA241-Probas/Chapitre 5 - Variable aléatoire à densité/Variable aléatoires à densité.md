@@ -18,3 +18,7 @@ Comme la probabilité de tomber sur un point précis est nulle, on définie arbi
 On a l'équivalence suivante sur l'existence d'une variable aléatoire à densité: #!
 
 $X$ est une variable aléatoire à densité, de densité $f_X$ si et seulement si, pour toute fonction $h : \mathbb R \to \mathbb R$ continue par morceau et ==bornée== on a la [[Espérance à densité#Formule de transfert|formule de transfert]]: $$\mathbb E(h(X)) = \int_{-\infty}^{+\infty}h(x)f_X(x)dx$$
+
+## Théorème de la pseudo-inverse
+Soit $F: \mathbb R \to \mathbb R$ une fonction croissante, continue à droite et telle que $\lim_{x \to -\infty} F(x) = 0$ et$\lim_{x \to +\infty} F(x) = 1$ Alors on définit la fonction $\rho: ]0, 1[ \to \mathbb R$ appelée pseudo-inverse de $F$ de la façon suivante: #!
+$$\rho(x) := \inf\{y \in \mathbb R\: F(y) \geq x\}$$ Cette fonction permet de construire une variable aléatoire dont la fonction de répartition est $F$. Par exemple, si $X \sim \mathcal U(0, 1)$ alors $Y := \rho(X)$ est une variable aléatoire de fonction de répartition $F_Y = F$ 
