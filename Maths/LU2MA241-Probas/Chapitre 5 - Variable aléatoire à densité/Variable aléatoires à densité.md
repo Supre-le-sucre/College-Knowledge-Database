@@ -4,3 +4,5 @@ Il existe une fonction positive $f_x: \mathbb R \to [0, +\infty[$ intégrable su
 
 ## Remarque sur la fonction de répartition
 Si $X$ est une variable aléatoire à densité alors $F_X$ est continue en tout point
+
+## Formules
