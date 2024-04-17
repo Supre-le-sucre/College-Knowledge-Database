@@ -7,4 +7,6 @@ Si $X$ est une variable aléatoire à densité alors $F_X$ est continue en tout 
 
 ## Formules sur intervalle
 Observons que pour une variable aléatoire à densité $X$, on a que $\mathbb P(X=k) =0$ par définition. Ceci nous permettant donc d'établir une formule de probabilité lorsque $X$ est dans n'importe quel type d'intervalle entre $a$ et $b$: #!
-$$\mathbb P(X \in [a,b]) = \mathbb P(X \in ]a,b[) = \mathbb P(X \in ]a,b]) = \mathbb P(X \in [a,b[) = F_X(b) - F_X(a) = \int_a^b$$
+$$\mathbb P(X \in [a,b]) = \mathbb P(X \in ]a,b[) = \mathbb P(X \in ]a,b]) = \mathbb P(X \in [a,b[) = F_X(b) - F_X(a) = \int_a^bf_X(x)dx$$
+
+## Propriété de la fonction de répartition
