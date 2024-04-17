@@ -6,4 +6,5 @@ Il existe une fonction positive $f_x: \mathbb R \to [0, +\infty[$ intégrable su
 Si $X$ est une variable aléatoire à densité alors $F_X$ est continue en tout point
 
 ## Formules sur intervalle
-Observons que pour une variable aléatoire à densité $X$, on a que $\mathbb P(X=k) =0$ par définition. Ceci nous permettant donc d'établir une formule de probabilité lorsque $X$ est dans n'importe quel type d'intervalle entre $a$ et $b$
+Observons que pour une variable aléatoire à densité $X$, on a que $\mathbb P(X=k) =0$ par définition. Ceci nous permettant donc d'établir une formule de probabilité lorsque $X$ est dans n'importe quel type d'intervalle entre $a$ et $b$: #!
+$$\mathbb P(X \in [a,b]) = \mathbb P(X \in ]a,b[) = \mathbb P(X \in ]a,b]) = \mathbb P(X \in [a,b[) = F_X(b) - F_X(a) = \int_a^b$$
