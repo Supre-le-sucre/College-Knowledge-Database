@@ -9,4 +9,4 @@ $$ F_X(t) = \begin{cases}
 $$
 
 ## Théorème de la pseudo-inverse
-Soit $F: \mathbb R \to \mathbb R$ une fonction croissante, continue à droite et telle que 
+Soit $F: \mathbb R \to \mathbb R$ une fonction croissante, continue à droite et telle que $\lim_{x \to -\infty} F(x) = 0$ et$\lim_{x \to +\infty} F(x) = 1$ Alors on définit la fonction $\phi: ]0, 1[ \to \mathbb R$ appelée pseudo-inverse de $F$ de la façon suivante: #!
