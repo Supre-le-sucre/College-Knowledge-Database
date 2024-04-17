@@ -9,3 +9,4 @@ $$ F_X(t) = \begin{cases}
 $$
 
 ## Théorème de la pseudo-inverse
+Soit $F: \mathbb R \to \mathbb R$
