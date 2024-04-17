@@ -7,3 +7,5 @@ $$ F_X(t) = \begin{cases}
       1 & t > b 
    \end{cases}
 $$
+
+## Théorème de la pseudo-inverse
