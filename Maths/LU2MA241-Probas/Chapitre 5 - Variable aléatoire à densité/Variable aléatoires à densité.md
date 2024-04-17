@@ -13,3 +13,8 @@ $$\mathbb P(X \in [a,b]) = \mathbb P(X \in ]a,b[) = \mathbb P(X \in ]a,b]) = \ma
 Soit $X$ une [[Variable aléatoire réelle]]. Si la fonction de répartition $F_X$ est continue et $\mathcal C^1$ par morceaux, #!
 alors $X$ est une variable aléatoire à densité, et sa densité est $f_x(x) = F'_X(x)$
 Comme la probabilité de tomber sur un point précis est nulle, on définie arbitrairement $f_x$ dans les points non dérivables.
+
+## Remarque sur l'existence de $X$ par [[Espérance à densité#Formule de transfert|transfert]] 
+On a l'équivalence suivante sur l'existence d'une variable aléatoire à densité: #!
+
+$X$ est une variable aléatoire à densité, de densité $f_X$ si et seulement si, pour toute fonction $h : \mathbb R \to \mathbb R$ continue par morceau et ==bornée== on a la [[Espérance à densité#Formule de transfert|formule de transfert]]: $$\mathbb E(h(X)) = \int_{-\infty}^{+\infty}h(x)f_X(x)dx$$
