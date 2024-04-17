@@ -9,4 +9,5 @@ On observe les même propriétés de l'espérance discrète sur l'espérance ré
 
 - Si $X \leq Y$ alors $\mathbb E(X) \leq \mathbb E(Y)$ pourvu que $X, Y$ admettent une espérance
 - Si $X$ admet une espérance alors, $|\mathbb E(X)| \leq \mathbb E(|X|)$
-- $\forall X,Y$ des [[Variable aléatoire réelle]] et $\forall a,b \in \mathbb R$ on a: 
+- $\forall X,Y$ des [[Variable aléatoire réelle]] et $\forall a,b \in \mathbb R$ on a: $\mathbb E(aX + bY) = \mathbb a\mathbb E(X) + b\mathbb E(Y)$
+- Si $X$ et $Y$ sont indépendantes, alors $\mathbb E(XY) = \mathbb E(X)\mathbb E(Y)$ si $X, Y$ positifs ou admettant une espérance finie
