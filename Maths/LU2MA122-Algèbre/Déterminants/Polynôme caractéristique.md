@@ -1,14 +1,20 @@
 ## Définition
 Soit $M \in M_n(A)$, on considère le polynôme caractéristique de $M$ comme étant: #!
 $$\mathcal X_M(X) = \det(XI_n-M)$$
+<!--ID: 1713558248325-->
+
 
 ## Proposition sur la forme du polynôme caractéristique
 Soit $M\in M_n(A)$ alors $\mathcal X_M$ est unitaire de degré $n$ avec en particulier: #!
 $$\mathcal X_M(X) = X^n - Tr(M)X^{n-1} + \cdots +(-1)^n\det(A)$$
+<!--ID: 1713558248330-->
+
 
 ## Proposition sur les valeurs propres de $M$
 Soit $\mathbb K$ un corps et $M \in M_n(\mathbb K)$, alors $\lambda \in \mathbb K$ est une valeur propre de $M$: #!
 si et seulement si $\lambda$ est une racine de $\mathcal X_M$. En particulier, $M$ admet donc au plus $n$ valeurs propres.
+<!--ID: 1713558248334-->
+
 
 ### Preuve
 $\Rightarrow$
@@ -32,6 +38,8 @@ $$\tag*{$\blacksquare$}$$
 ### Définition de matrices semblables
 Deux matrices $A$ et $B$ sont dites semblables, s'il existe une matrice inversible $P$ tel que: #!
 $$A = PBP^{-1}$$
+<!--ID: 1713558248338-->
+
 
 ### Propriété
 Deux matrices semblables ont le même polynôme caractéristique.
@@ -47,11 +55,15 @@ $$\tag*{$\blacksquare$}$$
 ## Théorème de la commutativité du produit
 Soit $A$ un [[Anneaux]]. On a, concernant le polynôme caractéristique pour $B,C \in M_n(A)$ que: #!
 $$\mathcal X_{BC} = \mathcal X_{CB}$$
+<!--ID: 1713558248342-->
+
 
 ## Théorème de Cayley-Hamilton
 On énonce le théorème suivant: #!
 
 Soit $M \in M_n(A)$ alors $\mathcal X_M(M) = 0$
+<!--ID: 1713558248346-->
+
 
 ### Preuve
 
@@ -98,6 +110,8 @@ $$\tag*{$\blacksquare$}$$
 Soit $\mathbb K$ un corps et $M \in GL_n(\mathbb K)$ posons $Q_M = \frac{(-1)^n\mathcal X_M-\det(M)}{X} \in \mathbb K[X]$ alors on a l'égalité suivante: #!
 
 $$Q_M(M) = \:^tCom(M)$$
+<!--ID: 1713558248350-->
+
 
 
 ## Matrices compagnons
@@ -105,4 +119,7 @@ $$Q_M(M) = \:^tCom(M)$$
 ### Définition
 Pour un polynôme $P =  X^n + a_{n-1}X^{n-1} + \cdots + a_0 \in A[X]$, on considère la matrice compagnon: #!
 
-La matrice 
+La matrice $C$ tel que $\mathcal X_C(X) = P$ soit alors
+$$C = \begin{pmatrix}0  &  0  & \cdots  & 0 & -a_0 \\ 1 & 0  & \cdots   & 0 & -a_1 \\ 0 & 1  & \cdots & 0 & -a_2 \\ \vdots & \vdots & \ddots & \vdots & \vdots\\ 0 & 0 & \cdots & 1 & a_{n-1}\end{pmatrix}$$
+<!--ID: 1713558248353-->
+

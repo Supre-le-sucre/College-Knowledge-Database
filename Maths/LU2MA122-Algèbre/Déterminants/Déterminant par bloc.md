@@ -2,6 +2,8 @@
 On donne la propriété suivante: #!
 
 Soit la matrice donné par blocs $M = \begin{pmatrix}B & C \\ 0 & Q\end{pmatrix}$ avec $B \in M_p(A), Q \in M_r(A), C \in M_{p,r}(A)$. On a l'égalité suivante: $\det(M) = \det(B)\det(Q)$
+<!--ID: 1713558248358-->
+
 
 ### Preuve
 Commençons à traiter le cas d'un corps $\mathbb K$.
@@ -47,3 +49,4 @@ $$\tag*{$\blacksquare$}$$
 Si $M$ est une matrice triangulaire par bloc, alors: #!
 $$\det(M) = \prod_{i=1}^p\det(M_i)$$
 Ceci se prouve efficacement par récurrence
+<!--ID: 1713558248361-->
