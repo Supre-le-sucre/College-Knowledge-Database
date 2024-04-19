@@ -103,4 +103,6 @@ $$Q_M(M) = \:^tCom(M)$$
 ## Matrices compagnons
 
 ### Définition
-En partant d'un polynôme $P =  X^n + a_{n-1}X^{n-1} + \cdots + a_0 \in A[X]$
+Pour un polynôme $P =  X^n + a_{n-1}X^{n-1} + \cdots + a_0 \in A[X]$, on considère la matrice compagnon: #!
+
+La matrice 
