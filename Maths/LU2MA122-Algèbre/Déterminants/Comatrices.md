@@ -51,3 +51,28 @@ Or on rappelle que la colonne $k$ a été retirée en même temps que la ligne $
 $$\det(C_1, \dots, C_n) = \sum_{i=1}^nm_{ik}M_{ik}$$
 Etant donné l'égalité du déterminant pas transposition mentionné [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|ici]], l'autre point se déduit du premier
 $$\tag*{$\blacksquare$}$$
+
+## Théorème des produits
+Soit $M \in M_n(A)$ on remarque l'égalité suivante pour $M.^tCom(M)$: #!
+$$M.^tCom(M) = \:^tCom(M).M = \det(M)Id$$
+
+## Théorème de l'inverse
+
+### Définition du groupe linéaire
+Pour un anneau commutatif $A$ on appelle groupe linéaire sur $A$ l'ensemble: #!
+$$GL_n(A) = \{M \in M_n(A), \exists B \in M_n(A), MB=Id\}$$
+
+### Théorème
+On a que $GL_n(A) = \{M\in M_n(A), \det(M) \in A^\times\}$. En particulier, on a que pour tout $M \in GL_n(A)$: #!
+$$M^{-1} = \frac{1}{\det(M)}\;^tCom(M)$$
+L'inverse à droite est aussi l'inverse à gauche, ce qui fait de $GL_n(A)$ un groupe.
+
+### Corollaire
+Pour tout $P \in GL_n(A)$ on a d'après le théorème de l'inverse que: #!
+$\det(P^{-1}) = \det{(P)}^{-1}$. De plus si $M$ et $Q$ sont semblables dans $M_n(A)$, on a que $\det(M) = \det(Q)$
+
+
+## Formules de Cramer
+On énonce la propriété de la façon suivante: #!
+
+Soit le système linéaire $MX=B$ avec $M \in GL_n(A)$ et $X, B \in A^n$ des vecteurs colonnes. Soit $x_k$ la coordonnée $k$ de $X$. On a que pour tout $k$ dans $[1, n]$: $$x_k = \frac{\det(C_1, \dots, C_{k-1}, B, C_{k+1}, \dots, C_n)}{\det(M)}$$
