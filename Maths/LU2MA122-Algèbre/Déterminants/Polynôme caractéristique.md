@@ -65,5 +65,30 @@ Supposons ici que $A = \mathbb Z$, la matrice $X - XId$ est donc dans $M_n(\math
 $$\phi_K: \mathbb M_n(Z[X]) \to M_n(M_n(\mathbb Z))$$
 Cependant $M_n(\mathbb Z)$ est un anneau non commutatif. En considérant $M_n(M_n(\mathbb Z))$ il n'y aucune théorie du déterminant qui nous permet d'établir un morphisme de monoïdes $M_n(M_n(\mathbb Z)) \to M_n(\mathbb Z)$.
 
-L'évaluation de $M-XId$ en $M$ fait sens, en revanche, prendre le déterminant de cette évaluation ne l'est pas. L'argument n'est donc aucunement recevable.
+L'évaluation de $M-XId$ en $M$ fait sens, en revanche, l'évaluation selon le déterminant ne l'est pas. L'argument n'est donc aucunement recevable.
 
+#### Début de la vraie preuve
+On se propose de considérer l'[[Comatrices#Théorème des produits|identité comatricielle]] du déterminant
+$$(XId-M).^tCom(Xid-M) = \mathcal X_M(X)Id$$
+On note $\tilde{C} := \:^tCom(Xid-M)$
+Comme la matrice des cofacteurs consiste en les [[Mineurs]] d'ordre $n-1$, on écrit:
+$$\tilde C = B_0 + B_1 X + \cdots + B_{n-1}X^{n-1} \in M_n(A[X])$$ avec les $B_i \in M_n(A)$. On a donc:
+$$(XId-M)(B_0 + B_1 X + \cdots + B_{n-1}X^{n-1}) = a_0Id + \cdots + a_nX^nId = \mathcal X_M(X)Id$$
+Il en résulte alors que $MB_0 = -a_0Id, B_0-MB_1 = a_1 Id$ etc.
+On multiple alors la première égalité par $Id$, la seconde par $M$ et la dernière par $M^n$
+En effectuant la somme de ces 3 égalité on obtient que
+$$0 = \mathcal X_M(M)$$
+$$\tag*{$\blacksquare$}$$
+
+## Propriété de la matrice inverse
+Soit $M \in GL_n(A)$, alors $M^{-1}$ est un polynôme en $M$
+
+### Preuve
+Par Cayley-Hamilton on a que:
+$$\mathcal X_M(M) = M^n + a_{n-1}M^{n-1} + \cdots + a_0Id = 0$$
+On a que par la [[#Proposition sur la forme du polynôme caractéristique]], $a_0 = (-1)^n\det(M)$
+De plus comme $M \in GL_n(A)$ on a d'après [[Comatrices#Théorème de l'inverse|ce théorème]] que $\det(M) \in A^\times$, donc $a_0 \in A^\times$.
+On peut donc écrire:
+$$M.(M^{n-1}+a_{n-1}M_{n-2} + \cdots +a_1Id)$$
+Soit finalement:
+$$M^{-1$$
