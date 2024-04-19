@@ -47,4 +47,7 @@ $$\det(C_1, \dots, C_{k-1}, E_i, C_{k+1}, \dots, C_n) = (-1)^{k-1}(-1)^{i-1}\det
 D'où finalement:
 $$\det(C_1, \dots, C_n) = \sum_{i=1}^nm_{ik}\det(C_1, \dots, C_{k-1}, E_i, C_{k+1}, \dots, C_n)$$
 $$\det(C_1, \dots, C_n) = \sum_{i=1}^nm_{ik}(-1)^{k-1}(-1)^{i-1}\det\begin{pmatrix} L_1 \\ \vdots \\ L_{i-1} \\ L_{i+1}  \\ \vdots  \\ L_n\end{pmatrix}$$
-
+Or on rappelle que la colonne $k$ a été retirée en même temps que la ligne $i$. Donc il s'agit du déterminant de $M$ auquel on a retiré la ligne $i$ et la colonne $k$
+$$\det(C_1, \dots, C_n) = \sum_{i=1}^nm_{ik}M_{ik}$$
+Etant donné l'égalité du déterminant pas transposition mentionné [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|ici]], l'autre point se déduit du premier
+$$\tag*{$\blacksquare$}$$
