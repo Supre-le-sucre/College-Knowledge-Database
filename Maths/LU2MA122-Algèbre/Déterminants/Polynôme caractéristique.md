@@ -89,6 +89,18 @@ $$\mathcal X_M(M) = M^n + a_{n-1}M^{n-1} + \cdots + a_0Id = 0$$
 On a que par la [[#Proposition sur la forme du polynôme caractéristique]], $a_0 = (-1)^n\det(M)$
 De plus comme $M \in GL_n(A)$ on a d'après [[Comatrices#Théorème de l'inverse|ce théorème]] que $\det(M) \in A^\times$, donc $a_0 \in A^\times$.
 On peut donc écrire:
-$$M.(M^{n-1}+a_{n-1}M_{n-2} + \cdots +a_1Id)$$
+$$M.(M^{n-1}+a_{n-1}M_{n-2} + \cdots +a_1Id) = -a_0Id$$
 Soit finalement:
-$$M^{-1$$
+$$M^{-1} = -\frac{1}{a_0}(M^{n-1}+a_{n-1}M_{n-2} + \cdots +a_1Id)$$
+$$\tag*{$\blacksquare$}$$
+
+## Lien entre la comatrice et le polynôme caractéristique
+Soit $\mathbb K$ un corps et $M \in GL_n(\mathbb K)$ posons $Q_M = \frac{(-1)^n\mathcal X_M-\det(M)}{X} \in \mathbb K[X]$ alors on a l'égalité suivante: #!
+
+$$Q_M(M) = \:^tCom(M)$$
+
+
+## Matrices compagnons
+
+### Définition
+En partant d'un polynôme $P =  X^n + a_{n-1}X^{n-1} + \cdots + a_0 \in A[X]$
