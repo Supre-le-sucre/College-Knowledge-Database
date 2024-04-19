@@ -19,7 +19,7 @@ $$\begin{pmatrix}B & C \\ 0 & Q\end{pmatrix} = \begin{pmatrix}B & 0 \\ 0 & Id\en
 Soit
 $$\det\begin{pmatrix}B & C \\ 0 & Q\end{pmatrix} = \det\begin{pmatrix}B & 0 \\ 0 & Id\end{pmatrix} \det\begin{pmatrix}Id & B^{-1}CQ^{-1} \\ 0 & Id\end{pmatrix}\det\begin{pmatrix}Id & 0 \\ 0 & Q\end{pmatrix}$$
 
-La matrice centrale est une matrice triangulaire, on applique [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|le théorème du déterminant pour les matrices traingualires]]:
+La matrice centrale est une matrice triangulaire, on applique [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|le théorème du déterminant pour les matrices triangulaires]]:
 $$\det\begin{pmatrix}Id & B^{-1}CQ^{-1} \\ 0 & Id\end{pmatrix} = 1$$
 
 Calculons maintenant $\det\begin{pmatrix}B & 0 \\ 0 & Id\end{pmatrix}$
