@@ -30,4 +30,21 @@ Soit la [[Cycle|permutation]] $\sigma = (1 \cdots k)$ de [[Signature]] $\epsilon
 $$\det(C_1, \dots, C_{k-1}, E_i, C_{k+1}, \dots, C_n) = (-1)^{k-1}\det(E_i, C_1, \dots, C_{k-1}, C_{k+1}, \dots, C_n)$$
 
 Observons maintenant les lignes. N'oublions pas l'égalité matricielle suivante:
-$$(E_i, )$$
+$$(E_i, C_1, \dots, C_{k-1}, C_{k+1}, \dots, C_n) = 
+\begin{pmatrix} 0 & L_1  \\ \vdots & \vdots \\ 1 & L_i \\ \vdots & \vdots \\ 0 & L_n\end{pmatrix}$$ En permutant la i-ème ligne à l'aide $\sigma' = (1 \cdots i)$ (avec $\epsilon(\sigma') = (-1)^{i-1}$) On obtient donc le déterminant:
+$$\det\begin{pmatrix} 0 & L_1  \\ \vdots & \vdots \\ 1 & L_i \\ \vdots & \vdots \\ 0 & L_n\end{pmatrix} = (-1)^{i-1}\det\begin{pmatrix} 1 & L_i \\ 0 & L_1  \\ \vdots & \vdots \\ 0 & L_{i-1} \\ 0 & L_{i+1} \\ \vdots & \vdots \\ 0 & L_n\end{pmatrix} = (-1)^{i-1}\det\begin{pmatrix} L_1 \\ \vdots \\ L_{i-1} \\ L_{i+1}  \\ \vdots  \\ L_n\end{pmatrix}$$
+En effet, en développant le déterminant par la première ligne, on obtient l'égalité avec le membre tout à droite.
+
+Or rappelons que:
+$$\det(C_1, \dots, C_{k-1}, E_i, C_{k+1}, \dots, C_n) = (-1)^{k-1}\det(E_i, C_1, \dots, C_{k-1}, C_{k+1}, \dots, C_n)$$
+et que
+$$\det (E_i, C_1, \dots, C_{k-1}, C_{k+1}, \dots, C_n) = 
+(-1)^{i-1}\det\begin{pmatrix} L_1 \\ \vdots \\ L_{i-1} \\ L_{i+1}  \\ \vdots  \\ L_n\end{pmatrix}$$
+
+Donc on a:
+$$\det(C_1, \dots, C_{k-1}, E_i, C_{k+1}, \dots, C_n) = (-1)^{k-1}(-1)^{i-1}\det\begin{pmatrix} L_1 \\ \vdots \\ L_{i-1} \\ L_{i+1}  \\ \vdots  \\ L_n\end{pmatrix}$$
+
+D'où finalement:
+$$\det(C_1, \dots, C_n) = \sum_{i=1}^nm_{ik}\det(C_1, \dots, C_{k-1}, E_i, C_{k+1}, \dots, C_n)$$
+$$\det(C_1, \dots, C_n) = \sum_{i=1}^nm_{ik}(-1)^{k-1}(-1)^{i-1}\det\begin{pmatrix} L_1 \\ \vdots \\ L_{i-1} \\ L_{i+1}  \\ \vdots  \\ L_n\end{pmatrix}$$
+
