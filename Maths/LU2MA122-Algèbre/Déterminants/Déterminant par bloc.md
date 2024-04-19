@@ -42,3 +42,8 @@ $$\det(M) = \det(B)\det(Q)$$
 
 Dans le cas général, il suffit de voir cet égalité comme une identité polynomiale dans $\mathbb Z[B_{ij}, Q_{ij}, C_{ij}]$ que l'on plonge dans le corps $\mathbb Q(B_{ij}, Q_{ij}, C_{ij})$. Comme ceci est vrai dans un corps, il est vrai pour l'anneau polynomiale $\mathbb Z$ considéré, qui peut être spécialisé en un anneau commutatif arbitraire. (La preuve est le même procédé pour montrer [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|le point 3 de ce théorème]] dans le cas général)
 $$\tag*{$\blacksquare$}$$
+
+### Corollaire
+Si $M$ est une matrice triangulaire par bloc, alors: #!
+$$\det(M) = \prod_{i=1}^p\det(M_i)$$
+Ceci se prouve efficacement par récurrence
