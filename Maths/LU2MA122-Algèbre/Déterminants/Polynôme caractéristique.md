@@ -22,4 +22,24 @@ Ceci implique que $\lambda$ est une racine de $\mathcal X_M$
 
 $\Leftarrow$
 Soit $\lambda$ une racine de $\mathcal X_M$ tel que, donc, $\det(M -\lambda Id) = 0$
-On a alors que la matrice $M- \lambda Id$ n'est pas inversible
+On a alors que la matrice $M- \lambda Id$ n'est pas inversible.
+On a donc en particulier que $Ker(M-\lambda Id) \not = \{0\}$, et donc qu'il existe un $x$ tel que
+$(M-\lambda Id).x = 0$ autrement dit que $Mx - \lambda x = 0 \Leftrightarrow Mx = \lambda x$
+$$\tag*{$\blacksquare$}$$
+
+## Matrices semblables
+
+### Définition de matrices semblables
+Deux matrices $A$ et $B$ sont dites semblables, s'il existe une matrice inversible $P$ tel que: #!
+$$A = PBP^{-1}$$
+
+### Propriété
+Deux matrices semblables ont le même polynôme caractéristique.
+
+#### Preuve
+Soit $M$ et $Q$ deux matrices semblables. On a donc $M = PQP^{-1}$
+De fait:
+$$M - \lambda Id = PQP^{-1} - \lambda Id = PQP^{-1} - \lambda P.Id.P^{-1} = P(Q-\lambda Id)P^{-1}$$
+Et d'après la formule du déterminant on a bien
+$$\det(M-\lambda Id) = \det(P(Q-\lambda Id)P^{-1}) = \det(P)\det(P)^{-1}\det(Q-\lambda Id) = \det(Q-\lambda Id)$$
+$$\tag*{$\blacksquare$}$$
