@@ -38,4 +38,5 @@ Soit alors pour $G = (V, E)$ on a $v \in V$ une racine si et seulement si  $\for
 
 # Rang d'un sommet
 On définit le rang d'un sommet $u$ comme suit:
-$$rang(u)\begin{cases}0 \end{cases}$$
+$$rang(u)\begin{cases}0  \text{ si }\Gamma^-(u) = \emptyset \\
+1 + \max\{rang(v) \: | \: v \in \Gamma^-(u)\}\end{cases}$$
