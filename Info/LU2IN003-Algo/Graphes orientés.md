@@ -35,3 +35,7 @@ On parle de composantes fortement connexe s'il existe un chemin relient un somme
 # Définition de la racine
 Une racine dans un graphe orienté est un sommet dans lequel on peut atteindre tous les autres sommets du graphe.
 Soit alors pour $G = (V, E)$ on a $v \in V$ une racine si et seulement si  $\forall u \in V\setminus \{v\}$ un chemin existe entre $v$ et $u$
+
+# Rang d'un sommet
+On définit le rang d'un sommet $u$ comme suit:
+$$rang(u)\begin{cases}0 \end{cases}$$
