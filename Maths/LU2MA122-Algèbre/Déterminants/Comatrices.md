@@ -67,8 +67,25 @@ $$M.^tCom(M) = \:^tCom(M).M = \det(M)Id$$
 On évalue d'abord la diagonale de la matrice $M.^tCom(M)$ 
 On a alors que 
 $$M.^tCom(M)_{ii} = \sum_{j=1}^nm_{ij}(^tCom(M))_{ji} = \sum_{j=1}^nm_{ij}(Com(M))_{ij} = det(M)$$
-En effet il s'agit là du développement du déterminant selon la 
+En effet il s'agit là du développement du déterminant selon la i-ème ligne
 
+Maintenant observons les coefficients non diagonaux, en prenant donc $i \not = j$
+$$M.^tCom(M)_{ij} = \sum_{k=1}^nm_{ik}M_{jk}$$
+Notons les lignes de $M$: $L_1, \dots, L_n$. On pose $\tilde M$ la matrice où la j-ème ligne est remplacée par la ligne $L_i$. Comme les lignes sont liées on a que $\det(\tilde M) = 0$.
+Observons que les lignes d'indice différents de $j$ sont les mêmes entre $\tilde M$ et $M$. De fait, sur la ligne $j$ les cofacteurs de $M$ et $\tilde M$ sont les mêmes.
+$$\sum_{k=1}^nm_{ik}M_{jk} = \sum_{k=1}^nm_{ik}\tilde M_{jk} = \det(\tilde M) = 0$$
+
+D'où l'égalité
+$$M.^tCom(M) = \det(M)Id$$
+
+
+Montrons $M.^tCom(M) = \:^tCom(M).M$
+Il suffit sobrement d'appliquer la transposition à deux reprises...
+Une fois...
+$$^t(^tCom(M).M) = \:^tMCom(M) = \det(^tM)Id = \det(M)Id$$
+Deux fois...
+$$^t(^tMCom(M)) = \:^tCom(M)M = \det(M)Id$$
+$$\tag*{$\blacksquare$}$$
 
 ## Théorème de l'inverse
 
