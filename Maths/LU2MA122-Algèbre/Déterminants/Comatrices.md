@@ -63,6 +63,12 @@ Soit $M \in M_n(A)$ on remarque l'égalité suivante pour $M.^tCom(M)$: #!
 $$M.^tCom(M) = \:^tCom(M).M = \det(M)Id$$
 <!--ID: 1713558248382-->
 
+### Preuve
+On évalue d'abord la diagonale de la matrice $M.^tCom(M)$ 
+On a alors que 
+$$M.^tCom(M)_{ii} = \sum_{j=1}^nm_{ij}(^tCom(M))_{ji} = \sum_{j=1}^nm_{ij}(Com(M))_{ij} = det(M)$$
+En effet il s'agit là du développement du déterminant selon la 
+
 
 ## Théorème de l'inverse
 
