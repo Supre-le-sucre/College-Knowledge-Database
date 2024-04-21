@@ -102,7 +102,8 @@ L'inverse à droite est aussi l'inverse à gauche, ce qui fait de $GL_n(A)$ un g
 <!--ID: 1713558248389-->
 
 #### Preuve
-Soit $M \in GL_n(A)$ alors il existe un $B$ tel que $MB =Id$
+Soit $M \in GL_n(A)$ alors il existe un $B$ tel que $MB =Id$ d'où en appliquant le déterminant et par le 3e point du [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|déterminant]] $\det(M)\det(B) = 1$
+Comme $M \in GL$
 
 ### Corollaire
 Pour tout $P \in GL_n(A)$ on a d'après le théorème de l'inverse que: #!
