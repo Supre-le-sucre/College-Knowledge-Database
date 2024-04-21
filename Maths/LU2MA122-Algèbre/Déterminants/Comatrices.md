@@ -110,6 +110,7 @@ On a d'après le [[#Théorème des produits]] que $MB = Id$, soit alors $M \in G
 D'où $GL_n(A) = \{M\in M_n(A), \det(M) \in A^\times\}$
 
 L'inverse a droite est aussi un inverse à gauche du au fait que $M.^tCom(M) = \:^tCom(M).M$
+Et $GL_n(A)$ est un groupe car $\det: M_n(A) \to A$ est un morphisme de monoïdes. Et comme $A^\times$ est un groupe, on a que $GL_n(A) = \det^{-1}(A^\times)$ l'est aussi.
 $$\tag*{$\blacksquare$}$$
 
 ### Corollaire
@@ -124,3 +125,9 @@ On énonce la propriété de la façon suivante: #!
 
 Soit le système linéaire $MX=B$ avec $M \in GL_n(A)$ et $X, B \in A^n$ des vecteurs colonnes. Soit $x_k$ la coordonnée $k$ de $X$. On a que pour tout $k$ dans $[1, n]$: $$x_k = \frac{\det(C_1, \dots, C_{k-1}, B, C_{k+1}, \dots, C_n)}{\det(M)}$$
 <!--ID: 1713558248395-->
+
+### Preuve
+Comme $M \in GL_n(A)$, on prends $X = M^{-1}B$
+En utilisant la [[#Théorème|formule d'inversion]] on a alors que:
+$$x_k = \sum_{i=1}^n(M^{-1})_{ki}B_i = \frac{1}{\det(M)}\sum^n_{i=1}(^tCom(t))_{ki}B_i = \frac{1}{\det(M)}\sum^n_{i=1}(Com(t))_{ik}B_i$$
+Observons que la dernière égalité correspond au développement d'une matrice de la forme $(C_1, \dots C_{k-1}, B, C_{k+1}, \dots, C_n)$ par rapport à la $k$-ème colonne d'après [[#Théorème du développement du déterminant]].
