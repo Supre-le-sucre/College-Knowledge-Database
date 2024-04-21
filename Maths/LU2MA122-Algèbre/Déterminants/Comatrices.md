@@ -103,7 +103,14 @@ L'inverse à droite est aussi l'inverse à gauche, ce qui fait de $GL_n(A)$ un g
 
 #### Preuve
 Soit $M \in GL_n(A)$ alors il existe un $B$ tel que $MB =Id$ d'où en appliquant le déterminant et par le 3e point du [[Déterminant matriciel#Théorèmes sur le déterminant d'une matrice|déterminant]] $\det(M)\det(B) = 1$
-Comme $M \in GL$
+Ainsi donc $\det(M) \in A^\times$.
+
+De façon réciproque, si on a $\det(M) \in A^\times$, posons $B = \frac{1}{\det(M)}^tCom(M) \in M_n(A)$
+On a d'après le [[#Théorème des produits]] que $MB = Id$, soit alors $M \in GL_n(A)$
+D'où $GL_n(A) = \{M\in M_n(A), \det(M) \in A^\times\}$
+
+L'inverse a droite est aussi un inverse à gauche du au fait que $M.^tCom(M) = \:^tCom(M).M$
+$$\tag*{$\blacksquare$}$$
 
 ### Corollaire
 Pour tout $P \in GL_n(A)$ on a d'après le théorème de l'inverse que: #!
