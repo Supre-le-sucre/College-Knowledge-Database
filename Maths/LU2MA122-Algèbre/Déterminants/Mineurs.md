@@ -13,6 +13,4 @@ Soit $\mathbb K$ un corps, avec $M \in M_n(\mathbb K)$, $r \in [1,n]$, on a que 
 Il est ==fondamental== de travailler avec un corps. En général il n'y a pas de notion de rang.
 <!--ID: 1713558248369-->
 
-### Preuve
-Soient $C_1, \dots, C_n$ les colonnes de $M$
 

@@ -9,7 +9,19 @@ Soit $M\in M_n(A)$ alors $\mathcal X_M$ est unitaire de degré $n$ avec en parti
 $$\mathcal X_M(X) = X^n - Tr(M)X^{n-1} + \cdots +(-1)^n\det(A)$$
 <!--ID: 1713558248330-->
 
+### Preuve
+La [[Déterminant matriciel#Définition|formule du déterminant]] nous donne que
+$$\mathcal X_M(X) = \sum_{\sigma \in S_n}\epsilon(\sigma)\prod_{i=1}^n(\delta_{\sigma(i)i}X-M_{\sigma(i)i})$$
+Avec $\delta_{ij} = 1$ si $i = j$ et 0 sinon.
+En particulier, observons que le membre de droite ne possède au plus que $n$ termes de degré $1$. On a donc que $\deg(\mathcal X_M) \leq n$.
+Pour $\sigma \in S_n$, notons $Q_\sigma := \prod_{i=1}^n(M_{\sigma(i)i}-\delta_{\sigma(i)i }X)$
+Si $\sigma \not = Id$, alors $\sigma$ a au plus $n-2$ points fixes. donc $\deg(Q_\sigma) \leq n-2$. Si $\sigma = Id$, alors le coefficient de $X^n$ vaut 1
 
+Pour obtenir le coefficient de $X^{n-1}$, la seule contribution vient alors $\sigma = Id$. Ce qui correspond bien à la trace.
+
+Pour l'autre terme il suffit de calculer $\mathcal X_M(0)$
+$$\tag*{$\blacksquare$}$$
+ 
 ## Proposition sur les valeurs propres de $M$
 Soit $\mathbb K$ un corps et $M \in M_n(\mathbb K)$, alors $\lambda \in \mathbb K$ est une valeur propre de $M$: #!
 si et seulement si $\lambda$ est une racine de $\mathcal X_M$. En particulier, $M$ admet donc au plus $n$ valeurs propres.
