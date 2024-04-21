@@ -101,6 +101,8 @@ $$M^{-1} = \frac{1}{\det(M)}\;^tCom(M)$$
 L'inverse à droite est aussi l'inverse à gauche, ce qui fait de $GL_n(A)$ un groupe.
 <!--ID: 1713558248389-->
 
+#### Preuve
+Soit $M \in GL_n(A)$ alors il existe un $B$ tel que $MB =Id$
 
 ### Corollaire
 Pour tout $P \in GL_n(A)$ on a d'après le théorème de l'inverse que: #!
