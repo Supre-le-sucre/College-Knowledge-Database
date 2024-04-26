@@ -3,3 +3,6 @@ Soit $G = (V, E)$ un graphe non orienté et un sommet $s \in V$. A partir de l'o
 
 ## Définition
 Un parcours en profondeur est un [[Parcours en largeur]] où l'on va visiter le dernier sommet ouvert plutôt que le premier
+
+## Propriété
+Pour tout parcours en profondeur, son graphe de liaison est unique.
