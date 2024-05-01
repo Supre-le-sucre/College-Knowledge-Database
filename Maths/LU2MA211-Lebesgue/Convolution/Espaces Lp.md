@@ -33,5 +33,13 @@ Pour $f,g \in L^2(\mathbb R)$ on a $fg \in L^1(\mathbb R)$ et: $$\left|\int_\mat
 On énonce l'inégalité suivante: #!
 
 Soit $p, q \geq 1$ sont conjugués (i.e $\frac{1}{p}+\frac{1}{q}=1$) pour toutes fonctions mesurables positives $f,g$ on a l'inégalité suivante dans $\overline{\mathbb R_+}$: $$||fg||_1 \leq ||f||_p||g||_q$$ en particulier si $f \in \mathcal L^p(\mathbb R)$ et $g \in \mathcal L^q(\mathbb R)$ alors $fg$ est intégrable.
+<!--ID: 1714578113155-->
+
 
 ## Inégalité de Jensen
+On énonce l'inégalité suivante: #!
+
+Soit $f \geq 0$ une fonction mesurable telle que $\int f = 1$.
+On considère $\rho$ une fonction convexe et une fonction $h$ telle que $\int hf < +\infty$ alors on a: $$\rho\left(\int_\mathbb R h(x)f(x)dx\right) \leq \int_\mathbb R \rho(h(x))f(x)dx$$
+<!--ID: 1714578113158-->
+
