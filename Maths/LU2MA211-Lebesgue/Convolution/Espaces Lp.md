@@ -28,3 +28,10 @@ On énonce l'inégalité de la façon suivante: #!
 
 Pour $f,g \in L^2(\mathbb R)$ on a $fg \in L^1(\mathbb R)$ et: $$\left|\int_\mathbb Rf\overline g\right| \leq ||f||_2||g||_2$$ et l'égalité si et seulement si $f$ et $g$ sont liées.
 <!--ID: 1714516791398-->
+
+## Inégalité de Hölder
+On énonce l'inégalité suivante: #!
+
+Soit $p, q \geq 1$ sont conjugués (i.e $\frac{1}{p}+\frac{1}{q}=1$) pour toutes fonctions mesurables positives $f,g$ on a l'inégalité suivante dans $\overline{\mathbb R_+}$: $$||fg||_1 \leq ||f||_p||g||_q$$ en particulier si $f \in \mathcal L^p(\mathbb R)$ et $g \in \mathcal L^q(\mathbb R)$ alors $fg$ est intégrable.
+
+## Inégalité de Jensen
