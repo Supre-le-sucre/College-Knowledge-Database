@@ -49,15 +49,21 @@ On peut trouver un algorithme de suppression du maximum d'un ABR: #!
 Observons déjà que le maximum d'un ABR, n'a pas de sous arbre droit. Ensuite, observons grâce à cela qu'il suffit de passer l'arbre gauche du maximum à droite
 
 #### Algorithme de suppression du maximum
-On prends ici aussi le loisir de sauvegarder la valeur maximal de l'arbre dans un pointeur
+On prends ici aussi le loisir de sauvegarder la valeur maximal de l'arbre dans un pointeur.
+Cette fonction va renvoyer la nouvelle racine de l'arbre.
 ```c
 btree* supprimeMaxABR(btree* abr, int* pmax) {
 
 	if(!abr->fd) {
 		// On a pas de sous arbre droit, c'est le maximum
 		*pMax = abr->cle;
-		
+		btree* fg = abr->fg;
+		free(abr);
+		return fg; 
 	}
+
+	abr->fd = supprimeMaxABR(abr->fd, pmax);
+	return abr;	
 
 }
 ```
