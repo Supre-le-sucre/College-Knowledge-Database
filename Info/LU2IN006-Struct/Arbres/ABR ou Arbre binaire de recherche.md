@@ -40,6 +40,28 @@ int maxABR(btree* abr) {
 } // O(h)
 ```
 
+
+## Problématique: Suppression
+Supprimer un élément d'un ABR n'est pas trivial, car il est nécessaire que cette suppression ne perturbe pas la validité de sa structure.
+
+### Suppression du maximum
+On peut trouver un algorithme de suppression du maximum d'un ABR: #!
+Observons déjà que le maximum d'un ABR, n'a pas de sous arbre droit. Ensuite, observons grâce à cela qu'il suffit de passer l'arbre gauche du maximum à droite
+
+#### Algorithme de suppression du maximum
+On prends ici aussi le loisir de sauvegarder la valeur maximal de l'arbre dans un pointeur
+```c
+btree* supprimeMaxABR(btree* abr, int* pmax) {
+
+	if(!abr->fd) {
+		// On a pas de sous arbre droit, c'est le maximum
+		*pMax = abr->cle;
+		
+	}
+
+}
+```
+
 ## Annexes d'algorithme
 ### Validité structurelle d'un ABR
 ```c
@@ -72,4 +94,23 @@ btree* exists(btree* b, int val) {
 	if(val < b->cle) return exists(b->fg, val);
 
 } // O(h)
+```
+
+### Insertion d'un élément dans un ABR
+On doit bien maintenir la structure de l'arbre.
+`btree* creer(int val, btree* fg, btree* fd)` créer une nœud d'arbre ayant la valeur `val`, le fils gauche `fg` et le fils de droit `fd`
+```c
+btree* insererABR(btree* b, int val) {
+	if(!b) return creer(val, NULL, NULL);
+
+	if(b->cle > val) {
+		if(!b->fg) b->fg = creer(val, NULL, NULL);
+		else insererABR(b->fg, val)
+	}
+
+	if(b->cle > val) {
+		if(!b->fd) b->fd = creer(val, NULL, NULL);
+		else insererABR(b->fd, val)
+	}
+}
 ```
