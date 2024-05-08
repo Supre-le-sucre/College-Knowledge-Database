@@ -57,3 +57,25 @@ L'insertion se déroule de la façon suivante: #!
 
 Comme un arbre rouge-noir est un [[ABR ou Arbre binaire de recherche]], on commence d'abord par [[ABR ou Arbre binaire de recherche#Insertion d'un élément dans un ABR|insérer l'élément à sa place]] sans tenir compte des couleurs. Le nouveau nœud est rouge, ce qui permet de ne pas changer la quantité de nœud noir sur un chemin.
 Ensuite, de manière récursive, on doit rendre cette couleur rouge valide, on remonte alors de l'élément inséré jusqu'à la racine en vérifiant les propriétés. Si elles ne sont pas vérifiées, alors les couleurs changent et/ou des [[Rééquilibrage des arbres par rotation|rotations]] sont réalisées.
+
+### Algorithme d'insertion
+On considère l'algorithme qui insère le nouvel élément $X$ comme indiquer puis qui restaure l'intégrité de l'arbre: #!
+
+- **Cas 1**: Si le père de $X$ est noir, on a rien à faire, la hauteur noire n'a pas changée
+- **Cas 2**: Si $X$ est la racine de l'arbre, il faut colorier $X$ en noir. C'est le seul cas où la hauteur noire augmente.
+- **Cas 3:** Si $X$ a un père rouge, et qu'en plus de cela $X$ possède "un oncle" (donc un nœud ayant la même parenté que le père) rouge. Alors on colorie le père et l'oncle en noir et le grand-père en rouge. On s'intéresse maintenant à restaurer l'intégrité pour le grand-père rouge... Et donc on exécute l'algorithme sur celui-ci.
+- **Cas 4**: Si le père de $X$ est rouge, mais qu'il ne possède pas d'oncle rouge, on considère les sous cas suivants:
+	- **Cas 4a**: Si $X$ est un fils gauche et que son père est aussi un fils gauche. On colorie le père en noir et le grand-père en rouge puis on fait une [[Rééquilibrage des arbres par rotation|rotation droite]] du grand-père
+	- **Cas 4b**: Si $X$ est un fils droit et que père est un fils gauche, on effectue une rotation gauche du père et on se ramène au cas **4a**
+	- **Cas 4c**: Si $X$ est un fils droit et que le père est aussi un fils droit, on colorie le père en noir et le grand-père en rouge puis on fait une [[Rééquilibrage des arbres par rotation|rotation gauche]] du grand-père
+	- **Cas 4d**: Si $X$ est un fils gauche et que son père est un fils droit, on effectue une rotation droite du père pour se ramener au cas **4c**
+
+#### Remarque sur l'algorithme
+- On réalise un appel récursif uniquement sur le cas 3 pour revérifier l'intégrité à partir du grand père.
+- Des rotations ne surviennent que dans le cas 4. Donc une insertion entraine au plus 2 rotations
+- Pour chaque cas on doit forcément changer la couleur d'au plus 2 nœuds. Le nombre total de changement de couleur est donc au plus 2 fois la hauteur de l'arbre
+- La complexité pire cas de l'insertion est $O(log(n))$
+
+
+## Suppression dans un arbre rouge noir
+
