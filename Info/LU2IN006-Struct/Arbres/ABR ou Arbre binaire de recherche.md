@@ -71,7 +71,26 @@ btree* supprimeMaxABR(btree* abr, int* pmax) {
 ### Suppression d'un élément quelconque
 On remarque par la suppression du maximum que l'idée est clair: on décale les sous arbres à gauche et à droite quand il n'y a pas de sous arbre gênant.
 
-De manière général, lorsqu'on r
+De manière général, lorsqu'on a deux sous arbre sur l'élément à supprimer dans ABR, alors #!
+On cherche le plus grand élément du sous-arbre gauche (ou le plus petit élément du sous-arbre droit), on le met à la position de l'élément à supprimer, et on supprime l'élément dupliqué simplement (car il n'aura pas de fils droit (resp. fils fauche))
+
+#### Algorithme de suppression d'un élément
+On choisit ici de procéder en cherchant le plus grand élément du sous-arbre gauche
+```c
+btree* supprimeABR(btree* abr, int val) {
+
+	if(!abr) return;
+
+	if(val < abr->cle) abr->fg = supprimeABR(abr->fg, val);
+	else if(val > abr->cle) abr->fd = supprimeABR(abr->fd, val);
+
+	else {
+		// O
+	}
+	return abr;
+
+}
+```
 
 ## Annexes d'algorithme
 ### Validité structurelle d'un ABR
