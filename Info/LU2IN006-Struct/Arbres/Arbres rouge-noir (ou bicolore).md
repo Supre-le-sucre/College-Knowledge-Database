@@ -29,4 +29,31 @@ $\Pi(n)$: "Un arbre rouge noir de de hauteur noire $h_N = n$ vérifie $n \geq 2^
 Pour $h_N = 0$ alors on a forcément que $n=0$ car la racine est forcément noire
 
 Pour un arbre tel que $h_N = n$, observons que comme la racine est forcément noire, les sous-arbres gauche et droit ont forcément une hauteur noire diminuée de 1.
-Par hypothèse de récurrence ces sous-arbres possède au moins $2^{h_N - 1} - 1$ nœuds 
+Par hypothèse de récurrence ces sous-arbres possède au moins $2^{h_N - 1} - 1$ nœuds
+
+Soit $n \geq 1 + 2(2^{h_N - 1} - 1)$ car on ajoute la racine.
+Mais donc dans ce cas on a bien $n \geq 2^{h_N} - 1$
+
+On a alors $h_N \leq \log_2(n+1)$
+
+## Implémentation C
+On donne la définition structurelle suivante:
+
+```c
+#define NOIR 0
+#define ROUGE 1
+
+typedef struct arn {
+	int val;
+	int couleur;
+	struct arn* fg;
+	struct arn* fd;
+	struct arn* pere;
+}
+```
+
+## Insertion dans un arbre rouge noir
+L'insertion se déroule de la façon suivante: #!
+
+Comme un arbre rouge-noir est un [[ABR ou Arbre binaire de recherche]], on commence d'abord par [[ABR ou Arbre binaire de recherche#Insertion d'un élément dans un ABR|insérer l'élément à sa place]] sans tenir compte des couleurs. Le nouveau nœud est rouge, ce qui permet de ne pas changer la quantité de nœud noir sur un chemin.
+Ensuite, de manière récursive, on doit rendre cette couleur rouge valide, on remonte alors de l'élément inséré jusqu'à la racine en vérifiant les propriétés. Si elles ne sont pas vérifiées, alors les couleurs changent et/ou des [[Rééquilibrage des arbres par rotation|rotations]] sont réalisées.
