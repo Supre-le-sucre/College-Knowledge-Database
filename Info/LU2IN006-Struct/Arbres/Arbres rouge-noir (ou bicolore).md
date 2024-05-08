@@ -102,3 +102,9 @@ On considère l'algorithme qui supprime $X$ comme indiquer puis qui restaure l'i
 - **Cas 3**: Si le frère de $X$ est rouge, alors on considère les sous-cas suivant: 
 	- **Cas 3a**: Si le frère de $X$ est un fils droit, alors on le colorie en noir, et son père en rouge. Ensuite on effectue une rotation gauche du père. Nous sommes maintenant dans le cas **2**
 	- **Cas 3b** Si le frère de $X$ est un fils gauche, alors on fait le symétrique de **3a**
+
+#### Remarque sur l'algorithme
+- On réalise un appel récursif uniquement dans le cas **2a**. Il se fait sur un ancêtre. Dans le pire des cas il faudra donc remonter à la racine avant de terminer.
+- Dans tous les cas on effectue au plus une rotation par suppression
+- Dans tous les cas, on change la couleur d'au plus 2 nœuds. Le nombre total de changement de couleur est donc au plus 2 fois la hauteur de l'arbre
+- La complexité pire cas de la suppression d'un arbre rouge noir est $O(\log(n))$
