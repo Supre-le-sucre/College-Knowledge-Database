@@ -3,6 +3,8 @@
 ## Définition
 Un arbre binaire de recherche est un [[Arbre (Structure de données)|arbre binaire]] $A$ tel que: #!
 $$\forall x \in A, \forall y \in A_g(x), \forall z \in A_d(x), y \leq x \leq z$$
+<!--ID: 1715184202445-->
+
 
 ## Définition structurelle en étude
 ```c
@@ -16,10 +18,14 @@ typedef struct s_btree {
 ## Propriété du parcours infixe
 Pour un ABR, le parcours infixe de cet arbre nous donne: #!
 Une liste triée de ses clés.
+<!--ID: 1715184202446-->
+
 
 ## Recherche du plus petit et plus grand élément
 Dans un ABR, le plus petit élément et le plus grand élément se trouvent respectivement: #!
 Dans le nœuds le plus à gauche et dans le nœud le plus à droite de l'arbre
+<!--ID: 1715184202448-->
+
 
 ### Algorithme de recherche en étude
 En considérant la [[#Définition structurelle en étude]]
@@ -47,6 +53,8 @@ Supprimer un élément d'un ABR n'est pas trivial, car il est nécessaire que ce
 ### Suppression du maximum
 On peut trouver un algorithme de suppression du maximum d'un ABR: #!
 Observons déjà que le maximum d'un ABR, n'a pas de sous arbre droit. Ensuite, observons grâce à cela qu'il suffit de passer l'arbre gauche du maximum à droite
+<!--ID: 1715184202449-->
+
 
 #### Algorithme de suppression du maximum
 On prends ici aussi le loisir de sauvegarder la valeur maximal de l'arbre dans un pointeur.
@@ -73,6 +81,8 @@ On remarque par la suppression du maximum que l'idée est clair: on décale les 
 
 De manière général, lorsqu'on a deux sous arbre sur l'élément à supprimer dans ABR, alors #!
 On cherche le plus grand élément du sous-arbre gauche (ou le plus petit élément du sous-arbre droit), on le met à la position de l'élément à supprimer, et on supprime l'élément dupliqué simplement (car il n'aura pas de fils droit (resp. fils fauche))
+<!--ID: 1715184202451-->
+
 
 
 #### Algorithme de suppression d'un élément

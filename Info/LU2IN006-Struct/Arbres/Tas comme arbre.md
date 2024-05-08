@@ -1,6 +1,8 @@
 ## Définition
 On définit un tas comme suit: #!
 Un tas est un [[Arbres binaires]] ordonné: tous les nœuds, autre que la racine, on tune "priorité" plus grande que leur père 
+<!--ID: 1715184202453-->
+
 
 **Remarque**: La racine d'un tas est donc forcément l'élément minimum de celui-ci, quant au feuille, l'une d'entre elle représente le plus grand élément.
 
@@ -10,6 +12,8 @@ Sans perte de généralité, nous allons considérer en général, des tas repr�
 #### Définition
 On dit d'un arbre binaire qu'il est tassé à gauche lorsque: #!
 Tous ses niveaux sont <u>complets</u> mis à part le niveau inférieur, qui est complet à gauche.
+<!--ID: 1715184202454-->
+
 
 #### Propriété
 La taille d'un arbre tassé à gauche constitué de $n$ nœuds est de #!
@@ -24,6 +28,8 @@ Le tableau `tab` décrit chaque étage du tas en le lisant étage par étage:
 - `tab[2*i+1]` renvoie le fils droit du $i^{ème}$ nœud
 - `tab[i/2]` renvoie le père du $i^{ème}$ nœud
 **Remarque**: Un tableau est donc suffisant pour représenter l'intégralité de la structure
+<!--ID: 1715184202456-->
+
 
 De manière général, un tas représenté comme un arbre $n$-aire tassé à gauche, on observe le tableau `tab` suivant: #!
 - `tab[0]` indique la taille du tas (nombre de nœuds)
@@ -31,11 +37,15 @@ De manière général, un tas représenté comme un arbre $n$-aire tassé à gau
 - `tab[n*i]` renvoie le fils gauche du $i^{ème}$ nœud
 - `tab[n*i+(n-1)]` renvoie le fils droit du $i^{ème}$ nœud
 - `tab[i/n]` renvoie le père du $i^{ème}$ nœud
+<!--ID: 1715184202458-->
+
 
 ## Maintien de la cohérence
 Pour maintenir la cohérence du tas on utilise l'algorithme suivant: #!
 
 Lors de l'insertion d'un élément, si celui-ci a une priorité plus faible que le pair, alors on `swap` le père avec le fils, et on continue jusqu'à ce que la cohérence soit maintenue
+<!--ID: 1715184202459-->
+
 
 
 ## Annexes C

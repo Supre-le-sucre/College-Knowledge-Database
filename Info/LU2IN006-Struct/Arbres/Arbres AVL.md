@@ -5,6 +5,8 @@ Un arbre AVL ou un arbre d'Adel'son-Vel'skii et Landiis peut se définir de la f
 
 Un arbre AVL vérifie la propriété que la différences des hauteurs du fils gauche et du fils droit ne peut excéder 1
 **Remarque**: On peut donc en déduire que la hauteur d'un arbre AVL de $n$ nœuds est de l'ordre de $\log_2(n)$
+<!--ID: 1715184202443-->
+
 
 ## Implémentation en C
 
