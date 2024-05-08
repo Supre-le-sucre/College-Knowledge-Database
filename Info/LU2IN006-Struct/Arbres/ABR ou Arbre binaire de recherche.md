@@ -29,7 +29,7 @@ int minABR(btree* abr) {
 
 	if(!abr->fg) return abr->cle;
 	return minABR(abr->fg);
-}
+} //O(h)
 
 
 int maxABR(btree* abr) {
@@ -37,5 +37,39 @@ int maxABR(btree* abr) {
 
 	if(!abr->fd) return abr->cle;
 	return maxABR(abr->fd);
+} // O(h)
+```
+
+## Annexes d'algorithme
+### Validité structurelle d'un ABR
+```c
+int checkABR(btree* b) {
+	if(!b) return 1;
+
+	if(b->fg) {
+		if(!checkABR(b->fg)) return 0;
+		if(b->fg->cle >= b->cle) return 0;
+	}
+	
+	if(b->fg) {
+		if(!checkABR(b->fd)) return 0;
+		if(b->fd->cle <= b->cle) return 0;
+	}
+	
+	return 1;
+}
+```
+
+### Recherche d'un élément dans un ABR
+```c
+btree* exists(btree* b, int val) {
+
+	if(!b) return NULL;
+
+	if(b->cle == val) return b;
+
+	if(val > b->cle) return exists(b->fd, val);
+	if(val < b->cle) return exists(b->fg, val);
+
 }
 ```
