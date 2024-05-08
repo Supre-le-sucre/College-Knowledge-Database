@@ -58,7 +58,7 @@ L'insertion se déroule de la façon suivante: #!
 Comme un arbre rouge-noir est un [[ABR ou Arbre binaire de recherche]], on commence d'abord par [[ABR ou Arbre binaire de recherche#Insertion d'un élément dans un ABR|insérer l'élément à sa place]] sans tenir compte des couleurs. Le nouveau nœud est rouge, ce qui permet de ne pas changer la quantité de nœud noir sur un chemin.
 Ensuite, de manière récursive, on doit rendre cette couleur rouge valide, on remonte alors de l'élément inséré jusqu'à la racine en vérifiant les propriétés. Si elles ne sont pas vérifiées, alors les couleurs changent et/ou des [[Rééquilibrage des arbres par rotation|rotations]] sont réalisées.
 
-### Algorithme d'insertion
+### Algorithme de restauration après insertion
 On considère l'algorithme qui insère le nouvel élément $X$ comme indiquer puis qui restaure l'intégrité de l'arbre: #!
 
 - **Cas 1**: Si le père de $X$ est noir, on a rien à faire, la hauteur noire n'a pas changée
@@ -78,4 +78,23 @@ On considère l'algorithme qui insère le nouvel élément $X$ comme indiquer pu
 
 
 ## Suppression dans un arbre rouge noir
+La suppression dans un arbre rouge-noir suit le principe général suivant: #!
 
+Soit $n$ le nœud contenant l'élément $e$ à supprimer. Il faut assurer que l'arbre conserve les bonnes propriétés de clé:
+- Si $n$ possède au plus un fils, il suffit de supprimer $n$ et de le remplacer par son fils
+- Si $n$ possède deux fils, alors $n$ n'est pas supprimer, on remplace $e$ de $n$ par $e'$ l'élément le plus à gauche du sous-arbre droit. C'est le dernier nœud que l'on supprimera
+Pour conserver les propriétés sur les couleurs, on procède de la manière suivante:
+- Si le nœud supprimé était rouge, il n'y a rien à faire
+- Si le nœud supprimé était noir, on distingue les 2 cas pathologiques suivants:
+	- Si le nœud qui le remplace est rouge, alors on le colorie en noir et c'est terminer
+	- Si le nœud qui le remplace est noir, on lui donne la double couleur noir et on procède à sa restauration de façon récursive.
+
+### Algorithme de restauration après suppression
+On considère l'algorithme qui supprime $X$ comme indiquer puis qui restaure l'intégrité de l'arbre: #!
+
+- **Cas 1**: Si $X$ est une racine de l'arbre, alors on supprime la double couleur noire, et c'est le seul cas où la hauteur noir diminue
+- **Cas 2**: Si le frère de $X$ est noir, alors on considère les sous-cas suivant: 
+	- **Cas 2a**: Si les fils du frère de $X$ sont tous noirs, alors on colorie le frère de $X$ en rouge. Si le père de $X$ est rouge, alors on le colorie en noir, et c'est terminer. Sinon on lui attribut la double couleur noir et on restaure l'arbre à partir de lui
+	- **Cas 2b**: Si le frère de $X$ est à droite et que son fils droit est rouge, alors on colorie son fils droit en noir. Ensuite, si le père de $X$ est rouge, on le colorie en noir et son frère en rouge. On termine dans tous les cas par une rotation gauche du père
+	- **Cas 2c** Si le frère $X$ est à gauche et que son fils gauche est rouge, on fait le symétrique du **2b**
+	- **Cas 2d** Si $X$ est à droite et que son fils
