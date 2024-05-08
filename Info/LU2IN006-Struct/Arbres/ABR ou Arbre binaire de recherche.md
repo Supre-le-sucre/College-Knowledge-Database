@@ -98,28 +98,10 @@ btree* supprimeABR(btree* abr, int val) {
 	return abr;
 
 }
-
-btree* supprimeABR(btree* abr, int val) {
-
-	if(!abr) return;
-
-	if(val < abr->cle) abr->fg = supprimeABR(abr->fg, val);
-	else if(val > abr->cle) abr->fd = supprimeABR(abr->fd, val);
-
-	else {
-		if(!abr->fg) {
-			// On décale ici sous-arbre droit à gauche
-			btree* tmp = abr;
-			abr = abr->fd;
-			free(tmp);
-		} else {
-			abr->cle
-		}
-	}
-	return abr;
-
-}
 ```
+
+
+## Problématique: Equilibrage
 
 ## Annexes d'algorithme
 ### Validité structurelle d'un ABR
