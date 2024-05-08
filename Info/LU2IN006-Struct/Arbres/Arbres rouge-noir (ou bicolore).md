@@ -96,5 +96,9 @@ On considère l'algorithme qui supprime $X$ comme indiquer puis qui restaure l'i
 - **Cas 2**: Si le frère de $X$ est noir, alors on considère les sous-cas suivant: 
 	- **Cas 2a**: Si les fils du frère de $X$ sont tous noirs, alors on colorie le frère de $X$ en rouge. Si le père de $X$ est rouge, alors on le colorie en noir, et c'est terminer. Sinon on lui attribut la double couleur noir et on restaure l'arbre à partir de lui
 	- **Cas 2b**: Si le frère de $X$ est à droite et que son fils droit est rouge, alors on colorie son fils droit en noir. Ensuite, si le père de $X$ est rouge, on le colorie en noir et son frère en rouge. On termine dans tous les cas par une rotation gauche du père
-	- **Cas 2c** Si le frère $X$ est à gauche et que son fils gauche est rouge, on fait le symétrique du **2b**
-	- **Cas 2d** Si $X$ est à droite et que son fils
+	- **Cas 2c** Si le frère de $X$ est à gauche et que son fils gauche est rouge, on fait le symétrique du **2b**
+	- **Cas 2d** Si le frère de $X$ est à droite et que son fils droit est noir mais que son fils gauche est rouge, on colorie le frère de $X$ en rouge et son fils gauche en noir. Puis on effectue une rotation droite du frère de $X$ pour être ramené au cas **2b**
+	- **Cas 2e** Si le frère de $X$ est à gauche et que son fils gauche est noir, mais que son fils droit est rouge, on fait le symétrique de **2d**
+- **Cas 3**: Si le frère de $X$ est rouge, alors on considère les sous-cas suivant: 
+	- **Cas 3a**: Si le frère de $X$ est un fils droit, alors on le colorie en noir, et son père en rouge. Ensuite on effectue une rotation gauche du père. Nous sommes maintenant dans le cas **2**
+	- **Cas 3b** Si le frère de $X$ est un fils gauche, alors on fait le symétrique de **3a**
