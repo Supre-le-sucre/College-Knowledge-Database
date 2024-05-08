@@ -71,5 +71,5 @@ btree* exists(btree* b, int val) {
 	if(val > b->cle) return exists(b->fd, val);
 	if(val < b->cle) return exists(b->fg, val);
 
-}
+} // O(h)
 ```
