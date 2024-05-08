@@ -36,6 +36,6 @@ int maxABR(btree* abr) {
 	if(!abr) return -1;
 
 	if(!abr->fd) return abr->cle;
-	return minABR(abr->fd);
+	return maxABR(abr->fd);
 }
 ```
