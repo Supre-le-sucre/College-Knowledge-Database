@@ -169,9 +169,11 @@ void insert_skiplist(SkipList* sl, int val) {
 	// que la cellule courante. On doit le vérifier.
 
 	Cell* newCell = malloc(sizeof(Cell));
+	newCell->val = val;
 	newCell->below = NULL;
 	if(currCell->val > val) {
-		newCell->
+		// Insertion en tête
+		newCell->next = currCell;
 	}
 	
 }
