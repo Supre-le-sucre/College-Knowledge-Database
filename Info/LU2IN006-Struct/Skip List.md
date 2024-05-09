@@ -73,7 +73,7 @@ Il n'est pas nécessaire de vérifier autre chose, la liste restera trié et la 
 On implémente donc l'algorithme suivant: 
 
 ```c
-Cell* skiplist_delete(SkipList* sl, int val) {
+void skiplist_delete(SkipList* sl, int val) {
 
 	// Recherche de la première couche compatible
 	Layer* currLayer = sl->top
@@ -81,7 +81,7 @@ Cell* skiplist_delete(SkipList* sl, int val) {
 		currLayer = currLayer->below;
 	}
 
-	if(!currLayer) return NULL;
+	if(!currLayer) return;
 
 	Cell* currCell = currLayer->first;
 	// On travaille d'abord avec les cellules en début de couche
