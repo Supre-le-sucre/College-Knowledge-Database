@@ -44,7 +44,7 @@ Pour représenter une partition en forêt de façon optimale, on utilise le prin
 Lorsque l'on exécute `Find(x)` l'idée est de profiter de cet appel pour connecter tous le chemins nécessaire pour remonter de $x$ jusqu'à la racine de l'arbre, pour connecter tous les nœuds à la racine de l'arbre
 Lorsque l'on fait une union, on utilise l'*union par rang*. On stocke alors le rang (le rang d'un arbre avec un seul nœud est de 1) de chaque arbre de la forêt, et lors d'une union, la racine de l'arbre avec le plus grand rang devient père de la racine de l'arbre avec le plus petit rang. Le rang de l'arbre obtenu est donc le plus grand rang des deux. Si les rangs sont les mêmes, le choix est arbitraire et l'arbre résultant voit son rang incrémenté de 1
 
-#### Implémentation optimale
+##### Implémentation optimale
 ```c
 typedef struct s_noeud {
 	int elem;
@@ -76,3 +76,8 @@ void union(Noeud* n1, Noeud* n2) {
 	if(r1->rang == r2->rang) r1->rang++;
 }
 ```
+
+##### Complexité
+On peut montrer que la complexité de l'implémentation d'une forêt par Union-find pour une partition a la complexité suivante #!
+
+Le coût de $k$ opérations successive de création, union, ou recherche est en $O(k\alpha(n))$ où $\alpha(n)$ l'inverse de la fonction d'Ackermann (avec $\alpha(n) \leq 5$ dans tous les cas pratiques). En conséquence on peut considérer que le coût amorti des opérations est constant. Il a été prouvé qu'il n'existe pas meilleur complexité pour l'implémentation du type abstrait de partition
