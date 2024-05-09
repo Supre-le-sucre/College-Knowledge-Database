@@ -145,7 +145,16 @@ On considère alors l'algorithme d'insertion suivant:
 
 ```c
 void insert_skiplist(SkipList* sl, int val) {
-	Cell* currCell = sl->top->first
+
+	// On cherche d'abord le bon layer qui commmence par une
+	// valeur plus grande que celle à insérer
+
+	Layer* currLayer = sl->top
+	while(currLayer->below && currLayer->first->val > val) {
+		currLayer = currLayer->below;
+	}
+
+	Cell* currCell = currLayer->first
 	while(currCell->below) {
 		if(!currCell->next || curCell->next->val > val) {
 			currCell = currCell->below;
