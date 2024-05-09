@@ -12,3 +12,6 @@ Si un niveau contient un nombre de nœuds impaire, on duplique le hash du dernie
 
 ## Vérification de l'intégrité par l'arbre de Merkel
 On énonce le principe suivant: #!
+
+Pour vérifier l'intégrité des données, il suffit de connaître la valeur de hachage de la racine de l'arbre et la fonction de hachage utilisée. En effet, si le hash est différent à la racine, c'est que des données ont été corrompues.
+En cas de doute sur une partie des données, il suffit de connaître la valeur de hachage des nœuds intervenant dans la construction du chemin de la feuille concernée vers la racine.
