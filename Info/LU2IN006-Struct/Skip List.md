@@ -84,11 +84,52 @@ Cell* skiplist_delete(SkipList* sl, int val) {
 	if(!currLayer) return NULL;
 
 	Cell* currCell = currLayer->first;
-	Cell* prevCell = NULL;
-	while(currCell) {
-		if(currCell->val == val) {
+	// On travaille d'abord avec les cellules en début de couche
+	while(currCell && currCell->val == val) {
+		if(!currCell->suiv) {
+			// Le layer courant doit être supprimé 
+			// car l'élément à supprimer est l'unique élément
 			
-		}	
+			// Si la couche courante est la couche la plus haute
+			// Alors le "top" va changer:
+			if(currLayer == sl->top) {
+				sl->top = currLayer->below;
+			}
+			Layer* tmp = currLayer->below;
+			free(currLayer)
+			currLayer = tmp;
+		}
+		else {
+			currLayer->first = currCell->suiv;
+			currLayer = currLayer->below;
+		}
+		free(currCell);	
+		// Comme on ne bouge pas dans les indices ici
+		// On ne bouge que dans les couches.
+		if(currLayer) currCell = layer->first;
+		else currCell = NULL;
+	}
+
+	// Si des cellules en tête de liste devait être supprimée
+	// C'est maintenant chose faite.
+
+	while(currCell) {
+		if(!currCell->next || currCell->next->val > val) {
+			// Plus de cellule à supprimer dans ce layer
+			currCell = currCell->below;
+		}
+		else {
+			if(currCell->next->val == val) {
+				Cell* toFree = currCell->next;
+				currCell->next = currCell->next->next;
+				free(toFree);
+				// On ne bouge pas, les éléments suivants
+				// sont à réévaluer
+			}
+			else {
+				currCell = currCell->suiv;
+			}
+		}
 	}
 
 }
