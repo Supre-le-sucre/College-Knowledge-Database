@@ -9,10 +9,14 @@ Un arbre rouge-noir (ou bicolore) est un arbre respectant les propriétés suiva
 - les fils d'un nœud rouge sont toujours de couleur noire
 - si un nœud a moins de deux fils, on lui ajoute un nœud fictif noir
 - le nombre de nœuds noirs sur un chemin de la racine vers une feuille est toujours le même et on l'appelle "hauteur noire"
+<!--ID: 1715272259466-->
+
 
 ## Observation sur la longueur d'un chemin
 Dans un arbre rouge-noir on peut observer que: #!
 Le plus long chemin de la racine vers une feuille est au plus deux fois plus long que le plus petit chemin. De plus la haute $h$ est donc au plus égale à $2h_N$
+<!--ID: 1715272259469-->
+
 
 ### Preuve
 Chaque chemin passe exactement, par définition, par $h_N$ nœuds noirs. Le plus petit chemin possède donc ==au moins== $h_N$ nœuds.
@@ -21,6 +25,8 @@ De plus par définition, il n'est pas possible sur un même chemin d'avoir 2 nœ
 ## Hauteur d'un arbre rouge-noir
 On observe que: #!
 La hauteur d'un arbre rouge noir est de l'ordre de $O(log(n))$
+<!--ID: 1715272259471-->
+
 
 ### Preuve
 On montre ceci par récurrence.
@@ -57,6 +63,8 @@ L'insertion se déroule de la façon suivante: #!
 
 Comme un arbre rouge-noir est un [[ABR ou Arbre binaire de recherche]], on commence d'abord par [[ABR ou Arbre binaire de recherche#Insertion d'un élément dans un ABR|insérer l'élément à sa place]] sans tenir compte des couleurs. Le nouveau nœud est rouge, ce qui permet de ne pas changer la quantité de nœud noir sur un chemin.
 Ensuite, de manière récursive, on doit rendre cette couleur rouge valide, on remonte alors de l'élément inséré jusqu'à la racine en vérifiant les propriétés. Si elles ne sont pas vérifiées, alors les couleurs changent et/ou des [[Rééquilibrage des arbres par rotation|rotations]] sont réalisées.
+<!--ID: 1715272259474-->
+
 
 ### Algorithme de restauration après insertion
 On considère l'algorithme qui insère le nouvel élément $X$ comme indiquer puis qui restaure l'intégrité de l'arbre: #!
@@ -69,6 +77,8 @@ On considère l'algorithme qui insère le nouvel élément $X$ comme indiquer pu
 	- **Cas 4b**: Si $X$ est un fils droit et que père est un fils gauche, on effectue une rotation gauche du père et on se ramène au cas **4a**
 	- **Cas 4c**: Si $X$ est un fils droit et que le père est aussi un fils droit, on colorie le père en noir et le grand-père en rouge puis on fait une [[Rééquilibrage des arbres par rotation|rotation gauche]] du grand-père
 	- **Cas 4d**: Si $X$ est un fils gauche et que son père est un fils droit, on effectue une rotation droite du père pour se ramener au cas **4c**
+<!--ID: 1715272259477-->
+
 
 #### Remarque sur l'algorithme
 - On réalise un appel récursif uniquement sur le cas 3 pour revérifier l'intégrité à partir du grand père.
@@ -88,6 +98,8 @@ Pour conserver les propriétés sur les couleurs, on procède de la manière sui
 - Si le nœud supprimé était noir, on distingue les 2 cas pathologiques suivants:
 	- Si le nœud qui le remplace est rouge, alors on le colorie en noir et c'est terminer
 	- Si le nœud qui le remplace est noir, on lui donne la double couleur noir et on procède à sa restauration de façon récursive.
+<!--ID: 1715272259480-->
+
 
 ### Algorithme de restauration après suppression
 On considère l'algorithme qui supprime $X$ comme indiquer puis qui restaure l'intégrité de l'arbre: #!
@@ -102,6 +114,8 @@ On considère l'algorithme qui supprime $X$ comme indiquer puis qui restaure l'i
 - **Cas 3**: Si le frère de $X$ est rouge, alors on considère les sous-cas suivant: 
 	- **Cas 3a**: Si le frère de $X$ est un fils droit, alors on le colorie en noir, et son père en rouge. Ensuite on effectue une rotation gauche du père. Nous sommes maintenant dans le cas **2**
 	- **Cas 3b** Si le frère de $X$ est un fils gauche, alors on fait le symétrique de **3a**
+<!--ID: 1715272259482-->
+
 
 #### Remarque sur l'algorithme
 - On réalise un appel récursif uniquement dans le cas **2a**. Il se fait sur un ancêtre. Dans le pire des cas il faudra donc remonter à la racine avant de terminer.
