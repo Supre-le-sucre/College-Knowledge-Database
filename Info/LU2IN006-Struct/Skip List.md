@@ -84,8 +84,11 @@ Cell* skiplist_delete(SkipList* sl, int val) {
 	if(!currLayer) return NULL;
 
 	Cell* currCell = currLayer->first;
+	Cell* prevCell = NULL;
 	while(currCell) {
-		if(currCell->val > val)	
+		if(currCell->val == val) {
+			
+		}	
 	}
 
 }
