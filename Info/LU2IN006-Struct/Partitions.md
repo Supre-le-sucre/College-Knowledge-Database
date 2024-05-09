@@ -32,3 +32,47 @@ Avec une implémentation par liste de liste chaînées on observe les complexit�
 
 - `Find(x)` est en $O(n)$ car il est nécessaire de parcourir l'intégralité des éléments de chaque classe d'équivalence pour trouver $x$
 - `Union(x, y)` est en $O(1)$ car on concatène juste les deux listes entre elles.
+
+### En forêt
+C'est la représentation la plus optimal, on aura alors un groupe d'arbre que l'on appelle forêt, où chaque arbre est une classe d'équivalence, et où la forêt est la partition.
+
+A noter qu'une forêt n'est optimale que si les arbres sont équilibrés, on étudie alors la méthode suivante:
+
+#### Union-find, implémentation optimale de la forêt.
+Pour représenter une partition en forêt de façon optimale, on utilise le principe d'union-find: #!
+
+Lorsque l'on exécute `Find(x)` l'idée est de profiter de cet appel pour connecter tous le chemins nécessaire pour remonter de $x$ jusqu'à la racine de l'arbre, pour connecter tous les nœuds à la racine de l'arbre
+Lorsque l'on fait une union, on utilise l'*union par rang*. On stocke alors le rang (le rang d'un arbre avec un seul nœud est de 1) de chaque arbre de la forêt, et lors d'une union, la racine de l'arbre avec le plus grand rang devient père de la racine de l'arbre avec le plus petit rang. Le rang de l'arbre obtenu est donc le plus grand rang des deux. Si les rangs sont les mêmes, le choix est arbitraire et l'arbre résultant voit son rang incrémenté de 1
+
+#### Implémentation optimale
+```c
+typedef struct s_noeud {
+	int elem;
+	int rang;
+	struct s_noeud* pere;
+} Noeud;
+
+Noeud* creerClasse(int elem) {
+	Noeud* n = (Noeud*) malloc(sizeof(Noeud));
+	n->elem = elem;
+	n->rang = 1;
+	n->pere = n;
+	return n;
+}
+
+Noeud* find(Noeud* n) {
+	if(n->pere != n) {
+		n->pere = find(n);
+	} 
+	return n->pere;
+}
+
+void union(Noeud* n1, Noeud* n2) {
+	Noeud* r1 = find(n1);
+	Noeud* r2 = find(n2);
+
+	if(r1 == r2) return;
+	(r2->rang > r1->rang) ? r1->pere = r2 : r2->pere = r1;
+	if(r1->rang == r2->rang) r1->rang++;
+}
+```
