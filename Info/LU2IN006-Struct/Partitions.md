@@ -24,5 +24,11 @@ Avec une implémentation par table de hachage on observe les complexités suivan
 - `Union(x, y)` est en $O(n)$ car il faut parcourir toute la table pour trouver les éléments qui doivent changer de classe d'équivalence
 
 
-### En liste doublement chaînée
-On peut implémenter une partition à l'aide d'une liste doublement chaînée dont chaque élément est une classe d'équivalence
+### En liste de liste chaînées
+On peut implémenter une partition à l'aide d'une liste de liste chaînées dont chaque sous liste contient les éléments d'une classe d'équivalence.
+
+#### Complexité
+Avec une implémentation par liste de liste chaînées on observe les complexités suivantes pour une structure de partition: #!
+
+- `Find(x)` est en $O(n)$ car il est nécessaire de parcourir l'intégralité des éléments de chaque classe d'équivalence pour trouver $x$
+- `Union(x, y)` est en $O(1)$ car on concatène juste les deux listes entre elles.
