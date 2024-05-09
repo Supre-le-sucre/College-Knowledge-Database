@@ -131,6 +131,29 @@ void skiplist_delete(SkipList* sl, int val) {
 			}
 		}
 	}
+}
+```
 
+## Insertion d'un élément dans une skip list
+L'algorithme d'insertion procède comme suit: #!
+
+on cherche d'abord où insérer l'élément dans la première couche, donc on procède comme dans la fonction de recherche: On part de la couche la plus haute, et on descend qui suit l'élément courant est strictement plus grand que l'élément à insérer.
+Une fois sur la première couche, on insère l'élément comme dans une liste chaînée classique. On ajoute ensuite l'élément à la couche d'au dessus avec une probabilité $p$ et on continue en ajoutant des couches si nécessaire
+
+### Implémentation de l'algorithme d'insertion
+On considère alors l'algorithme d'insertion suivant:
+
+```c
+void insert_skiplist(SkipList* sl, int val) {
+	Cell* currCell = sl->top->first
+	while(currCell->below) {
+		if(!currCell->next || curCell->next->val > val) {
+			currCell = currCell->below;
+		}
+		else {
+			currCell = currCell->suiv;
+		}
+	}
+	
 }
 ```
