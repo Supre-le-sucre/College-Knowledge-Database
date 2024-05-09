@@ -163,6 +163,12 @@ void insert_skiplist(SkipList* sl, int val) {
 			currCell = currCell->suiv;
 		}
 	}
+
+	// On est au premier étage, on insère la cellule comme il faut
+	// La nouvelle cellule peut être plus grande ou plus petite
+	// que la cellule courante. On doit le vérifier.
+
+	
 	
 }
 ```
