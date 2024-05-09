@@ -78,7 +78,18 @@ Cell* skiplist_delete(SkipList* sl, int val) {
 	// Recherche de la première couche compatible
 	Layer* currLayer = sl->top
 	while(currLayer && currLayer->first->val > val) {
-		currLayer
+		currLayer = currLayer->below;
+	}
+
+	if(!currLayer) return NULL;
+
+	Cell* currCell = currLayer->first;
+	while(currCell && currCell->val == val) {
+		if(currCell->suiv) {
+			// Le layer courant doit être supprimé 
+			// car l'élément à supprimer est l'unique élément
+			
+		}
 	}
 
 }
