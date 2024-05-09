@@ -41,10 +41,11 @@ int skiplist_search(SkipList* sl, int val) {
 
 	// On cherche la première couche compatible avec la recherche
 	Layer* currLayer = sl->top;
-	while(layer->first->val > val) {
+	while(currLayer && currLayer->first->val > val) {
 		currLayer = currLayer->below;
-		if(!currLayer) return 0;
+		
 	}
+	if(!currLayer) return 0;
 
 	Cell* currCell = currLayer->first;
 	while(currCell && currCell->val != val) {
@@ -58,6 +59,27 @@ int skiplist_search(SkipList* sl, int val) {
 
 	if(curCell) return 1;
 	return 0;
+
+}
+```
+
+## Suppression d'un élément dans une skip list
+La suppression se déroule de la façon suivante: #!
+
+On cherche l'élément à partir de la couche la plus haute, et dès qu'on trouve cet élément, on le supprime des couches supérieurs.
+Il n'est pas nécessaire de vérifier autre chose, la liste restera trié et la probabilité d'existence des éléments ne sera pas altérée
+
+### Implémentation de l'algorithme de suppression
+On implémente donc l'algorithme suivant: 
+
+```c
+Cell* skiplist_delete(SkipList* sl, int val) {
+
+	// Recherche de la première couche compatible
+	Layer* currLayer = sl->top
+	while(currLayer && currLayer->first->val > val) {
+		currLayer
+	}
 
 }
 ```
