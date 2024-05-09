@@ -168,7 +168,11 @@ void insert_skiplist(SkipList* sl, int val) {
 	// La nouvelle cellule peut être plus grande ou plus petite
 	// que la cellule courante. On doit le vérifier.
 
-	
+	Cell* newCell = malloc(sizeof(Cell));
+	newCell->below = NULL;
+	if(currCell->val > val) {
+		newCell->
+	}
 	
 }
 ```
