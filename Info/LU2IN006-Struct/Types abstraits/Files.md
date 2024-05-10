@@ -1,13 +1,14 @@
 #struct 
 
+## Définition
+On définit une file de la façon suivante: #!
 Une file est une [[Structure de données]] abstraite. Elle respecte le principe de FIFO (First In First Out)
 
-De fait, l'ensemble de ses fonctions de manipulation sont de complexité O(1) dans tous les cas.
-
-Ses opérations sont les suivantes:
+## Opérations courantes
+Les opérations courantes pour une file sont les suivantes: #!
 - `creer_files`
 - `est-vide`
 - `enfiler`
 - `défiler`
-
+Comme une file respecte le principe de FIFO, ces opérations ont une complexité de $O(1)$
 Les [[Files]] est l'inverse d'une [[Piles]]
