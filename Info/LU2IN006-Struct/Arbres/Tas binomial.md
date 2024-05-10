@@ -31,4 +31,13 @@ On observe que pour un tas binomial: #!
 La fusion se déroule de la façon suivante: #!
 
 Pour fusionner deux tas binomiaux $F_1$ et $F_2$, on parcourt leur listes d'arbres binomiaux en même temps, en commençant par ceux de plus petits ordre.
-- Si $F_1$ et $F_2$ possèdent tous deux un arbre d'ordre $k$, on créer un arbre d'ordre $k+1$ tel que, la plus grande des deux racines devient le premier fils de la plus petite racine
+Si $F_1$ et $F_2$ possèdent tous deux un arbre d'ordre $k$, on créer un arbre d'ordre $k+1$ tel que, la plus grande des deux racines devient le premier fils de la plus petite racine. Si $F_1$ et/ou $F_2$ possède un arbre de taille $k+1$ le nouvel arbre créer doit à nouveau être fusionné. 
+Autrement dit on suit cette suite d'étapes:
+- S'il n'y a qu'un seul arbre d'ordre $k$ parmi $F_1$ et $F_2$, on le conserve
+- S'il y en a 2, alors ils sont fusionner en un arbre d'ordre supérieur
+- Si la fusion des deux engendre un ordre présent dans les deux tas, alors on en garde arbitrairement 1 et on fusionne les 2 autres.
+
+### Complexité
+La fusion de tas binomiaux se réalise avec une complexité de: #!
+
+$O(\log(n))$ car l'ordre maximal d'un arbre binomial du tas fusion est $\log(n)$
