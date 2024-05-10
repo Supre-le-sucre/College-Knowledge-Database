@@ -18,4 +18,4 @@ Soit $P = \sum_{k=0}^na_kX^k$ et $Q= \sum_{l=0}^mb_lX^l$
 Observons pour $u \in \mathcal L(E)$
 $$(P+ \lambda Q)(u) = \sum_{k=0}^na_ku^k + \lambda\sum_{l=0}^mb_lu^l=P(u) + \lambda Q(u)$$
 
-Pour la seconde, observons que comme $\mathbb K[X]$ est un [[Corps]], ses opérations sont commutative.
+Pour la seconde, observons que comme $\mathbb K[X]$ est un [[Corps]], ses opérations sont commutatives. Donc $PQ = QP$ et soit $(PQ)(u) = (QP)(u)$ 
