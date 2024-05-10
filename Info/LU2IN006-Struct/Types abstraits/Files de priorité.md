@@ -29,4 +29,4 @@ Pour une représentation en [[Arbres AVL]] d'une file de priorité, on observe l
 
 - `Ajouter(x, p, F)` est en $O(log(n))$ car la hauteur d'un arbre AVL est de l'ordre logarithmique
 - `ExtraireMin(x, p, F)` est en $O(\log(n))$ car le minimum est la feuille la plus à gauche
-- `Fusionner(F1, F2)` est en $O(n_1 + n_2)$
+- `Fusionner(F1, F2)` est en $O(n_1 + n_2)$ car on reconstitue les arbres en liste, et on recréer le nouvelle arbre AVL (cf. [[Ensembles#En Arbres AVL|Complexité de unir]])
