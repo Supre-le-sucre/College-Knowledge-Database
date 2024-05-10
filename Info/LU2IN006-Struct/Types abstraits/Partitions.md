@@ -6,6 +6,8 @@ On souhaite avoir les opérations classiques:
 - `CreerClasse(x)` qui créer la classe d'équivalence dont le représentant est $x \in X$
 - `Union(x, y)` qui joint les classes d'équivalence représentée par $x$ et $y$
 - `Find(x)` qui renvoie le représentant de la classe contenant $x$
+<!--ID: 1715341583408-->
+
 
 ### Exemple, les composantes connexes
 Dans un graphe non orienté, une composante connexe est un sous graphe induit maximal connexe. 
@@ -22,6 +24,8 @@ Avec une implémentation par table de hachage on observe les complexités suivan
 
 - `Find(x)` est en $O(1)$ car il suffit d'accéder à la bonne case de la table de hachage
 - `Union(x, y)` est en $O(n)$ car il faut parcourir toute la table pour trouver les éléments qui doivent changer de classe d'équivalence
+<!--ID: 1715341583410-->
+
 
 
 ### En liste de liste chaînées
@@ -32,6 +36,8 @@ Avec une implémentation par liste de liste chaînées on observe les complexit�
 
 - `Find(x)` est en $O(n)$ car il est nécessaire de parcourir l'intégralité des éléments de chaque classe d'équivalence pour trouver $x$
 - `Union(x, y)` est en $O(1)$ car on concatène juste les deux listes entre elles.
+<!--ID: 1715341583413-->
+
 
 ### En forêt
 C'est la représentation la plus optimal, on aura alors un groupe d'arbre que l'on appelle forêt, où chaque arbre est une classe d'équivalence, et où la forêt est la partition.
@@ -43,6 +49,8 @@ Pour représenter une partition en forêt de façon optimale, on utilise le prin
 
 Lorsque l'on exécute `Find(x)` l'idée est de profiter de cet appel pour connecter tous le chemins nécessaire pour remonter de $x$ jusqu'à la racine de l'arbre, pour connecter tous les nœuds à la racine de l'arbre
 Lorsque l'on fait une union, on utilise l'*union par rang*. On stocke alors le rang (le rang d'un arbre avec un seul nœud est de 1) de chaque arbre de la forêt, et lors d'une union, la racine de l'arbre avec le plus grand rang devient père de la racine de l'arbre avec le plus petit rang. Le rang de l'arbre obtenu est donc le plus grand rang des deux. Si les rangs sont les mêmes, le choix est arbitraire et l'arbre résultant voit son rang incrémenté de 1
+<!--ID: 1715341583415-->
+
 
 ##### Implémentation optimale
 ```c
@@ -81,3 +89,4 @@ void union(Noeud* n1, Noeud* n2) {
 On peut montrer que la complexité de l'implémentation d'une forêt par Union-find pour une partition a la complexité suivante #!
 
 Le coût de $k$ opérations successive de création, union, ou recherche est en $O(k\alpha(n))$ où $\alpha(n)$ l'inverse de la fonction d'Ackermann (avec $\alpha(n) \leq 5$ dans tous les cas pratiques). En conséquence on peut considérer que le coût amorti des opérations est constant. Il a été prouvé qu'il n'existe pas meilleur complexité pour l'implémentation du type abstrait de partition
+<!--ID: 1715341583418-->
