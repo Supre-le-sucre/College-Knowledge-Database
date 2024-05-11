@@ -56,7 +56,7 @@ Soit $u \in \mathcal L(E)$ on suppose $u$ diagonalisable et nilpotent (i.e $\exi
 Si $u$ est diagonalisable, alors il admet une base de vecteurs propres.
 Soit $\lambda$ une valeur propre de $u$, on a que pour $x$ un vecteur propre associé à cette valeur propre, on a que: $u(x) = \lambda x$
 Comme $u$ est nilpotent on observe que pour $r \in \mathbb N$
-$$u^r(x) = 0 = u^{r-1}(\lambda x) = \lambda u^{r-1}(x) = \lambda^rx$$
+$$u^r(x) = 0 = \lambda^rx$$
 Or comme $x$ n'est pas un vecteur nul, seul $\lambda = 0$
 Donc les vecteurs propres de $u$ sont tous nulles.
 Dans la base de vecteur propre cela signifie que $u = 0$. Et comme cette base est aussi une base de $E$ on a prouvé la généralité
