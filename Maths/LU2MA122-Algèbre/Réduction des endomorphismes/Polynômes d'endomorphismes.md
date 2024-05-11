@@ -77,7 +77,12 @@ Le lemme des noyaux peut se généraliser: #!
 Soit $P_1, \dots, P_s \in \mathbb K[X]$ deux à deux premiers entre eux. Avec $f \in \mathcal L(E)$ alors on a que $$\ker(P_1\cdots P_s(f)) = \bigoplus_{i=1}^s\ker(P_i(f))$$Si de plus, on a que $(P_1\cdots P_s)(f) = 0$ alors pour tout $i \in [1, s]$ les projections $\pi_i: \ker((P_1\dots P_s)(f)) \to P_i(f)$ sont des polynômes en $f$
 
 #### Preuve
-On procède par récurrence.
+On procède par récurrence forte
 Si $s=2$ on l'a déjà montré dans le lemme précédent.
 
-Soit $s \geq 2$, alors comme les $P_i$ sont deux à deux premiers entre eux, on a que $P_s$ est premier avec $P_1, \dots, P_{s-1}$
+Soit $s \geq 2$, alors comme les $P_i$ sont deux à deux premiers entre eux, on a que $P_1, \dots P_{s-1}$ sont aussi premier deux à deux.
+Par hypothèse de récurrence on que
+$$\ker(P_1 \dots P_{s-1}(f)) = \bigoplus_{i=1}^{s-1}\ker(P_i(f))$$
+Et comme le produit $P_1 \cdots P_{s-1} \in \mathbb K[X]$ est aussi un polynôme et $P_s$ premier avec $P_1, \dots, P_{s-1}$, on a que $P_s$ est premier avec le produit $P_1 \dots P_{s-1}$.
+Par hypothèse de récurrence dans le cas $s=2$ on a donc:
+$$\ker(P_1\cdots P_{s-1}P_s(f)) = \ker(P_1 \dots P_{s-1}(f)) \oplus\ker(P_s(f)) = \bigoplus_{i=1}^{s}\ker(P_i(f))$$
