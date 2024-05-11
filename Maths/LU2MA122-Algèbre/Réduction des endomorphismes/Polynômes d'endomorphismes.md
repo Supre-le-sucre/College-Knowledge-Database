@@ -71,3 +71,13 @@ Posons $y = PW(u)(x)$ et $z=QR(u)(x)$ et montrons que $y \in \ker(Q(u))$ et $z \
 Observons que $Q(u)(y) = QPW(u)(x) = (W(u) \circ PQ(u))(x) = W(u)(0) = 0$ car $x \in \ker(PQ(u))$.
 On a la même égalité pour $z$, ce qui conclut notre preuve
 $$\tag*{$\blacksquare$}$$
+### Corollaire
+Le lemme des noyaux peut se généraliser: #!
+
+Soit $P_1, \dots, P_s \in \mathbb K[X]$ deux à deux premiers entre eux. Avec $f \in \mathcal L(E)$ alors on a que $$\ker(P_1\cdots P_s(f)) = \bigoplus_{i=1}^s\ker(P_i(f))$$Si de plus, on a que $(P_1\cdots P_s)(f) = 0$ alors pour tout $i \in [1, s]$ les projections $\pi_i: \ker((P_1\dots P_s)(f)) \to P_i(f)$ sont des polynômes en $f$
+
+#### Preuve
+On procède par récurrence.
+Si $s=2$ on l'a déjà montré dans le lemme précédent.
+
+Soit $s \geq 2$, alors comme les $P_i$ sont deux à deux premiers entre eux, on a que $P_s$ est premier avec $P_1, \dots, P_{s-1}$
