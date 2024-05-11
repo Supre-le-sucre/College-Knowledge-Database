@@ -86,3 +86,9 @@ $$\ker(P_1 \dots P_{s-1}(f)) = \bigoplus_{i=1}^{s-1}\ker(P_i(f))$$
 Et comme le produit $P_1 \cdots P_{s-1} \in \mathbb K[X]$ est aussi un polynôme et $P_s$ premier avec $P_1, \dots, P_{s-1}$, on a que $P_s$ est premier avec le produit $P_1 \dots P_{s-1}$.
 Par hypothèse de récurrence dans le cas $s=2$ on a donc:
 $$\ker(P_1\cdots P_{s-1}P_s(f)) = \ker(P_1 \dots P_{s-1}(f)) \oplus\ker(P_s(f)) = \bigoplus_{i=1}^{s}\ker(P_i(f))$$
+
+Vérifions maintenant l'assertion des projecteurs. Fixons $i \in [1, s]$ avec $R_i = \prod_{j \not = i}P_j$ alors $R_i$ et $P_i$ sont premiers entre eux.
+On écrit la relation de Bézout
+$$UR_i + HP_i = 1$$
+Soit $\pi_i := UR_i(f)$, il s'agit d'un polynôme en $f$. Montrons qu'il s'agit bien d'un projecteur…
+Soit $x \in E$, alors $$P_i(\pi_i(f)(x)) = UP_iR_i(f)(x)$$
