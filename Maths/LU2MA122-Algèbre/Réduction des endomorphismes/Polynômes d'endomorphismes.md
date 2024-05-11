@@ -32,3 +32,9 @@ $$a_Kb_Lu^{K+L} = a_Kb_L (u^K \circ u^L) = (a_Ku^K) \circ (b_Lu^L)$$
 
 Comme ceci est valable pour tous les termes, on a, finalement que
 $$(PQ)(u) = P(u) \circ Q(u)$$
+
+
+## Lemme des noyaux
+On énonce le lemme suivant: #!
+
+Soient $P,Q \in \mathbb K[X]$
