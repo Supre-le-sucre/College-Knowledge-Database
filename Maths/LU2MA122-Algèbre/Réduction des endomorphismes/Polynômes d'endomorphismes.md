@@ -91,4 +91,15 @@ Vérifions maintenant l'assertion des projecteurs. Fixons $i \in [1, s]$ avec $R
 On écrit la relation de Bézout
 $$UR_i + HP_i = 1$$
 Soit $\pi_i := UR_i(f)$, il s'agit d'un polynôme en $f$. Montrons qu'il s'agit bien d'un projecteur…
-Soit $x \in E$, alors $$P_i(\pi_i(f)(x)) = UP_iR_i(f)(x)$$
+Soit $x \in E$, alors $$P_i(\pi_i(x)) = UP_iR_i(f)(x) = 0$$car en effet, on a par hypothèse que $P_1 \cdots P_s = 0$
+On a donc que $Im(\pi_i) \subset \ker(P_i(f))$
+
+De plus observons que $\pi_i(HP_i(f)) = 0$ pour les mêmes raisons
+Or puisque l'on a l'égalité suivante: $$x = \pi_i(x)+ HP_i(f)(x)$$si on applique $\pi_i$ de nouveau on obtient que...
+$$\pi_i(x) = \pi_i(\pi_i(x) + HP_i(f)(x)) = \pi_i^2(x) + \pi_i(HP_i(f)(x)) = \pi_i^2(x)$$
+D'où
+$$\forall x \in E, \; \pi_i(x) = \pi_i^2(x)$$
+
+On a donc bien que $\pi_i$ est un projecteur. De plus on a exactement $Im(\pi_i) = \ker(P_i(f))$ puisque si $x \in \ker(P_i(f))$ alors...
+$$x = \pi_i(x)+ HP_i(f)(x) \implies x = \pi_i(x)$$
+$$\tag*{$\blacksquare$}$$
