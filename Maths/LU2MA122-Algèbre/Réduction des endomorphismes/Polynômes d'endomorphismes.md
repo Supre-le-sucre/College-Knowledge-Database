@@ -2,7 +2,7 @@
 On définit un polynôme d'endomorphisme $P$ de la façon suivante:#!
 
 Soit $u \in \mathcal L(E)$ un endomorphisme sur $E$. On définit $u^k$ comme la composée $k$ fois de $u$. Par convention on note $u^0 = Id_E$, l'endomorphisme identité.
-Soit $P = \sum^n_{k=0}a_k X^k \in \mathbb K[X]$ on définit alors: $$P(u) = \sum_{k=0}^na_ku^k \in \mathcal L(E)$$ Observons que si $P = 1$, alors on a $1(u) = Id_E$
+Soit $P = \sum^n_{k=0}a_k X^k \in \mathbb K[X]$ on définit alors: $$P(u) = \sum_{k=0}^na_ku^k \in \mathcal L(E)$$ Observons que si $P = 1$, alors on a $1(u) = Id_E$. En effet, ceci découle de la convention $u^0 = Id_E$
 
 ## Lemme
 Soient pour $P, Q \in \mathbb K[X]$ avec $u \in \mathcal L(E)$ (i.e un endomorphisme dans $E$) on a les propriétés suivantes sur les polynômes d'endomorphisme: #!
@@ -51,4 +51,10 @@ Soient $P,Q \in \mathbb K[X]$ premiers entre eux (i.e en décomposition de facte
 Considérons $x \in \ker(P(u)) \cap \ker(Q(u))$. Alors on a $P(u)(x) = Q(u)(x) = 0$
 Puisque $P \wedge Q = 1$, on a d'après la relation de Bachet-Bézout, il existe $(W, R) \in \mathbb K[X]^2$ tel que$PW + QR = 1$.
 En y appliquant $u$ et en évaluant $x$ on obtient:
-$$PW(u)(x) + QR(u)(x) = x$$
+$$PW(u)(x) + QR(u)(x) = 1(u)x = x$$
+Car $1(u) = Id_E$
+Or observons que...
+$$PW(u)(x) + QR(u)(x) = WP(u)(x) + QR(u)(x) = W(u)(P(u)(x)) + Q(u)(R(u)(x))$$
+Soit finalement:
+$$PW(u)(x) + QR(u)(x) = W(u)(0) + Q(u)(0) = 0+0 = 0 = x$$
+Donc on a $x = 0$ d'où $\ker(P(u)) \cap \ker(Q(u)) = \{0\}$
