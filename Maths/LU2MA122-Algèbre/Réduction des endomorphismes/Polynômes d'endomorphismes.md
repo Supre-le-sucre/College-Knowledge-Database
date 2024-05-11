@@ -37,4 +37,8 @@ $$(PQ)(u) = P(u) \circ Q(u)$$
 ## Lemme des noyaux
 On énonce le lemme suivant: #!
 
-Soient $P,Q \in \mathbb K[X]$
+Soient $P,Q \in \mathbb K[X]$ premiers entre eux (i.e en décomposition de facteurs, ces polynômes ne partagent aucun facteurs communs, maintenant écrit $P\wedge Q = 1$) et $u \in \mathcal L(E)$ alors on a que: $$\ker((PQ)(u)) = \ker(P(u)) \oplus \ker(Q(u))$$
+
+### Preuve
+Considérons $x \in \ker(P(u)) \cap \ker(Q(u))$. Alors on a $P(u)(x) = Q(u)(x) = 0$
+Puisque $P \wedge Q = 1$ 
