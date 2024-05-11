@@ -37,8 +37,10 @@ $$(PQ)(u) = P(u) \circ Q(u)$$
 ## Théorème de Bachet-Bézout
 On énonce le théorème suivant: #!
 
-Soit $P,Q \in \mathbb K[X]$. Alors on a $P \wedge Q = 1$ (i.e P et Q sont premiers entre eux: il n'existe pas )
-
+Soit $P,Q \in \mathbb K[X]$. Alors on a $P \wedge Q = 1$ (i.e P et Q sont premiers entre eux) si et seulement s'il existe $U, V \in \mathbb K[X]$ tel que $$PU+QV = 1$$
+### Conséquence
+On remarque la conséquence suivante sur le théorème de Bachet-Bézout: #!
+Deux polynômes sont premiers entre eux s'ils ont tous les deux des racines disjointes.
 
 ## Lemme des noyaux
 On énonce le lemme suivant: #!
@@ -47,4 +49,6 @@ Soient $P,Q \in \mathbb K[X]$ premiers entre eux (i.e en décomposition de facte
 
 ### Preuve
 Considérons $x \in \ker(P(u)) \cap \ker(Q(u))$. Alors on a $P(u)(x) = Q(u)(x) = 0$
-Puisque $P \wedge Q = 1$, on a d'après la relatio
+Puisque $P \wedge Q = 1$, on a d'après la relation de Bachet-Bézout, il existe $(W, R) \in \mathbb K[X]^2$ tel que$PW + QR = 1$.
+En y appliquant $u$ et en évaluant $x$ on obtient:
+$$PW(u)(x) + QR(u)(x) = x$$
