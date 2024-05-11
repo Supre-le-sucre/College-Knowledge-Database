@@ -44,3 +44,7 @@ Si $\mathcal A = \mathbb K Id_E$ c'est évident, car l'identité est commutative
 Autrement si $\mathcal A \not \subset \mathbb K Id_E$, on prend $f \in A$ avec $f \not = \mathbb K Id_E$. On pose $\lambda$ une valeur propre de $f$.
 Comme $f$ n'est pas une homothétie, on a que $dim(E_\lambda) <n$
 On propose alors de poser $G = \bigoplus_{\mu \in Sp(f), \mu \not = \lambda} G_\mu$
+
+On a alors que $E = E_\lambda \oplus G$ et d'après le lemme précédent, tous les éléments de $\mathcal A$ stabilisent $E_\lambda$ et $G$ est codiagonalisable lorsque l'on les restreint à ces sous-espaces d'après le premier lemme de cette page. Il existe alors des bases $B_{E_\lambda}$ et $B_G$ de $E_\lambda$ et G dans lesquels tous les éléments induits de $\mathcal A$ sont diagonalisables.
+On prends alors $B= B_{E_\lambda} \cup B_G$ comme base de codiagonalisation pour conclure
+$$\tag*{$\blacksquare$}$$
