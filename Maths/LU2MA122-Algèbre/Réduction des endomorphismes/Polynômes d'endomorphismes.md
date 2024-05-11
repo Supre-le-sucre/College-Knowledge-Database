@@ -58,3 +58,16 @@ $$PW(u)(x) + QR(u)(x) = WP(u)(x) + QR(u)(x) = W(u)(P(u)(x)) + Q(u)(R(u)(x))$$
 Soit finalement:
 $$PW(u)(x) + QR(u)(x) = W(u)(0) + Q(u)(0) = 0+0 = 0 = x$$
 Donc on a $x = 0$ d'où $\ker(P(u)) \cap \ker(Q(u)) = \{0\}$
+
+En outre observons que
+$\ker(P(u)) \subset \ker(PQ(u))$ et $\ker(Q(u)) \subset \ker(PQ(u))$ d'où l'inclusion suivante:
+$$\ker(P(u)) \oplus \ker(Q(u)) \subset \ker(PQ(u))$$
+
+Réciproquement, considérons $x \in \ker(PQ(u))$, on a cette fois encore par Bézout:
+$$x = PW(u)(x) + QR(u)(x)$$
+
+Posons $y = PW(u)(x)$ et $z=QR(u)(x)$ et montrons que $y \in \ker(Q(u))$ et $z \in \ker(P(u))$
+
+Observons que $Q(u)(y) = QPW(u)(x) = (W(u) \circ PQ(u))(x) = W(u)(0) = 0$ car $x \in \ker(PQ(u))$.
+On a la même égalité pour $z$, ce qui conclut notre preuve
+$$\tag*{$\blacksquare$}$$
