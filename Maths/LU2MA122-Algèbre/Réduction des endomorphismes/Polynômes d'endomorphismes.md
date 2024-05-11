@@ -34,6 +34,12 @@ Comme ceci est valable pour tous les termes, on a, finalement que
 $$(PQ)(u) = P(u) \circ Q(u)$$
 
 
+## Théorème de Bachet-Bézout
+On énonce le théorème suivant: #!
+
+Soit $P,Q \in \mathbb K[X]$. Alors on a $P \wedge Q = 1$ (i.e P et Q sont premiers entre eux: il n'existe pas )
+
+
 ## Lemme des noyaux
 On énonce le lemme suivant: #!
 
@@ -41,4 +47,4 @@ Soient $P,Q \in \mathbb K[X]$ premiers entre eux (i.e en décomposition de facte
 
 ### Preuve
 Considérons $x \in \ker(P(u)) \cap \ker(Q(u))$. Alors on a $P(u)(x) = Q(u)(x) = 0$
-Puisque $P \wedge Q = 1$ 
+Puisque $P \wedge Q = 1$, on a d'après la relatio
