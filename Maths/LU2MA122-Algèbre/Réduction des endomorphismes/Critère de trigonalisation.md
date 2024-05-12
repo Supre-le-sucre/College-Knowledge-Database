@@ -25,3 +25,5 @@ Il existe un hyperplan $H$ de $E$ stable par $u$
 On a que $P(u) = P(^tu) = 0$. Or comme $P$ est scindé, on l'écrit de la forme suivante
 $P = \prod_{i=1}^n(X-\lambda_i)$ d'où alors que
 $$(^tu-\lambda_1Id_E) \circ \cdots \circ (^tu-\lambda_nId_E) = 0$$
+
+Donc il existe $i_0$ tel que $(^tu-\lambda_{i_0}Id_E)$ ne soit pas injective (car l'une d'entre vaudra 0 pour un certain $x$ non nul)
