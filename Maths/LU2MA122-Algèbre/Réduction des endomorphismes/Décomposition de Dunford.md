@@ -12,4 +12,9 @@ $$(u-\lambda_kId_{F_k})_{|F_k}^{m_k} = 0$$ d'où la décomposition en diagonalis
 Sur chaque $F_k$ on a que $d_k$ et $n_k$ commutent, donc $d$ et $n$ commutent sur $E =\bigoplus_{k=1}^sF_k$
 
 On a en plus que $d$ est diagonalisable car elle l'est pour chaque $F_k$ (cf. [[Espaces stables et codiagonalisation#Lemme Conséquence de la stabilité sur la diagonalisation|lemme]]) et $n$ nilpotent comme il l'est pour chaque $F_k$
-Enfin d'après [[Polynômes d'endomorphismes#Corollaire|ce corollaire]] les projections sur les espaces caractéristiques sont des 
+Enfin d'après [[Polynômes d'endomorphismes#Corollaire|ce corollaire]] les projections sur les espaces caractéristiques sont des polynômes en $u$, on obtient que $d$ est donc un polynôme en $u$, mais $n$ également comme $u = d+n$
+
+On montre enfin l'unicité
+Supposons que l'on a $d+n = d'+n'$ alors $d-d' = n-n'$. Comme $f = d'+n'$ et que $d'$ et $n'$ commutent avec $f$, ils commutent donc avec $n$ et $d$ comme ils s'agit de polynôme en $f$.
+Ainsi $d$ et $d'$ sont codiagonalisables d'après [[Espaces stables et codiagonalisation#Théorème de codiagonalisation|ce théorème là]] et $n, n'$ cotrigonalisable d'après [[Critère de trigonalisation#Théorème de cotrigonalisation|ce théorème ci]]. Ainsi $n-n' = d-d'$ est nilpotent est diagonalisable, donc nul d'après [[Diagonalisation#Corollaire conséquence de la nilpotence et de la diagonalisation|ce corrollaire]], ainsi $n=n'$ et $d=d'$
+$$\tag*{$\blacksquare$}$$
