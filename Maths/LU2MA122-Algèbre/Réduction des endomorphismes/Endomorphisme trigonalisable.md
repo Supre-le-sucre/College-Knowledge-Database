@@ -28,4 +28,7 @@ Soit $u \in \mathcal L(E)$, on a que $u$ est trigonalisable si et seulement si $
 ### Preuve
 $\Rightarrow$ 
 On pose $B = (e_1, \dots, e_n)$ la base qui trigonalise $u$. Il suffit de considérer le drapeau:
-$E_i = Vect(e_1, \dots, e_i)$ avec $E_0 = \{0\}$ et c'est ok !?
+$E_i = Vect(e_1, \dots, e_i)$ avec $E_0 = \{0\}$
+
+$\Leftarrow$
+Réciproquement
