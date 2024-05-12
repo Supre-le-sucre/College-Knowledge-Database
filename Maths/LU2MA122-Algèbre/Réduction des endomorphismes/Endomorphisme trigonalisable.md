@@ -18,7 +18,7 @@ $$\tag*{$\blacksquare$}$$
 ## Définition d'un drapeau
 Soit $E$ un $\mathbb K$-espace vectoriel. On appelle drapeau de $E$: #!
 
-Toute de suite de sous-espaces vectoriel de $E$ satisfaisant: $$\{0\} = E_0 \subset E_1 \subset \cdots \subset E_n = E$$
+Toute de suite de sous-espaces vectoriel de $E$ satisfaisant: $$\{0\} = E_0 \subset E_1 \subset \cdots \subset E_n = E$$ avec $\dim(E_i) = i$
 
 ## Lemme trigonalisation et stabilité d'un drapeau
 On observe le phénomène suivant: #!
@@ -31,4 +31,6 @@ On pose $B = (e_1, \dots, e_n)$ la base qui trigonalise $u$. Il suffit de consid
 $E_i = Vect(e_1, \dots, e_i)$ avec $E_0 = \{0\}$
 
 $\Leftarrow$
-Réciproquement
+Réciproquement, si $u$ stabilise un drapeau de $E$, alors pour toit $i \in [1,n]$, on a que $E_{i-1}$ est un hyperplan de $E_i$ de tel sorte que:
+$$E_i = E_{i-1} \oplus \mathbb Ku_i$$
+avec $u_i \not = 0$, on écrit alors $u$ dans la base $B= (u_1, \dots, u_n)$

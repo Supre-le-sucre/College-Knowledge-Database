@@ -1,0 +1,15 @@
+## Théorème
+Pour $E$ un $\mathbb K$-espace vectoriel de dimension finie, soit $u \in \mathcal L(E)$, les assertions suivantes sur la trigonalisation de $u$ sont équivalentes: #!
+
+- $(i)$ $u$ est trigonalisable
+- $(ii)$ $\mathcal X_u$ est scindé
+- $(iii)$ Il existe un [[Polynômes d'endomorphismes]] $P \in \mathbb K[X]$ scindé tel que $P(u) = 0$
+
+### Preuve
+On montre d'abord que $(i) \implies (ii)$
+
+Si $u$ est trigonalisables avec de valeurs propres $\lambda_i$ alors pour calculer son polynôme caractéristique il suffit de le faire dans la base de trigonalisation:
+$$\mathcal X_u = \prod_{i=1}^n(X-\lambda_i)$$ avec donc $\mathcal X_u$ scindé
+
+Montrons $(ii) \implies (iii)$
+On applique [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Hamilton]]
