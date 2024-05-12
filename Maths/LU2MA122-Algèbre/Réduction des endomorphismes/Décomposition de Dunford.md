@@ -12,4 +12,4 @@ $$(u-\lambda_kId_{F_k})_{|F_k}^{m_k} = 0$$ d'où la décomposition en diagonalis
 Sur chaque $F_k$ on a que $d_k$ et $n_k$ commutent, donc $d$ et $n$ commutent sur $E =\bigoplus_{k=1}^sF_k$
 
 On a en plus que $d$ est diagonalisable car elle l'est pour chaque $F_k$ (cf. [[Espaces stables et codiagonalisation#Lemme Conséquence de la stabilité sur la diagonalisation|lemme]]) et $n$ nilpotent comme il l'est pour chaque $F_k$
-Enfin 
+Enfin d'après [[Polynômes d'endomorphismes#Corollaire|ce corollaire]] les projections sur les espaces caractéristiques sont des 
