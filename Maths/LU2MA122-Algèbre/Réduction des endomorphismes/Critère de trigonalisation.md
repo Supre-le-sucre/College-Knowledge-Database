@@ -16,3 +16,10 @@ On applique [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Ha
 
 Enfin montrons que $(iii) \implies (i)$
 On pose $P$ scindé tel que $P(u) = 0$
+On considère le lemme intermédiaire suivant:
+
+#### Lemme
+Il existe un hyperplan $H$ de $E$ stable par $u$
+
+##### Preuve
+On a que $P(u) = P(^tu) = $
