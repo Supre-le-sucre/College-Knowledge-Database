@@ -31,4 +31,6 @@ $B$ est une matrice nilpotente tel que $B^n = 0$
 
 ### Preuve
 Bien que ceci soit vérifiable par calcul matriciel, il y a moyen plus simple.
-Les valeurs propres de $B$ sont forcément ses coefficient diagonaux. Or, comme ceux-ci sont  nuls, on a d'après
+Les valeurs propres de $B$ sont forcément ses coefficient diagonaux. Or, comme ceux-ci sont  nuls, on a d'après [[Polynôme caractéristique#Proposition sur les valeurs propres de $M$|cette propriété]] que $\mathcal X_B(X) = X^n$ et par [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Hamilton]] on a que $B^n = 0$
+$$\tag*{$\blacksquare$}$$
+
