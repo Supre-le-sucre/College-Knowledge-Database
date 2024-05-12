@@ -46,8 +46,8 @@ On considère $\epsilon_1$ tel que:
 $$E=\mathbb K\epsilon_1 \oplus H$$
 Alors dans la base $(\epsilon_1, \dots, \epsilon_n)$ la matrice est triangulaire inférieure donc $f$ trigonalisable
 
-### Corollaire
-Des équivalence de la trigonalisation, on en déduit le corollaire sur les réductions: #!
+### Corollaire sur les réductions
+Des équivalences de la trigonalisation, on en déduit le corollaire sur les réductions: #!
 
 Soit $u \in \mathcal L(E)$ trigonalisable, et $F \subset E$ un sous-espace vectoriel, alors on a que $u_{|F}$ est trigonalisable. Si de plus $E = F \bigoplus G$, avec $F, G$ stables par $u$ alors $u$ est trigonalisable si et seulement si $u_{|F}$ et $u_{|G}$ le sont
 
@@ -55,3 +55,41 @@ Soit $u \in \mathcal L(E)$ trigonalisable, et $F \subset E$ un sous-espace vecto
 Si $u$ est trigonalisable, alors il annule le polynôme scindé $P$ et comme $F$ est stable, on a donc que $P(u_{|F}) = 0_F$ donc il est diagonalisable
 
 Pour la deuxième insertion, le sens direct vient d'être vu, la réciproque se fait en prenant l'union des deux bases de trigonalisation (l'union forme $E$)
+
+### Corollaire sur la nilpotence
+Des équivalences de la trigonalisation, on en déduit le corollaire sur la nilpotence: #!
+
+Soit $u \in \mathcal L(E)$ est nilpotent, alors il est trigonalisable. De plus dans la base de trigonalisation, la matrice a ses coefficients diagonaux nuls.
+
+#### Preuve
+On a par définition que $u^r = 0$, donc $u$ annule un polynôme scindé et il est donc trigonalisable. Une fois mis sous forme triangulaire supérieure $T_u$, soit $\lambda$ une valeur propre de $u$, cette valeur propre est forcément dans la diagonale. En particulier pour le vecteur propre $x$ associé à $\lambda$ on a que $u^r(x) = \lambda^r x = 0$ or comme $x$ non nul, $\lambda$ est forcément nul.
+$$\tag*{$\blacksquare$}$$
+
+### Corollaire sur les corps algébriquement clos
+Des équivalences de la trigonalisation, on en déduit le corollaire les corps algébriquement clos: #!
+
+Soit $\mathbb K$ algébriquement clos (i.e, tout polynôme de degré supérieur ou égal à 1 admet au moins une racine dans $\mathbb K)$, alors tout $u \in \mathcal L(E)$ est trigonalisable
+
+#### Preuve
+Comme $\mathbb K$ est algébriquement clos, pour tout $u \in \mathcal L(E)$, on a que $\mathcal X_u$ est scindé et donc trigonalisable
+$$\tag*{$\blacksquare$}$$
+
+#### Corollaire sur la trace de $u$
+Du corollaire sur la trigonalisation avec les epsaces vectoriels de corps algébriquement clos, on en déduit le corollaire sur la trace et le déterminant: #!
+
+Soit $u \in \mathcal L(E)$, $\lambda_1, \dots, \lambda_n$ les racines de $\mathcal X_u$ sur une clôture algébrique, on a: $$Tr(u) = \sum_{i=1}^n\lambda_i$$ $$\det(u) = \prod_{i=1}^n\lambda_i$$ Plus généralement, pour $i \in [1, n]$, le coefficient $c_i(u) de $X^{n-i}$ de $\mathcal X_u$ est le $i$-ème polynôme symétrique en les $\lambda_k$: $$c_i(u) = (-1)^i\sum_{1\leq k_1< \cdots <k_i \leq n}\lambda_{k_1}\dots\lambda_{k_i}$$
+
+##### Preuve
+En effet, on se place sur la clôture algébrique $\overline{\mathbb K}$ de $\mathbb K$. Dans ce cas, $u$ est trigonalisable de coefficients diagonaux ses valeurs propres: $\lambda_1, \dots, \lambda_n$ et $\mathcal X_u = \prod_{j=1}^n(X-\lambda_j)$, il suffit alors de développer le polynôme $$\tag*{$\blacksquare$}$$
+
+## Indice de nilpotence
+On définit l'indice de nilpotence de la façon suivante: #!
+
+Soit $u \in \mathcal L(E)$ est nilpotent, son indice de nilpotence est le plus petit $r \in \mathbb N$ tel que $u^r =0$
+
+
+## Théorème de cotrigonalisation
+Soit $E$ un $\mathbb K$-espace vectoriel de dimension finie, soit $\mathcal A$ une partie de $\mathcal L(E)$ constituée d'éléments trigonalisables qui commutent deux à deux, alors sils sont cotrigonalisables dans la même base
+
+### Preuve
+Se référer à la [[Espaces stables et codiagonalisation#Théorème de codiagonalisation#Preuve||preuve du théorème sur la codiagonalisation]] 
