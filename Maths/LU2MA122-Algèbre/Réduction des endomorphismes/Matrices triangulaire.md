@@ -10,3 +10,6 @@ On observe le phénomène suivant: #!
 
 $$\forall B,C \in T_n(\mathbb K), \; BC \in T_n(\mathbb K)$$
 On observe aussi que si $B \in GL_n(\mathbb K)$ également, alors $B^{-1} \in \mathbb T_n(\mathbb K)$ (i.e son inverse reste triangulaire supérieure)
+
+### Preuve
+Pour $BC \in T_n(\mathbb K)$ un simple calcule matriciel suffit à le prouver. Mais nous allons plutôt étudier l'aspect endomorphique
