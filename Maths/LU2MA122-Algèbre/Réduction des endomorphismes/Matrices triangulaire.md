@@ -25,10 +25,10 @@ Pour la deuxième assertion, observons que $B^{-1}$ est un polynôme en $B$. Don
 $$\tag*{$\blacksquare$}$$
 
 ## Nilpotent
-Pour une matrice $B \in T_n(\mathbb K)$ dont les coefficient diagonaux sont non nuls, on observe que: #!
+Pour une matrice $B \in T_n(\mathbb K)$ dont les coefficient diagonaux sont nuls, on observe que: #!
 
 $B$ est une matrice nilpotente tel que $B^n = 0$
 
 ### Preuve
 Bien que ceci soit vérifiable par calcul matriciel, il y a moyen plus simple.
-Les valeurs propres de $B$ sont forcément ses coefficient diagonaux. Or, comme ceux-ci sont non nuls, on d'après
+Les valeurs propres de $B$ sont forcément ses coefficient diagonaux. Or, comme ceux-ci sont  nuls, on a d'après
