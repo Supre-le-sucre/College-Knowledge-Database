@@ -45,3 +45,6 @@ Soit $H$ un hyperplan stable de $f$, alors $P(f_{|H}) = 0$ et donc $f_{|H}$ est 
 On considère $\epsilon_1$ tel que:
 $$E=\mathbb K\epsilon_1 \oplus H$$
 Alors dans la base $(\epsilon_1, \dots, \epsilon_n)$ la matrice est triangulaire inférieure donc $f$ trigonalisable
+
+### Corollaire
+Des équivalence de la trigonalisation, on en déduit le corollaire sur les réductions
