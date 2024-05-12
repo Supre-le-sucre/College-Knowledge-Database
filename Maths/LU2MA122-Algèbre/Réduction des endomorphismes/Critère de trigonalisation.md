@@ -47,4 +47,11 @@ $$E=\mathbb K\epsilon_1 \oplus H$$
 Alors dans la base $(\epsilon_1, \dots, \epsilon_n)$ la matrice est triangulaire inférieure donc $f$ trigonalisable
 
 ### Corollaire
-Des équivalence de la trigonalisation, on en déduit le corollaire sur les réductions
+Des équivalence de la trigonalisation, on en déduit le corollaire sur les réductions: #!
+
+Soit $u \in \mathcal L(E)$ trigonalisable, et $F \subset E$ un sous-espace vectoriel, alors on a que $u_{|F}$ est trigonalisable. Si de plus $E = F \bigoplus G$, avec $F, G$ stables par $u$ alors $u$ est trigonalisable si et seulement si $u_{|F}$ et $u_{|G}$ le sont
+
+#### Preuve
+Si $u$ est trigonalisable, alors il annule le polynôme scindé $P$ et comme $F$ est stable, on a donc que $P(u_{|F}) = 0_F$ donc il est diagonalisable
+
+Pour la deuxième insertion, le sens direct vient d'être vu, la réciproque se fait en prenant l'union des deux bases de trigonalisation (l'union forme $E$)
