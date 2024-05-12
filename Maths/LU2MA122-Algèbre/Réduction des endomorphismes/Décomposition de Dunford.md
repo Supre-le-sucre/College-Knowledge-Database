@@ -18,3 +18,24 @@ On montre enfin l'unicité
 Supposons que l'on a $d+n = d'+n'$ alors $d-d' = n-n'$. Comme $f = d'+n'$ et que $d'$ et $n'$ commutent avec $f$, ils commutent donc avec $n$ et $d$ comme ils s'agit de polynôme en $f$.
 Ainsi $d$ et $d'$ sont codiagonalisables d'après [[Espaces stables et codiagonalisation#Théorème de codiagonalisation|ce théorème là]] et $n, n'$ cotrigonalisable d'après [[Critère de trigonalisation#Théorème de cotrigonalisation|ce théorème ci]]. Ainsi $n-n' = d-d'$ est nilpotent est diagonalisable, donc nul d'après [[Diagonalisation#Corollaire conséquence de la nilpotence et de la diagonalisation|ce corrollaire]], ainsi $n=n'$ et $d=d'$
 $$\tag*{$\blacksquare$}$$
+
+### Corollaire sur les corps algébriquement clos
+Le théorème de Dunford implique l'équivalence suivante: #!
+
+Si $\mathbb K$ est algébriquement clos alors tout endomorphisme de $u \in \mathcal L(E)$ admet une décomposition de Dunford
+
+#### Preuve
+Cela vient du fait que comme $\mathbb K$ est algébriquement clos, on a que $\mathcal X_u$ est scindé
+
+### Corollaire de Jordan-Chevalley
+On énonce le corollaire sur Dunford suivant: #!
+
+Soit $\gamma \in GL(E)$ sur un corps $\mathbb K$ algébriquement clos, alors on a une décomposition unique: $\gamma = \gamma_s\gamma_u$ en diagonalisable et unipotent qui commutent
+
+#### Preuve
+on fait la décomposition de Dunford: $\gamma = s + n$. Comme on a que $\gamma$ est inversible, on a que $s = \gamma - n$ est somme d'un inversible et d'un nilpotent qui commutent.
+On a donc que $s$ est un inversible.
+
+Posons alors que $\gamma_u = Id+s^{-1}n$, alors on a bien que $\gamma_u$ est bien unipotent comme on a que $s$ et $n$ commutent. Et il commutent à $s$ donc en posant $\gamma_s = s$ on obtient bien que $\gamma = \gamma_u\gamma_s$
+
+Pour l'unicité, c'est analogue à la preuve de Dunford, en utilisant qu'une matrice diagonalisable et unipotent est l'identité, ainsi que le fait que $\gamma_u$ est aussi polynôme de $\gamma$ puisque $s^{-1}$ est un polynôme en $s$
