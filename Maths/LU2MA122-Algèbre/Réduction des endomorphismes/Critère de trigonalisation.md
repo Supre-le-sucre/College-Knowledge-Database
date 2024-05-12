@@ -12,4 +12,7 @@ Si $u$ est trigonalisables avec de valeurs propres $\lambda_i$ alors pour calcul
 $$\mathcal X_u = \prod_{i=1}^n(X-\lambda_i)$$ avec donc $\mathcal X_u$ scindé
 
 Montrons $(ii) \implies (iii)$
-On applique [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Hamilton]]
+On applique [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Hamilton]], $X_u(u) = 0$ 
+
+Enfin montrons que $(iii) \implies (i)$
+On pose $P$ scindé tel que $P(u) = 0$
