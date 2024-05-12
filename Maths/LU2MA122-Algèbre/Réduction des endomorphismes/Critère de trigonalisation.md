@@ -16,3 +16,6 @@ On applique [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Ha
 
 Enfin montrons que $(iii) \implies (i)$
 On pose $P$ scindé tel que $P(u) = 0$
+Comme $P$ est scindé, il existe donc des valeurs $x$ tel que $P(u)(x) = 0$
+Il suffit alors de considérer la base $B=(x_1, \dots, x_l)$ des éléments tel que $P(u)(x_i) = 0$
+Car cela signifiera en particulier que $P(u)$
