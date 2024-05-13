@@ -2,6 +2,8 @@
 On énonce le théorème suivant: #!
 
 Soit $u \in \mathcal L(E)$, on suppose $\mathcal X_u$ scindé, alors $u$ s'écrit de manière unique sur la forme: $$u=d+n$$ où $d$ est diagonalisable et $n$ est nilpotent, avec en particulier $dn = nd$. Enfin, on a $d$ et $n$ des polynômes en $u$
+<!--ID: 1715537862427-->
+
 
 ### Preuve
 On commence d'abord par montrer l'existence. On décompose $E$ en les sous-espaces caractéristiques. Ceci est possible d'après le théorème de [[Polynôme caractéristique#Théorème de Cayley-Hamilton|Cayley-Hamilton]] et le [[Polynômes d'endomorphismes#Lemme des noyaux|lemme des noyaux]]:
@@ -23,6 +25,8 @@ $$\tag*{$\blacksquare$}$$
 Le théorème de Dunford implique l'équivalence suivante: #!
 
 Si $\mathbb K$ est algébriquement clos alors tout endomorphisme de $u \in \mathcal L(E)$ admet une décomposition de Dunford
+<!--ID: 1715537862429-->
+
 
 #### Preuve
 Cela vient du fait que comme $\mathbb K$ est algébriquement clos, on a que $\mathcal X_u$ est scindé
@@ -31,6 +35,8 @@ Cela vient du fait que comme $\mathbb K$ est algébriquement clos, on a que $\ma
 On énonce le corollaire sur Dunford suivant: #!
 
 Soit $\gamma \in GL(E)$ sur un corps $\mathbb K$ algébriquement clos, alors on a une décomposition unique: $\gamma = \gamma_s\gamma_u$ en diagonalisable et unipotent qui commutent
+<!--ID: 1715537862431-->
+
 
 #### Preuve
 on fait la décomposition de Dunford: $\gamma = s + n$. Comme on a que $\gamma$ est inversible, on a que $s = \gamma - n$ est somme d'un inversible et d'un nilpotent qui commutent.

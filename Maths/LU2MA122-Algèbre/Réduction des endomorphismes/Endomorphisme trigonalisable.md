@@ -1,6 +1,8 @@
 ## Définition
 Soit $E$ un $\mathbb K$-espace vectoriel de dimension finie $n$ et $u \in \mathcal L(E)$. On dit que $u$ est trigonalisable si #!
 Il existe une base $B$ dans laquelle $Mat_B(u)$ est une [[Matrices triangulaire supérieure]]
+<!--ID: 1715537862457-->
+
 
 De la même manière on dit qu'une matrice $M_n(\mathbb K)$ est trigonalisable si elle est semblable à une matrice triangulaire supérieure
 
@@ -8,6 +10,8 @@ De la même manière on dit qu'une matrice $M_n(\mathbb K)$ est trigonalisable s
 On observe le phénomène suivant: #!
 
 Si une matrice $M$ est triangulaire inférieure alors elle est semblable à une matrice triangulaire supérieure
+<!--ID: 1715537862458-->
+
 
 ### Preuve
 Il suffit simplement de prendre la transformation de transposition en tant que matrice.
@@ -19,11 +23,15 @@ $$\tag*{$\blacksquare$}$$
 Soit $E$ un $\mathbb K$-espace vectoriel. On appelle drapeau de $E$: #!
 
 Toute de suite de sous-espaces vectoriel de $E$ satisfaisant: $$\{0\} = E_0 \subset E_1 \subset \cdots \subset E_n = E$$ avec $\dim(E_i) = i$
+<!--ID: 1715537862460-->
+
 
 ## Lemme trigonalisation et stabilité d'un drapeau
 On observe le phénomène suivant: #!
 
 Soit $u \in \mathcal L(E)$, on a que $u$ est trigonalisable si et seulement si $u$ [[Espaces stables et codiagonalisation|stabilise]] un drapeau de $E$
+<!--ID: 1715537862462-->
+
 
 ### Preuve
 $\Rightarrow$ 

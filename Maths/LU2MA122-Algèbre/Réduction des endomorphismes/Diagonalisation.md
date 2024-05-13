@@ -4,6 +4,8 @@ On dit que $u \in \mathcal L(E)$ et $M \in M_n(\mathbb K)$ sont diagonalisable s
 
 - Pour $u \in \mathcal L(E)$ il existe une base $B$ pour laquelle la matrice $Mat_B(u)$ est diagonale
 - Pour $M \in M_n(\mathbb K)$ lorsqu'il existe $P \in GL_n(\mathbb K)$ tel que $PMP^{-1}$ est diagonale
+<!--ID: 1715537862477-->
+
 
 ## Théorème
 Soit $E$ un $\mathbb K$ espace vectoriel de dimension $n$ et $u \in \mathcal L(E)$, les assertions suivantes sur la diagonalisation sont équivalentes: #!
@@ -13,6 +15,8 @@ Soit $E$ un $\mathbb K$ espace vectoriel de dimension $n$ et $u \in \mathcal L(E
 - $(iii)$ On a la décomposition en somme directe $E = \bigoplus_{\lambda \in Sp(u)} E_\lambda$ 
 - $(iv)$ Le polynôme caractéristique $\mathcal X_u$ est *"scindé"* et $\dim(E_\lambda) = m(\lambda)$, où m donne la multiplicité d'une racine dans $\mathcal X_u$
 - $(v)$ Il existe un polynôme $P \in \mathbb K[X]$ scindé à racines simples tel que $P(u)= 0$
+<!--ID: 1715537862479-->
+
 
 ### Preuve
 On montre $(i) \Leftrightarrow (ii)$
@@ -51,6 +55,8 @@ $$\tag*{$\blacksquare$}$$
 On observe le corollaire suivant: #!
 
 Soit $u \in \mathcal L(E)$ on suppose $u$ diagonalisable et nilpotent (i.e $\exists r \in \mathbb N, u^r = 0$) alors on a que $u= 0$
+<!--ID: 1715537862480-->
+
 
 #### Preuve
 Si $u$ est diagonalisable, alors il admet une base de vecteurs propres.

@@ -9,6 +9,8 @@ Soient pour $P, Q \in \mathbb K[X]$ avec $u \in \mathcal L(E)$ (i.e un endomorph
 
 - $\forall \lambda \in \mathbb K, (P+\lambda Q)(u) = P(u) + \lambda Q(u)$
 - $(PQ)(u) = (QP)(u) = P(u) \circ Q (u)$
+<!--ID: 1715537862470-->
+
 
 ### Preuve
 
@@ -41,11 +43,15 @@ Soit $P,Q \in \mathbb K[X]$. Alors on a $P \wedge Q = 1$ (i.e P et Q sont premie
 ### Conséquence
 On remarque la conséquence suivante sur le théorème de Bachet-Bézout: #!
 Deux polynômes sont premiers entre eux s'ils ont tous les deux des racines disjointes.
+<!--ID: 1715537862472-->
+
 
 ## Lemme des noyaux
 On énonce le lemme suivant: #!
 
 Soient $P,Q \in \mathbb K[X]$ premiers entre eux (i.e en décomposition de facteurs, ces polynômes ne partagent aucun facteurs communs, maintenant écrit $P\wedge Q = 1$) et $u \in \mathcal L(E)$ alors on a que: $$\ker((PQ)(u)) = \ker(P(u)) \oplus \ker(Q(u))$$
+<!--ID: 1715537862474-->
+
 
 ### Preuve
 Considérons $x \in \ker(P(u)) \cap \ker(Q(u))$. Alors on a $P(u)(x) = Q(u)(x) = 0$
@@ -75,6 +81,8 @@ $$\tag*{$\blacksquare$}$$
 Le lemme des noyaux peut se généraliser: #!
 
 Soit $P_1, \dots, P_s \in \mathbb K[X]$ deux à deux premiers entre eux. Avec $f \in \mathcal L(E)$ alors on a que $$\ker(P_1\cdots P_s(f)) = \bigoplus_{i=1}^s\ker(P_i(f))$$Si de plus, on a que $(P_1\cdots P_s)(f) = 0$ alors pour tout $i \in [1, s]$ les projections $\pi_i: \ker((P_1\dots P_s)(f)) \to P_i(f)$ sont des polynômes en $f$
+<!--ID: 1715537862475-->
+
 
 #### Preuve
 On procède par récurrence forte

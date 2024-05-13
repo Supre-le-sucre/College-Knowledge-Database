@@ -4,12 +4,16 @@ Observons que la dimension d'un tel ensemble est de #!
 
 $$\dim(T_n(\mathbb K)) = \frac{n(n+1)}{2}$$
 Car en effet il est nécessaire d'avoir $n$ matrices pour construire la diagonale, puis $n-1$ matrices pour la diagonale juste au dessus etc.
+<!--ID: 1715537862452-->
+
 
 ## Stabilité des matrices triangulaires
 On observe le phénomène suivant: #!
 
 $$\forall B,C \in T_n(\mathbb K), \; BC \in T_n(\mathbb K)$$
 On observe aussi que si $B \in GL_n(\mathbb K)$ également, alors $B^{-1} \in \mathbb T_n(\mathbb K)$ (i.e son inverse reste triangulaire supérieure)
+<!--ID: 1715537862453-->
+
 
 ### Preuve
 Pour $BC \in T_n(\mathbb K)$ un simple calcule matriciel suffit à le prouver. Mais nous allons plutôt étudier l'aspect endomorphique.
@@ -28,6 +32,8 @@ $$\tag*{$\blacksquare$}$$
 Pour une matrice $B \in T_n(\mathbb K)$ dont les coefficient diagonaux sont nuls, on observe que: #!
 
 $B$ est une matrice nilpotente tel que $B^n = 0$
+<!--ID: 1715537862455-->
+
 
 ### Preuve
 Bien que ceci soit vérifiable par calcul matriciel, il y a moyen plus simple.

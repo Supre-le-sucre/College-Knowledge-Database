@@ -3,12 +3,16 @@ Soit un $\mathbb K$-espace vectoriel $E$, on considère $F \subset E$ un sous es
 On dit que $F$ est stable si #!
 
 On a que $u(F) \subset F$. Dans ce cas on peut d'ailleurs induire l'endomorphisme: $u_{|F}\in \mathcal L(F)$ que l'on appelle sobrement endomorphisme induit.
+<!--ID: 1715537862464-->
+
 
 ## Lemme: Conséquence de la stabilité sur la diagonalisation
 On observe le lemme suivant: #!
 
 Soit $E$ un $\mathbb K$-espace vectoriel de dimension finie et $u \in \mathcal L(E)$ diagonalisable. On considère $F \subset E$ un sous-espace stable. On a alors que l'endomorphisme induit $u_{|F}$ est diagonalisable.
 Si de plus on a que $E = F\oplus G$ avec $F, G$ stables par $u$, alors $u$ est diagonalisable si et seulement si les endomorphismes induit de $F$ et $G$ le sont
+<!--ID: 1715537862465-->
+
 
 ### Preuve
 D'après [[Diagonalisation#Théorème|ce théorème]] il existe un polynôme annulateur scindé en racine simple tel que $P(u) = 0_E$.
@@ -21,6 +25,8 @@ $$\tag*{$\blacksquare$}$$
 On observe le lemme suivant: #!
 
 Soient $u, v \in \mathcal L(E)$ tels que $u \circ v = v \circ u$ alors les sous espaces propres de $u$ sont stables par $v$
+<!--ID: 1715537862467-->
+
 
 ### Preuve
 Soit $\lambda \in \mathbb K$ et $x \in E_{\lambda}$
@@ -32,6 +38,8 @@ donc $v(x) \in E_\lambda$
 On énonce le théorème suivant: #!
 
 Soit $E$ un $\mathbb K$-espace vectoriel de dimension finie. Soit $\mathcal A$ une partie de $\mathcal L(E)$ constituée d'éléments diagonalisables qui commutent deux à deux. Alors ils sont codiagonalisble (i.e diagonalisable dans la même base)
+<!--ID: 1715537862469-->
+
 
 ### Preuve
 On procède par récurrence fore sur $n = dim(E)$
