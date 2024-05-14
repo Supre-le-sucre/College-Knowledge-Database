@@ -1,14 +1,51 @@
-#algo
+#algo 
+## Définition
+Un graphe non orienté est: #!
+Un couple entre un ensemble de sommets $V$ (pour vertex) et un ensemble d'arrêtes $E$ (pour edge) qui est une paire de sommet. On note $G = (V, E)$
 
-Un [[Graphes]] est dit non orienté, si toutes ses arêtes connectent les sommets dans les 2 sens.
+## Voisins
+On appelle les voisins (ou sommets adjacents) d'une arrête $v$, l'ensemble de sommets notés $\Gamma(v)$ définie tel que: #!
+$$\Gamma(v) = \set{v' \; | \; \set{v', v} \in E}$$
+## Sous graphes
+Un sous graphe $SG$ d'un graphe $G$ est un graphe #!
+qui contient les certains mêmes sommets et arrêtes que le graphe $G$ sans en ajouter d'avantage.
 
-## Chaînes particulières
+### Sous graphes induits
+Un sous graphe $SG$ induit par un ensemble de sommets $V_i$ et un graphe $G$ est le graphe tel que: #!
+L'ensemble des arrêtes données dans $SG$ sont connectées entre elles de la même façon qu'elle le sont dans $G$, sans omettre une seule arrête de $G$ entre eux soit: $$SG = (V_i, E)$$
 
-On définit un ==cycle==, une chaîne fermée (i.e tel que $v_{n+1} = v_1$)
-Un cycle est dit ==élémentaire== s'il s'agit d'une [[Graphes#Chaîne|chaîne élémentaire]] fermée
+## Chaîne
+Une chaîne est définie tel que: #!
+Un chaîne est une séquence de sommets et d'arrêtes tels qu'ils sont connectés dans le graphe
+- Une chaîne est dite ==simple== si elle ne passe pas 2 fois par la même arrête.
+- Une chaîne est dite ==élémentaire== est une chaîne simple qui ne passe pas deux fois par le même sommet
+**Remarque**: Toute chaîne simple peut être transformée en chaîne élémentaire de même extrémités.
 
-Un graphe non orienté est dit ==connexe== s'il existe pour tout couple de sommet $(v, u) \in V^2$, une chaîne élémentaire entre $u$ et $v$ (i.e, [[Graphes#Chaîne|rappellons le]], il existe une connexion entre un sommet et un autre, même indirect)
+### Preuve
+Posons $\Pi(n):$ "Toute chaîne de longueur $n$ contient une chaîne élémentaire de même extrémités"
 
+(B): Une chaîne de longueur $0$ est déjà élémentaire
+
+(H): Soit $\forall k < n \in \Pi(k)$ vraie, montrons $\Pi(n)$:
+
+Soit $C$ une chaîne de longueur $n$
+Si $C$ est déjà une chaîne élémentaire, alors c'est trivial.
+
+Sinon, on note $C = v_0e_1v_1e_2v_2\dots e_nv_n$ et il existe $i < j$ tel que $v_i = v_j$
+On pose $C' = v_0e_1v_1\dots e_iv_ie_{j+1}v_{j+1}\dots e_nv_n$
+
+On obtient alors une chaîne de même extrémités que $C$ et de longueur $k = n-j+1 <n$
+D'après $\Pi(k)$ on peut extraire de $C'$, une chaîne élémentaire de mêmes extrémités de $C'$ donc que de $C$
+
+## Cycles
+
+On définit un ==cycle== de la façon suivante: #!
+Un cycle est une [[#Chaîne]] fermée (i.e tel que $v_{n+1} = v_1$)
+Un cycle est dit ==élémentaire== s'il s'agit d'une chaîne ==élémentaire== fermée
+
+## Connexité 
+Un graphe non orienté est dit ==connexe== #!
+S'il existe pour tout couple de sommet $(v, u) \in V^2$, une [[#Chaîne]] élémentaire entre $u$ et $v$ 
 ### Composantes connexes
 On appelle composantes connexes, l'ensemble des sommets de $G$ induisant $SG$, un sous graphe connexe.
 
@@ -44,3 +81,4 @@ Soit $G$ un graphe connexe
 - Si tous les sommets de $G$ ont un degré pair, alors il existe un circuit eulérien: (On passe par tous les sommets du graphes, sans repasser 2 fois par la même arrête)
 - Si tous les sommets sauf 2 ont un degré pair, il existe un chemin eulérien entre les 2 sommets impair
 - S'il y a 4 sommets ou plus de degrés impaires, il n'y a ni circuit, ni chemin eulérien.
+$$\tag*{$\blacksquare$}$$
