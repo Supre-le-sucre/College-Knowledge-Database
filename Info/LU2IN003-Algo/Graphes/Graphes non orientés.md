@@ -59,17 +59,24 @@ On obtient alors une chaîne de même extrémités que $C$ et de longueur $k = n
 D'après $\Pi(k)$ on peut extraire de $C'$, une chaîne élémentaire de mêmes extrémités de $C'$ donc que de $C$
 
 ## Cycles
-
 On définit un ==cycle== de la façon suivante: #!
 Un cycle est une [[#Chaîne]] fermée (i.e tel que $v_{n+1} = v_1$)
 Un cycle est dit ==élémentaire== s'il s'agit d'une chaîne ==élémentaire== fermée
 
+### Maximal acyclique
+On dit d'un [[Graphes non orientés]] qu'il est maximal acyclique si $G$ est sans cycle élémentaire, mais que rajouter une nouvelle arête entraîne la création d'un cycle.
+(i.e pour tout couple de sommets $\set{x, y}$ non adjacents dans $G$. On a que $G' = (V, E \cup \set{\set{x, y}}$ contient un cycle)
+
 ## Connexité 
 Un graphe non orienté est dit ==connexe== #!
 S'il existe pour tout couple de sommet $(v, u) \in V^2$, une [[#Chaîne]] élémentaire entre $u$ et $v$ 
+
 ### Composantes connexes
 On appelle composante connexes, l'ensemble des sommets $V_C$ d'un graphe $G$ tel que: #!
 Le [[Sous graphes#Graphes induits|graphe induit]] par $V_C$ est connexe
+
+### Minimal connexe
+On dit d'un [[Graphes non orientés]] qu'il est minimal connexe s'il est connexe, et que si l'on retire n'importe quel arête du graphe, il n'est plus connexe (i.e $\forall e \in E, G' = (V, E-\set{e})$ non connexe)
 
 ## Théorème d'Euler sur les graphes connexe
 Soit $G$ un graphe connexe: #!
@@ -78,3 +85,6 @@ Soit $G$ un graphe connexe: #!
 - Si tous les sommets sauf 2 ont un degré pair, il existe un chemin eulérien entre les 2 sommets impair
 - S'il y a 4 sommets ou plus de degrés impaires, il n'y a ni circuit, ni chemin eulérien.
 $$\tag*{$\blacksquare$}$$
+
+
+
