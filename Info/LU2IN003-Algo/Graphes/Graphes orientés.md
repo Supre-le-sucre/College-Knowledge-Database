@@ -86,11 +86,15 @@ Pour définir la relation d'ordre $\leq$ dans un graphe orienté $G$ plusieurs �
 
 - Pour que la relation d'ordre soit antisymétrique, le graphe doit être ==sans circuit==
 - l'ordre $\leq$ peut être total ou partiel (ça dépend de la connexité)
+<!--ID: 1715702770300-->
+
+
 # Rang d'un sommet
 On définit le rang d'un sommet $u$ comme suit: #!
 $$rang(u)\begin{cases}0  \text{ si }\Gamma^-(u) = \emptyset \\
 1 + \max\{rang(v) \: | \: v \in \Gamma^-(u)\}\end{cases}$$ Remarquons que cette définition n'a de sens que si $G$ est un graphe sans circuit
-<!--ID: 1715702538698-->
+<!--ID: 1715702770303-->
+
 
 
 ## Tri topologique
