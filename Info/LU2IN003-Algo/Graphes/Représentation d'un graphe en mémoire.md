@@ -34,4 +34,12 @@ On observe pour différentes représentations d'un graphe en mémoire, les taill
 
 ### Complexité
 On cherche à évaluer la complexité de primitive simple:
-- `existeArete(i,j)` vérifie l'existence d'un arête $\set{i,j}$ (ou d'un arc $(i,j)$)
+- `existeArete(i,j)` (ou `existeArc(i,j)`) vérifie l'existence d'un arête $\set{i,j}$ (ou d'un arc $(i,j)$)
+- `adjacent(i)` qui renvoie les sommets adjacents de `i` 
+
+|                                    | existence      | adjacence      |
+| ---------------------------------- | -------------- | -------------- |
+| Matrice sommet-arête (sommet-arcs) | $O(m)$         | $O(m\times n)$ |
+| Matrice sommet-sommet              | $\Theta(1)$    | $\Theta(n)$    |
+| Liste d'adjacance                  | $\Theta(d(i))$ | $\Theta(1)$    |
+
