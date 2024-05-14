@@ -7,6 +7,8 @@ Pour tout couple $(i,j) \in V \times E$
 - $M[i,j] = 1$ si $i$ est incident à $j$ (i.e si $j$ arrive sur le sommet $i$)
 - $M[i,j] = 0$ s'il n'y pas de lien entre $i$ et $j$
 - $M[i,j] = -1$ si $j$ est issue de $i$ (seulement pour les [[Graphes non orientés]])
+<!--ID: 1715702538617-->
+
 
 ## Matrice sommet-sommet
 On définit la matrice sommet-sommet $M$ comme: #!
@@ -14,11 +16,15 @@ On définit la matrice sommet-sommet $M$ comme: #!
 Pour tout couple $(i,j) \in V \times V$
 - $M[i,j] = 1$ si de $i$ on peut rejoindre $j$
 - $M[i,j] = 0$ s'il n'y pas d'accès direct de $i$ vers $j$
+<!--ID: 1715702538620-->
+
 
 ## Listes d'adjacences
 On définit la liste d'adjacence de la façon suivante: #!
 
 Pour $i \in V$, on a $L[i]$ la liste des sommets adjacents à $i$
+<!--ID: 1715702538622-->
+
 
 
 ## Tableau de comparaison
@@ -31,6 +37,8 @@ On observe pour différentes représentations d'un graphe en mémoire, les taill
 | Matrice sommet-arête (sommet-arcs) | $\Theta(\|V\| \times \|E\|)$ |
 | Matrice sommet-sommet              | $\Theta(\|V\|^2)$            |
 | Liste d'adjacance                  | $\Theta(\max(\|V\|, \|E\|))$ |
+<!--ID: 1715702538625-->
+
 
 ### Complexité
 On cherche à évaluer la complexité de primitive simple:

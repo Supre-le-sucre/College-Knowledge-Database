@@ -2,10 +2,14 @@
 ## Définition
 Un graphe non orienté est: #!
 Un couple entre un ensemble de sommets $V$ (pour vertex) et un ensemble d'arrêtes $E$ (pour edge) qui est une paire de sommet. On note $G = (V, E)$
+<!--ID: 1715702538708-->
+
 
 ## Voisins
 On appelle les voisins (ou sommets adjacents) d'une arrête $v$, l'ensemble de sommets notés $\Gamma(v)$ définie tel que: #!
 $$\Gamma(v) = \set{v' \; | \; \set{v', v} \in E}$$
+<!--ID: 1715702538711-->
+
 
 ## Degré d'un sommet
 Soit $G = (V, E)$, un graphe non orienté.
@@ -14,6 +18,8 @@ $$d(v) = |\Gamma(v)|$$
 ### Théorème
 Pour tout graphe $G = (V, E)$ non orienté on observe le phénomène suivant liant le degré de chaque sommet et le nombre d'arêtes: #!
 $$\sum_{v \in V} d(v) = 2|E|$$
+<!--ID: 1715702538713-->
+
 
 #### Preuve
 On pose $\Pi(n):$ "Si un graphe a $n$ arêtes, alors la somme des degrés est $2n$"
@@ -41,6 +47,8 @@ Un chaîne est une séquence de sommets et d'arrêtes tels qu'ils sont connecté
 - Une chaîne est dite ==simple== si elle ne passe pas 2 fois par la même arrête.
 - Une chaîne est dite ==élémentaire== est une chaîne simple qui ne passe pas deux fois par le même sommet
 **Remarque**: Toute chaîne simple peut être transformée en chaîne élémentaire de même extrémités.
+<!--ID: 1715702538715-->
+
 
 ### Preuve
 Posons $\Pi(n):$ "Toute chaîne de longueur $n$ contient une chaîne élémentaire de même extrémités"
@@ -62,6 +70,8 @@ D'après $\Pi(k)$ on peut extraire de $C'$, une chaîne élémentaire de mêmes 
 On définit un ==cycle== de la façon suivante: #!
 Un cycle est une [[#Chaîne]] fermée (i.e tel que $v_{n+1} = v_1$)
 Un cycle est dit ==élémentaire== s'il s'agit d'une chaîne ==élémentaire== fermée
+<!--ID: 1715702538718-->
+
 
 ### Maximal acyclique
 On dit d'un [[Graphes non orientés]] qu'il est maximal acyclique si $G$ est sans cycle élémentaire, mais que rajouter une nouvelle arête entraîne la création d'un cycle.
@@ -70,10 +80,14 @@ On dit d'un [[Graphes non orientés]] qu'il est maximal acyclique si $G$ est san
 ## Connexité 
 Un graphe non orienté est dit ==connexe== #!
 S'il existe pour tout couple de sommet $(v, u) \in V^2$, une [[#Chaîne]] élémentaire entre $u$ et $v$ 
+<!--ID: 1715702538720-->
+
 
 ### Composantes connexes
 On appelle composante connexes, l'ensemble des sommets $V_C$ d'un graphe $G$ tel que: #!
 Le [[Sous graphes#Graphes induits|graphe induit]] par $V_C$ est connexe
+<!--ID: 1715702538722-->
+
 
 ### Minimal connexe
 On dit d'un [[Graphes non orientés]] qu'il est minimal connexe s'il est connexe, et que si l'on retire n'importe quel arête du graphe, il n'est plus connexe (i.e $\forall e \in E, G' = (V, E-\set{e})$ non connexe)
@@ -85,5 +99,7 @@ Soit $G$ un graphe connexe: #!
 - Si tous les sommets sauf 2 ont un degré pair, il existe un chemin eulérien entre les 2 sommets impair
 - S'il y a 4 sommets ou plus de degrés impaires, il n'y a ni circuit, ni chemin eulérien.
 $$\tag*{$\blacksquare$}$$
+<!--ID: 1715702538725-->
+
 
 
