@@ -18,7 +18,15 @@ Le cardinal de l'ensemble des successeurs et des prédécesseurs. Le degré est 
 
 ## Chemin
 On définit dans un graphe orienté un chemin comme suit: #!
-Un chemin est une séquence de sommets et d'arcs $v = v_1e_1\cdots e_nv_{n+1}$ 
+
+- Un chemin est une séquence de sommets et d'arcs $v = v_1e_1\cdots e_nv_{n+1}$ 
+- Un chemin élémentaire est un chemin qui ne passe pas 2 fois par le même sommet
+
+### Circuit
+Un circuit est défini de la façon suivante: #!
+
+- Un circuit est un chemin $\gamma$ tel que $v_{n+1} = v_1$
+- Un circuit élémentaire est un chemin élémentaire tel que $v_{n+1} =v_1$
 
 # Connexité
 
@@ -47,18 +55,32 @@ Soit alors pour $G = (V, A)$ on a $v \in V$ une racine si et seulement si  $\for
 Un graphe orienté $\mathcal{A} = (V, A)$ est une arborescence si #!
 Il existe une racine dans $\mathcal A$, autrement dit, s'il existe un sommet par lequel on peut atteindre tous les autres
 
+# Relation d'ordre de base
+On définit pour tout graphe orienté $G = (V, A)$ ==sans circuit== la relation d'ordre suivante: #!
+On a que $u \leq v$ si et seulement si il existe un chemin allant de $u$ vers $v$ dans $G$
+
+## Remarques importantes
+Pour définir la relation d'ordre $\leq$ dans un graphe orienté $G$ plusieurs éléments sont à prendre en compte: #!
+
+- Pour que la relation d'ordre soit antisymétrique, le graphe doit être ==sans circuit==
+- l'ordre $\leq$ peut être total ou partiel (ça dépend de la connexité)
 # Rang d'un sommet
 On définit le rang d'un sommet $u$ comme suit: #!
 $$rang(u)\begin{cases}0  \text{ si }\Gamma^-(u) = \emptyset \\
-1 + \max\{rang(v) \: | \: v \in \Gamma^-(u)\}\end{cases}$$
+1 + \max\{rang(v) \: | \: v \in \Gamma^-(u)\}\end{cases}$$ Remarquons que cette définition n'a de sens que si $G$ est un graphe sans circuit
 
 ## Tri topologique
 ### Définition
-On définit un tri topologique de $G$, un graphe orienté sans circuit come étant une liste de sommet $(u_1, \dots, u_n)$ de sommets de $G$ telle que:
+On définit un tri topologique de $G$, un graphe orienté ==sans circuit==, comme étant une liste de sommet $(u_1, \dots, u_n)$ de sommets de $G$ telle que: #!
 $\forall i < j$ il n'existe aucun chemin de $u_j$ à $u_i$
 
 ### Lemme lien entre tir topologique et rang de sommet
-Pour tout graphe non orientés sans circuit à $n$ sommets
+Pour tout graphe non orientés sans circuit à $n$ sommets #!
 - Il existe $u_1, \dots, u_n$ des sommets distincts tel que: $rang(u_1) \leq \dots \leq rang(u_n)$
 - Si $rang(u_1) \leq \dots \leq rang(u_n)$ alors $(u_1, \dots, u_n)$ est un tri topologique.
 	==**ATTENTION**==: La réciproque du deuxième point n'est pas vraie en tout temps
+
+### Tri topologique avec le rang
+On peut définir un tri topologique en utilisant le rang d'un sommet: #!
+
+Si on range les sommets dans l'ordre croissant de leur rang, alors on obtient un tri topologique
