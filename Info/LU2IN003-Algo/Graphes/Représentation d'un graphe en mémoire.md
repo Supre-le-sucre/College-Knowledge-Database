@@ -1,6 +1,6 @@
 Il y a différentes façon de représenter le graphe $G = (V, E)$ [[Graphes non orientés|orienté]] ou [[Graphes non orientés|non]] 
 
-## Matrice sommet-arête
+## Matrice sommet-arête (sommet-arcs)
 On définit la matrice sommet-arête $M$ comme: #!
 
 Pour tout couple $(i,j) \in V \times E$
@@ -24,3 +24,14 @@ Pour $i \in V$, on a $L[i]$ la liste des sommets adjacents à $i$
 ## Tableau de comparaison
 
 ### Taille mémoire
+On observe pour différentes représentations d'un graphe en mémoire, les tailles suivantes: #!
+
+|                                    | Taille mémoire               |
+| ---------------------------------- | ---------------------------- |
+| Matrice sommet-arête (sommet-arcs) | $\Theta(\|V\| \times \|E\|)$ |
+| Matrice sommet-sommet              | $\Theta(\|V\|^2)$            |
+| Liste d'adjacance                  | $\Theta(\max(\|V\|, \|E\|))$ |
+
+### Complexité
+On cherche à évaluer la complexité de primitive simple:
+- `existeArete(i,j)` vérifie l'existence d'un arête $\set{i,j}$ (ou d'un arc $(i,j)$)
