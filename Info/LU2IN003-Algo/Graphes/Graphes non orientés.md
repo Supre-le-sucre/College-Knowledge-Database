@@ -6,13 +6,34 @@ Un couple entre un ensemble de sommets $V$ (pour vertex) et un ensemble d'arrêt
 ## Voisins
 On appelle les voisins (ou sommets adjacents) d'une arrête $v$, l'ensemble de sommets notés $\Gamma(v)$ définie tel que: #!
 $$\Gamma(v) = \set{v' \; | \; \set{v', v} \in E}$$
-## Sous graphes
-Un sous graphe $SG$ d'un graphe $G$ est un graphe #!
-qui contient les certains mêmes sommets et arrêtes que le graphe $G$ sans en ajouter d'avantage.
 
-### Sous graphes induits
-Un sous graphe $SG$ induit par un ensemble de sommets $V_i$ et un graphe $G$ est le graphe tel que: #!
-L'ensemble des arrêtes données dans $SG$ sont connectées entre elles de la même façon qu'elle le sont dans $G$, sans omettre une seule arrête de $G$ entre eux soit: $$SG = (V_i, E)$$
+## Degré d'un sommet
+Soit $G = (V, E)$, un graphe non orienté.
+On définit le degré d'un sommet $v$, l'élément: #!
+$$d(v) = |\Gamma(v)|$$
+### Théorème
+Pour tout graphe $G = (V, E)$ non orienté on observe le phénomène suivant liant le degré de chaque sommet et le nombre d'arêtes: #!
+$$\sum_{v \in V} d(v) = 2|E|$$
+
+#### Preuve
+On pose $\Pi(n):$ "Si un graphe a $n$ arêtes, alors la somme des degrés est $2n$"
+
+(B): Si un graphe n'a pas d'arête, alors tous les sommets sont de degré $0$ OK.
+
+(H): Soit $n \in \mathbb N, \Pi(n)$ vraie, montrons $\Pi(n+1)$
+Soit $G$ un graphe avec $n+1$ arêtes. Soit $\set{u, v}$ une arête de $G$, on pose $H$ le sous graphe de $G$ obtenu en retirant l'arête $\set{u,v}$.
+
+Observons: 
+$\forall x \not \in \set{u,v}, d_H(x) = d_G(x)$
+$d_H(u) = d_G(u) -1$ et $d_H(v) = d_G(v) -1$
+
+On a que
+$$\sum_{x \in V} deg_G(x) = \sum_{x \in V\setminus\set{u,v}} deg_G(x) + deg_G(u) + deg_G(v)$$
+$$= \sum_{x \in V\setminus\set{u,v}} deg_H(x) + deg_H(u) + deg_H(v) + 2$$
+$$= \sum_{x \in V} deg_H(x) + 2$$
+$$= 2n +2 = 2(n+1)$$
+$$\tag*{$\blacksquare$}$$
+
 
 ## Chaîne
 Une chaîne est définie tel que: #!
@@ -47,37 +68,12 @@ Un cycle est dit ==élémentaire== s'il s'agit d'une chaîne ==élémentaire== f
 Un graphe non orienté est dit ==connexe== #!
 S'il existe pour tout couple de sommet $(v, u) \in V^2$, une [[#Chaîne]] élémentaire entre $u$ et $v$ 
 ### Composantes connexes
-On appelle composantes connexes, l'ensemble des sommets de $G$ induisant $SG$, un sous graphe connexe.
-
-## Degré d'un sommet
-Soit $G = (V, E)$, un graphe non orienté.
-On définit le degré d'un sommet $v$, l'élément:
-$$d(v) = |\Gamma(v)|$$
-### Théorème
-Pour tout graphe $G = (V, E)$ non orienté; $\sum_{v \in V} d(v) = 2|E|$
-
-#### Preuve
-On pose $\Pi(n):$ "Si un graphe a $n$ arêtes, alors la somme des degrés est $2n$"
-
-(B): Si un graphe n'a pas d'arête, alors tous les sommets sont de degré $0$ OK.
-
-(H): Soit $n \in \mathbb N, \Pi(n)$ vraie, montrons $\Pi(n+1)$
-Soit $G$ un graphe avec $n+1$ arêtes. Soit $\set{u, v}$ une arête de $G$, on pose $H$ le sous graphe de $G$ obtenu en retirant l'arête $\set{u,v}$.
-
-Observons: 
-$\forall x \not \in \set{u,v}, d_H(x) = d_G(x)$
-$d_H(u) = d_G(u) -1$ et $d_H(v) = d_G(v) -1$
-
-On a que
-$$\sum_{x \in V} deg_G(x) = \sum_{x \in V\setminus\set{u,v}} deg_G(x) + deg_G(u) + deg_G(v)$$
-$$= \sum_{x \in V\setminus\set{u,v}} deg_H(x) + deg_H(u) + deg_H(v) + 2$$
-$$= \sum_{x \in V} deg_H(x) + 2$$
-$$= 2n +2 = 2(n+1)$$
-$$\tag*{$\blacksquare$}$$
+On appelle composante connexes, l'ensemble des sommets $V_C$ d'un graphe $G$ tel que: #!
+Le [[Sous graphes#Sous graphes induits|graphe induit]] par $V_C$ est connexe
 
 ## Théorème d'Euler sur les graphes connexe
+Soit $G$ un graphe connexe: #!
 
-Soit $G$ un graphe connexe
 - Si tous les sommets de $G$ ont un degré pair, alors il existe un circuit eulérien: (On passe par tous les sommets du graphes, sans repasser 2 fois par la même arrête)
 - Si tous les sommets sauf 2 ont un degré pair, il existe un chemin eulérien entre les 2 sommets impair
 - S'il y a 4 sommets ou plus de degrés impaires, il n'y a ni circuit, ni chemin eulérien.
