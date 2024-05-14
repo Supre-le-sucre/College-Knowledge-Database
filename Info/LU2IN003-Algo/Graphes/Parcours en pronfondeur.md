@@ -1,12 +1,12 @@
 ## Définition intuitive
-Soit $G = (V, E)$ un graphe non orienté et un sommet $s \in V$. A partir de l'origine $s$ , on visite les sommet le long de la chaîne élémentaire jusqu'à arriver à un sommet sans voisin non visité. On revient alors au dernier sommet sur la chaîne avec un voisin non visité et on recommence.
+Soit $G = (V, E)$ un [[Graphes non orientés]] ou [[Graphes orientés|orienté]] et un sommet $s \in V$. A partir de l'origine $s$ , on visite les sommet le long de la chaîne élémentaire jusqu'à arriver à un sommet sans voisin non visité. On revient alors au dernier sommet sur la chaîne avec un voisin non visité et on recommence.
 
 ## Définition
 Un parcours en profondeur est un [[Parcours en largeur]] où l'on va visiter le dernier sommet ouvert plutôt que le premier.
 
 On définit un parcours en profondeur mathématiquement de la façon suivante: #!
 
-Soit $G=(V, E)$ un graphe non orienté connexe et $L=(v_1, \dots, v_n)$ un parcours de $G$.
+Soit $G=(V, E)$ un [[Graphes non orientés]] ou [[Graphes orientés|orienté]] et $L=(v_1, \dots, v_n)$ un parcours de $G$.
 Ce parcours $L$ est dit *"en profondeur"* si pour tout sous-parcours $L_k = (v_1, \dots, v_k)$ le sommet $v_{k+1}$ est un sommet adjacent au ==dernier== sommet [[Parcours#Sommet ouvert et fermé|ouvert]] de $L_k$
 
 ## [[Graphes de liaison]] en profondeur
@@ -42,3 +42,16 @@ Soit $G = (V, E)$ un [[Graphes non orientés]] et $L$ un parcours en profondeur 
 On donne les instants de post-visite et de pré-visite les deux fonctions $\text{post}$ et $\text{pre}$ allant de $V$ vers $\set{1, \dots, 2n}$ telles que:
 - $\text{pre}(u)$ est l'instant où le sommet $u$ est visité (i.e `DFS(G, u)` vient d'être appelé)
 - $\text{post}(u)$ est l'instant où l'on sort de la fonction `DFS(G, u)`
+
+## Intervalles
+Pour tout couple de sommets $(u,v) \in V^2$ avec $u \not = v$, les intervalles $[\text{pre}(u), \text{post}(u)]$ et $[\text{pre}(v), \text{post}(v)]$ sont tels que: #!
+
+- $[\text{pre}(u), \text{post}(u)] \cap [\text{pre}(v), \text{post}(v)] = \emptyset$
+- $[\text{pre}(u), \text{post}(u)] \subset [\text{pre}(v), \text{post}(v)]$
+- $[\text{pre}(v), \text{post}(v)] \subset [\text{pre}(u), \text{post}(u)]$
+
+## Descendant et ancêtres
+Pour $\mathcal A = (V, A)$ une [[Graphes orientés#Arborescence|arborescence]]. On définit les termes suivants: #!
+
+- Soit deux sommets $(u,v) \in V^2$ avec $u \not =v$. $u$ est un descendant de $v$ s'il existe un [[Graphes orientés#Chemin|chemin]] dans $\mathcal A$ de $v$ vers $u$ 
+- Soit deux sommets $(u,v) \in V^2$ avec $u \not =v$. $u$ est un ancêtre de $v$ s'il existe un [[Graphes orientés#Chemin|chemin]] dans $\mathcal A$ de $u$ vers $v$ 
