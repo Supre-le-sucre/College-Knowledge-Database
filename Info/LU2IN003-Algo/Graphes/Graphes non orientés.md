@@ -87,4 +87,3 @@ Soit $G$ un graphe connexe: #!
 $$\tag*{$\blacksquare$}$$
 
 
-
