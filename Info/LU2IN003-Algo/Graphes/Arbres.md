@@ -1,6 +1,7 @@
 #algo
 ## Définition
-Un arbre est un [[Graphes non orientés]] connexe acyclique (i.e sans [[Graphes non orientés#Chaînes particulières|Cycle]])
+On définit un arbre (en tant que graphe) comme: #!
+Un [[Graphes non orientés]] [[Graphes non orientés#Connexité|connexe]] acyclique (i.e sans [[Graphes non orientés#Cycles|Cycle]])
 
 ## Minimal connexe et Maximal acyclique
 ### Minimal connexe

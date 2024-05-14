@@ -69,7 +69,7 @@ Un graphe non orienté est dit ==connexe== #!
 S'il existe pour tout couple de sommet $(v, u) \in V^2$, une [[#Chaîne]] élémentaire entre $u$ et $v$ 
 ### Composantes connexes
 On appelle composante connexes, l'ensemble des sommets $V_C$ d'un graphe $G$ tel que: #!
-Le [[Sous graphes#Sous graphes induits|graphe induit]] par $V_C$ est connexe
+Le [[Sous graphes#Graphes induits|graphe induit]] par $V_C$ est connexe
 
 ## Théorème d'Euler sur les graphes connexe
 Soit $G$ un graphe connexe: #!
