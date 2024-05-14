@@ -12,4 +12,6 @@ La complexité d'une insertion est donc de $O(\log(n))$
 ## Suppression du minimum
 Dans un tas, on supprime le minimum de la façon suivante: #!
 
-Le minimum est toujours à la racine, on fait passer la racine vers la feuille du sous arbre gauche la plus à droite en faisant toutes les permutations nécessaire, et on supprime cette feuille
+Le minimum est toujours à la racine, on fait passer la racine vers la feuille du sous arbre gauche la plus à droite en faisant toutes les permutations nécessaire, et on supprime cette feuille. 
+La complexité de suppression est en $O(\log(n))$
+

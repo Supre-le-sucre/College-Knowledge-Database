@@ -10,3 +10,4 @@ On peut trouver ici un tableau résumant les complexités et stabilité des diff
 | [[Quick sort]]                             | $\Omega(n\log(n))$ et $O(n^2)$ | $\Omega(n\log(n))$ et $O(n^2)$      | Oui (pour les listes)                |
 | [[Tri fusion]]                             | $\Theta(n\log(n))$             | $\Theta(n\log(n))$                  | Oui                                  |
 | [[Tri fusion]] avec gestion des monotonies | Impossible                     | $\Omega(n)$ et $O(n^2)$             | Non                                  |
+| [[Tri par tas]]                            | $\Omega(n)$ et $O(n\log(n))$   | $\Omega(n)$ et $O(n\log(n))$        | Impossible à évaluer                 |
