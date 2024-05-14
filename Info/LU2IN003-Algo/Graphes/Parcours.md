@@ -1,5 +1,5 @@
 #algo
-# Graphes non orienté
+# [[Graphes non orientés]]
 ## Définition
 Un parcours de graphe non orienté issue de $s$ est une liste ordonnée de sommet tel que: #!
 
@@ -20,6 +20,12 @@ $v \in L$. On note d'ailleurs $V(L)$ l'ensemble des sommets visité par $L$
 La bordure d'un sous-parcours est: #!
 L'ensemble des sommets qui n'ont pas encore été visité mais qui ont un voisin visité dans le sous-parcours.
 Ce sont tous les potentiels sommets candidats qui suivront dans le parcours. On le note mathématiquement: $$\mathcal B(L) = \set{v \in V - V(L) \; | \; \exists \set{u,v} \in E, u \in L}$$
+
+## Sommet ouvert et fermé
+Soit $L$ un sous-parcours. On dit qu'un sommet visité $v \in V(L)$ est ouvert si: #!
+
+Il possède au moins un sommet adjacent qui n'est pas dans $L$ (donc un sommet dans $\mathcal B(L)$).
+Si ce n'est pas le cas alors le sommet visité est dit *"fermé"*
 
 ## Graphe de liaison
 On donne $\mathcal A(L)$ le graphe de liaison associé au [[#Sous-parcours]] $L$ d'un [[Graphes non orientés]] $G=(V, E)$ tel que: #!
@@ -46,3 +52,13 @@ end while
 ## Connexité d'un graphe en fonction du parcours
 On observe la propriété suivante: #!
 On a qu'un graphe $G$ est connexe si et seulement s'il existe un parcours de $G$
+
+# [[Graphes orientés]]
+
+## Définition
+Un parcours de graphe orienté issue de $s$ est une liste ordonnée de sommet tel que: #!
+
+- $s$ est le premier sommet de la liste ordonnée
+- chaque sommet du graphe apparaît exactement une fois
+- chaque sommet suivant doit être un successeur d'un sommet déjà présent dans la liste
+
