@@ -30,6 +30,14 @@ Le [[Graphes non orientés]] sous-jacent est lui même connexe.
 Dans un graphe orienté, on parle de composantes fortement connexe #! 
 S'il existe un chemin relient un sommet $u$ vers un sommet $v$ et un autre chemin liant $v$ avec $u$
 
+### Relation fortement connexe
+On peut observer le résultats suivant: #!
+
+Soit $\mathcal R$ la relation de forte connexité sur l'ensemble $V^2$. On a donc $u \mathcal R v$ si et seulement si $u$ et $v$ sont fortement connexe (donc il existe un chemin entre $u$ et $v$ et de $v$ jusqu'à $u$).
+- La relation de forte connexité est une [[Relations d'équivalence]].
+- Les classes d'équivalence de cette relation sont les [[#Composantes fortement connexe]] de $G$
+- Un graphe est fortement connexe si la relation de forte connexité ne possède qu'une seule classe d'équivalence
+
 # Définition de la racine
 Une racine $r$ dans un graphe orienté est un sommet tel que: #!
 A partir du sommet $r$ on peut atteindre tous les autres sommets du graphe.
