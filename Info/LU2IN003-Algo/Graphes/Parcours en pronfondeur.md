@@ -18,3 +18,27 @@ On donne le graphe orienté $\mathcal A^*(L) = (V(L), H(L))$ le graphe de liaiso
 - $\mathcal A^*(L) = (V(L), H(L))$ est un [[Graphes de liaison]] de $L$
 - Pour tout sous-parcours $L_k =(v_1, \dots, v_k)$, $v_{k+1}$ a pour prédécesseur le dernier sommet ouvert de $L_k$
 Notons que le graphe de liaison en largeur ==est unique==
+
+## Implémentation d'un parcours en profondeur
+Observons qu'un parcours en profondeur se fait plus naturellement de façon [[Fonctions récursives|récursive]].
+On donne alors la fonction pour construire un parcours en profondeur d'origine $s$ la fonction ci-dessous
+
+```
+function DFS(G, s)
+	visite[s] := True, L := (s)
+	for all {s,u} in E
+		if not visite[u]
+			L := L + DFS(G, u)
+		end if
+	end for
+	return L
+end function
+```
+
+## Post et pré visite
+On définit les instants post-visite et les instants pré-visite de la façon suivante: #!
+
+Soit $G = (V, E)$ un [[Graphes non orientés]] et $L$ un parcours en profondeur tel que $n = |V|$. On numérote de $1$ à $2n$ les instants où l'on rentre et l'on sort de la [[#Implémentation d'un parcours en profondeur|fonction]] `DFS`.
+On donne les instants de post-visite et de pré-visite les deux fonctions $\text{post}$ et $\text{pre}$ allant de $V$ vers $\set{1, \dots, 2n}$ telles que:
+- $\text{pre}(u)$ est l'instant où le sommet $u$ est visité (i.e `DFS(G, u)` vient d'être appelé)
+- $\text{post}(u)$ est l'instant où l'on sort de la fonction `DFS(G, u)`
