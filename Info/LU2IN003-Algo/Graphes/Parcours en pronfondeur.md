@@ -55,3 +55,10 @@ Pour $\mathcal A = (V, A)$ une [[Graphes orientés#Arborescence|arborescence]]. 
 
 - Soit deux sommets $(u,v) \in V^2$ avec $u \not =v$. $u$ est un descendant de $v$ s'il existe un [[Graphes orientés#Chemin|chemin]] dans $\mathcal A$ de $v$ vers $u$ 
 - Soit deux sommets $(u,v) \in V^2$ avec $u \not =v$. $u$ est un ancêtre de $v$ s'il existe un [[Graphes orientés#Chemin|chemin]] dans $\mathcal A$ de $u$ vers $v$ 
+
+### Partitionnement des arcs dans un parcours en profondeur
+On effectue les distinctions suivantes pour $G=(V, A)$ un [[Graphes orientés]] et $\mathcal A^*(L) = (V(L), H(L))$ le [[#Graphes de liaison en profondeur]] du parcours $L$: #!
+
+- <u>Les arcs de liaison</u> est l'ensemble $H(L) \subset A$ des arcs du graphe de liaison du parcours en profondeur $\mathcal A^*(L)$
+- <u>Les arcs avants</u> est l'ensemble $F(L)$ des arcs $(u,v) \subset A - H(L)$ tels que $v$ est un descendant de $u$ dans $\mathcal A^*(L)$ (On a que )
+- 
