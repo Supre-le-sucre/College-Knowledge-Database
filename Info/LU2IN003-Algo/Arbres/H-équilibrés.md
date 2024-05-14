@@ -5,3 +5,4 @@ Pour tout nœud $x$ de l'arbre, la différence de hauteur entre le sous arbre ga
 ## Hauteur
 La hauteur d'un arbre H-équilibré de taille $n$ est de l'ordre de: #!
 $$\Theta(\log(n))$$
+<!--ID: 1715690724159-->

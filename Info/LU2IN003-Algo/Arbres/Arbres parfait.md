@@ -2,6 +2,8 @@
 Un [[Arbres binaires]] est dit parfait lorsque: #!
 
 Tous ses niveaux sont remplis à part le dernier qui peut être rempli le plus à gauche
+<!--ID: 1715690724154-->
+
 
 ## Hauteur
 La hauteur d'un arbre parfait de taille $n$ est de l'ordre de $$\Theta(\log(n))$$
@@ -20,8 +22,12 @@ En représentant un arbre parfait avec un tableau $T$, on peut accéder à ses �
 - Si $2i \leq n$ alors $T[2i]$ est le fils gauche de $T[i]$
 - Si $2i + 1 \leq n$ alors $T[2i + 1]$ est le fils droit de $T[i]$
 - Si $i > 1$ alors $T\left[\lfloor \frac{i}{2} \rfloor\right]$ est le père de $T[i]$
+<!--ID: 1715690724156-->
+
 
 ### Insertion
 Si un arbre parfait est représenté par un tableau $T$ l'insertion se fait de la façon suivante: #!
 
 Si le tableau a une taille suffisante, on incrémente le nombre de nœud stocké en $T[0]$ de 1 et on ajoute le nouveau nœud à la dernière case non occupé du tableau 
+<!--ID: 1715690724158-->
+

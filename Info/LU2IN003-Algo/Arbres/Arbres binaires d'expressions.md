@@ -3,6 +3,8 @@ On définit inductivement l'ensemble des [[Arbres binaires]] d'expressions $ABE$
 
 - $(x, \emptyset, \emptyset) \in ABE$ où $x$ est une valeur numérique
 - $(x, G, D) \in ABE$ où $x$ est un opérateur $+,-,\times,/$ et $G, D \in ABE$
+<!--ID: 1715690724161-->
+
 
 *Exemple*:
 ![[Pasted image 20240514134315.png]]
@@ -14,6 +16,8 @@ On observe dans un arbre binaire d'expressions les propriétés suivantes: #!
 - Chaque nœud internes est un opérateur
 - Chaque feuille est une valeur numérique
 - Le nombre de valeurs numériques est égale aux nombres d'opérateurs incrémenté de 1
+<!--ID: 1715690724163-->
+
 
 ## Evaluation
 On évalue un arbre binaires d'expressions par l'algorithme suivant: #!
@@ -32,6 +36,8 @@ def eval(T):
 		return eval(T.gauche) / eval(T.droit)
 ```
 La complexité de l'évaluation est en $\Theta(n)$
+<!--ID: 1715690724165-->
+
 
 ## [[Arbres binaires#Parcours d'arbre binaire|Parcours]] d'un arbre binaire d'expression
 

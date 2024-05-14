@@ -2,11 +2,15 @@
 On définit le tri par insertion de la manière suivante: #!
 
 Le tri par insertion consiste à ajouter un élément à une liste, puis trier la liste en conséquence. Ce tri est dit [[Algorithme de tri#Stable|stable]]. 
+<!--ID: 1715690724114-->
+
 
 ## Complexité
 La complexité du tri par insertion est la suivante: #!
 
 Dans le meilleur des cas, le tableau initial est déjà trié, et sa complexité est donc $\Omega(n)$Autrement, sa complexité est de $\mathcal{O}(n^2)$ dans le pire des cas.
+<!--ID: 1715690724115-->
+
 
 ## Implémentation
 On implémente le tri par insertion de la manière suivante:

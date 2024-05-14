@@ -1,8 +1,10 @@
 #algo
-Un algorithme $\mathcal{A}$ qui résout un problème $P$ est un [[Programme]] qui vérifie les deux propriétés suivantes:
+Un algorithme $\mathcal{A}$ qui résout un problème $P$ est un [[Programme]] qui vérifie les deux propriétés suivantes: #!
 
 - Terminaison: Pour tout instances du [[Problème]], l'algorithme se termine
 - Validité: Pour tout instances du [[Problème]], l'algorithme renvoie la valeur attendue
+<!--ID: 1715690724101-->
+
 
 ## Exemple itératif Fibonacci
 

@@ -5,6 +5,8 @@ Un arbre binaire est défini inductivement de la façon suivante. #!
 Soit $T$ l'ensemble des arbres binaires étiquetés sur $E$ est tel que:
 - $\emptyset \in T$
 - $(x, G, D) \in T$, où $x \in E$, et $G, D \in T$ avec ($G$ la branche gauche et $D$ la branche droite)
+<!--ID: 1715690724166-->
+
 
 ## Primitives
 - `AB(x, G, D)` renvoie l'arbre de racine $x$ et de branche gauche $G$ et droite $D$
@@ -23,17 +25,23 @@ Les accès sur un arbre $T$ sont immédiat, donc $\Theta(1)$
 Les nœuds d'un arbre binaire sont sa racine, les nœuds de sont sous arbre gauche puis le nombre de nœuds du sous arbre droit. On note l'ensemble de ces éléments $\mathcal N(T)$ définie inductivement comme: #!
 - $\mathcal N(\emptyset) = \emptyset$
 - $\mathcal N(x, G, D) = \set{x} \cup \mathcal N(G) \cup \mathcal N(D)$
+<!--ID: 1715690724168-->
+
 
 ### Feuille
 Une feuille est un nœuds dont les deux fils sont vides, on note l'ensemble de ces éléments $\mathcal F(T)$ définie inductivement comme: #!
 - $\mathcal F(\emptyset) = \emptyset$
 - $\mathcal F(x, G, D) = \set{x} \cup \mathcal F(G) \cup \mathcal F(D)$
+<!--ID: 1715690724169-->
+
 
 ### Nœuds internes
 Un nœuds interne est un nœud qui n'est pas une feuille. On note l'ensemble de ces éléments $\mathcal I(T)$ définie inductivement comme: #!
 - $\mathcal I(\emptyset) = \emptyset$
 - $\mathcal I(x, \emptyset, \emptyset) = \emptyset$
 - $\mathcal I(x, G, D) = \set{x} \cup \mathcal I(G) \cup \mathcal I(D)$
+<!--ID: 1715690724171-->
+
 
 ## Fonctions importantes
 
@@ -42,16 +50,22 @@ La taille d'un arbre est définie par son nombre de nœuds dont la fonction `n(T
 
 - `n(ABVide())` renvoie 0
 - `n(AB(x, G, D))` renvoie `1 + n(G) + n(D)`
+<!--ID: 1715690724173-->
+
 
 ### Hauteur d'un arbre
 La hauteur d'un arbre est donné par le nombre de branche qu'il contient. On note `h(T)` la fonction renvoyant la hauteur d'un arbre définie de la façon suivante: #!
 
 - `h(ABVide())` renvoie 0
 - `h(AB(x, G, D)` renvoie  `1 + max(h(G), h(D))`
+<!--ID: 1715690724175-->
+
 
 ### Complexité en $\Theta(n)$
 Pour un arbre $T$, de taille $n$, la complexité des fonctions `n(T)` et `h(T)` est de #!
 $$\Theta(n)$$
+<!--ID: 1715690724176-->
+
 
 #### Preuve
 Soit la fonction suivante:
@@ -77,14 +91,20 @@ $$\tag*{$\blacksquare$}$$
 ### Théorème
 On observe la relation suivante entre la taille d'un arbre et sa hauteur: #!
 Pour tout arbre de taille $n$ et de hauteur $h$ on a: $h \leq n \leq 2^h-1$
+<!--ID: 1715690724178-->
+
 
 ### Corollaire
 De fait à partir de la relation entre la taille d'un arbre et sa hauteur on en déduit l'encadrement de sa hauteur suivant: #!
 Pour tout arbre de taille $n$ et de hauteur $h$ on a: $log_2(n+1)\leq h \leq n$
+<!--ID: 1715690724180-->
+
 
 ## Parcours d'arbre binaire
 Pour parcourir un arbre, la complexité est en #!
 $$\Theta(n)$$
+<!--ID: 1715690724181-->
+
 
 On énumère les parcours définis inductivement suivants pour un arbre: #!
 
@@ -97,4 +117,6 @@ On énumère les parcours définis inductivement suivants pour un arbre: #!
 - Suffixe
 	$\text{suf}(\emptyset) = \text{""}$
 	$\text{suf}((x, G, D)) = \text{suf}(G).\text{pre}(D).x$
+<!--ID: 1715690724183-->
+
 

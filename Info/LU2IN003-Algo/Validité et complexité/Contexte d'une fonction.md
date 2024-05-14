@@ -1,7 +1,11 @@
 #algo
-Le contexte d'une fonction est une [[Piles|pile]] contenant l'ensemble des valeurs des paramètres et des variables des fonctions.
+# Définition
+On définit le contexte d'une fonction de la façon suivante: #!
 
-Lorsqu'une fonction à terminer de s'exécuter, son contexte est progressivement retiré de la pile de gestion:
+Le contexte d'une fonction est une [[Piles|pile]] contenant l'ensemble des valeurs des paramètres et des variables des fonctions.
+Lorsqu'une fonction à terminer de s'exécuter, son contexte est progressivement retiré de la pile de gestion.
+<!--ID: 1715690724097-->
+
 
 # Exemple avec factorielle
 ```python

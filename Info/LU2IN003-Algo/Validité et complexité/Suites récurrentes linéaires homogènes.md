@@ -1,14 +1,18 @@
 #algo 
 ## Définition
-On définit une suite récurrente linéaire homogène comme une suite d'élément sur $\mathbb{N}$ telle que
+On définit une suite récurrente linéaire homogène comme une suite d'élément sur $\mathbb{N}$ telle que #!
 $$\forall n \geq k, u_n = \lambda_1u_{n-1} + \lambda_2u_{n-2} + \cdots + \lambda_k u_{n-k}$$ Où $(\lambda_1, \cdots, \lambda_k) \in \mathbb{R}^k$
 Remarquons que la suite de Fibonacci est une suite récurrente linéaire homogène
+<!--ID: 1715690724092-->
+
 
 ## Polynôme caractéristique
 
 On détermine une suite récurrente linéaire homogène d'ordre 2
-On détermine le polynôme caractéristique d'une telle suite
+On détermine le polynôme caractéristique d'une telle suite: #!
 $$P(r) = r^2 - ar - b $$
+<!--ID: 1715690724094-->
+
 
 Il y a alors 2 cas:
 ### 2 racines
