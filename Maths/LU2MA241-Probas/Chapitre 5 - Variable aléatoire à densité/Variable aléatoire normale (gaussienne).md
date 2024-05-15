@@ -8,3 +8,13 @@ $$f_X(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x- \mu)^2}{2\sigma^2}}$$Et elle
 ## Transformation affine
 Pour une variable aléatoire $X \sim \mathcal N(\mu, \sigma^2)$ on observe les propriétés suivantes: #!
 $$\forall a,b \in \mathbb R,\; aX+b \sim \mathcal N(a\mu+b,\; a^2\sigma^2)$$
+
+## Fonction génératrice des moments
+Pour $Z \sim \mathcal N(0,1)$ on observe que: #!
+$$M_Z(t) = e^{\frac{t^2}{2}}$$
+## Somme de normales indépendantes
+On observe que pour $X \sim \mathcal N(\mu_1, \sigma_1^2)$ et $Y \sim \mathcal N(\mu_2, \sigma_2^2)$ on a alors: #!
+$$X+Y \sim \mathcal N(\mu_1 + \mu_2, \;\sigma_1^2 + \sigma_2^2)$$
+
+### Corollaire
+Soient $X_1, \dots, X_n$ des variables aléatoires normales indépendantes. On observe que toute combinaison linéaire de ces variables suivent une loi normale.
