@@ -7,3 +7,4 @@ $$f_X(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x- \mu)^2}{2\sigma^2}}$$Et elle
 
 ## Transformation affine
 Pour une variable aléatoire $X \sim \mathcal N(\mu, \sigma^2)$ on observe les propriétés suivantes: #!
+$$\forall a,b \in \mathbb R,\; aX+b \sim \mathcal N(a\mu+b,\; a^2\sigma^2)$$
