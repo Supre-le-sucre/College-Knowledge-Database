@@ -15,3 +15,4 @@ Ses composantes $X$ et $Y$ sont aussi des variables aléatoires à densité, de 
 Soit $(X, Y)$ un vecteur aléatoire de densité $f_{X, Y}$. Alors la somme de ses composantes $X+Y$ est absolument continue et admet pour densité: #!
 $$f_{X+Y} = \int_{\mathbb R}f_{X,Y}(x, z-x)dx = \int_\mathbb R f_{X, Y}(z-x, x)dx$$à condition que $x \mapsto f_{X,Y}(x, z-x)$ et $x \mapsto f_{X,Y}(z-x, x)$ soient intégrables sur $\mathbb R$
 
+
