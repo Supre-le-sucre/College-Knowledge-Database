@@ -1,5 +1,9 @@
 ## Définition
 Une variable aléatoire réelle absolument continue $Z$ est dite *"normale"* ou *"gaussienne"* standard (et on écrit $Z \sim \mathcal N(0,1)$) si elle a pour densité: #!
-$$f_Z(x) = \frac{1}{\sqrt{2\pi}}e^{\frac{x^2}{2}}$$
+$$f_Z(x) = \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$$
 
-De manière générale 
+De manière générale une variable aléatoire suivant $X \sim \mathcal N(\mu, \sigma^2)$ admet pour densité: #!
+$$f_X(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x- \mu)^2}{2\sigma^2}}$$Et elle admet pour espérance $\mathbb E(X)=\mu$ et comme variance $Var(X)=\sigma^2$. Notons que l'on peut se ramener à une loi normale standard $$X \sim \mathcal N(\mu, \sigma^2) \Leftrightarrow Z := \frac{X-\mu}{\sigma} \sim \mathcal N(0,1)$$
+
+## Transformation affine
+Pour une variable aléatoire $X \sim \mathcal N(\mu, \sigma^2)$ on observe les propriétés suivantes: #!
