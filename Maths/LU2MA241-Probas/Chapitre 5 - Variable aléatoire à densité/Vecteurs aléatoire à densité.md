@@ -26,3 +26,15 @@ $$f_{X+Y} = \int_{\mathbb R}f_{X,Y}(x, z-x)dx = \int_\mathbb R f_{X, Y}(z-x, x)d
 Soit $X$ et $Y$ deux variables aléatoires absolument continues indépendantes, de densité respective $f_X$ et $f_Y$. Alors la variable $X+Y$ est une variable aléatoire absolument continue de densité: #!
 $$f_{X+Y}(z) = f_X*f_Y(z)=\int_\mathbb Rf_X(x)f_Y(z-x)dx = \int_ \mathbb R f_X(z-x)f_Y(x)dx$$
 Où la fonction $f_X*f_Y$ est appelé [[Produit de convolution]] de $f_X$ et $f_Y$
+
+
+## Formule de transfert
+Soit $(X, Y)$ un vecteur aléatoire à valeur dans $\mathbb R^2$ de densité $f_{X, Y}$ #!
+Et soit $g: \mathbb R^2 \to \mathbb R$ une fonction continue sur $\mathbb R^2\setminus C$ où $C$ est de mesure nulle dans 2 dimensions. Alors $g(X, Y)$ admet une espérance finie si et seulement si la fonction $|g(x,y)|f_{X,Y}(x,y)$ est intégrable sur $\mathbb R^2$ et donc on a:
+$$\mathbb E(g(X, Y)) = \int_{\mathbb {R}^2} g(x,y)f_{X, Y}(x,y)dxdy$$
+
+### Conséquence sur la densité
+Observons que $(X, Y)$ un vecteur aléatoire de $\mathbb R^2$ a pour densité $f_{X, Y}$ si et seulement si: #!
+
+Pour tout fonction $h: \mathbb R^2 \to \mathbb R$ une fonction bornée (ou positive) et continue sur $\mathbb R^2\setminus C$ où $C$ est de mesure nulle dans 2 dimensions. On a que:
+$$\mathbb E(h(X, Y)) = \int_{\mathbb {R}^2} h(x,y)f_{X, Y}(x,y)dxdy$$
