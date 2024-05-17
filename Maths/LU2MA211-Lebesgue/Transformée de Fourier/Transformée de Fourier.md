@@ -21,3 +21,4 @@ On observe le phénomène suivant: #!
 
 Si $f \in L^1(\mathbb R)$ et $a \in \mathbb R^*$, alors on a que
 $$\widehat{\tau_af} = e_{-a}\hat f \Leftrightarrow \mathcal F(f(x-a))(\xi) = e^{-ia\xi}\hat f(\xi)$$
+$$\widehat {\sigma_af}$$
