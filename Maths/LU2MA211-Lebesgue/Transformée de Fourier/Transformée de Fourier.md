@@ -31,3 +31,6 @@ $$\widehat{f'}(\xi) = i\xi\hat f(\xi)$$
 
 ## Dérivée d'une transformée de Fourier
 On observe le phénomène suivant: #!
+
+Si $x \mapsto (1+|x|)f(x) \in L^1(\mathbb R)$ alors $\hat f \in \mathcal C^1(\mathbb R)$ et on a que
+$$(\hat f)'$$
