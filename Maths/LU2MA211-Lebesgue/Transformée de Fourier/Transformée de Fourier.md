@@ -28,3 +28,6 @@ On observe le phénomène suivant: #!
 
 Si $f \in L^1(\mathbb R) \cap \mathcal C^1(\mathbb R)$ et $f' \in L^1(\mathbb R)$ alors on a que
 $$\widehat{f'}(\xi) = i\xi\hat f(\xi)$$
+
+## Dérivée d'une transformée de Fourier
+On observe le phénomène suivant: #!
