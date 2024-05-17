@@ -33,4 +33,14 @@ $$\widehat{f'}(\xi) = i\xi\hat f(\xi)$$
 On observe le phénomène suivant: #!
 
 Si $x \mapsto (1+|x|)f(x) \in L^1(\mathbb R)$ alors $\hat f \in \mathcal C^1(\mathbb R)$ et on a que
-$$(\hat f)'$$
+$$(\hat f)'(\xi) = -i\,\widehat{xf}(\xi)$$
+
+## Transformée de Fourier dans l'intégrale
+On observe le phénomène suivant: #!
+
+Si $f, g \in L^1(\mathbb R)$ alors $$\int_\mathbb R \hat fg = \int_\mathbb R f \hat g$$
+
+# Lemme de Lebesgue
+On observe que: #!
+
+Si $f \in L^1(\mathbb R)$, alors on que $$\lim_{\xi \to \pm \infty}\hat f(\xi) = 0 $$
