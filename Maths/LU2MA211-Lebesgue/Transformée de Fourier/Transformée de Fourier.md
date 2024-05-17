@@ -26,4 +26,5 @@ $$\widehat {\sigma_af} = |a|\sigma_{\frac{1}{a}}\hat f \Leftrightarrow \mathcal 
 ## Transformée de Fourier sur une dérivée
 On observe le phénomène suivant: #!
 
-Si $f \in L^1(\mathbb R) \cap \mathcal C^1(\xi)$
+Si $f \in L^1(\mathbb R) \cap \mathcal C^1(\mathbb R)$ et $f' \in L^1(\mathbb R)$ alors on a que
+$$\widehat{f'}(\xi) = i\xi\hat f(\xi)$$
