@@ -2,7 +2,6 @@
 On définit une loi de poisson $X \sim Poi(\lambda)$ comme étant #!
 La limite de la probabilité lorsque $n \to + \infty$ d'une variable aléatoire $X_n$ suivant une [[Loi binomiale]] de paramètre $Bin(n, \frac{\lambda}{n})$. Autrement dit
 $$\mathbb P(X =k) = \lim_{n \to +\infty} \mathbb P(X_n = k)=\frac{\lambda^k}{k!}e^\lambda$$
-UPDATE
 <!--ID: 1713305360748-->
 
 
