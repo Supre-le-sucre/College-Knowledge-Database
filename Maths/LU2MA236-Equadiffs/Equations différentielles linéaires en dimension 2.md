@@ -8,3 +8,11 @@ La résolution de ces équations dépend de la matrice $A$
 
 ## Cas diagonale
 Dans le cas diagonale, le système d'équation n'est plus complexe, et les solutions pour $x$ et $y$ sont des exponentielles simples.
+
+## Cas triangulaire
+Si la matrice est triangulaire, alors l'équation de $y$ n'est pax complexe. On résous $y$ par une exponentielle simple et on le traite comme un second membre pour $x$
+
+## Cas non trigonalisable
+Si la matrice n'est pas trigonalisable, alors elle est de la forme $$A=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}$$
+Il faut passer dans le plan complexe.
+Dans l'espace complexe, la matrice en question sera diagonalisable et ses valeurs propres seront $\lambda = a+ib$ et $\overline \lambda$ ($a$ et $b$ sont les coefficient de la matrice $A$)
