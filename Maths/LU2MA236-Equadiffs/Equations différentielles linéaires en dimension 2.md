@@ -15,4 +15,7 @@ Si la matrice est triangulaire, alors l'équation de $y$ n'est pax complexe. On 
 ## Cas non trigonalisable
 Si la matrice n'est pas trigonalisable, alors elle est de la forme $$A=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}$$
 Il faut passer dans le plan complexe.
-Dans l'espace complexe, la matrice en question sera diagonalisable et ses valeurs propres seront $\lambda = a+ib$ et $\overline \lambda$ ($a$ et $b$ sont les coefficient de la matrice $A$)
+Dans l'espace complexe, la matrice en question sera diagonalisable et ses valeurs propres seront $\lambda = a+ib$ et $\overline \lambda$ ($a$ et $b$ sont les coefficient de la matrice $A$). Ensuite, par la matrice de passage, on retourne dans l'espace réel
+
+## Cas général
+Dans le cas générale, la solution de l'EDO est toujours $\exp(tA)$ 
