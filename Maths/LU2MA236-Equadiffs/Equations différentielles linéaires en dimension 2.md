@@ -50,4 +50,19 @@ On retient les portraits de phases suivants
 ## Cas diagonalisable
 
 ### Valeurs propres distinctes de même signe
-On observe le portrait de phase suivant: #!
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe le portrait de phase suivant: #!
+
+- Si elles sont du même signe, positives, et que $\lambda_2 <\lambda_1$ 
+  ![[Pasted image 20240620193511.png]]
+- Si elles sont de même signe, positives, et que $\lambda_2 > \lambda_1$ 
+  ![[Pasted image 20240620193824.png]]
+- Si elles sont négatives, il suffit d'inverser les flèches
+- Si la matrice est diagonalisable, il faut que les droites bleues soit dirigées par les vecteurs propres.
+
+### Valeurs propres distinctes de signe distinct
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe le portrait de phase suivant: #!
+- Si $\lambda_1 > 0$ 
+  ![[Pasted image 20240620194231.png]]
+-  Si $\lambda_1 < 0$
+  ![[Pasted image 20240620194302.png]]
+  **Observons que** $\lambda_1$ dirige l'évolution de la droite sur (Ox) comme attendu.
