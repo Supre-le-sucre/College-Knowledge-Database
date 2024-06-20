@@ -24,6 +24,6 @@ Dans le cas générale, la solution de l'EDO est toujours $\exp(tA)$
 
 # Propriété sur les matrices carrée de taille 2
 Toutes les matrices carrées de taille 2 sont semblables aux matrices suivantes: #!
-$$D = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} \quad T = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} $$
+$$D = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} \quad T = \begin{pmatrix} a & 1 \\ 0& b \end{pmatrix}  \quad M = \begin{pmatrix} a & -b \\ b& a \end{pmatrix}$$
 
 
