@@ -50,19 +50,53 @@ On retient les portraits de phases suivants
 ## Cas diagonalisable
 
 ### Valeurs propres distinctes de même signe
-Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe le portrait de phase suivant: #!
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
 
 - Si elles sont du même signe, positives, et que $\lambda_2 <\lambda_1$ 
   ![[Pasted image 20240620193511.png]]
 - Si elles sont de même signe, positives, et que $\lambda_2 > \lambda_1$ 
   ![[Pasted image 20240620193824.png]]
 - Si elles sont négatives, il suffit d'inverser les flèches
-- Si la matrice est diagonalisable, il faut que les droites bleues soit dirigées par les vecteurs propres.
+- Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
 
 ### Valeurs propres distinctes de signe distinct
-Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe le portrait de phase suivant: #!
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
 - Si $\lambda_1 > 0$ 
   ![[Pasted image 20240620194231.png]]
 -  Si $\lambda_1 < 0$
-  ![[Pasted image 20240620194302.png]]
+	![[Pasted image 20240620194302.png]]
+  - Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
   **Observons que** $\lambda_1$ dirige l'évolution de la droite sur (Ox) comme attendu.
+
+### Valeur propre double
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
+- Si $\lambda_1 > 0$
+![[Pasted image 20240620194940.png]]
+- 
+### Valeurs propres distinctes dont une nulle
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
+- Si $\lambda_2= 0$ et $\lambda_1 > 0$
+![[Pasted image 20240620195031.png]]
+-  Si $\lambda_2= 0$ et $\lambda_1 < 0$: on inverse les flèches
+-  Si $\lambda_1= 0$ et $\lambda_2 > 0$
+![[Pasted image 20240620195117.png]]
+- Si $\lambda_1= 0$ et $\lambda_2 > 0$: On inverse les flèches
+- Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
+
+### Valeurs propres nulles
+Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe le portrait de phases suivant: #!
+![[Pasted image 20240620195210.png]]
+
+## Cas diagonalisable sur $\mathbb C$
+Soit une matrice de la forme: $\begin{pmatrix} \alpha & -\beta \\ \beta & \alpha \end{pmatrix}$ On observe les portraits de phases suivants: #!
+- Si $\alpha > 0$ et $\beta > 0$
+![[Pasted image 20240620195607.png]]
+- Si $\alpha > 0$ et $\beta < 0$
+![[Pasted image 20240620195719.png]]
+- Si $\alpha < 0$: On change le sens des flèches
+- Si $\alpha=0$ et $\beta > 0$
+ ![[Pasted image 20240620195754.png]]
+ - Si $\alpha=0$ et $\beta < 0$: On change le sens des flèches
+
+## Cas trigonalisable
+Soit une matrice de la forme: $\begin{pmatrix} \alpha & -\beta \\ \beta & \alpha \end{pmatrix}$ On observe les portraits de phases suivants: #!
