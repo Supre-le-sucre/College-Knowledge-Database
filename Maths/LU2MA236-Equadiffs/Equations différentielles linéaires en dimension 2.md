@@ -49,5 +49,5 @@ On retient les portraits de phases suivants
 
 ## Cas diagonalisable
 
-### Valeurs propres distinctes
+### Valeurs propres distinctes de même signe
 On observe le portrait de phase suivant: #!
