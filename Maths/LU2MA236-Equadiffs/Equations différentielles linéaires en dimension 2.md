@@ -48,3 +48,6 @@ Donc une solution serait donnée par $$X = \begin{pmatrix} C \\ D\end{pmatrix} \
 On retient les portraits de phases suivants
 
 ## Cas diagonalisable
+
+### Valeurs propres distinctes
+On observe le portrait de phase suivant: #!
