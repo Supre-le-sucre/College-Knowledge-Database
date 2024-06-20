@@ -27,3 +27,4 @@ Toutes les matrices carrées de taille 2 sont semblables aux matrices suivantes:
 $$D = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} \quad T = \begin{pmatrix} a & 1 \\ 0& b \end{pmatrix}  \quad M = \begin{pmatrix} a & -b \\ b& a \end{pmatrix}$$
 
 
+# Formules de résolutions non trigonalisable
