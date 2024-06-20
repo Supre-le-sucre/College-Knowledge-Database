@@ -2,6 +2,8 @@
 On dit qu'une EDO est "à variable séparables" si et seulement si: #!
 
 L'équation peut s'écrire sous la forme $x' g(x) = h(t)$ où $g$ et $h$ sont des fonctions quelconques
+<!--ID: 1718736687579-->
+
 
 # Méthode
 Une EDO à variable séparable peut être résolue simplement sous certaines conditions
