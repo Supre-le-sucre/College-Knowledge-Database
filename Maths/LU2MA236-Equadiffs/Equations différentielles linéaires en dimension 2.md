@@ -20,4 +20,10 @@ Il faut passer dans le plan complexe.
 Dans l'espace complexe, la matrice en question sera diagonalisable et ses valeurs propres seront $\lambda = a+ib$ et $\overline \lambda$ ($a$ et $b$ sont les coefficient de la matrice $A$). Ensuite, par la matrice de passage, on retourne dans l'espace réel
 
 ## Cas général
-Dans le cas générale, la solution de l'EDO est toujours $\exp(tA)$ 
+Dans le cas générale, la solution de l'EDO est toujours $\exp(tA)$
+
+# Propriété sur les matrices carrée de taille 2
+Toutes les matrices carrées de taille 2 sont semblables aux matrices suivantes: #!
+$$D = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} \quad T = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} $$
+
+
