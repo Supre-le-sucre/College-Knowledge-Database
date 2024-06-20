@@ -99,4 +99,11 @@ Soit une matrice de la forme: $\begin{pmatrix} \alpha & -\beta \\ \beta & \alpha
  - Si $\alpha=0$ et $\beta < 0$: On change le sens des flèches
 
 ## Cas trigonalisable
-Soit une matrice de la forme: $\begin{pmatrix} \alpha & -\beta \\ \beta & \alpha \end{pmatrix}$ On observe les portraits de phases suivants: #!
+Soit une matrice de la forme: $\begin{pmatrix} \lambda & \gamma \\ 0 & \lambda \end{pmatrix}$ On observe les portraits de phases suivants: #!
+- Si $\lambda > 0$ et $\gamma > 0$
+![[Pasted image 20240620200143.png]]
+- Si $\lambda > 0$ et $\gamma < 0$: On prends le symétrique par rapport à (Oy)
+- Si $\lambda < 0$: On inverse les flèches
+- Si $\lambda = 0$
+![[Pasted image 20240620200328.png]]
+- Si la matrice est trigonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
