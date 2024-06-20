@@ -25,9 +25,13 @@ Dans le cas générale, la solution de l'EDO est toujours $K\exp(tA)$ où $K$ es
 # Propriété sur les matrices carrée de taille 2
 Toutes les matrices carrées de taille 2 sont semblables aux matrices suivantes: #!
 $$D = \begin{pmatrix} a & 0 \\ 0& b \end{pmatrix} \quad T = \begin{pmatrix} a & 1 \\ 0& b \end{pmatrix}  \quad M = \begin{pmatrix} a & -b \\ b& a \end{pmatrix}$$
+<!--ID: 1718906716316-->
+
 
 De fait, il existe toujours une matrice de passage $P$ telle que, pour n'importe quel matrice $A$ on a: #!
 $$A = PMP^{-1}$$
+<!--ID: 1718906716322-->
+
 
 ## Corollaire sur la résolution
 On peut donc résoudre les équations différentielles en dimension 2 simplement.
@@ -43,6 +47,8 @@ Pour le cas trigonalisable observons déjà que: #!
 La matrice $A$ est trigonalisable si son polynôme caractéristique admet deux valeurs propres communes. 
 Le premier vecteur de la matrice de passage est un vecteur propre de $A$, le second est un vecteur arbitraire, non lié au premier. Il est possible de l'adapter pour obtenir le nombre que l'on souhaite dans le coin supérieur droit de la matrice triangulaire $T$ semblable à $A$.
 Donc une solution serait donnée par $$X = \begin{pmatrix} C \\ D\end{pmatrix} \exp\left(t\begin{pmatrix} a & 1 \\ 0 & b\end{pmatrix}\right) = \begin{pmatrix} C \\ D\end{pmatrix} \exp\left(t\left(\begin{pmatrix} a &  0\\ 0 & b\end{pmatrix} +\begin{pmatrix} 0 &  1\\ 0 & 0\end{pmatrix}\right)\right)$$ $$X = \begin{pmatrix} C \\ D\end{pmatrix} \exp\left(t\begin{pmatrix} a & 0 \\ 0 & b\end{pmatrix}\right)\exp\left(t\begin{pmatrix} 0 & 1 \\ 0 & 0\end{pmatrix}\right)$$D'après la [[Décomposition de Dunford]] d'une matrice triangulaire
+<!--ID: 1718906716325-->
+
 
 # Portrait de phase
 On retient les portraits de phases suivants
@@ -58,6 +64,8 @@ Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \e
   ![[Pasted image 20240620193824.png]]
 - Si elles sont négatives, il suffit d'inverser les flèches
 - Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
+<!--ID: 1718906716328-->
+
 
 ### Valeurs propres distinctes de signe distinct
 Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
@@ -67,6 +75,8 @@ Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \e
 	![[Pasted image 20240620194302.png]]
   - Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
   **Observons que** $\lambda_1$ dirige l'évolution de la droite sur (Ox) comme attendu.
+<!--ID: 1718906716330-->
+
 
 ### Valeur propre double
 Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
@@ -82,10 +92,14 @@ Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \e
 ![[Pasted image 20240620195117.png]]
 - Si $\lambda_1= 0$ et $\lambda_2 > 0$: On inverse les flèches
 - Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
+<!--ID: 1718906716334-->
+
 
 ### Valeurs propres nulles
 Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe le portrait de phases suivant: #!
 ![[Pasted image 20240620195210.png]]
+<!--ID: 1718906716336-->
+
 
 ## Cas diagonalisable sur $\mathbb C$
 Soit une matrice de la forme: $\begin{pmatrix} \alpha & -\beta \\ \beta & \alpha \end{pmatrix}$ On observe les portraits de phases suivants: #!
@@ -97,6 +111,8 @@ Soit une matrice de la forme: $\begin{pmatrix} \alpha & -\beta \\ \beta & \alpha
 - Si $\alpha=0$ et $\beta > 0$
  ![[Pasted image 20240620195754.png]]
  - Si $\alpha=0$ et $\beta < 0$: On change le sens des flèches
+<!--ID: 1718906716338-->
+
 
 ## Cas trigonalisable
 Soit une matrice de la forme: $\begin{pmatrix} \lambda & \gamma \\ 0 & \lambda \end{pmatrix}$ On observe les portraits de phases suivants: #!
@@ -107,3 +123,4 @@ Soit une matrice de la forme: $\begin{pmatrix} \lambda & \gamma \\ 0 & \lambda \
 - Si $\lambda = 0$
 ![[Pasted image 20240620200328.png]]
 - Si la matrice est trigonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
+<!--ID: 1718906716340-->
