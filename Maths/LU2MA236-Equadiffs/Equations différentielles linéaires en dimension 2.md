@@ -21,8 +21,15 @@ Posons une fonction $z(t) = x(t)+iy(t)$
 Sa dérivée est alors $z'(t) = x'(t)+iy'(t)$
 
 Or observons d'autre part que $$X'=AX \Leftrightarrow \begin{pmatrix}x'(t) \\ y'(t)\end{pmatrix}=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}\begin{pmatrix}x(t) \\ y(t)\end{pmatrix}$$
-Soit $x'(t) = ax(t) - by(t) = \Re((a-ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
-et $y'(t) = bx(t) + ay(t) = \Im((a-ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
+Soit $x'(t) = ax(t) - by(t) = \Re((a+ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
+et $y'(t) = bx(t) + ay(t) = \Im((a+ib)(x(t)+iy(t))) = \Im((a+ib)z(t))$ d'autre part
+
+Or comme $\begin{cases}x'(t) = \Re((a+ib)z(t) \\ y'(t) = \Im((a+ib)z(t)\end{cases}$ La valeur de $z'(t)$ peut donc s'écrire: 
+$$z'(t) = \Re((a+ib) z(t)) + i \Im((a+ib)z(t))$$
+Or cette expression est la décomposition complexe du nombre $(a+ib)z(t)$
+Soit finalement $$z'(t) = (a+ib)z(t) \Leftrightarrow z(t) = Ce^{(a+ib)t} \quad | \; C \in \mathbb C$$
+Les parties réelles et imaginaires de $z$ nous donnerons respectivement les valeurs de $x$ et de $y$
+
 
 
 ## Cas général
