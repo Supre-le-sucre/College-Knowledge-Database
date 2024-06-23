@@ -1,7 +1,7 @@
 # Méthode en dimension 1
-Pour montrer le fonctionnement de la variation de la constante, nous allons explorer l'équation différentielle classique générale: #!
+Pour montrer le fonctionnement de la variation de la constante, nous allons explorer l'équation différentielle classique générale: 
 $$ax' = bx + c \quad (1)$$
-
+(On aurait pu aussi prendre $c$ comme étant une fonction, la méthode est la même)
 ## Etape 1: Résolution sans second membre
 D'abord, on essaye de résoudre l'équation sans second membre. On cherche donc à résoudre
 $$ay' = by \quad (2)$$
