@@ -17,7 +17,13 @@ Si la matrice est triangulaire, alors l'équation de $y$ n'est pax complexe. On 
 ## Cas non trigonalisable
 Si la matrice n'est pas trigonalisable, alors elle est de la forme $$A=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}$$
 Il faut passer dans le plan complexe.
-Dans l'espace complexe, la matrice en question sera diagonalisable et ses valeurs propres seront $\lambda = a+ib$ et $\overline \lambda$ ($a$ et $b$ sont les coefficient de la matrice $A$). Ensuite, par la matrice de passage, on retourne dans l'espace réel
+Posons une fonction $z(t) = x(t)+iy(t)$
+Sa dérivée est alors $z'(t) = x'(t)+iy'(t)$
+
+Or observons d'autre part que $$X'=AX \Leftrightarrow \begin{pmatrix}x'(t) \\ y'(t)\end{pmatrix}=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}\begin{pmatrix}x(t) \\ y(t)\end{pmatrix}$$
+Soit $x'(t) = ax(t) - by(t) = \Re((a-ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
+et $y'(t) = bx(t) + ay(t) = \Im((a-ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
+
 
 ## Cas général
 Dans le cas générale, la solution de l'EDO est toujours $K\exp(tA)$ où $K$ est une matrice vecteur composée de deux constantes.
