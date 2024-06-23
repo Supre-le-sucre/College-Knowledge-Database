@@ -34,7 +34,6 @@ Les parties réelles et imaginaires de $z$ nous donnerons respectivement les val
 Commençons d'abord par décomposer $C = c_1 +i c_2$ et on a donc que
 $$z(t) = (c_1 + ic_2)(e^a(\cos(bt) + i\sin(bt)) =e^a [(c_1\cos(bt) - c_2\sin(bt)) +i(c_2 \cos(bt) + c_1 \sin(bt))]$$
 D'où finalement les résultats suivants pour $x$ et $y$
-
 $$\begin{cases} x(t) = \Re(z(t)) & = e^a(c_1 \cos(bt) - c_2 \sin(bt)) \\ y(t) = \Im(z(t)) & = e^a(c_1 \sin(bt) + c_2 \cos(bt))\end{cases}$$
 
 
