@@ -23,7 +23,7 @@ Sa dérivée est alors $z'(t) = x'(t)+iy'(t)$
 **NB**: Pour l'instant, cette fonction n'a vraiment rien à voir avec l'équation de base, nous verrons un rapprochement avec celle-ci plus tard. En réalité, l'intuition de cette fonction vient du fait qu'il existe un *Endomorphisme entre $\mathbb C$ et $M_2(\mathbb R)$*)
 
 Or observons d'autre part que $$X'=AX \Leftrightarrow \begin{pmatrix}x'(t) \\ y'(t)\end{pmatrix}=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}\begin{pmatrix}x(t) \\ y(t)\end{pmatrix}$$
-Soit $x'(t) = ax(t) - by(t) = \Re((a+ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
+Soit $x'(t) = ax(t) - by(t) = \Re((a+ib)(x(t)+iy(t))) = \Re((a+ib)z(t))$ d'une part
 et $y'(t) = bx(t) + ay(t) = \Im((a+ib)(x(t)+iy(t))) = \Im((a+ib)z(t))$ d'autre part
 
 Or comme $\begin{cases}x'(t) = \Re((a+ib)z(t) \\ y'(t) = \Im((a+ib)z(t)\end{cases}$ La valeur de $z'(t)$ peut donc s'écrire: 
