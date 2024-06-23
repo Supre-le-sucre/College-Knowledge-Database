@@ -29,6 +29,9 @@ $$z'(t) = \Re((a+ib) z(t)) + i \Im((a+ib)z(t))$$
 Or cette expression est la décomposition complexe du nombre $(a+ib)z(t)$
 Soit finalement $$z'(t) = (a+ib)z(t) \Leftrightarrow z(t) = Ce^{(a+ib)t} \quad | \; C \in \mathbb C$$
 Les parties réelles et imaginaires de $z$ nous donnerons respectivement les valeurs de $x$ et de $y$
+Commençons d'abord par décomposer $C = c_1 +i c_2$ et on a donc que
+$$z(t) = (c_1 + ic_2)(e^a(\cos(bt) + i\sin(bt)) =e^a [(c_1\cos(bt) - c_2\sin(bt)) +i(c_2 \cos(bt) + c_1 \sin(bt))]$$
+D'où finalement les résultats suivants pour $x$ et $y$
 
 
 
