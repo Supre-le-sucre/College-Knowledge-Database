@@ -20,6 +20,8 @@ Il faut passer dans le plan complexe.
 Posons une fonction $z(t) = x(t)+iy(t)$
 Sa dérivée est alors $z'(t) = x'(t)+iy'(t)$
 
+**NB**: Pour l'instant, cette fonction n'a vraiment rien à voir avec l'équation de base, nous verrons un rapprochement avec celle-ci plus tard. En réalité, l'intuition de cette fonction vient du fait qu'il existe un *Endomorphisme entre $\mathbb C$ et $M_2(\mathbb R)$*)
+
 Or observons d'autre part que $$X'=AX \Leftrightarrow \begin{pmatrix}x'(t) \\ y'(t)\end{pmatrix}=\begin{pmatrix}a & -b \\ b & a\end{pmatrix}\begin{pmatrix}x(t) \\ y(t)\end{pmatrix}$$
 Soit $x'(t) = ax(t) - by(t) = \Re((a+ib)(x(t)+iy(t))) = \Re((a-ib)z(t))$ d'une part
 et $y'(t) = bx(t) + ay(t) = \Im((a+ib)(x(t)+iy(t))) = \Im((a+ib)z(t))$ d'autre part
@@ -32,6 +34,8 @@ Les parties réelles et imaginaires de $z$ nous donnerons respectivement les val
 Commençons d'abord par décomposer $C = c_1 +i c_2$ et on a donc que
 $$z(t) = (c_1 + ic_2)(e^a(\cos(bt) + i\sin(bt)) =e^a [(c_1\cos(bt) - c_2\sin(bt)) +i(c_2 \cos(bt) + c_1 \sin(bt))]$$
 D'où finalement les résultats suivants pour $x$ et $y$
+
+$$\begin{cases} x(t) = \Re(z(t)) & = e^a(c_1 \cos(bt) - c_2 \sin(bt)) \\ y(t) = \Im(z(t)) & = e^a(c_1 \sin(bt) + c_2 \cos(bt))\end{cases}$$
 
 
 
