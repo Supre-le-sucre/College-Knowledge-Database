@@ -22,7 +22,7 @@ Supposons $f: I \times U \to \mathbb R$ continue, et soit $x: ]\alpha, \beta[ \t
 On considère $u: ]\alpha, \beta[ \to \mathbb R$ une fonction, et $t_0 \in ]\alpha, \beta[$, alors on a différent cas:
 - Si $u$ est sur-solution et que
 	- $x(t_0) \leq u(t_0)$ alors dans ce cas: $$\forall t \in ]t_0, \beta[, \; x(t) <u(t)$$
-	- $x(t_0) \geq u(t_0)$ alors dans ce cas: $$\forall t \in ]\alpha, t_0[, \; x(t) <u(t)$$
+	- $x(t_0) \geq u(t_0)$ alors dans ce cas: $$\forall t \in ]\alpha, t_0[, \; x(t) >u(t)$$
 - Si $u$ est sous-solution et que
 	- $x(t_0) \geq u(t_0)$ alors dans ce cas: $$\forall t \in ]t_0, \beta[, \; x(t) >u(t)$$
 	-  $x(t_0) \leq u(t_0)$ alors dans ce cas: $$\forall t \in ]\alpha, t_0[, \; x(t) >u(t)$$
