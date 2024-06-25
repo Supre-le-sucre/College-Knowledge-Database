@@ -56,18 +56,19 @@ $$A = PMP^{-1}$$
 On peut donc résoudre les équations différentielles en dimension 2 simplement.
 On considère l'équation $$X'=AX$$
 
-## Cas diagonalisable
+### Cas diagonalisable
 Si la matrice est diagonalisable, avec $D$ sa matrice semblable alors une solution est donnée par: #!
 $$X = K\exp(tA) = KP\exp(tD)P^{-1}$$
 Où $P$ est la matrice de passage, donc les colonnes sont les vecteurs propres de $A$
-## Cas trigonalisable
-Pour le cas trigonalisable observons déjà que: #!
+<!--ID: 1719329128124-->
 
+
+### Cas trigonalisable
+Pour le cas trigonalisable observons déjà que: #!
 La matrice $A$ est trigonalisable si son polynôme caractéristique admet deux valeurs propres communes. 
 Le premier vecteur de la matrice de passage est un vecteur propre de $A$, le second est un vecteur arbitraire, non lié au premier. Il est possible de l'adapter pour obtenir le nombre que l'on souhaite dans le coin supérieur droit de la matrice triangulaire $T$ semblable à $A$.
 Donc une solution serait donnée par $$X = \begin{pmatrix} C \\ D\end{pmatrix} \exp\left(t\begin{pmatrix} a & 1 \\ 0 & b\end{pmatrix}\right) = \begin{pmatrix} C \\ D\end{pmatrix} \exp\left(t\left(\begin{pmatrix} a &  0\\ 0 & b\end{pmatrix} +\begin{pmatrix} 0 &  1\\ 0 & 0\end{pmatrix}\right)\right)$$ $$X = \begin{pmatrix} C \\ D\end{pmatrix} \exp\left(t\begin{pmatrix} a & 0 \\ 0 & b\end{pmatrix}\right)\exp\left(t\begin{pmatrix} 0 & 1 \\ 0 & 0\end{pmatrix}\right)$$D'après la [[Décomposition de Dunford]] d'une matrice triangulaire
-<!--ID: 1718906716325-->
-
+<!--ID: 1719329177136-->
 
 # Portrait de phase
 On retient les portraits de phases suivants
@@ -101,7 +102,10 @@ Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \e
 Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
 - Si $\lambda_1 > 0$
 ![[Pasted image 20240620194940.png]]
-- 
+<!--ID: 1719329203316-->
+
+
+
 ### Valeurs propres distinctes dont une nulle
 Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$ On observe les portraits de phases suivants: #!
 - Si $\lambda_2= 0$ et $\lambda_1 > 0$
@@ -111,7 +115,7 @@ Soit une matrice de la forme: $\begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \e
 ![[Pasted image 20240620195117.png]]
 - Si $\lambda_1= 0$ et $\lambda_2 > 0$: On inverse les flèches
 - Si la matrice est diagonalisable, il faut que les droites bleues soient dirigées par les vecteurs propres.
-<!--ID: 1718906716334-->
+<!--ID: 1719329218165-->
 
 
 ### Valeurs propres nulles
