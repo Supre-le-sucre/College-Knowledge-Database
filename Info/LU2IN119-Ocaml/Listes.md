@@ -41,3 +41,29 @@ let rec append(xs: 'a list) (ys: 'a list): ('a list) =
 		| x::xs -> x :: (append xs ys) ;;
 ```
 En Ocaml on peut aussi faire `[1; 2] @ [3; 4]` pour avoir la liste `[1; 2; 3; 4]`
+
+# Le `map`
+
+```ocaml
+let rec map f l = 
+	if l = [] then []
+	else (f (List.hd l)) :: (map f (List.tl l)) ;;
+```
+
+```ocaml
+let rec map f l = 
+	match l with
+		| [] -> []
+		| t::q -> (f t) :: (map f q) ;;
+```
+
+## Exemple intéressant
+```
+# (append [10; 20]) [[3; 4; 5]; [8; 3; 1]]
+- : int list list = [[10; 20; 3; 4; 5]; [10; 20; 8; 3; 1]]
+
+# ((@) [10; 20]) [[3; 4; 5]; [8; 3; 1]]
+- : int list list = [[10; 20; 3; 4; 5]; [10; 20; 8; 3; 1]]
+```
+
+Utiliser `(@)` permet de l'utiliser en mode préfixe `(@) [1; 2] [3; 4]` est équivalent `[1; 2] @ [3; 4]`
