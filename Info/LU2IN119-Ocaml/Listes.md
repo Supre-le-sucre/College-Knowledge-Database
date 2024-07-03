@@ -96,3 +96,16 @@ let rec nth (l: 'a list) (i: int) : 'a =
 		| [] -> raise (Failure "nth")
 		| x::xs -> if i=0 then x else (nth xs i-1) ;;
 ```
+
+# Le folding
+```ocaml
+let rec fold_left f accu l = (* f( f( f r e3) e2) e1) *)
+	match l with
+		| [] -> accu
+		| a::l -> fold_left f (f accu a) l  
+
+let rec fold_right f l accu = (* f e1 ( f e2 (f e3 r))) *)
+	match l with
+		| [] -> accu
+		| a::l -> f a (fold_right f l accu)
+```
