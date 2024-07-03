@@ -109,3 +109,4 @@ let rec fold_right f l accu = (* f e1 ( f e2 (f e3 r))) *)
 		| [] -> accu
 		| a::l -> f a (fold_right f l accu)
 ```
+
