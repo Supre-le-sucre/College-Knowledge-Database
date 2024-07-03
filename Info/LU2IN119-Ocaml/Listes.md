@@ -17,6 +17,15 @@ let rec length(l: 'a list) : int =
 ```
 Ou cette fois on utilise la syntaxe `::`
 
+## Récursion terminale de la longueur
+```ocaml
+let rec length_aux len l =
+	match l with
+		| [] -> len
+		| a::l -> length_aux (length + 1) l ;; 
+
+let length l = length_aux 0 l ;;
+```
 
 # Appartenance à une liste
 
@@ -42,6 +51,17 @@ let rec append(xs: 'a list) (ys: 'a list): ('a list) =
 ```
 En Ocaml on peut aussi faire `[1; 2] @ [3; 4]` pour avoir la liste `[1; 2; 3; 4]`
 
+
+## Récursion terminale `append`
+```ocaml
+let rec rev_append l1 l2 =
+	match l1 with
+		| [] -> l2
+		| a::l -> rev_append l (a::l2) ;; (* Il faut inverser la liste ! *)
+
+let rev l = rev_append l [] ;;
+```
+
 # Le `map`
 
 ```ocaml
@@ -59,11 +79,20 @@ let rec map f l =
 
 ## Exemple intéressant
 ```
-# (append [10; 20]) [[3; 4; 5]; [8; 3; 1]]
+# map (append [10; 20]) [[3; 4; 5]; [8; 3; 1]]
 - : int list list = [[10; 20; 3; 4; 5]; [10; 20; 8; 3; 1]]
 
-# ((@) [10; 20]) [[3; 4; 5]; [8; 3; 1]]
+# map ((@) [10; 20]) [[3; 4; 5]; [8; 3; 1]]
 - : int list list = [[10; 20; 3; 4; 5]; [10; 20; 8; 3; 1]]
 ```
 
 Utiliser `(@)` permet de l'utiliser en mode préfixe `(@) [1; 2] [3; 4]` est équivalent `[1; 2] @ [3; 4]`
+
+# Le n-ième élément d'une liste
+
+```ocaml
+let rec nth (l: 'a list) (i: int) : 'a = 
+	match l with
+		| [] -> raise (Failure "nth")
+		| x::xs -> if i=0 then x else (nth xs i-1) ;;
+```
