@@ -40,5 +40,4 @@ let rec append(xs: 'a list) (ys: 'a list): ('a list) =
 		| [] -> ys
 		| x::xs -> x :: (append xs ys) ;;
 ```
-
-En Ocaml on peut aussi faire `[1; 2] @ [3; 4]` donne `[1; 2; 3; 4]`
+En Ocaml on peut aussi faire `[1; 2] @ [3; 4]` pour avoir la liste `[1; 2; 3; 4]`
