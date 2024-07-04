@@ -110,3 +110,16 @@ let rec fold_right f l accu = (* f e1 ( f e2 (f e3 r))) *)
 		| a::l -> f a (fold_right f l accu)
 ```
 
+
+## Find avec folding et exception
+```ocaml
+exception Found of int
+
+let find (p: int -> bool) (xs: int list) : int =
+	try
+		let r = fold_left (fun x -> if p x raise Found x
+									else () ) xs
+		in raise Not_Found
+	with
+		Found x -> x
+```
