@@ -118,7 +118,7 @@ exception Found of int
 let find (p: int -> bool) (xs: int list) : int =
 	try
 		let r = fold_left (fun x -> if p x raise Found x
-									else () ) xs
+									else () ) () xs
 		in raise Not_Found
 	with
 		Found x -> x
