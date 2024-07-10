@@ -36,6 +36,16 @@ val add2 : int -> int -> int = <fun>
 val add3 : int -> int -> int = <fun>
 ```
 
+# Curryfication
+Le processus de curryfication correspond à la transformation d'une fonction ne prenant plusieurs paramètres `p` en un fonction prenant un paramètre `p1` et renvoyant une nouvelle fonction qui prend un paramètre `p2`
+
+```ocaml
+# let curry f = function x -> function y -> f (x,y)
+val curry : ('a * 'b -> 'c) -> 'a -> 'b -> 'c = <fun>
+
+# let uncurry g = function (x,y) -> g x y
+val uncurry : ('a -> 'b -> 'c) -> 'a * 'b -> 'c = <fun>
+```
 # Récursion
 Pour définir une fonction récursive en Ocaml, il suffit d'utiliser le mot clé `rec`
 ```ocaml
