@@ -1,3 +1,32 @@
+# Accesseurs et patern Matching
+En Ocaml, il faut voir une liste comme étant une cellule contenant l'information et la suite de la liste. De fait on a alors les accesseurs...
+```ocaml
+List.hd l (* Renvoie la tête de liste l, donc la donnée stockée en tête *)
+List.tl l (* Renvoie la suite de la liste, donc l sans le premier élément *)
+```
+Notons les exécutions suivantes:
+```
+# List.hd [] ;;
+Exception: Failure "hd".
+
+# List.tl [] ;;
+Exception: Failure "tl".
+
+# List.hd [4] ;;
+- : int = 4
+
+# List.tl [4] ;;
+- : int list = []
+```
+
+On peut aussi utiliser le `match` pour décomposer la liste comme on le souhaite:
+```
+# match [4; 5; 6] with
+	| [] -> (0, [])
+	| x::xs -> (x, xs) ;;
+- : int * int list = (4, [5; 6])
+```
+
 # Longueur de listes
 On peut poser la fonction mathématique suivante: $$\begin{cases} \text{(length [])} & = 0 \\ (\text{length}\; x::xs) & = 1 + (\text{length}\; xs) \end{cases}$$
 On peut donner les fonctions en Ocaml suivantes:
