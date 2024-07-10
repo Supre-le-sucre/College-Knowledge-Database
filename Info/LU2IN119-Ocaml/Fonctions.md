@@ -54,7 +54,7 @@ Voici l'équivalent de la fonction sigma avec une récursion terminale. Remarquo
 ```ocaml
 # let sigma n = 
 	let rec sigma_aux n acc = 
-		if n = 0 then 0
+		if n = 0 then acc
 		else sigma_aux (n-1) (n+acc)
 	in sigma_aux n 0 ;;
 	
