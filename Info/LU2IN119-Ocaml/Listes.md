@@ -5,7 +5,7 @@ List.hd l (* Renvoie la tête de liste l, donc la donnée stockée en tête *)
 List.tl l (* Renvoie la suite de la liste, donc l sans le premier élément *)
 ```
 Notons les exécutions suivantes:
-```
+```ocaml
 # List.hd [] ;;
 Exception: Failure "hd".
 
@@ -19,13 +19,17 @@ Exception: Failure "tl".
 - : int list = []
 ```
 
-On peut aussi utiliser le `match` pour décomposer la liste comme on le souhaite:
+On peut aussi utiliser le `match` ou `let ... in ...` pour décomposer la liste comme on le souhaite:
 ```
 # match [4; 5; 6] with
 	| [] -> (0, [])
 	| x::xs -> (x, xs) ;;
 - : int * int list = (4, [5; 6])
+
+# let x::xs = [4; 5; 6] in (x, xs) ;;
+- : int * int list = (4, [5; 6])
 ```
+**NB**: La dernière ligne produit un warning de pattern Matching non exhaustif !
 
 # Longueur de listes
 On peut poser la fonction mathématique suivante: $$\begin{cases} \text{(length [])} & = 0 \\ (\text{length}\; x::xs) & = 1 + (\text{length}\; xs) \end{cases}$$

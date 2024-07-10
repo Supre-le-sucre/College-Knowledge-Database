@@ -12,7 +12,7 @@ Les opérateurs suivants sont infixes, cela signifie qu'il se mettent entre les 
 | modulo         | mod            | *N'existe pas*   |
 | puissance      | *N'existe pas* | **               |
 Il est possible de rendre ces opérateurs suffixes en les mettant entre parenthèses:
-```
+```ocaml
 # (+) 3 2 ;;
 - : int = 5
 
