@@ -10,3 +10,11 @@ $$c(A, B) = \sum_{u \in A, v \in B} c(a, b)$$
 ### Flot d'une coupe
 On définit le [[Flots|flot]] d'une coupe $(A,B)$: #!
 $$f(A, B) = \sum_{u \in A, v \in B} f(u,v)$$
+
+## Comment trouver une coupe minimale ?
+On effectue l'algorithme suivant: #!
+
+a) Commencer par le [[Graphes d'écart (ou résiduel)]] final $G_{f^*}$ (avec [[Flots]] maximum)
+b) On détermine l'ensemble de sommets que l'ont peut atteindre dans $G_{f^*}$ en commençant par la source $s$, appelons le A
+c) Soit $B = V \setminus A$
+d) Une coupe minimale serai donc $(A, B)$
