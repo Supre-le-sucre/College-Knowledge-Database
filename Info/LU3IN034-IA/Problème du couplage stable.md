@@ -44,5 +44,13 @@ Ceci contredit l'hypothèse de départ
 $$\tag*{$\blacksquare$}$$
 
 ### Preuve de la stabilité
-Supposons, encore une fois par contradiction, qu'il existe une paire instable notée $(m, w) \in S^*$
-Où $S^*$ est l'ensemble des couples stables obtenu par l'algorithme
+Supposons, encore une fois par contradiction, qu'il existe une paire instable notée $(m, w)$ dans $S^*$ l'ensemble des couples stables obtenu par l'algorithme.
+
+On distingue 2 cas:
+- $m$ n'a jamais proposé à $w$
+	$m$ propose donc à $w$ et $(m,w)$ devient stable **contradiction**
+- $m$ a déjà proposé à $w$
+	$w$ rejette $m$ et préfère $m'$
+	$(m,w)$ devient alors stable **contradiction**
+$$\tag*{$\blacksquare$}$$
+
