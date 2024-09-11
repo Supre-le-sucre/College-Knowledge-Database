@@ -58,5 +58,10 @@ On dit que l'algorithme est homme-optimale car: #!
 Il accorde aux hommes la meilleure partenaire possible qui est stable
 
 Supposons par l’absurde que ce ne soit pas le cas:
-On pose alors $(m, w)$ où $w$ n'est pas le meilleur partenaire pour $m$
+On pose alors $(m, w) \in S^*$ où $w$ n'est pas le meilleur partenaire pour $m$
 Comme $m$ propose dans l'ordre décroissant des préférences, $m$ a été rejeté par sa meilleure partenaire $w'$ 
+
+On pose $(m, w') \in S$ où $S$ est un ensemble de couplage stable.
+Dans $S^*$ $w$ est accouplé à un autre homme $m'$ donc $(m', w) \in S$ $w$ préfère cet homme à $m$ car ce couple est supposé stable.
+
+
