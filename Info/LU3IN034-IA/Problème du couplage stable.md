@@ -23,5 +23,26 @@ tant que (il existe un homme libre qui n'a pas proposé à toutes les femmes):
 		considérer m et w comme fiancé, et m' comme libre
 	sinon
 		w rejette m
-		
 ```
+
+### Preuve de terminaison
+
+On observe d'après l'algorithme que:
+- Les hommes proposent aux femmes dans l'ordre décroissant de leurs préférences
+- Quand une femme est couplée, elle le reste pour toujours
+- Au cours de l'algorithme, le partenaire de la femme "s'améliore"
+
+Dans la boucle, à chaque itération, un homme propose à une nouvelle femme, il existe au plus n² combinaisons possibles.
+$$\tag*{$\blacksquare$}$$
+
+### Preuve de couplage parfait
+On suppose, par contradiction, qu'il existe un homme $m$ qui n'a pas de couple à la fin de l'algorithme
+
+Comme il y a autant d'homme que de femme, il existe une femme $w$ qui n'est pas en couple
+Or l'homme $m$ est censé avoir proposé à toutes les femmes, dont $w$. Donc $m$ et $w$ ont dû être ensemble au moins une fois
+Ceci contredit l'hypothèse de départ
+$$\tag*{$\blacksquare$}$$
+
+### Preuve de la stabilité
+Supposons, encore une fois par contradiction, qu'il existe une paire instable notée $(m, w)$
+
