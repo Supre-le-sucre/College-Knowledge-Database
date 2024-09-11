@@ -44,5 +44,5 @@ Ceci contredit l'hypothèse de départ
 $$\tag*{$\blacksquare$}$$
 
 ### Preuve de la stabilité
-Supposons, encore une fois par contradiction, qu'il existe une paire instable notée $(m, w)$
-
+Supposons, encore une fois par contradiction, qu'il existe une paire instable notée $(m, w) \in S^*$
+Où $S^*$ est l'ensemble des couples stables obtenu par l'algorithme
