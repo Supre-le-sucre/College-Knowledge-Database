@@ -59,9 +59,12 @@ Il accorde aux hommes la meilleure partenaire possible qui est stable
 
 Supposons par l’absurde que ce ne soit pas le cas:
 On pose alors $(m, w) \in S^*$ où $w$ n'est pas le meilleur partenaire pour $m$
-Comme $m$ propose dans l'ordre décroissant des préférences, $m$ a été rejeté par sa meilleure partenaire $w'$ 
+Comme $m$ propose dans l'ordre décroissant des préférences, $m$ a été rejeté par sa meilleure partenaire $w'$
+On a donc $(m', w') \in S^*$ avec $w'$ qui préfère $m'$ à $m$
 
-On pose $(m, w') \in S$ où $S$ est un ensemble de couplage stable.
-Dans $S^*$ $w$ est accouplé à un autre homme $m'$ donc $(m', w) \in S$ $w$ préfère cet homme à $m$ car ce couple est supposé stable.
+On pose $(m, w') \in S$ où $S$ est un ensemble de couple stable. C'est possible car $w'$ est la meilleure femme pour $m$
+Dans $S$, on pose alors $(m', w)$ car il faut que tout le monde ait un couple
+
+Or $w'$ préfère $m'$ à $m$
 
 
