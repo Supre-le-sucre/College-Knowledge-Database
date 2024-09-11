@@ -55,7 +55,7 @@ On distingue 2 cas:
 $$\tag*{$\blacksquare$}$$
 ### Preuve de l'homme-optimale
 On dit que l'algorithme est homme-optimale car: #!
-Il accorde aux hommes la meilleure partenaire possible qui est stable
+Il accorde aux hommes la meilleure partenaire possible qui est stable.
 
 Supposons par l’absurde que ce ne soit pas le cas:
 On pose alors $(m, w) \in S^*$ où $w$ n'est pas le meilleur partenaire pour $m$
@@ -65,6 +65,21 @@ On a donc $(m', w') \in S^*$ avec $w'$ qui préfère $m'$ à $m$
 On pose $(m, w') \in S$ où $S$ est un ensemble de couple stable. C'est possible car $w'$ est la meilleure femme pour $m$
 Dans $S$, on pose alors $(m', w)$ car il faut que tout le monde ait un couple
 
-Or $w'$ préfère $m'$ à $m$
+Or $w'$ préfère $m'$ à $m$ d'après $S^*$.
+Donc $(w', m')$ est instable dans $S$
+$$\tag*{$\blacksquare$}$$
+
+### Preuve de la femme-pessimal
+On dit que l'algorithme est femme-pessimal car: #!
+Il accorde aux femmes le pire partenaire possible qui est stable.
+
+Supposons par l'absurde, l'existence de $w$ en couple avec $m$ dans $S^*$ tel que $m$ n'est pas le pire partenaire valide de $w$. $(m,w) \in S^*$
+Donc il existe un homme $m'$ pire que $m$ et $(m', w) \in S$ un autre couplage stable.
+
+Dans $S$, on a aussi $(m, w')$. Or $S^*$ est homme-optimal donc:
+$m$ préfère $w$ à $w'$, et $w$ préfère $m$ à $m'$
+
+$(m,w)$ forme un couple instable dans $S$
+$$\tag*{$\blacksquare$}$$
 
 
