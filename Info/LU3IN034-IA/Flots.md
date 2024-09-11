@@ -9,3 +9,30 @@ Un arc est dit saturé si $f(u, v) = c(u, v)$
 ### Valeur du flot
 Dans un graphe, la valeur du flot $f$, notée $|f|$ est donnée par: #!
 $$|f| = \sum_{v \in V} f(s, v) = \sum_{u \in V} f(u, t)$$
+
+# Flot maximum - [[Coupe]] minimum
+
+## Définition
+Un flot est dit maximum, s'il existe une coupe $(A,B)$ tel que la capacité de cette coupe est égale au flot
+
+## Lemmes
+
+a) $f'$ est un flot dans $G_f$ ([[Graphes d'écart (ou résiduel)|graphe d'écart]]) si et seulement si $f+f'$ est un flot dans $G$
+b) $f'$ est un flot maximal dans $G_f$ si et seulement si $f +f'$ est un flot maximal dans $G$
+c) $|f \pm f'| = |f| \pm |f'|$
+d) Si $f$ un flot quelconque et $f^*$ un flot maximum de $G$ alors la valeur du flot maximal dans $G_f$ est égale à $|f^*| - |f|$
+
+
+## Théorème
+Les assertions suivantes sont équivalentes
+
+i) $f$ est un flot maximum de $G= (V, E, c)$
+ii) Il existe une coupe maximum $(A, B)$ telle que $c(A, B) = |f|$
+iii) Il n'existe pas de chemin augmentant dans $G_f$
+
+## Algorithme de Ford & Fulkerson
+
+a) On commence par un flot de valeur 0
+b) On détermine un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] minimale entre les arcs)
+c) On continue jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
+
