@@ -51,7 +51,8 @@
       "Maths/LU2MA236-Equadiffs": "2MA236-Equadiffs",
       "Info/LU2IN119-Ocaml": "",
       "Info/LU3IN034-IA": "",
-      "Info/LU3IN034-IA/Graphes": "3IN034: Graphes"
+      "Info/LU3IN034-IA/Graphes": "3IN034: Graphes",
+      "Info/LU3IN034-IA/Flot maximum": "3IN034: Flots maximum"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -85,7 +86,8 @@
       "Maths/LU2MA236-Equadiffs": "",
       "Info/LU2IN119-Ocaml": "",
       "Info/LU3IN034-IA": "",
-      "Info/LU3IN034-IA/Graphes": ""
+      "Info/LU3IN034-IA/Graphes": "",
+      "Info/LU3IN034-IA/Flot maximum": ""
     },
     "Syntax": {
       "Begin Note": "START",
