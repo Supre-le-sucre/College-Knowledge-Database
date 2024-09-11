@@ -53,4 +53,9 @@ On distingue 2 cas:
 	$w$ rejette $m$ et préfère $m'$
 	$(m,w)$ devient alors stable **contradiction**
 $$\tag*{$\blacksquare$}$$
+### Preuve de l'homme-optimale
+On dit que l'algorithme est homme-optimale car: #!
+Il accorde aux hommes la meilleure partenaire possible qui est stable
+
+Supposons par l’absurde que ce ne soit pas le cas:
 
