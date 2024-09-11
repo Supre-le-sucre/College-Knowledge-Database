@@ -58,4 +58,5 @@ On dit que l'algorithme est homme-optimale car: #!
 Il accorde aux hommes la meilleure partenaire possible qui est stable
 
 Supposons par l’absurde que ce ne soit pas le cas:
-
+On pose alors $(m, w)$ où $w$ n'est pas le meilleur partenaire pour $m$
+Comme $m$ propose dans l'ordre décroissant des préférences, $m$ a été rejeté par sa meilleure partenaire $w'$ 
