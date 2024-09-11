@@ -1,7 +1,7 @@
 ## Définition d'un graphe
 On définit plus précisément un graphe ==orienté== de la façon suivante $G =(V, E, c, s, t)$
 où #!
-- $c: E \to \mathbb R$ est la capacité (valeur du label sur l'arête)
+- $c: E \to \mathbb R$ est la capacité (quantité d'information pouvant passer)
 - $s$ et $t$ sont respectivement les sources et les puits qui représente les sommets entrant et les sommets sortant
 
 ## Définition du flot
@@ -15,3 +15,13 @@ Un arc est dit saturé si $f(u, v) = c(u, v)$
 ### Valeur du flot
 Dans un graphe, la valeur du flot $f$, notée $|f|$ est donnée par: #!
 $$|f| = \sum_{v \in V} f(s, v) = \sum_{u \in V} f(u, t)$$
+# Coupe minimum
+
+## Définition d'une coupe
+On dit que $(A, B)$ est une coupe pour $G = (V, E, c, s, t)$ si: #!
+
+$A, B$ sont des partitions de $V$ et tel que $s \in A$ et $t \in B$
+
+## Capacité d'une coupe
+ON définit la capacité de la coupe $(A, B)$: #!
+$$c(A, B) = \sum_{u \in A, v \in B} c(a, b)$$
