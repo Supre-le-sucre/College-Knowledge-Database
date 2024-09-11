@@ -5,10 +5,14 @@ Un flot est une application sur les sommets d'un [[Graphes de capacité]] $f: V^
 - Capacité: $\forall u, v \in V f(u,v) \leq c(\{u,v\})$
 Un arc est dit saturé si $f(u, v) = c(u, v)$
 **ATTENTION** : ==Tout ce qui rentre dans un sommet (à part la source et le puits), ressort==
+<!--ID: 1726076885860-->
+
 
 ### Valeur du flot
 Dans un graphe, la valeur du flot $f$, notée $|f|$ est donnée par: #!
 $$|f| = \sum_{v \in V} f(s, v) = \sum_{u \in V} f(u, t)$$
+<!--ID: 1726076885870-->
+
 
 # Flot maximum - [[Coupe]] minimum
 
@@ -22,6 +26,8 @@ a) $f'$ est un flot dans $G_f$ ([[Graphes d'écart (ou résiduel)|graphe d'écar
 b) $f'$ est un flot maximal dans $G_f$ si et seulement si $f +f'$ est un flot maximal dans $G$
 c) $|f \pm f'| = |f| \pm |f'|$
 d) Si $f$ un flot quelconque et $f^*$ un flot maximum de $G$ alors la valeur du flot maximal dans $G_f$ est égale à $|f^*| - |f|$
+<!--ID: 1726076885879-->
+
 
 
 ## Théorème flot maximum-coupe minimale
@@ -30,6 +36,8 @@ Les assertions suivantes sont équivalentes: #!
 i) $f$ est un flot maximum de $G= (V, E, c)$
 ii) Il existe une coupe maximum $(A, B)$ telle que $c(A, B) = |f|$
 iii) Il n'existe pas de chemin augmentant dans $G_f$
+<!--ID: 1726076885888-->
+
 
 ## Algorithme de Ford & Fulkerson
 
@@ -40,4 +48,6 @@ c) On continue jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
 ### Complexité
 La complexité de l'algorithme de Ford et Fulkerson est tel que: #!
 Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
+<!--ID: 1726076885898-->
+
 
