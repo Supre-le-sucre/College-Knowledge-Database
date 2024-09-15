@@ -7,6 +7,8 @@ Une paire $(x, y)$ (homme et femme) est qualifié de *instable* si: #!
 - la femme $y$ préfère l'homme $x$ que son homme actuel
 Autrement dit, une paire est instable si elle améliore les conditions de $x$ ou $y$. 
 On dit qu'une affectation est stable, s'il n'existe pas de paire instable.
+<!--ID: 1726390425014-->
+
 
 ## Algorithme de Gale-Shapley
 L'algorithme suivant permet de garantir un couplage stable: #!
@@ -16,6 +18,8 @@ Initialiser chaque personne comme libre.
 tant que (il existe un homme libre qui n'a pas proposé à toutes les femmes): 
 	Choisir un tel homme
 	w = 1ere femme de la liste n'ayant pas été proposée
+<!--ID: 1726390425031-->
+
 
 	si (w est libre)
 		considérer m et w comme fiancé
@@ -56,6 +60,8 @@ $$\tag*{$\blacksquare$}$$
 ### Preuve de l'homme-optimale
 On dit que l'algorithme est homme-optimale car: #!
 Il accorde aux hommes la meilleure partenaire possible qui est stable.
+<!--ID: 1726390425042-->
+
 
 Supposons par l’absurde que ce ne soit pas le cas:
 On pose alors $(m, w) \in S^*$ où $w$ n'est pas le meilleur partenaire pour $m$
@@ -72,6 +78,8 @@ $$\tag*{$\blacksquare$}$$
 ### Preuve de la femme-pessimal
 On dit que l'algorithme est femme-pessimal car: #!
 Il accorde aux femmes le pire partenaire possible qui est stable.
+<!--ID: 1726390425052-->
+
 
 Supposons par l'absurde, l'existence de $w$ en couple avec $m$ dans $S^*$ tel que $m$ n'est pas le pire partenaire valide de $w$. $(m,w) \in S^*$
 Donc il existe un homme $m'$ pire que $m$ et $(m', w) \in S$ un autre couplage stable.
