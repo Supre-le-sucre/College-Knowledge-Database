@@ -18,9 +18,6 @@ Initialiser chaque personne comme libre.
 tant que (il existe un homme libre qui n'a pas proposé à toutes les femmes): 
 	Choisir un tel homme
 	w = 1ere femme de la liste n'ayant pas été proposée
-<!--ID: 1726390425031-->
-
-
 	si (w est libre)
 		considérer m et w comme fiancé
 	sinon si (w préfère m à son fiancé m')
@@ -28,6 +25,8 @@ tant que (il existe un homme libre qui n'a pas proposé à toutes les femmes):
 	sinon
 		w rejette m
 ```
+<!--ID: 1726390592117-->
+
 
 ### Preuve de terminaison
 

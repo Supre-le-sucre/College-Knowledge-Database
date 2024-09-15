@@ -357,7 +357,12 @@
     "Info/LU2IN119-Ocaml/N-uplets.md": "985da3837e82e2047a3a11b760ce7503",
     "Info/LU2IN119-Ocaml/Listes.md": "9e944fecb657b5be000a62918e0fb96a",
     "Info/LU2IN119-Ocaml/Fonctions.md": "d0a9c66104ddb7fe4fcc91aee6fb5a42",
-    "Info/LU2IN119-Ocaml/Conditions.md": "14bba7524cbfdc1a78ba8c64204aa8d2"
+    "Info/LU2IN119-Ocaml/Conditions.md": "14bba7524cbfdc1a78ba8c64204aa8d2",
+    "Info/LU3IN034-IA/Problème du couplage stable.md": "e757f9478a17b0b2c82e0f419291b7e8",
+    "Info/LU3IN034-IA/Flot maximum/Graphes de capacité.md": "5a23f99be1bdeda9f3d5c3e513ddce8e",
+    "Info/LU3IN034-IA/Flot maximum/Graphes d'écart (ou résiduel).md": "f5a49470719fec9837141492bf2745f2",
+    "Info/LU3IN034-IA/Flot maximum/Flots.md": "c80cbaee38ddc3d5afdf62528e2c0c86",
+    "Info/LU3IN034-IA/Flot maximum/Coupe.md": "a04545b0da66edce87402a13d6c8bdc5"
   },
   "fields_dict": {
     "Basic": [
