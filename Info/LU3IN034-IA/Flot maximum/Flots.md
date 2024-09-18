@@ -45,6 +45,16 @@ a) On commence par un flot de valeur 0
 b) On détermine un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] minimale entre les arcs)
 c) On continue jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
 
+```
+marquer s d'un +
+	répéter jusqu'à ce que t soit marqué
+		Si il existe e = (u,v) avec u marqué et v non marqué et f(e) < c(e)
+			alors marquer v d'un + et père(v) <- u
+		Sinon
+			Si il existe e = (u,v) avec v marqué et u non marqué et f(e) > 0
+			alors marquer u d'un - et père(u) <- v
+```
+
 ### Complexité
 La complexité de l'algorithme de Ford et Fulkerson est tel que: #!
 Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
