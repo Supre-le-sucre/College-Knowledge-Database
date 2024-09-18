@@ -61,4 +61,9 @@ La complexité de l'algorithme de Ford et Fulkerson est tel que: #!
 Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
 <!--ID: 1726076885898-->
 
+# Pré-flots
 
+## Définition
+Soit $G = (V, E, c)$. On définit un pré-flot: #!
+
+Une fonction $f: E \to \mathbb R^+$ telle que: $$\forall e \in E, 0 \leq f(e) \leq c(e)$$$$\sum_{e \text{ entrant à } v}f(e) \geq \sum_{e \text{ sortant à } u} c(e)$$
