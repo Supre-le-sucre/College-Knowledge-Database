@@ -52,7 +52,8 @@
       "Info/LU2IN119-Ocaml": "",
       "Info/LU3IN034-IA": "",
       "Info/LU3IN034-IA/Graphes": "3IN034: Graphes",
-      "Info/LU3IN034-IA/Flot maximum": "3IN034: Flots maximum"
+      "Info/LU3IN034-IA/Flot maximum": "3IN034: Flots maximum",
+      "Info/LU3IN034-IA/Problème Linéaire": "3IN034"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -87,7 +88,8 @@
       "Info/LU2IN119-Ocaml": "",
       "Info/LU3IN034-IA": "",
       "Info/LU3IN034-IA/Graphes": "",
-      "Info/LU3IN034-IA/Flot maximum": ""
+      "Info/LU3IN034-IA/Flot maximum": "",
+      "Info/LU3IN034-IA/Problème Linéaire": ""
     },
     "Syntax": {
       "Begin Note": "START",
