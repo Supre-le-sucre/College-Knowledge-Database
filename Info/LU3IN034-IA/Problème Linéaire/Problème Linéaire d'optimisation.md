@@ -13,7 +13,20 @@ En règle générale, l'optimum se trouve dans un des sommets de la région réa
 
 ### Determination d'un sommets de manière algébrique
 Les sommets de notre ensemble d'étude sont: #!
-les contraintes d'inégalité transformée en égalités. Pour établir cela, il nous faut des variables d'écart, qui seront à 0 à un sommet. En fonction de la dimension du problème, on doit avoir suffisamment de variables d'écart de tel sorte à ce qu'il y ait autant de variables à 0 que de dimension sur un sommet.
+les contraintes d'inégalité transformée en égalités. Pour établir cela, il nous faut des variables d'écart, qui seront à 0 à un sommet. 
+
+On pose alors les variables d'écart: #!
+Les variables qui complètes les variables de notre problèmes pour transformer les inégalités de notre problème en égalité. ==Il n'y a pas de variable d'écart à placer dans la fonction objectif== 
+La valeur des variables d'écart donnerons la valeurs des variables dans notre problème.
+
+**Remarque**: Observons qu'à chaque sommet, il y autant de variables (d'écart ou non) à 0 que de dimensions dans notre problème
+
+#### Algorithme Simplexe
+L'algorithme simplexe consiste à explorer l'ensemble des sommets de l'ensemble d'étude.
+Pour se faire:
+- On commence par un sommet quelconque
+- On évalue s'il s'agit du maximum: on regarde si une des variables du problème à un rapport d'augmentation plus important (i.e: un coefficient dans la fonction objectif plus conséquent)
+- On fait évoluer la variable à un plus grand taux d'évolution
 
 ## Exceptions aux PL
 Si la région de résolution représente une intersection vide, alors le problèmes est irréalisable.
