@@ -67,3 +67,5 @@ Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
 Soit $G = (V, E, c)$. On définit un pré-flot: #!
 
 Une fonction $f: E \to \mathbb R^+$ telle que: $$\forall e \in E, 0 \leq f(e) \leq c(e)$$$$\sum_{e \text{ entrant à } v}f(e) \geq \sum_{e \text{ sortant à } u} c(e)$$
+<!--ID: 1727256183841-->
+
