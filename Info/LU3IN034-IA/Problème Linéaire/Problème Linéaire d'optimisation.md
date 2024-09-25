@@ -26,7 +26,9 @@ L'algorithme simplexe consiste à explorer l'ensemble des sommets de l'ensemble 
 Pour se faire:
 - On commence par un sommet quelconque
 - On évalue s'il s'agit du maximum: on regarde si une des variables du problème à un rapport d'augmentation plus important (i.e: un coefficient dans la fonction objectif plus conséquent)
-- On fait évoluer la variable à un plus grand taux d'évolution
+- On évalue ensuite les rapports des variables ne valant pas 0 (variables basiques).Le rapport de la variable $b$ sachant que $x$ est la variable du problème ayant le plus grand coefficient dans la fonction objectif est calculé par 
+	(Valeur max de la variable $b$ autorisée) / (Coefficient de $x$ dans l'équation)
+- On repère le rapport d'écart minimum et on passe la variable d'écart à 0 on change notre objectif en prenant compte de la nouvelle valeur maximale et en changeant les coefficient des variables convenablement.
 
 ## Exceptions aux PL
 Si la région de résolution représente une intersection vide, alors le problèmes est irréalisable.
