@@ -11,6 +11,10 @@ Chaque variable représente un axe, et les contraintes définissent l'ensemble d
 
 En règle générale, l'optimum se trouve dans un des sommets de la région réalisables.
 
+### Determination d'un sommets de manière algébrique
+Les sommets de notre ensemble d'étude sont: #!
+les contraintes d'inégalité transformée en égalités. Pour établir cela, il nous faut des variables d'écart, qui seront à 0 à un sommet. En fonction de la dimension du problème, on doit avoir suffisamment de variables d'écart de tel sorte à ce qu'il y ait autant de variables à 0 que de dimension sur un sommet.
+
 ## Exceptions aux PL
 Si la région de résolution représente une intersection vide, alors le problèmes est irréalisable.
 DE même si l'espace de résolution n'est pas majoré dans le cas d'une maximisation, ou minoré dans le cas du minimisation, alors le problème est irréalisable.
