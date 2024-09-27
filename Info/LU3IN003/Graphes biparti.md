@@ -1,0 +1,2 @@
+## Définition
+Un graphe est biparti lorsqu'il existe 2 parties de sommets dans lequel il existe une coupe de sommet, dans laquelle il n'existe pas d'arête connectant des sommets du même côté de la couple
