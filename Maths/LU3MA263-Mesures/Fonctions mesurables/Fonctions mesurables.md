@@ -4,6 +4,8 @@ Pour $(E, \mathcal E)$ et $(E', \mathcal E')$ deux espaces mesurables et $f: E \
 $$\forall B \in \mathcal E', f^{-1}(B) \in \mathcal E$$
 ## Propriété de la composition
 Une fonction mesurable peut être obtenue comme suit: #!
+<!--ID: 1727559283083-->
+
 
 En considérant $(E, \mathcal E)$, $(E', \mathcal E')$, $(E'', \mathcal E'')$ trois espaces mesurables et 2 fonctions $f$ et $g$ telles que:
 - $f$ est $(\mathcal E, \mathcal E')$-mesurable
@@ -26,6 +28,8 @@ On peut déterminer la mesurabilité d'une fonction comme suit: #!
 
 Soit $(E, \mathcal E)$ et $(E', \mathcal E')$, 2 espaces mesurables et $\mathcal R' \subseteq \mathcal E'$ tel que $\sigma(\mathcal R') = \mathcal E'$
 Alors $f: E \to E'$ est $(\mathcal E, \mathcal E')$-mesurable si et seulement si $$\forall B \in \mathcal R', f^{-1}(B) \in \mathcal E$$
+<!--ID: 1727559283085-->
+
 
 ### Preuve
 $\Rightarrow$: Trivial, cela découle de la définition
@@ -57,6 +61,8 @@ $$\tag*{$\blacksquare$}$$
 On peut déduire la mesurabilité de $f$ par cette propriété: #!
 
 Soit $(E, \tau)$ et $(E', \tau')$ deux espaces topologiques. Soit $f: E \to E'$ [[Pré-image#Continuité topologique de $f$|continue par rapport à ces topologies]]. Alors $f$ est $(\mathcal B(E), \mathcal B(E'))$-mesurable
+<!--ID: 1727559283086-->
+
 
 ### Preuve
 On utilise ici la définition d'une [[Boréliens#Tribu borélienne sur $ mathbb R$|tribu borélienne]].
