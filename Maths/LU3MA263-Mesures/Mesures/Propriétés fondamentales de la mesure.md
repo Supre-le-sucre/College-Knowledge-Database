@@ -14,6 +14,7 @@ D'après le premier point on a donc...
 $$\mu(A \cup (B \cap A^c)) = \mu(B) = \mu(A) + \mu(B \cap A^c)$$
 Or $\mu(B \cap A^c) \geq 0$ donc $$\mu(B) \geq \mu(A)$$
 $$\tag*{$\blacksquare$}$$
+
 ## Croissance et décroissance séquentielle
 On énonce la propriété suivante: #!
 
@@ -21,7 +22,8 @@ Soit $(A_n)_{n \in \mathbb N} \in \mathcal E$
 - Si $\forall n \in \mathbb N A_n \subseteq A_{n+1}$ avec $A = \bigcup_{n\in \mathbb N} A_n$ alors $$\lim_{n \to \infty} \mu(A_n) = \mu(A)$$
 - Si $\forall n \in \mathbb N A_{n+1} \subseteq A_{n}$ avec $A = \bigcap_{n\in \mathbb N} A_n$ ==ET QUE== $\mu(A_0) < + \infty$ alors $$\lim_{n \to \infty} \mu(A_n) = \mu(A)$$
 - ($\sigma$-sous-additivité) $$\mu\left(\bigcup_{n\in \mathbb N} A_n\right) \leq \sum_{n \in \mathbb N} \mu(A_n)$$
-<!--ID: 1727527454831-->
+<!--ID: 1727527544645-->
+
 
 
 ### Preuves
