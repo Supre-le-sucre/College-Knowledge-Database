@@ -6,4 +6,5 @@ $$\mathcal B([0, +\infty[) = \set{B \cap [0, +\infty[, B \in \mathcal B(\mathbb 
 $$\mathcal B([0, +\infty]) = \set{B, B \cup \set{+\infty}, \forall B \in \mathcal B([0, +\infty[)}$$
 
 ## Lemme 
-Soit $f: E \to E'$ où $E'$ est égale à $\mathbb R$, $\overline{ \mathbb R}$
+Soit $f: E \to E'$ où $E'$ est égale à $\mathbb R$, $\overline{ \mathbb R}$, $[0, +\infty[$, $[0, +\infty]$. On muni $E'$ de sa tribu borélienne.
+Soit $\mathcal E$ une tribu sur $E$. Alors $f$ est $(\mathcal E, \mathcal B(E))$-mesurable si et seulement si, vu comme une fonction $(\mathcal E, \mathcal B(\overline{ \mathbb R}))$-mesurable
