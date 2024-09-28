@@ -52,4 +52,9 @@ $$\mu(A'_n) = \mu(A_n) - \mu(A_0)$$
 
 De plus observons que $\bigcup_{n \in \mathbb N} A'_n = A_0 \setminus (\bigcap_{n \in \mathbb N} A_n)$
 Donc
-$$\lim_{n \to +\infty} \mu(A'_n) = \mu\left(A_0 \setminus \left(\bigcap_{n \in \mathbb N} A_n\right)\right)$$
+$$\lim_{n \to +\infty} \mu(A'_n) = \mu\left(A_0 \setminus \left(\bigcap_{n \in \mathbb N} A_n\right)\right) = \mu(A_0\setminus A)$$
+Ainsi donc
+$$\mu(A_0) - \mu(A) = \lim_{n \to +\infty} \mu(A'_n) = \lim_{n \to +\infty} \mu(A_n) - \mu(A_0)$$
+$$\mu(A) = \lim_{n \to +\infty} \mu(A_n)$$
+
+
