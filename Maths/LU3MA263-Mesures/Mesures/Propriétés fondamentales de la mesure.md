@@ -12,3 +12,6 @@ D'après le premier point on a donc...
 $$\mu(A \cup (B \cap A^c)) = \mu(B) = \mu(A) + \mu(B \cap A^c)$$
 Or $\mu(B \cap A^c) \geq 0$ donc $$\mu(B) \geq \mu(A)$$
 $$\tag*{$\blacksquare$}$$
+## Croissance et décroissance séquentielle
+On énonce la propriété suivante: #!
+
