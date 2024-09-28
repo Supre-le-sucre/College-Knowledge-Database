@@ -12,7 +12,8 @@ ii) $\mathcal L$ est stable par différence propre (i.e $B \subseteq C$, alors $
 iii) $\mathcal L$ est stable par union dénombrable croissante
 **Remarque**: Une tribu est un $\pi$-système et une classe monotone
 
-## Tribu induite d'un $\pi$-système
+## Théorème: tribu induite d'un $\pi$-système (admis)
 Observons que: #!
 
-Si $\mathcal L$ est une classe monotone
+Si $\mathcal L$ est une classe monotone sur $E$ et que $\mathcal P$ est un $\pi$-système tel que $\mathcal P \subseteq \mathcal L$, alors
+$$\sigma(\mathcal P) \subseteq \mathcal L$$
