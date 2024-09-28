@@ -20,4 +20,7 @@ Soit $(A_n)_{n \in \mathbb N} \in \mathcal E$
 - Si $\forall n \in \mathbb N A_{n+1} \subseteq A_{n}$ avec $A = \bigcap_{n\in \mathbb N} A_n$ ==ET QUE== $\mu(A_0) < + \infty$ alors $$\lim_{n \to \infty} \mu(A_n) = \mu(A)$$
 - ($\sigma$-sous-additivité) $$\mu\left(\bigcup_{n\in \mathbb N} A_n\right) \leq \sum_{n \in \mathbb N} \mu(A_n)$$
 ### Preuves
-Soit $(A_n)_{n\in \mathbb N} \in \mathcal E$, 
+Soit $(A_n)_{n\in \mathbb N} \in \mathcal E$, avec $A_n \subseteq A_{n+1}$
+Pour travailler avec des unions disjointes posons $B_0 = A_0$ et $\forall n \in \mathbb N$, $B_n = A_{n}\setminus A_{n-1}$
+
+Observons que $B_n \in \mathcal E$ par stabilité de $\mathcal E$. Et aussi $\bigcup^k_{n=0} B_k = A_n$
