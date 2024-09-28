@@ -61,3 +61,4 @@ iii) $]a,b[ \in \sigma(\mathcal R)$ car $]a,b[ = ]- \infty, b[\; \cap \; ]a, +\i
 iv) Soit $O$ un ouvert de $\mathbb R$, alors $O$ s'écrit comme une union dénombrable d'intervalle ouvert, donc $O \in \sigma(\mathcal R)$ d'après les résultats précédent
 
 **Remarque**: Les boréliens sont engendrés par plein de classe de sous-ensemble
+
