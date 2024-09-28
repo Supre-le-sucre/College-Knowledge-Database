@@ -23,4 +23,4 @@ Soit $(E, \mathcal E)$ un espace mesurable et soit $f: E \to E'$ où $E'$ est é
 $$\forall a \in \mathbb R, f^{-1}([-\infty, a]) = \set{x \in E, f(x) \leq a } \in \mathcal E$$
 
 #### Preuve
-$\set{[-\infty, a]}$
+$\set{[-\infty, a] \in \mathbb R} = \mathcal R$ et $\mathcal(\mathcal R) = \mathcal B(\overline{ \mathbb R})$ 
