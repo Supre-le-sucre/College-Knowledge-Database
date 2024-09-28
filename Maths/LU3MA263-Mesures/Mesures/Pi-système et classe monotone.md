@@ -17,3 +17,8 @@ Observons que: #!
 
 Si $\mathcal L$ est une classe monotone sur $E$ et que $\mathcal P$ est un $\pi$-système tel que $\mathcal P \subseteq \mathcal L$, alors
 $$\sigma(\mathcal P) \subseteq \mathcal L$$
+
+## Théorème: Conséquence de mesure sur un $\pi$-système
+On considère le théorème suivant: #!
+
+Soit $(E, \mathcal E)$ un espace mesurable et soir $\mu_1, \mu_2$, 2 mesures sur $(E, \mathcal E)$
