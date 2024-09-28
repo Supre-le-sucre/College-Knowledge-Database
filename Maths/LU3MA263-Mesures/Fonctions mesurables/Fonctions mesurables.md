@@ -52,3 +52,15 @@ Or par [[Pré-image#Propriétés de base|propriété de la pré-image]] $f^{-1}(
 Et comme $\mathcal E$ est stable par union dénombrable on a que $\bigcup f^{-1}(B_n) \in \mathcal E$
 Donc $f^{-1}(\bigcup B_n) \in \mathcal E$ soit finalement $\bigcup B_n \in \mathcal G$
 $$\tag*{$\blacksquare$}$$
+
+## Continuité sur des topologie
+On peut déduire la mesurabilité de $f$ par cette propriété: #!
+
+Soit $(E, \tau)$ et $(E', \tau')$ deux espaces topologiques. Soit $f: E \to E'$ [[Pré-image#Continuité topologique de $f$|continue par rapport à ces topologies]]. Alors $f$ est $(\mathcal B(E), \mathcal B(E'))$-mesurable
+
+### Preuve
+On utilise ici la définition d'une [[Boréliens#Tribu borélienne sur $ mathbb R$|tribu borélienne]].
+En effet si $f$ continue, alors $\forall O \in \tau'$, $f^{-1}(O) \in \tau$ et comme $\sigma(\tau) = \mathcal B(E)$ on a que $f^{-1}(O) \in \mathcal B(E)$.
+
+Ainsi d'après la propriété précédente le résultat est valide
+$$\tag*{$\blacksquare$}$$
