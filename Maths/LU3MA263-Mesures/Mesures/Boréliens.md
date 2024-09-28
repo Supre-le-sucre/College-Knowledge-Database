@@ -62,3 +62,4 @@ iv) Soit $O$ un ouvert de $\mathbb R$, alors $O$ s'écrit comme une union dénom
 
 **Remarque**: Les boréliens sont engendrés par plein de classe de sous-ensemble
 
+# Tribu borélienne sur 
