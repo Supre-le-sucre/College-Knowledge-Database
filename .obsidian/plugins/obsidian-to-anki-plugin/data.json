@@ -56,7 +56,8 @@
       "Info/LU3IN003-Algo": "3IN003: Algorihtmique Avancée",
       "Maths/LU3MA263-Mesures": "",
       "Info/LU3IN034-IA/Problème Linéaire": "3IN034: Problèmes linéaires",
-      "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures"
+      "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
+      "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -95,7 +96,8 @@
       "Info/LU3IN003-Algo": "",
       "Maths/LU3MA263-Mesures": "",
       "Info/LU3IN034-IA/Problème Linéaire": "",
-      "Maths/LU3MA263-Mesures/Mesures": ""
+      "Maths/LU3MA263-Mesures/Mesures": "",
+      "Maths/LU3MA263-Mesures/Fonctions mesurables": ""
     },
     "Syntax": {
       "Begin Note": "START",
