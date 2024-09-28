@@ -6,3 +6,4 @@ On appelle le complémentaire d'un arbre couvrant, le co-arbre.
 Un graphe orienté possède une arborescence couvrante si et seulement si: #!
 
 Celui-ci possède une racine $r$, donc un sommet capable de rejoindre tousles autres
+<!--ID: 1727527444881-->
