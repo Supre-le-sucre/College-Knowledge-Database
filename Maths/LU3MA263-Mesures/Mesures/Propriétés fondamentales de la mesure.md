@@ -3,6 +3,8 @@ De par la définition d'une mesure $\mu$, il est possible de déduire trivialeme
 
 - $\forall (A,B) \in \mathcal E^2$ tel que $A \cap B = \emptyset$ alors on a $\mu (A \cup B) = \mu(A) + \mu(B)$
 - $\forall (A,B) \in \mathcal E^2$ tel que $A \subseteq B$ alors on a que $\mu(A) \leq \mu(B)$
+<!--ID: 1727527195346-->
+
 
 ### Preuve
 Le premier point est issue de la sigma additivité de $\mu$
@@ -22,6 +24,8 @@ Soit $(A_n)_{n \in \mathbb N} \in \mathcal E$
 ### Preuves
 i) Soit $(A_n)_{n\in \mathbb N} \in \mathcal E$, avec $A_n \subseteq A_{n+1}$
 Pour travailler avec des unions disjointes posons $B_0 = A_0$ et $\forall n \in \mathbb N$, $B_n = A_{n}\setminus A_{n-1}$
+<!--ID: 1727527195350-->
+
 
 Observons que $B_n \in \mathcal E$ par stabilité de $\mathcal E$. Et aussi $\bigcup^n_{k=0} B_k = A_n$
 En particulier on a alors que
