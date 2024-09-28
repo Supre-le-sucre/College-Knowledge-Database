@@ -24,6 +24,7 @@ Soit $(A_n)_{n \in \mathbb N} \in \mathcal E$
 ### Preuves
 i) Soit $(A_n)_{n\in \mathbb N} \in \mathcal E$, avec $A_n \subseteq A_{n+1}$
 Pour travailler avec des unions disjointes posons $B_0 = A_0$ et $\forall n \in \mathbb N$, $B_n = A_{n}\setminus A_{n-1}$
+DELETE
 <!--ID: 1727527195350-->
 
 
