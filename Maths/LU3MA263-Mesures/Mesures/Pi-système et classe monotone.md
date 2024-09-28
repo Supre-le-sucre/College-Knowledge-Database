@@ -22,3 +22,10 @@ $$\sigma(\mathcal P) \subseteq \mathcal L$$
 On considère le théorème suivant: #!
 
 Soit $(E, \mathcal E)$ un espace mesurable et soir $\mu_1, \mu_2$, 2 mesures sur $(E, \mathcal E)$
+On considère un $\pi$-système $\mathcal P$ sur $E$ tel que $\forall A \in \mathcal P$
+- $\mu_1(A) = \mu_2(A)$
+- $\sigma(\mathcal P) =) \mathcal E$
+Alors:
+- Si $\mu_1$, $\mu_2$ sont finies alors $\mu_1 \equiv \mu_2$
+- Si $\exists E_n \in \mathcal P^\mathbb N$, $E_n \subseteq E_{n+1}$ et que $\bigcup E_n = E$ avec $\forall n \in \mathbb N$, $\mu_1(E_n) = \mu_2(E_n)$ alors $\mu_1 \equiv \mu_2$
+
