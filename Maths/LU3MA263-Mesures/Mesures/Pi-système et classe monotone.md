@@ -67,3 +67,21 @@ Donc $\sigma(\mathcal P) \subseteq \mathcal L$, et d'où $E \subseteq \mathcal L
 
 Finalement $E = \mathcal L$, donc $\mu_1 \equiv \mu_2$
 $$\tag*{$\blacksquare$}$$
+
+## Propriété sur les mesures de boréliens de $\mathbb R$
+On considère la propriété suivante: #!
+
+Soit $\mu_1$, $\mu_2$, 2 mesures de $(\mathbb R, \mathcal B(\mathbb R))$ tel que $\forall a \leq b$
+$$\mu_1(]a,b]) = \mu_2(]a,b]) < \infty$$
+Alors $\mu_1 \equiv \mu_2$
+
+### Preuve
+On pose le $\pi$-système $\mathcal P = \set{]a,b], \; \forall a \leq b}$ 
+
+Etant donné que $\mu_1(]a,b]) = \mu_2(]a,b])$ et que ces mesures sont finies, d'après le théorème précédent, on a que $\sigma(\mathcal P) = \mathcal B(\mathbb R)$ 
+
+Si on pose alors $E_n =]-n, n]$ on a que $E_n \in \mathcal P$, $\bigcup E_n = \mathbb R$ et que $E_n \subseteq E_{n+1}$
+et $\mu_1(E_n) = \mu_2(E_n) < \infty$
+Alors d'après le théorème précédent $\mu_1 \equiv \mu_2$.
+
+==On ne pouvait pas conclure sans En==: On ne sait pas si $\mu_1$ et $\mu_2$ sont finies pour tout $A \in \mathcal B(\mathbb R)$ 
