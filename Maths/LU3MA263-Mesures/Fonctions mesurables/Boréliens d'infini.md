@@ -11,4 +11,16 @@ On observe que $f$ est mesurable sur le borélien de $E$ dans une telle situatio
 Soit $f: E \to E'$ où $E'$ est égale à $\mathbb R$, $\overline{ \mathbb R}$, $[0, +\infty[$, $[0, +\infty]$. On muni $E'$ de sa tribu borélienne.
 Soit $\mathcal E$ une tribu sur $E$. Alors $f$ est $(\mathcal E, \mathcal B(E))$-mesurable si et seulement si, vu comme une fonction $(\mathcal E, \mathcal B(\overline{ \mathbb R}))$-mesurable.
 
-## Lemme: Engendrement
+## Lemme: Engendrement de $\mathcal B(\overline{ \mathbb R})$ 
+On observe le phénomène suivant: #!
+
+Soit $\mathcal R = \set{[-\infty, a], a \in \mathbb R}$. Alors $\sigma(\mathcal R) = \mathcal B(\overline{ \mathbb R})$
+
+### Corollaire
+On peut observer une nouvelle implication pour déterminer la mesurabilité de $f$: #!
+
+Soit $(E, \mathcal E)$ un espace mesurable et soit $f: E \to E'$ où $E'$ est égale à $\mathbb R, \overline{ \mathbb R}, [0, +\infty]$ ou $[0, +\infty]$ Alors $f$ est $(\mathcal E, \mathcal B(E'))$-mesurable si et seulement si:
+$$\forall a \in \mathbb R, f^{-1}([-\infty, a]) = \set{x \in E, f(x) \leq a } \in \mathcal E$$
+
+#### Preuve
+$\set{[-\infty, a]}$
