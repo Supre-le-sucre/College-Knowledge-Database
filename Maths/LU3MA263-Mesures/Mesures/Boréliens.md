@@ -62,7 +62,7 @@ iv) Soit $O$ un ouvert de $\mathbb R$, alors $O$ s'écrit comme une union dénom
 
 **Remarque**: Les boréliens sont engendrés par plein de classe de sous-ensemble
 
-# Tribu borélienne sur $\mathbb R^2$
+# Tribu borélienne sur $\mathbb R^d$
 
 ## Générer les boréliens de $\mathbb R^2$
 On peut procéder de cette façon: #!
@@ -70,6 +70,7 @@ On peut procéder de cette façon: #!
 Soit $\mathcal R = \{]a, b[ \times ]c, d[$ avec $a,b,c,d \in \mathbb Q\}$
 Alors dans ce cas $\sigma(\mathcal R) = \mathcal B(\mathbb R^2)$
 
+### Preuve
 Soit $O$ un ouvert de $\mathbb R^2$. Donc pour $\forall x \in O$, on donc l'existence de 4 nombre:
 $a_x, b_x, c_x d_x \in \mathbb Q^4$ tel que $x \in ]a_x,b_x[\times]c_x, d_x[$
 
@@ -77,3 +78,12 @@ On peut alors définir $O$ comme
 $$O = \bigcup_{x \in O}\;]a_x,b_x[\times]c_x, d_x[$$
 Comme $\mathbb Q$ est dénombrable, la réunion ci-dessus est une réunion dénombrables d'ensembles.
 Comme $O$ s'écrit comme la réunion dénombrable d'ensemble de $\mathcal R$, on a que $O \subseteq \sigma(\mathcal R)$ d'où finalement $\mathcal B(\mathbb R^2) \subseteq \sigma(\mathcal R)$
+
+## Lemme sur la génération de boréliens de $\mathbb R^d$
+On observe le lemme suivant: #!
+
+Soit $\mathcal R = \{]a_1, b_1[ \times ]a_2, b_2[ \times \cdots \times ]a_d, b_d[$ avec $a_i, b_i\in \mathbb Q\}$
+Alors dans ce cas $\sigma(\mathcal R) = \mathcal B(\mathbb R^d)$
+
+### Preuve
+Induite de la propriété précédente.
