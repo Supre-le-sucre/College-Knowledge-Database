@@ -6,3 +6,4 @@ $$\mathcal B([0, +\infty[) = \set{B \cap [0, +\infty[, B \in \mathcal B(\mathbb 
 $$\mathcal B([0, +\infty]) = \set{B, B \cup \set{+\infty}, \forall B \in \mathcal B([0, +\infty[)}$$
 
 ## Lemme 
+Soit $f: E \to E'$ où $E'$ est égale à $\mathbb R$, $\overline{ \mathbb R}$
