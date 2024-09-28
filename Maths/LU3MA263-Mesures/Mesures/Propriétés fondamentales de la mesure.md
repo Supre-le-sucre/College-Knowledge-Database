@@ -23,4 +23,7 @@ Soit $(A_n)_{n \in \mathbb N} \in \mathcal E$
 Soit $(A_n)_{n\in \mathbb N} \in \mathcal E$, avec $A_n \subseteq A_{n+1}$
 Pour travailler avec des unions disjointes posons $B_0 = A_0$ et $\forall n \in \mathbb N$, $B_n = A_{n}\setminus A_{n-1}$
 
-Observons que $B_n \in \mathcal E$ par stabilité de $\mathcal E$. Et aussi $\bigcup^k_{n=0} B_k = A_n$
+Observons que $B_n \in \mathcal E$ par stabilité de $\mathcal E$. Et aussi $\bigcup^n_{k=0} B_k = A_n$
+En particulier on a alors que
+$$\lim_{n \to +\infty}\mu(A_n) = \lim_{n \to +\infty} \mu\left(\bigcup^n_{k=0} B_k\right)$$
+$$$$
