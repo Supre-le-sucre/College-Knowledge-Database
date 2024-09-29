@@ -2,11 +2,15 @@
 Soit $(X,d)$ un espace métrique.
 On considère $x \in X$ et $V \subseteq X$. On dit que $V$ est un voisinage de $x$ si et seulement si: #!
 $$\exists \epsilon > 0, B(x, \epsilon) \subseteq V$$
+<!--ID: 1727636167136-->
+
 
 ## Propriété sur la continuité et le voisinage d'une fonction
 $f$ est une fonction continue en un point $x \in X$ si et seulement si: #!
 
 L'image réciproque de tout voisinage de $f(x)$ est un voisinage de $x$. Autrement dit: $$\forall V \text{ voisinage de } f(x), \exists \epsilon > 0, B(x, \epsilon) \subseteq f^{-1}(V)$$
+<!--ID: 1727636167137-->
+
 
 ### Preuve
 $\Rightarrow$: On pose que $f$ est continue en $x$, donc
@@ -39,3 +43,4 @@ On considère les 3 espaces métriques $X, Y, Z$...: #!
 
 Pour $f: X \to Y$ et $g: Y \to Z$, 2 applications continues, on a alors que $f \circ g : X \to Z$ est également une application continue.
  
+<!--ID: 1727636167139-->

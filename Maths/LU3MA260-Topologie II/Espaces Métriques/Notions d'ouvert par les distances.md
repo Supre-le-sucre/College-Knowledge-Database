@@ -12,6 +12,8 @@ $$B(x, \epsilon) = \set{y \in X, d(x,y) < \epsilon}$$
 ## Ouvert
 On dit que $O$ ouvert de $(X, d)$ si et seulement si: #!
 $$\forall x \in O, \exists \epsilon > 0, B(x, \epsilon) \subseteq O$$
+<!--ID: 1727636167157-->
+
 
 ### Montrons que $B(y, \alpha)$ est un ouvert
 On montre cela de la façon suivante: #!
@@ -21,12 +23,16 @@ Posons $z \in B(x, \epsilon)$ et on a que $$d(z, y) \leq d(z, x) + d(x,y) \leq \
 d(z, y)\leq \alpha - d(x,y) +d(x, y) \leq \alpha$$
 Donc $y \in B(y, \alpha)$
 $$\tag*{$\blacksquare$}$$
+<!--ID: 1727636167159-->
+
 
 ## Intersection et union d'ouverts
 Soit $(X,d)$ un espace métrique, alors: #!
 
 - Une union finie ou infinie d'ouvert est un ouvert
 - Une ==intersection finie== d'ouvert est un ouvert
+<!--ID: 1727636167161-->
+
 
 ### Preuve
 Soit $(O_\lambda)_{\lambda \in \Lambda}$ des ouverts de $X$.
@@ -48,4 +54,6 @@ Soit $(X,d)$ et $E \subseteq X$. On définit, l'intérieur de $E$ l'ensemble: #!
 $$\mathring{E} = \bigcup_{\lambda \in \Lambda}O_\lambda$$
 Où $O_\lambda$ est un ouvert de $E$.
 Autrement dit $\mathring E$ est la réunion de tous les ouverts contenus dans $E$
+<!--ID: 1727636167162-->
+
 

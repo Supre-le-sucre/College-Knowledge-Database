@@ -57,7 +57,9 @@
       "Maths/LU3MA263-Mesures": "",
       "Info/LU3IN034-IA/Problème Linéaire": "3IN034: Problèmes linéaires",
       "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
-      "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables"
+      "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables",
+      "Maths/LU3MA260-Topologie II": "",
+      "Maths/LU3MA260-Topologie II/Espaces Métriques": "3MA260: Espaces métriques"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -97,7 +99,9 @@
       "Maths/LU3MA263-Mesures": "",
       "Info/LU3IN034-IA/Problème Linéaire": "",
       "Maths/LU3MA263-Mesures/Mesures": "",
-      "Maths/LU3MA263-Mesures/Fonctions mesurables": ""
+      "Maths/LU3MA263-Mesures/Fonctions mesurables": "",
+      "Maths/LU3MA260-Topologie II": "",
+      "Maths/LU3MA260-Topologie II/Espaces Métriques": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -389,7 +393,16 @@
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Bornes inf et sup.md": "a85d03d473895937a9005d8f568f134f",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Boréliens d'infini.md": "12110303cb210c3b28d4ce74d5376a35",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Fonctions mesurables.md": "881f50b56242acde8d6d970af22a5b93",
-    "Maths/LU3MA263-Mesures/Fonctions mesurables/Pré-image.md": "c60c20441051253deadb8067438d4bed"
+    "Maths/LU3MA263-Mesures/Fonctions mesurables/Pré-image.md": "c60c20441051253deadb8067438d4bed",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Produits d'espaces métriques.md": "39bf7ec47711f432189022f41b7934b0",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Distances équivalentes.md": "cd15ad83a1e3bda7f81e3a8954d8f2b9",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Sous-espaces métriques.md": "693b1ce4c87ec96b26684c2b932041fe",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Voisinage.md": "b7403bc2775ca40f039657e536706450",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Travaux sur les suites.md": "3d7c5774c37a3b32098deecd3347eaf9",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions de fermé, adhérence et frontière.md": "2c76e11ae855dc4943778d04c7d66f2d",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions d'ouvert par les distances.md": "b9d7dd11392b778f8f30f4679514eb31",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Boule fermée.md": "d61c6fae4c65d28ff430d82218177da8",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Applications continues.md": "e11ad530bb2d6ea10ad276907b5877a4"
   },
   "fields_dict": {
     "Basic": [

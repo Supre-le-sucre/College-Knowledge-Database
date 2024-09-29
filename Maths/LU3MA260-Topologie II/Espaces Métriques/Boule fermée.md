@@ -3,11 +3,15 @@ Soit un espace métrique $(X, d)$, avec $x \in X$ et $\alpha > 0$.
 On appelle la boule fermée de centre $x$ et de rayon $\alpha$, l'ensemble: #!
 
 $$B_f(x, \alpha) = \set{y \in X, d(x,y) \leq \alpha}$$
+<!--ID: 1727636167164-->
+
 
 ## Convergence des [[Travaux sur les suites|suites]] dans un [[Notions de fermé, adhérence et frontière|fermé]]
 On observe le phénomène suivant: #!
 
 $E \subseteq X$ est un fermé, si et seulement si, toute suite $(x_n)_{n \in \mathbb N} \in E^\mathbb N$ converge dans $E$
+<!--ID: 1727636167166-->
+
 
 ### Preuve
 $\Rightarrow$: 
