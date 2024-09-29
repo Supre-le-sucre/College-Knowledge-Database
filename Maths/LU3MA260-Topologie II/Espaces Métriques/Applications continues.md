@@ -22,4 +22,10 @@ Donc prenons $y \in B(x, \eta)$ et observons donc que $f(y) \in B(f(x), \epsilon
 $\Leftarrow$: On aimerait savoir si $f$ est continue. Posons sobrement $x \in X$
 
 Soit $\epsilon > 0$, $B(f(x), \epsilon)$ est un ouvert de $Y$. Donc $f^{-1}(B(f(x), \epsilon))$ est un ouvert de de $X$
-De plus $x \in f^{-1}(f^{-1}(B(f(x), \epsilon)))$
+De plus $x \in f^{-1}(B(f(x), \epsilon))$ car rappelons que
+$$f^{-1}(B(f(x), \epsilon)) = \set{y \in X, f(y) \in B(f(x), \epsilon)}$$
+
+Donc finalement, comme $f^{-1}(B(f(x), \epsilon))$ est un ouvert, on a qu'il existe $\eta > 0$ tel que
+$$B(x, \eta) \subseteq f^{-1}(B(f(x), \epsilon))$$
+C'est terminé: $y \in B(x, \eta) \implies y \in f^{-1}(B(f(x), \epsilon)) \implies f(y) \in B(f(x), \epsilon)$ 
+$$\tag*{$\blacksquare$}$$
