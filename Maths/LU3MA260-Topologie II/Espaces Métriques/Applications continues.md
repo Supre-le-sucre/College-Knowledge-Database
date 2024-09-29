@@ -19,5 +19,7 @@ De plus étant donné que $f$ est continue, $\exists \eta > 0$ tel que $y \in B(
 
 Donc prenons $y \in B(x, \eta)$ et observons donc que $f(y) \in B(f(x), \epsilon) \subseteq O$. Donc finalement, ceci implique bien que $y \in f^{-1}(O)$.
 
-$\Leftarrow$: On aimerait savoir si $f$ est continue
-Soit $\epsilon > 0$
+$\Leftarrow$: On aimerait savoir si $f$ est continue. Posons sobrement $x \in X$
+
+Soit $\epsilon > 0$, $B(f(x), \epsilon)$ est un ouvert de $Y$. Donc $f^{-1}(B(f(x), \epsilon))$ est un ouvert de de $X$
+De plus $x \in f^{-1}(f^{-1}(B(f(x), \epsilon)))$
