@@ -41,3 +41,4 @@ Posons $\epsilon = \min_{ \lambda \in \Lambda}\epsilon_\lambda$, ce $\min$ exist
 $$\forall \lambda \in \Lambda , B(x, \epsilon) \subseteq O_\lambda$$
 Donc $B(x, \epsilon) \subseteq O$
 $$\tag*{$\blacksquare$}$$
+
