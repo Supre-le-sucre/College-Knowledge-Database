@@ -42,3 +42,5 @@ $$\forall \lambda \in \Lambda , B(x, \epsilon) \subseteq O_\lambda$$
 Donc $B(x, \epsilon) \subseteq O$
 $$\tag*{$\blacksquare$}$$
 
+## Définition de l'intérieur
+Soit $(X,d)$ et $E \subseteq X$. On définit
