@@ -21,3 +21,11 @@ On a que $x \in \overline{E}$ si et seulement si: #!
 $$B(x, \epsilon) \cap E \not = \emptyset$$
 
 ## Propriété sur la continuité et les fermés
+Soient $X$ et $Y$, 2 espaces métriques et $F: X \to Y$ alors: #!
+
+$f$ est continue sur $X$ si et seulement si, $\forall F$ fermé de $Y$, $f^{-1}(F)$ est un fermé de $Y$
+
+
+## Définition d'un espace dense
+Dans un espace métrique $(X, d)$, on dit que $A \subseteq X$ est dense dans $X$ lorsque: #!
+$$\overline{A} = X$$
