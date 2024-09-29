@@ -12,3 +12,4 @@ $E \subseteq X$ est un fermé, si et seulement si, toute suite $(x_n)_{n \in \ma
 ### Preuve
 
 $\Rightarrow$: [[Notions de fermé, adhérence et frontière#Propriété de l'adhérence|Rappelons que]] $x \in \overline{E} \Leftrightarrow \forall \epsilon > 0, B(x , \epsilon) \cap E \not= \emptyset$ 
+$$
