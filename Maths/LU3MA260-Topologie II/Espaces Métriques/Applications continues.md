@@ -15,4 +15,5 @@ Soit $x  \in f^{-1}(O)$, montrons que $\exists \eta > 0$ tel que $B(x, \eta) \su
 
 On sait par hypothèse que $f(x) \in O$
 Comme $O$ est un ouvert, alors $\exists \epsilon > 0,  B(f(x), \epsilon) \subseteq O$
-Or étant donné que $f$ est continue, 
+De plus étant donné que $f$ est continue, $\exists \eta > 0$ tel que $y \in B(x, \eta) \implies f(y) \in B(f(x), \epsilon)$
+
