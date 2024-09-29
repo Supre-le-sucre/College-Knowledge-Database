@@ -35,8 +35,12 @@ Donc $(Y, d)$ est complet
 2)
 On considère $(X_1, d_1)$ et $(X_2, d_2)$ deux espaces complets.
 
+Nous utiliserons [[Produits d'espaces métriques#Propriété de distances équivalente|la définition]] de $d_\infty$
 On considère $(x_n, y_n) \in X_1^\mathbb N \times X_2^\mathbb N$ une suite de Cauchy. Montrons qu'elle converge.
 Comme elle est de Cauchy on a donc que
-$$\forall \epsilon > 0, \exists N \in \mathbb N, \forall p, q \geq N, d_1(x_p, x_q) < \epsilon \text{ et } d_2(y_p,y_q) < \epsilon$$ d'après $d_\infty$. Or comme les espaces $X_1$ et $X_2$ sont complets, les suites $x_n$ et $y_n$ sont convergentes
+$$\forall \epsilon > 0, \exists N \in \mathbb N, \forall p, q \geq N, d_\infty((x_p, y_p), (x_q, y_q))$$
+D'où
+$$\forall \epsilon > 0, \exists N \in \mathbb N, \forall p, q \geq N, d_1(x_p, x_q) < \epsilon \text{ et } d_2(y_p,y_q) < \epsilon$$Or comme les espaces $X_1$ et $X_2$ sont complets, les suites $x_n$ et $y_n$ sont convergentes:
+$$\forall \epsilon > 0, \exists N = \max(N_1, N2), \forall n > N, d_1(x_n, x) < \epsilon \text{ et } d_2(y_n, y) < \epsilon$$
 Et donc d'après $d_\infty$ on aura bien que $(x_n, y_n) \to (x,y)$
 
