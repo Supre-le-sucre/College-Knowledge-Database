@@ -36,4 +36,4 @@ Soit un espace métrique $X$. Avec $E \subseteq X$ #!
 
 On appelle la frontière de $E$, l'ensemble $\text{Fr}(E) = \overline{E} \cap \overline{E^c}$ 
 En particulier, $\text{Fr}(E)$ est un fermé et on a aussi que
-$$\text{Fr}(E) = \overline{E} \cap \math$$
+$$\text{Fr}(E) = \overline{E} \cap (\mathring E)^c \; \; \; \; \; \text{Fr}(E) = \overline{E}\setminus\mathring E$$
