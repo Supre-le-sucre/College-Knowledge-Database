@@ -48,3 +48,4 @@ Soit $(X,d)$ et $E \subseteq X$. On définit, l'intérieur de $E$ l'ensemble: #!
 $$\mathring{E} = \bigcup_{\lambda \in \Lambda}O_\lambda$$
 Où $O_\lambda$ est un ouvert de $E$.
 Autrement dit $\mathring E$ est la réunion de tous les ouverts contenus dans $E$
+
