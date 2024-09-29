@@ -22,5 +22,3 @@ $$\forall \epsilon> 0, \exists N \in \mathbb N, \forall n, p \geq N, \forall x \
 Et par passage à la limite sur $p$:
 $$\forall \epsilon> 0, \exists N \in \mathbb N, \forall n, p \geq N, \forall x \in X, ||f_n(x) - f(x)||_\infty \leq \epsilon$$
 
-2)
-Pour montrer cela, il suffit de montrer que l'espace est fermé (car il est inclus dans un espace complet)
