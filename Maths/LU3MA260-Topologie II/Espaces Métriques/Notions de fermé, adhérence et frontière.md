@@ -29,3 +29,11 @@ $f$ est continue sur $X$ si et seulement si, $\forall F$ fermé de $Y$, $f^{-1}(
 ## Définition d'un espace dense
 Dans un espace métrique $(X, d)$, on dit que $A \subseteq X$ est dense dans $X$ lorsque: #!
 $$\overline{A} = X$$
+
+
+## Définition d'une frontière
+Soit un espace métrique $X$. Avec $E \subseteq X$ #!
+
+On appelle la frontière de $E$, l'ensemble $\text{Fr}(E) = \overline{E} \cap \overline{E^c}$ 
+En particulier, $\text{Fr}(E)$ est un fermé et on a aussi que
+$$\text{Fr}(E) = \overline{E} \cap \math$$

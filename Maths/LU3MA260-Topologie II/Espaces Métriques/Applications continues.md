@@ -36,3 +36,26 @@ Pour $X, Y$, 2 espaces métriques, on définit une fonction $f: X \to Y$ $k$-Lip
 Pour $k \in \mathbb R^+$...
 $$\forall(x, x') \in X^2, d_Y(f(x), f(y)) \leq kd(x,y)$$
 **Remarque**: Il s'agit d'un cas particulier de la continuité.
+
+## Caractérisation séquentielle de la continuité
+On pose deux espaces métriques $X$ et $Y$ #!
+
+$f: X \to Y$ est continue en $x$, si et seulement si, $\forall (x_n)_{n \in \mathbb N}$ tel que $x_n \to x$ on a $f(x_n) \to f(x)$ 
+
+### Preuve
+$\Rightarrow$ On a que $f$ est continue au point $x$ avec $x_n \to x$
+
+$$\forall \epsilon> 0, \exists \eta > 0, y \in B(x, \eta) \implies f(y) \in B(f(x), \epsilon)$$
+$$\forall \eta > 0, \exists N \in \mathbb N, \forall n \geq N, x_n \in B(x, \eta)$$
+On aimerait donc avoir
+$$\forall \epsilon > 0, \exists N \in \mathbb N, \forall n \geq N, f(x_n) \in B(x, \epsilon)$$
+Soit $\epsilon > 0$ on pose $x_n \in B(x, \eta)$ et donc on a bien $f(x_n) \in B(f(x), \epsilon)$
+
+$\Leftarrow$: On résonne par contraposée
+Sachant que $f$ n'est pas continue, on veut montrer qu'il existe une suite $(x_n)_{n \in \mathbb N}$ telle que $x_n \to x$ mais $f(x_n) \not \to f(x)$ 
+
+On suppose donc...
+$$\exists \epsilon>0, \forall \eta > 0, y \in B(x, \eta) \text{ et } f(y) \not\in B(f(x), \epsilon)$$
+Posons $\eta = \frac{1}{n}$, alors $\forall n \in \mathbb N^*, \exists x_n \in B(x, \frac{1}{n})$ telle que $f(x_n) \not\in B(f(x), \epsilon)$
+C'est terminé
+$$\tag*{$\blacksquare$}$$
