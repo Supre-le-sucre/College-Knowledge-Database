@@ -36,4 +36,8 @@ Soit $x \in O$, alors $\exists \lambda \in \Lambda, x \in O_\lambda$. Et comme $
 
 Soit $\Lambda$ un ensemble dénombrable fini, a-t-on $O = \bigcap_{\lambda \in \Lambda}O_\lambda$
 Soit $x \in O$. Alors $\forall \lambda \in \Lambda$, $x \in O_\lambda$, et comme $O_\lambda$ est un ouvert on a que
-$$\forall \lambda \in \Lambda, \exists \epsilon_\lambda > 0, B(x,  \epsilon_\lambda)$$
+$$\forall \lambda \in \Lambda, \exists \epsilon_\lambda > 0, B(x,  \epsilon_\lambda)\subseteq O_\lambda$$
+Posons $\epsilon = \min_{ \lambda \in \Lambda}\epsilon_\lambda$, ce $\min$ existe car on a un ==nombre fini== d'ouvert
+$$\forall \lambda \in \Lambda , B(x, \epsilon) \subseteq O_\lambda$$
+Donc $B(x, \epsilon) \subseteq O$
+$$\tag*{$\blacksquare$}$$
