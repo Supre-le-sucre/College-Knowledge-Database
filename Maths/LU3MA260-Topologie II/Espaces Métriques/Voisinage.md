@@ -26,3 +26,16 @@ On aimerait résoudre que:
 $$\forall \epsilon > 0, \exists \eta > 0, y \in B(x, \eta) \implies f(y) \in B(f(x), \epsilon)$$
 
 Donc posons $\epsilon > 0$
+On a que $B(f(x), \epsilon)$ est un voisinage de $f(x)$
+Donc en particulier $f^{-1}(B(f(x), \epsilon))$ est un voisinage de $x$ 
+On a alors que $\exists \eta > 0$ tel que $B(x \eta) \subseteq f^{-1}(B(f(x), \epsilon))$
+
+Finalement on a que
+$$y \in B(x, \eta) \implies f(y) \in B(f(x), \epsilon$$
+$$\tag*{$\blacksquare$}$$
+
+## Composition de fonctions et maintiens de la continuité
+On considère les 3 espaces métriques $X, Y, Z$...: #!
+
+Pour $f: X \to Y$ et $g: Y \to Z$, 2 applications continues, on a alors que $f \circ g : X \to Z$ est également une application continue.
+ 

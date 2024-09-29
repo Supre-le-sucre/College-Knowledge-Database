@@ -29,3 +29,10 @@ Donc finalement, comme $f^{-1}(B(f(x), \epsilon))$ est un ouvert, on a qu'il exi
 $$B(x, \eta) \subseteq f^{-1}(B(f(x), \epsilon))$$
 C'est terminé: $y \in B(x, \eta) \implies y \in f^{-1}(B(f(x), \epsilon)) \implies f(y) \in B(f(x), \epsilon)$ 
 $$\tag*{$\blacksquare$}$$
+
+## $k$-Lipchitzienne
+Pour $X, Y$, 2 espaces métriques, on définit une fonction $f: X \to Y$ $k$-Lipchitzienne comme étant: #!
+
+Pour $k \in \mathbb R^+$...
+$$\forall(x, x') \in X^2, d_Y(f(x), f(y)) \leq kd(x,y)$$
+**Remarque**: Il s'agit d'un cas particulier de la continuité.
