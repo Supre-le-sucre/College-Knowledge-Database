@@ -14,4 +14,5 @@ Soit $O$ un ouvert de $Y$, montrons que $f^{-1}(O)$ est un ouvert de $X$
 Soit $x  \in f^{-1}(O)$, montrons que $\exists \eta > 0$ tel que $B(x, \eta) \subseteq f^{-1}(O)$
 
 On sait par hypothèse que $f(x) \in O$
-Comme $O$ est un ouvert, alors $\exists \epsilon > 0$
+Comme $O$ est un ouvert, alors $\exists \epsilon > 0,  B(f(x), \epsilon) \subseteq O$
+Or étant donné que $f$ est continue, 
