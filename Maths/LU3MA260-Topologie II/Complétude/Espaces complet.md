@@ -42,5 +42,25 @@ $$\forall \epsilon > 0, \exists N \in \mathbb N, \forall p, q \geq N, d_\infty((
 D'où
 $$\forall \epsilon > 0, \exists N \in \mathbb N, \forall p, q \geq N, d_1(x_p, x_q) < \epsilon \text{ et } d_2(y_p,y_q) < \epsilon$$Or comme les espaces $X_1$ et $X_2$ sont complets, les suites $x_n$ et $y_n$ sont convergentes:
 $$\forall \epsilon > 0, \exists N = \max(N_1, N2), \forall n > N, d_1(x_n, x) < \epsilon \text{ et } d_2(y_n, y) < \epsilon$$
-Et donc d'après $d_\infty$ on aura bien que $(x_n, y_n) \to (x,y)$
+D'où
+$$\forall \epsilon > 0, \exists N, \forall n > N, d_\infty((x_n,y_n), (x,y)) < \epsilon$$
+$$\tag*{$\blacksquare$}$$
 
+## Propriété distances équivalentes sur la complétude
+On observe que: #!
+
+Si $d_1$ et $d_2$ sont deux [[Distances équivalentes]] alors $(X, d_1)$ est complet, si et seulement si, $(X, d_2)$ est complet
+
+### Preuve
+
+Si $d_1$ et $d_2$ sont équivalente, alors $\exists c_1, c_2, \forall(x,y) \in X^2$
+$$c_1d_1(x,y) \leq d_2(x,y) \leq c_2d_1(x,y)$$
+
+Supposons $(X, d_1)$ complet et que $(x_n)_{n \in \mathbb N}$ est une suite de Cauchy sur $(X, d_2)$
+Or puisque
+$$c_1d_1(x,y) \leq d_2(x,y)$$
+Elle est donc de Cauchy sur $(X, d_1)$, mais comme $(X, d_1)$ est complet, cette suite est convergente et puisque
+$$d_2(x,y) \leq c_2d_1(x,y)$$
+On a donc bien la convergence sur $(X, d_2)$.
+Et vice-versa...
+$$\tag*{$\blacksquare$}$$
