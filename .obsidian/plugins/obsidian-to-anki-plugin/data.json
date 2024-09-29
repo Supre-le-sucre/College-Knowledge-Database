@@ -59,7 +59,9 @@
       "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables",
       "Maths/LU3MA260-Topologie II": "",
-      "Maths/LU3MA260-Topologie II/Espaces Métriques": "3MA260: Espaces métriques"
+      "Maths/LU3MA260-Topologie II/Espaces Métriques": "3MA260: Espaces métriques",
+      "Maths/LU3MA260-Topologie II/Complétude": "3MA260: Complétude",
+      "Maths/LU3MA260-Topologie II/Les espaces compacts": "3MA260: Compacité"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -101,7 +103,9 @@
       "Maths/LU3MA263-Mesures/Mesures": "",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "",
       "Maths/LU3MA260-Topologie II": "",
-      "Maths/LU3MA260-Topologie II/Espaces Métriques": ""
+      "Maths/LU3MA260-Topologie II/Espaces Métriques": "",
+      "Maths/LU3MA260-Topologie II/Complétude": "",
+      "Maths/LU3MA260-Topologie II/Les espaces compacts": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -402,7 +406,13 @@
     "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions de fermé, adhérence et frontière.md": "2c76e11ae855dc4943778d04c7d66f2d",
     "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions d'ouvert par les distances.md": "b9d7dd11392b778f8f30f4679514eb31",
     "Maths/LU3MA260-Topologie II/Espaces Métriques/Boule fermée.md": "d61c6fae4c65d28ff430d82218177da8",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Applications continues.md": "e11ad530bb2d6ea10ad276907b5877a4"
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Applications continues.md": "e11ad530bb2d6ea10ad276907b5877a4",
+    "Maths/LU3MA260-Topologie II/Complétude/Point fixe contractant.md": "19ff4e93caaa704695a693065160be90",
+    "Maths/LU3MA260-Topologie II/Complétude/Espaces de fonctions.md": "7ea41a7f52473324bf022939a7d33943",
+    "Maths/LU3MA260-Topologie II/Complétude/Espaces complet.md": "5057938e758db2fff7369c9eded2a30a",
+    "Maths/LU3MA260-Topologie II/Complétude/Suites de Cauchy.md": "05ef27a8eda8c0ee04f4cc94e6fa8243",
+    "Maths/LU3MA260-Topologie II/Les espaces compacts/Compacité.md": "68d12f0962134f03ad61c5c903ab0933",
+    "Maths/LU3MA260-Topologie II/Les espaces compacts/Suites extraites.md": "094c9ee7c8c6ee7b9971d942e77c6459"
   },
   "fields_dict": {
     "Basic": [

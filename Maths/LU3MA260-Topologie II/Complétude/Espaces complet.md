@@ -2,6 +2,8 @@
 Un espace $(X,d)$ est qualifié de complet si et seulement si: #!
 
 Pour tout suite $(x_n)_{n \in \mathbb N}$ de [[Suites de Cauchy|Cauchy]] sur $X$, on a que $(x_n)$ est convergente
+<!--ID: 1727641811461-->
+
 
 ## Espace de Banach
 On définit un espace de Banach de la façon suivante: #!
@@ -9,6 +11,8 @@ On définit un espace de Banach de la façon suivante: #!
 On considère l'espace métrique $(X, d)$ et l'espace $(E, ||\cdot||)$ normé tel que
 $$d(x,y) = ||x-y||$$
 Si $(E, ||\cdot||)$ est complet, alors c'est un espace de Banach.
+<!--ID: 1727641811463-->
+
 
 
 ## Opérations sur les espaces complets
@@ -16,6 +20,8 @@ On observe 2 propriétés intéressantes sur les espaces complet: #!
 
 - Soit $(X,d)$ un espace complet et $Y \subseteq X$, alors $(Y, d)$ est complet si et seulement si $Y$ est un fermé de $X$
 - Le produit de deux espaces complets est complet
+<!--ID: 1727641811464-->
+
 
 ### Preuve
 1)
@@ -50,6 +56,8 @@ $$\tag*{$\blacksquare$}$$
 On observe que: #!
 
 Si $d_1$ et $d_2$ sont deux [[Distances équivalentes]] alors $(X, d_1)$ est complet, si et seulement si, $(X, d_2)$ est complet
+<!--ID: 1727641811466-->
+
 
 ### Preuve
 

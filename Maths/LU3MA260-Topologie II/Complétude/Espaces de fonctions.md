@@ -5,6 +5,8 @@ En posant $(X, d_x)$ et $(Y, d_y)$, deux espaces métriques complets, on observe
 - Les sous-espaces continues bornées, munies de la distance $d_\infty$ sont aussi complet
 Rappelons que l'on pose: $$d_\infty(f,g) = \sup_{x \in X}d_Y(f(x), g(x))$$
 ### Preuve
+<!--ID: 1727641811459-->
+
 
 1)
 Pour ne pas avoir de notations trop lourde, posons l'[[Espaces complet#Espace de Banach|espace de Banach]] $(Y, ||\cdot||_Y)$

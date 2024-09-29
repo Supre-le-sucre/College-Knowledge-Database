@@ -1,10 +1,14 @@
 ## Définition contractant
 Soit $(X, d)$ un espace métrique avec $f: X \to X$. On dit qu'elle est $k$-contractante si et seulement si: #!
 $$\forall (x,y) \in X^2, d(f(x), f(y)) \leq kd(x,y)$$
+<!--ID: 1727641811453-->
+
 
 ## Définition point fixe
 Pour une fonction $f$ on appelle point fixe, un élément $x \in X$ tel que: #!
 $$f(x) = x$$
+<!--ID: 1727641811455-->
+
 
 ## Théorème du point fixe de Picard
 On énonce le théorème suivant: #!
@@ -12,6 +16,8 @@ On énonce le théorème suivant: #!
 Soit $(X,d)$ un espace métrique complet et soit $f: X \to X$ une fonction $k$-contractante avec $(k < 1)$.
 Alors il existe un unique point fixe à $f$.
 De plus $\forall x_0 \in X$, la suite récurrente définie par $x_{n+1} = f(x_n)$ converge vers cet unique point fixe
+<!--ID: 1727641811457-->
+
 
 ### Preuve
 
@@ -50,4 +56,11 @@ $$d(x_{n+1}, x_n)) \leq k^nd(x_1, x_0), \forall n \geq 1$$
 Or observons que, par inégalité triangulaire de la distance
 $$d(x_p, x_n) \leq d(x_p, x_{p-1}) + \cdots + d(x_{n+1}, x_{n})$$
 $$d(x_p, x_n) \leq k^pd(x_1,x_0) + \cdots + k^nd(x_1,x_0)$$
-$$d(x_p, x_n)$$
+$$d(x_p, x_n) \leq d(x_1, x_0) \left(\sum_{j=0}^{p-n}k^{j+n}\right)$$
+$$d(x_p, x_n) \leq d(x_1, x_0) k^n\left(\sum_{j=0}^{p-n}k^{j}\right)$$
+Par passage à la limite... Etant donné que la série est croissante
+$$d(x_p, x_n) \leq d(x_1, x_0) k^n\left(\sum_{j=0}^{\infty}k^{j}\right)$$
+$$d(x_p, x_n) \leq d(x_1, x_0) \frac{k^n}{1-k}$$
+Or le terme de droite tend vers 0 lorsque $n$ tends vers l'infini.
+Donc on a bien que $(x_n)$ est une suite de Cauchy, et donc qu'elle converge
+$$\tag*{$\blacksquare$}$$

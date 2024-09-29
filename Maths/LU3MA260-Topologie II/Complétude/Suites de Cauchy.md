@@ -2,12 +2,16 @@
 Soit un espace métrique $(X, d)$ et une suite $(x_n)_{n \in \mathbb N} \in X^\mathbb N$. On dit que $(x_n)$ est de Cauchy si et seulement si: #!
 
 $$\forall \epsilon > 0, \exists N \in \mathbb N, \forall p,q \geq N, d(x_p, x_q) \leq \epsilon$$
+<!--ID: 1727641811469-->
+
 
 ## Lemme sur la convergence et les suites de Cauchy
 On observe 2 propriétés fondamentales sur les suites de Cauchy: #!
 
 - Toute suite convergente est de Cauchy
 - Toute suite de Cauchy est bornée
+<!--ID: 1727641811470-->
+
 
 ### Preuve
 1)
