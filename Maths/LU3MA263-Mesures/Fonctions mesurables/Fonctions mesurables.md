@@ -2,15 +2,18 @@
 Pour $(E, \mathcal E)$ et $(E', \mathcal E')$ deux espaces mesurables et $f: E \to E'$. On qualifie $f$ de $(\mathcal E, \mathcal E')$-mesurable si et seulement si: #!
 
 $$\forall B \in \mathcal E', f^{-1}(B) \in \mathcal E$$
+<!--ID: 1727686912252-->
+
+
 ## Propriété de la composition
 Une fonction mesurable peut être obtenue comme suit: #!
-<!--ID: 1727559283083-->
-
 
 En considérant $(E, \mathcal E)$, $(E', \mathcal E')$, $(E'', \mathcal E'')$ trois espaces mesurables et 2 fonctions $f$ et $g$ telles que:
 - $f$ est $(\mathcal E, \mathcal E')$-mesurable
 - $g$ est $(\mathcal E', \mathcal E'')$-mesurable
 Alors dans ce cas $f\circ g$ est $(\mathcal E, \mathcal E'')$-mesurable
+<!--ID: 1727686912272-->
+
 
 ### Preuve
 Soit $B'' \in \mathcal E''$. On veut montrer que $(g \circ f)^{-1}(B'') \in \mathcal E$

@@ -14,10 +14,14 @@ En règle générale, l'optimum se trouve dans un des sommets de la région réa
 ### Determination d'un sommets de manière algébrique
 Les sommets de notre ensemble d'étude sont: #!
 les contraintes d'inégalité transformée en égalités. Pour établir cela, il nous faut des variables d'écart, qui seront à 0 à un sommet. 
+<!--ID: 1727686902314-->
+
 
 On pose alors les variables d'écart: #!
 Les variables qui complètes les variables de notre problèmes pour transformer les inégalités de notre problème en égalité. ==Il n'y a pas de variable d'écart à placer dans la fonction objectif== 
 La valeur des variables d'écart donnerons la valeurs des variables dans notre problème.
+<!--ID: 1727686902333-->
+
 
 **Remarque**: Observons qu'à chaque sommet, il y autant de variables (d'écart ou non) à 0 que de dimensions dans notre problème
 
