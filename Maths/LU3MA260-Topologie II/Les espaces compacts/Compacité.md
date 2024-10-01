@@ -84,7 +84,9 @@ $$\tag*{$\blacksquare$}$$
 On observe le phénomène suivant: #!
 
 Si $(X,d)$ est un compact et $f : (X, d) \to (f(X), d')$ est bijective, alors $f^{-1}$ est continue
-
+==La réciproque est fausse==
+Il existe des fonctions $f:X \to Y$ continue mais $f^{-1}$ non continue:
+$f: t \to (\cos(t), \sin(t))$, on a que $f$ est continue bijective mais $f^{-1}(f^{-1}([0, \epsilon[)) = f([0, \epsilon[)$ n'est pas un ouvert de $S_1$ 
 
 ## Compacité et complétude
 On observe que: #!
