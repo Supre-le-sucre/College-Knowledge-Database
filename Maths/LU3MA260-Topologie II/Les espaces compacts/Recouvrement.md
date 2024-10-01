@@ -11,3 +11,4 @@ $$\forall \epsilon > 0, \exists(x_1, \dots, x_N), X = \bigcup_{i=1}^NB(x_i, \eps
 
 ### Preuve
 On raisonne par contraposée.
+$$$$
