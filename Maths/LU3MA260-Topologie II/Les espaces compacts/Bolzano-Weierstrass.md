@@ -13,4 +13,6 @@ $$\forall \epsilon > 0, \exists x  \in A, x \leq M-\epsilon$$
 On considère la suite $y_n = \sup_{k \leq n}\set{x_k}$
 Elle est décroissante, en effet, si on considère $A_n = \set{x_k, k \geq n}$ alors $A_{n+1} \subseteq A_n$. L'ensemble Et si $x \in A_n, x \leq M$ on a aussi $x \in A_{n+1}, x \leq M$
 
-Or comme $y_n$ est une suite de $[a,b]$, elle est donc minorée, donc elle converge vers un élément $L$.
+Or comme $y_n$ est une suite de $[a,b]$, elle est donc minorée, donc elle converge vers un élément $L$. On peut donc établir une limite candidate.
+
+Essayons d'établir une sous-suite de $x_n$ convergente vers $L$
