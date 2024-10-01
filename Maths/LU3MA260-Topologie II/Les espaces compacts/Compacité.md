@@ -65,7 +65,7 @@ $$\tag*{$\blacksquare$}$$
 ### Corollaire compacité entre espace homéomorphe
 On observe que: #!
 
-Si $(X,d)$ et $(Y,d')$ sont homéomorphe (i.e $f:X \to Y$ continue et admet une fonction inverse continue)
+Si $(X,d)$ et $(Y,d')$ sont homéomorphes (i.e $f:X \to Y$ continue et admet une fonction inverse continue)
 Alors $(X,d)$ est compact si et seulement $(Y,d)$ est compact
 <!--ID: 1727643554885-->
 
