@@ -36,3 +36,14 @@ Et aussi $$\exists N(4) > N(3), x_{N(3)} \in [y_{N(2)}-\frac{1}{2}, y_{N(2)}]$$ 
 Par itération successive, si on pose $\epsilon_k = \frac{1}{2^k}$ On obtient une suite de $(N_n)_{n \in \mathbb N}$ strictement croissante, telle que, à partir d'un certain rang, on a que
 $$x_{N(n)} \in B(L, \frac{1}{2^{k-1}})$$
 $$\tag*{$\blacksquare$}$$
+
+## Propriété sur la compacité de $\mathbb R^n$ et la fermeture
+On observe que: #!
+
+Les sous-espaces compacts de $(\mathbb R^n, ||\cdot||)$ sont les fermés bornés.
+
+### Preuve
+Montrons qu'un espace compact de $(\mathbb R^n, ||\cdot||)$ est un fermé borné.
+On a déjà vu précédemment [[Compacité#Propriété sur la compacité d'un espace et sa fermeture|qu'un espace compact est un fermé]]. Il ne reste donc plus qu'à montrer qu'il est borné.
+
+On raisonne par contraposée, montrons donc qu'un espace non borné n'est pas compact.
