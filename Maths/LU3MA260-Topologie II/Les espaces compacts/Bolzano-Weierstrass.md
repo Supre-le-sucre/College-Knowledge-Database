@@ -43,7 +43,18 @@ On observe que: #!
 Les sous-espaces compacts de $(\mathbb R^n, ||\cdot||)$ sont les fermés bornés.
 
 ### Preuve
-Montrons qu'un espace compact de $(\mathbb R^n, ||\cdot||)$ est un fermé borné.
+$\Rightarrow$ Montrons qu'un espace compact de $(\mathbb R^n, ||\cdot||)$ est un fermé borné.
 On a déjà vu précédemment [[Compacité#Propriété sur la compacité d'un espace et sa fermeture|qu'un espace compact est un fermé]]. Il ne reste donc plus qu'à montrer qu'il est borné.
 
 On raisonne par contraposée, montrons donc qu'un espace non borné n'est pas compact.
+Trouvons une suite de $A$ n'admettant pas de sous-suite convergente.
+Comme $A$ est non borné, il existe $(x_n)$ tel que $||x_{n}|| \to + \infty$
+Or toute suite convergente est borné, mais ce n'est pas le cas de $(x_n)$ donc elle ne peut pas admettre de sous-suite bornée.
+
+$\Leftarrow$ Soit $A$ un fermé borné de $\mathbb R^n$, montrons qu'il est compact.
+
+Comme $A$ est borné, on a donc $R$ tel que $A \subset [-R, R]^n$ et $\overline{A} \subset [-R, R]^n$
+Comme $\overline{A}$ est un fermé de $\mathbb R^n$, alors on a que $\overline{A} = A$ et $[-R, R]^n$ est un compact d'après Weierstrass.
+Est un fermé d'un compact, donc il est compact.
+
+
