@@ -80,6 +80,12 @@ donc $f(F)$ est compact
 (Et vice-versa)
 $$\tag*{$\blacksquare$}$$
 
+### Corollaire compacité et continuité sur l'inverse
+On observe le phénomène suivant: #!
+
+Si $(X,d)$ est un compact et $f : (X, d) \to (f(X), d')$ est bijective, alors $f^{-1}$ est continue
+
+
 ## Compacité et complétude
 On observe que: #!
 
