@@ -8,11 +8,31 @@ Soit $(x_n)_{n \in \mathbb N}$ une suite dans $[a,b]$ montrons qu'il existe une 
 
 On rappelle que si $A \subset \mathbb R$ est un ensemble borné, alors il admet une borne supérieur $M$
 $$\forall x \in A, x \leq M$$
-$$\forall \epsilon > 0, \exists x  \in A, x \leq M-\epsilon$$
+$$\forall \epsilon > 0, \exists x  \in A, x \geq M-\epsilon$$
 
-On considère la suite $y_n = \sup_{k \leq n}\set{x_k}$
+On considère la suite $y_n = \sup_{k \geq n}\set{x_k}$
 Elle est décroissante, en effet, si on considère $A_n = \set{x_k, k \geq n}$ alors $A_{n+1} \subseteq A_n$. L'ensemble Et si $x \in A_n, x \leq M$ on a aussi $x \in A_{n+1}, x \leq M$
 
 Or comme $y_n$ est une suite de $[a,b]$, elle est donc minorée, donc elle converge vers un élément $L$. On peut donc établir une limite candidate.
 
 Essayons d'établir une sous-suite de $x_n$ convergente vers $L$
+Par hypothèse on sait que
+
+$$\forall \epsilon > 0, \exists N \in \mathbb N, \forall n > N, y_n \in B(L, \epsilon)$$
+Et par définition de la borne sup ré énoncée précédemment... 
+$$\forall k \geq n, \; x_k \leq y_n$$
+$$\forall \epsilon > 0, \exists x_\epsilon, \; y_n-\epsilon \leq x_\epsilon \leq y_n$$
+
+On cherche $\phi$ strictement croissant telle que, à partir d'un certain rang $x_{\phi(n)} \in B(L, \epsilon)$
+
+Pour $\epsilon = 1$ les hypothèses nous donnent que
+$$\exists N(1) > 0, y_{N(1)} \in B(L, 1)$$
+Et aussi $$\exists N(2) > N(1), x_{N(2)} \in [y_{N(1)}-1, y_{N(1)}]$$ donc $$x_{N(2)} \in B(L, 2)$$
+
+Puis pour $\epsilon = \frac{1}{2}$ les hypothèses nous donnent que
+$$\exists N(3) > N(2), y_{N(2)} \in B(L, \frac{1}{2})$$
+Et aussi $$\exists N(4) > N(3), x_{N(3)} \in [y_{N(2)}-\frac{1}{2}, y_{N(2)}]$$ donc $$x_{N(2)} \in B(L, 1)$$
+
+Par itération successive, si on pose $\epsilon_k = \frac{1}{2^k}$ On obtient une suite de $(N_n)_{n \in \mathbb N}$ strictement croissante, telle que, à partir d'un certain rang, on a que
+$$x_{N(n)} \in B(L, \frac{1}{2^{k-1}})$$
+$$\tag*{$\blacksquare$}$$
