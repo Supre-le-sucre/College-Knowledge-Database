@@ -10,4 +10,4 @@ Si on retombe sur un dictionnaire déjà rencontré
 
 ### Règle de Bland
 On peut éviter le cyclage de la façon suivante: #!
-A toute itération d'un dictionnaire dégénéré, lorsqu'on a le choix sur la variable entrante ou sortante, on prends toujours celle d'indice (donc de coefficient plus faible).
+A toute itération d'un dictionnaire dégénéré, lorsqu'on a le choix sur la variable entrante ou sortante, on prends toujours celle d'indice (donc de coefficient) plus faible.
