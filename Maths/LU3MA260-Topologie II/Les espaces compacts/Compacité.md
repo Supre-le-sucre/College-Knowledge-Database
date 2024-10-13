@@ -107,3 +107,13 @@ Donc par passage à la limite pour $p$ on a alors que
 $$d(x_n, x) < \epsilon$$
 $$\tag*{$\blacksquare$}$$
 
+## Théorème de Heine
+On observe le phénomène suivant: #!
+
+Soit $(X,d)$ et $(Y, \delta)$ deux espaces compacts. Alors
+$$f: (X, d) \to (Y, \delta) \text{ est continue sur } x\Leftrightarrow f: (X, d) \to (Y, \delta) \text{ est uniformément continue sur} x$$
+
+### Preuve
+On le fait par contraposée
+
+$(X,d)$ et $(Y, )$

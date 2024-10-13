@@ -59,4 +59,15 @@ Et d'après la [[#Propriété, recouvrement d'un compact]], on a alors $$(x_1, \
 Donc on a bien extrait un recouvrement d'ouvert fini.
 
 $\Leftarrow$
-Par contraposée, $X$ est non compact, donc $\exists (O_i)_{i \in \Lambda}$ ouvert tel 
+Par contraposée, $X$ est non compact, donc on veut montrer $\exists (O_i)_{i \in \Lambda}$ ouverts tel que $\bigcup_{i \in \Lambda} O_i = X$, avec $\forall n \in \mathbb N^*, \forall (i_1, \dots, i_N) \in \Lambda^N, \bigcup_{j=1}^NO_{i_j} \subsetneq X$  
+
+Or $X$ non compact, alors $\exists (x_n)_{n \in \mathbb N}$ qui n'admet aucune sous-suite convergente
+Donc
+$$\forall x \in X, \exists \epsilon_x > 0, \forall N_x > 0, \exists n > N_x, x_n \not \in B(x, \epsilon_x)$$
+Et $X = \bigcup_{x \in X} B(x, \epsilon_x)$
+S'il existe $(y_1, \dots, y_n) \in X$ tel que $X = \bigcup_{i=1}^N B(y_i, \epsilon_{y_i})$
+Alors $\exists i \in [1, n]$ tel que l'ont a une infinité d'élément de la suite $(x_n)_{n \in \mathbb N}$ dans la boule $B(y_i, \epsilon_{y_i})$
+Ceci est absurde car par construction, il ne devrait y avoir qu'un nombre fini d'élément.
+$$\tag*{$\blacksquare$}$$
+
+
