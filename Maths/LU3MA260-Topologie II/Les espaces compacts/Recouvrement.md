@@ -22,7 +22,7 @@ On raisonne par récurrence...  Donc finalement $\forall p \not = q, d(x_p, x_q)
 ## Théorème de Borel-Lebesgue
 On énonce le théorème suivant: #!
 
-Un espace $(X,d)$ est compact si et seulement si on peut en extraire un recouvrement fini. 
+Un espace $(X,d)$ est compact si et seulement si pour tout recouvrement d'ouvert, on peut en extraire un recouvrement fini.
 
 ### Preuve
 On montre d'abord le lemme suivant
@@ -42,4 +42,21 @@ Comme $x \in X$, donc $\exists j \in \Lambda, x \in O_j$
 Comme $O_j$ est un ouvert, alors $\exists \epsilon, B(x, \epsilon) \subset O_j$
 
 Or on sait aussi que $\forall n \in \mathbb N$, $B(x_{\phi(n)}, \frac{1}{\phi(n)}) \not \in O_j$
-On extrait $y_{\phi(n)} \in B(x_{\phi(n)}, \frac{1}{\phi(n)})$ donc $y_{\phi(n)} \not \in O_j$ et $y_{\phi(n)} \to x$ 
+On extrait $y_{\phi(n)} \in B(x_{\phi(n)}, \frac{1}{\phi(n)})$ donc $y_{\phi(n)} \not \in O_j$
+Observons que $y_{\phi(n)} \to x$, car en effet
+$$d(y_{\phi(n)}, x) \leq d(y_{\phi(n)},x_{\phi(n)}) + d(x_{\phi(n)}, x)$$
+$$d(y_{\phi(n)}, x) \leq \frac{1}{\phi(n)} + d(x_{\phi(n)}, x)$$
+donc $d(y_{\phi(n)}, x) \to 0$
+Donc en posant $\epsilon$ comme module de convergence on a que $y_\phi(n) \in B(x, \epsilon) \subset O_j$
+Pourtant $y_{\phi(n)} \not \in O_j$. Absurde
+$$\tag*{$\blacksquare$}$$
+
+#### Retour à la preuve principale
+$\Rightarrow$
+Soit $X$ est un compact, et soit $(O_i)_{i \in \Lambda}$ tel que $X = \bigcup_{i \in \Lambda} O_i$
+D'après le lemme précédent, alors $$\exists \alpha > 0, \forall x \in X, \exists i \in \Lambda, B(x, \alpha) \subset O_i$$
+Et d'après la [[#Propriété, recouvrement d'un compact]], on a alors $$(x_1, \dots, x_n), X = \bigcup_{i = 1}^nB(x_i, \alpha) \subset \bigcup_{i \in \Lambda} O_i = X$$
+Donc on a bien extrait un recouvrement d'ouvert fini.
+
+$\Leftarrow$
+Par contraposée, $X$ est non compact, donc $\exists (O_i)_{i \in \Lambda}$ ouvert tel 
