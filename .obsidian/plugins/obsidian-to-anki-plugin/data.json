@@ -61,7 +61,8 @@
       "Maths/LU3MA260-Topologie II/Les espaces compacts": "3MA260: Espaces compacts",
       "Maths/LU3MA260-Topologie II/Espaces Métriques": "3MA260: Espaces métriques",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables",
-      "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures"
+      "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
+      "Maths/LU3MA232-Analyse numérique": "3MA232-Analyse numérique"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -105,7 +106,8 @@
       "Maths/LU3MA260-Topologie II/Les espaces compacts": "",
       "Maths/LU3MA260-Topologie II/Espaces Métriques": "",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "",
-      "Maths/LU3MA263-Mesures/Mesures": ""
+      "Maths/LU3MA263-Mesures/Mesures": "",
+      "Maths/LU3MA232-Analyse numérique": ""
     },
     "Syntax": {
       "Begin Note": "START",
