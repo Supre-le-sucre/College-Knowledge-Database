@@ -1,3 +1,5 @@
+
+# Stabilité
 ## Stabilité explicite
 Un schéma numérique explicite est qualifié de stable si: #!
 
@@ -6,6 +8,12 @@ $$y_0 \in \mathbb R^m \text{ et } y_{n+1} = y_n + hF(t_n, y_n, h) \text{ pour } 
 $$\max_{0 \leq n \leq N}||z_n-y_n|| \leq C\sum^N_{n=0}||\eta_n||$$On qualifie alors $C$ de constante de stabilité du schéma.
 
 Autrement dit: un schéma est stable si pour une perturbation $\eta_n$, le schéma ne s'écarte de la solution qu'un d'un rapport dépendant de $C$ et du module de la perturbation $||\eta_n||$
+
+## Propriété sur la stabilité
+On peut aussi prouver la stabilité d'un schéma d'une autre manière: #!
+
+D'après le [[Lemme de Grönwall]]. Pour qu'un schéma soit stable, il faut que $F$ soit lipchitzienne par rapport à sa deuxième variable.
+Pour le schéma explicite, cela implique qu'elle soit lipchitzienne sur $y_n$, pour le schéma implicite, qu'elle le soit sur $y_{n+1}$
 
 # Consistance
 
@@ -23,7 +31,8 @@ $$\lim_{h \to 0 } \sum_{n=0}^{N-1}||\epsilon_n|| = 0$$
 ## Propriété sur la consistance d'un schéma
 pour montrer qu'un schéma est consistant, on peut aussi dire que: #!
 $$F(t, y, 0) = f(t,y)$$
-
+Pour un schéma implicite, on vérifie plutôt:
+$$F(t, y, t,y, 0) = f(t,y)$$
 
 # Théorème de Lax
 On énonce le théorème suivant: #!
