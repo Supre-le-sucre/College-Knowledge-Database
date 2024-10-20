@@ -62,7 +62,7 @@
       "Maths/LU3MA260-Topologie II/Espaces Métriques": "3MA260: Espaces métriques",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables",
       "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
-      "Maths/LU3MA232-Analyse numérique": "3MA232-Analyse numérique"
+      "Maths/LU3MA232-Analyse numérique": "3MA232: Analyse numérique"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -393,7 +393,7 @@
     "Maths/LU3MA263-Mesures/Mesures/Combinaison de mesures.md": "99cea6e08d8d5de0ffddf95ae13a42e3",
     "Maths/LU3MA263-Mesures/Mesures/Boréliens.md": "b04a16b0431577ec2155f83997101f16",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Pré-image.md": "c60c20441051253deadb8067438d4bed",
-    "Maths/LU3MA263-Mesures/Fonctions mesurables/Fonctions mesurables.md": "fa1ec8d78270d563e1c0e12bdaaaae85",
+    "Maths/LU3MA263-Mesures/Fonctions mesurables/Fonctions mesurables.md": "a71edc40d7ba429d2ad33e2b82284c83",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Boréliens d'infini.md": "12110303cb210c3b28d4ce74d5376a35",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Bornes inf et sup.md": "a85d03d473895937a9005d8f568f134f",
     "Maths/LU3MA260-Topologie II/Les espaces compacts/Suites extraites.md": "b6311f8430cc40f36964b91a9722289a",
@@ -418,7 +418,13 @@
     "Maths/LU3MA260-Topologie II/Les espaces compacts/Recouvrement.md": "9e0bf0d9aad9a09b42944414f1b33065",
     "Maths/LU3MA260-Topologie II/Les espaces compacts/Compact de R.md": "95aad12723e579436ae8965886c49a7f",
     "Maths/LU3MA260-Topologie II/Les espaces compacts/Bolzano-Weierstrass.md": "cafcefaf5ea4efd2054a6c0404a90d49",
-    "Info/LU3IN034-IA/Problème Linéaire/Dictionnaire simplexe.md": "e9108df298cb72f1339a07ea392528c1"
+    "Info/LU3IN034-IA/Problème Linéaire/Dictionnaire simplexe.md": "e9108df298cb72f1339a07ea392528c1",
+    "Maths/LU3MA232-Analyse numérique/Schéma numérique.md": "1ed9a8ba699c43166f5f3b5f7b611dda",
+    "Maths/LU3MA232-Analyse numérique/Lemme de Grönwall.md": "782bb2c6ce755ca7b33288b967a10c6b",
+    "Maths/LU3MA232-Analyse numérique/Méthode de Newton.md": "1815e2207c5a49a20e712a5ae1476e38",
+    "Maths/LU3MA232-Analyse numérique/Cauchy-Lipschitz.md": "d9032d527bf56b9472c722714c564fbf",
+    "Maths/LU3MA232-Analyse numérique/Fonctions lipschitzienne multi-dimensionnelles.md": "eeadc0ec56b981531f6009f97616fbe1",
+    "Maths/LU3MA232-Analyse numérique/Taylor-Lagrange.md": "1cecc82babb2bfa30347a79726ef6444"
   },
   "fields_dict": {
     "Basic": [
