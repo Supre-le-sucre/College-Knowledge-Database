@@ -2,7 +2,8 @@
 On définit un sous-espace métrique de la façon suivante: #!
 
 Soit $(X, d)$ et $Y \subset X$, on a $(Y, d)$ un sous-espace métrique de $(X, d)$
-<!--ID: 1727636167132-->
+<!--ID: 1729504947025-->
+
 
 
 ## Propriété sur les sous-espaces métriques
@@ -12,7 +13,8 @@ Les ouverts de $(Y, d)$ sont les intersections des ouverts de $(X,d)$. On a donc
 $$\forall O \in X, O \cap Y \text{ est un ouvert de } Y$$
 $$\forall \tilde O \in Y, \exists O \in X, \tilde O  = O \cap Y$$
 Si $(y_n)_{n \in N}$ est une suite de $Y$ convergente en $Y$, si et seulement si, $(x_n)_{n \in \mathbb N}$ converge dans $X$ et sa limite est en $Y$
-<!--ID: 1727636167134-->
+<!--ID: 1729504947027-->
+
 
 
 ### Preuve

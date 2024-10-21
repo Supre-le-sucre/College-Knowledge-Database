@@ -3,7 +3,8 @@ Soit $(X,d)$ et $(x_n)_{n \in \mathbb N}$ une suite de $X$ #!
 
 On appelle suite extraite de $(x_n)_{n \in \mathbb N}$ une suite de la forme$(x_{n_1}, x_{n_2}, \dots)$ avec $n_1 < n_2 < \dots$
 On peut aussi dire que $(y_n)_{n \in \mathbb N}$ est une sous-suite extraite de $(x_n)$ si et seulement si il existe $\phi: \mathbb N \to \mathbb N$ strictement croissante, telle que $y_n =x_{\phi(n)}$ 
-<!--ID: 1727643554887-->
+<!--ID: 1729505040447-->
+
 
 
 On définit alors une valeur d'adhérence d'une suite $(x_n)$ un nombre $\rho$ tel que:
@@ -13,6 +14,8 @@ Il existe une sous-suite de $(x_n)$ qui converge vers $\rho$
 On observe le phénomène suivant: #!
 Soit $(X,d)$ un espace avec $(K_n)_{n \in \mathbb N}$ une suite de compact non vide décroissante, alors
 $$\bigcap_{n \in \mathbb N}K_n \not = \emptyset$$
+<!--ID: 1729505040449-->
+
 
 **Remarque**: Si $(K_n)_{n \in \mathbb N}$ sont fermés, alors on pourrait prendre $K_n = \set{n, n+1, \dots}$ et donc $\bigcap_{n \in \mathbb N}K_n = \emptyset$
 

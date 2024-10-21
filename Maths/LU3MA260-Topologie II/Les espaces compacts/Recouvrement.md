@@ -1,6 +1,8 @@
 ## Définition
 Soit $(X,d)$. Une famille de partie de $X$ est qualifiée de recouvrement si et seulement si: #!
 l'union de ces parties est égale à $X$
+<!--ID: 1729505040452-->
+
 
 ## Propriété, recouvrement d'un compact
 On observe que l'on peut recouvrir un compact de la façon suivante: #!
@@ -8,6 +10,8 @@ On observe que l'on peut recouvrir un compact de la façon suivante: #!
 $(X, d)$ est un compact, alors
 $$\forall \epsilon > 0, \exists(x_1, \dots, x_N), X = \bigcup_{i=1}^NB(x_i, \epsilon)$$
 ==La réciproque est fausse==: $X=]0,1[$
+<!--ID: 1729505040455-->
+
 
 ### Preuve
 On raisonne par contraposée.
@@ -23,6 +27,8 @@ On raisonne par récurrence...  Donc finalement $\forall p \not = q, d(x_p, x_q)
 On énonce le théorème suivant: #!
 
 Un espace $(X,d)$ est compact si et seulement si pour tout recouvrement d'ouvert, on peut en extraire un recouvrement fini.
+<!--ID: 1729505040457-->
+
 
 ### Preuve
 On montre d'abord le lemme suivant

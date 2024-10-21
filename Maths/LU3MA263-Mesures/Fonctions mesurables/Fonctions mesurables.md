@@ -2,7 +2,8 @@
 Pour $(E, \mathcal E)$ et $(E', \mathcal E')$ deux espaces mesurables et $f: E \to E'$. On qualifie $f$ de $(\mathcal E, \mathcal E')$-mesurable si et seulement si: #!
 
 $$\forall B \in \mathcal E', f^{-1}(B) \in \mathcal E$$
-<!--ID: 1727686912252-->
+<!--ID: 1729505135351-->
+
 
 
 ## Propriété de la composition
@@ -12,7 +13,8 @@ En considérant $(E, \mathcal E)$, $(E', \mathcal E')$, $(E'', \mathcal E'')$ tr
 - $f$ est $(\mathcal E, \mathcal E')$-mesurable
 - $g$ est $(\mathcal E', \mathcal E'')$-mesurable
 Alors dans ce cas $f\circ g$ est $(\mathcal E, \mathcal E'')$-mesurable
-<!--ID: 1727686912272-->
+<!--ID: 1729505135353-->
+
 
 
 ### Preuve
@@ -31,7 +33,8 @@ On peut déterminer la mesurabilité d'une fonction comme suit: #!
 
 Soit $(E, \mathcal E)$ et $(E', \mathcal E')$, 2 espaces mesurables et $\mathcal R' \subseteq \mathcal E'$ tel que $\sigma(\mathcal R') = \mathcal E'$
 Alors $f: E \to E'$ est $(\mathcal E, \mathcal E')$-mesurable si et seulement si $$\forall B \in \mathcal R', f^{-1}(B) \in \mathcal E$$
-<!--ID: 1727559283085-->
+<!--ID: 1729505135355-->
+
 
 
 ### Preuve
@@ -64,7 +67,8 @@ $$\tag*{$\blacksquare$}$$
 On peut déduire la mesurabilité de $f$ par cette propriété: #!
 
 Soit $(E, \tau)$ et $(E', \tau')$ deux espaces topologiques. Soit $f: E \to E'$ [[Pré-image#Continuité topologique de $f$|continue par rapport à ces topologies]]. Alors $f$ est $(\mathcal B(E), \mathcal B(E'))$-mesurable
-<!--ID: 1727559283086-->
+<!--ID: 1729505135356-->
+
 
 
 ### Preuve

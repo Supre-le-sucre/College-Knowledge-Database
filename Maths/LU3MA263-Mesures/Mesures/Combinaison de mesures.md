@@ -3,7 +3,8 @@ Soit $\mu_n : \mathcal E \to [0, \infty]$ des mesures sur $(E, \mathcal E)$: #!
 
 On considère une suite $(c_n)_{n \in \mathbb N}$ ==positive== alors:
 $$\forall A \in \mathcal E, \mu(A) = \sum_{n \in \mathbb N}c_n \mu_n(A)$$est une mesure
-<!--ID: 1727551528560-->
+<!--ID: 1729505204753-->
+
 
 
 
@@ -26,7 +27,8 @@ On définit la mesure trace comme étant: #!
 Soit $\mu:\mathcal E \to [0 ,\infty]$ une mesure sur $(E, \mathcal E)$.
 Soit $A \in \mathcal E$ fixé, alors $\nu:\mathcal E \to [0 ,\infty]$ défini tel que
 $$\forall B \in \mathcal E, \nu(B) = \mu(A \cap B)$$est une mesure que l'on appelle mesure trace
-<!--ID: 1727551528562-->
+<!--ID: 1729505204755-->
+
 
 
 

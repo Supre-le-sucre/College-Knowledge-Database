@@ -2,6 +2,9 @@
 On énonce le théorème sur la compacité suivant: #!
 
 $$\forall a < b, [a,b] \text{ est un compact}$$
+<!--ID: 1729505064091-->
+
+
 
 ### Preuve
 Soit $(x_n)_{n \in \mathbb N}$ une suite dans $[a,b]$ montrons qu'il existe une sous-suite convergente dans $[a,b]$.
@@ -41,6 +44,8 @@ $$\tag*{$\blacksquare$}$$
 On observe que: #!
 
 Les sous-espaces compacts de $(\mathbb R^n, ||\cdot||)$ sont les fermés bornés.
+<!--ID: 1729505040481-->
+
 
 ### Preuve
 $\Rightarrow$ Montrons qu'un espace compact de $(\mathbb R^n, ||\cdot||)$ est un fermé borné.

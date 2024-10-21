@@ -6,4 +6,5 @@ Soit $E$ un ensemble. Une topologie sur $E$ ($\tau(E))$ est un sous ensemble de 
 - $\tau(E)$ est stable par intersection finie
 - $\emptyset \in \tau(E), E \in \tau(E)$
 ==Une topologie n'est pas forcément une tribu, mais une tribu est une topologie==
-<!--ID: 1727551528555-->
+<!--ID: 1729505204727-->
+

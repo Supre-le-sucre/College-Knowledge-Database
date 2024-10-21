@@ -1,7 +1,8 @@
 ## Définition
 Un espace $(X, d)$ est dit compact si #!
 Toute suite de $X$ admet une valeur d'adhérence. Autrement dit, si toute suite de $X$ admettent une sous-suite convergente 
-<!--ID: 1727643554878-->
+<!--ID: 1729505040462-->
+
 
 
 ## Propriété sur la compacité d'un espace et sa fermeture
@@ -9,7 +10,8 @@ On observe la propriété suivante: #!
 
 Soit $A \subseteq X$, Si $A$ est compact alors $A$ est fermé
 Si de plus, $X$ est compact, alors toutes les parties fermées de $X$ sont compactes
-<!--ID: 1727643554880-->
+<!--ID: 1729505040465-->
+
 
 
 ### Preuve
@@ -28,7 +30,8 @@ $$\tag*{$\blacksquare$}$$
 On observe que: #!
 
 Le produit de deux epsaces compact est compact
-<!--ID: 1727643554882-->
+<!--ID: 1729505040467-->
+
 
 
 ### Preuve
@@ -47,7 +50,8 @@ $$\tag*{$\blacksquare$}$$
 On observe que: #!
 
 Soit $(X, d)$ un espace compact et $f: (X, d) \to (Y, d')$ une fonction continue. Alors on a que$f(X)$ est un compact de $(Y, d')$
-<!--ID: 1727643554884-->
+<!--ID: 1729505040469-->
+
 
 
 ### Preuve
@@ -67,7 +71,8 @@ On observe que: #!
 
 Si $(X,d)$ et $(Y,d')$ sont homéomorphes (i.e $f:X \to Y$ continue et admet une fonction inverse continue)
 Alors $(X,d)$ est compact si et seulement $(Y,d)$ est compact
-<!--ID: 1727643554885-->
+<!--ID: 1729505040471-->
+
 
 
 #### Preuve
@@ -87,6 +92,8 @@ Si $(X,d)$ est un compact et $f : (X, d) \to (f(X), d')$ est bijective, alors $f
 ==La réciproque est fausse==
 Il existe des fonctions $f:X \to Y$ continue mais $f^{-1}$ non continue:
 $f: t \to (\cos(t), \sin(t))$ $f: ([0, 2\pi[) \to \set{(x,y)\; | \; x^2 + y^2 = 1}$, on a que $f$ est continue bijective mais $f^{-1}(f^{-1}([0, \epsilon[)) = f([0, \epsilon[)$ n'est pas un ouvert dans l'espace d'arrivée 
+<!--ID: 1729505040474-->
+
 
 ## Compacité et complétude
 On observe que: #!
@@ -94,7 +101,8 @@ On observe que: #!
 Si $(X,d)$ est compact, alors il est complet
 ==La réciproque est fausse==
 $X = (\mathbb R, |\cdot|)$ est complet, mais pas compact: (ex: $x_n = n$)
-<!--ID: 1727643564375-->
+<!--ID: 1729505040476-->
+
 
 
 ### Preuve
@@ -112,6 +120,8 @@ On observe le phénomène suivant: #!
 
 Soit $(X,d)$ et $(Y, \delta)$ deux espaces compacts. Alors
 $$f: (X, d) \to (Y, \delta) \text{ est continue sur } x\Leftrightarrow f: (X, d) \to (Y, \delta) \text{ est uniformément continue sur} x$$
+<!--ID: 1729505040479-->
+
 
 ### Preuve
 On le fait par contraposée

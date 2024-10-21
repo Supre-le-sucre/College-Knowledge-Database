@@ -2,16 +2,19 @@
 Soit $(X, d_X)$ et $(Y, d_Y)$ et $f:(X, d_X) \to (Y, d_Y)$, on dit que $f$ est continue en $x_o \in X$ si et seulement si: #!
 
 $$\forall \epsilon > 0, \exists\eta >0, d_X(x_0, x)< \eta \implies d_Y(f(x_0), f(x)) < \epsilon$$
-<!--ID: 1727636167168-->
+<!--ID: 1729504947058-->
+
 
 
 ## Proposition sur les ouverts et la continuité
 Soit $f: X \to Y$ avec $(X, d_X)$ et $(Y, d_Y)$ on observe que: #!
 
 $f$ est continue sur $X$ si et seulement si $$\forall O \subseteq Y \text{ un ouvert}, f^{-1}(O) \text{ est aussi un ouvert}$$
+<!--ID: 1729504947060-->
+
+
 ### Preuve
 $\Rightarrow$: Supposons $f$ continue
-<!--ID: 1727636167170-->
 
 
 Soit $O$ un ouvert de $Y$, montrons que $f^{-1}(O)$ est un ouvert de $X$
@@ -40,14 +43,16 @@ Pour $X, Y$, 2 espaces métriques, on définit une fonction $f: X \to Y$ $k$-Lip
 Pour $k \in \mathbb R^+$...
 $$\forall(x, x') \in X^2, d_Y(f(x), f(y)) \leq kd(x,y)$$
 **Remarque**: Il s'agit d'un cas particulier de la continuité.
-<!--ID: 1727636167171-->
+<!--ID: 1729504947063-->
+
 
 
 ## Caractérisation séquentielle de la continuité
 On pose deux espaces métriques $X$ et $Y$ #!
 
 $f: X \to Y$ est continue en $x$, si et seulement si, $\forall (x_n)_{n \in \mathbb N}$ tel que $x_n \to x$ on a $f(x_n) \to f(x)$ 
-<!--ID: 1727636167173-->
+<!--ID: 1729504947066-->
+
 
 
 ### Preuve

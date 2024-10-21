@@ -2,14 +2,16 @@
 Sur un espace métrique $(X, d)$, on dit que la suite $(x_n)_{n \in \mathbb N}$ converge vers une limite $l \in X$ lorsque: #!
 
 $$\forall \epsilon > 0, \exists N \in \mathbb N, \forall n > N, d(u_n, l) < \epsilon$$
-<!--ID: 1727636167141-->
+<!--ID: 1729504947001-->
+
 
 
 ## Caractérisation séquentielle de l'[[Notions de fermé, adhérence et frontière#Définition de l'adhérence|adhérence]]
 Soit $(X, d)$ et $E \subseteq X$ #!
 
 $$x \in \overline{E} \Leftrightarrow \exists(x_n)_{n \in\mathbb N}, \lim_{n \to + \infty} x_n = x$$
-<!--ID: 1727636167143-->
+<!--ID: 1729504947004-->
+
 
 
 ### Preuve

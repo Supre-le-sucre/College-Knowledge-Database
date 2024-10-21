@@ -4,7 +4,8 @@ Pour la mesure de Lebesgue en considérant le [[Boréliens|borélien B(Rd)]], on
 Il existe une unique mesure $\lambda_d: \mathcal B(\mathbb R^d)$ tel que:
 $$\forall a_i < b_i, \forall R = ]a_1, b_1[\times]a_2, b_2[ \times \cdots \times]a_d, b_d[$$
 $$\lambda_d(R) = \prod_{i=1}^d(b_i-a_i)$$
-<!--ID: 1727551528540-->
+<!--ID: 1729505204719-->
+
 
 
 ## Propriétés principales de $\lambda_d$
@@ -14,7 +15,8 @@ $\lambda_d$ est [[Vocabulaire de la mesure|une mesure diffuse]]. Ainsi $\forall 
 $$\lambda_d(I_1 \times \cdots \times I_d) = \prod_{j=1}^d\lambda_1(I_j)$$
 ### Preuve
 Si on prouve que $\lambda_d$ est diffuse, on aura aussi prouvé la seconde propriété.
-<!--ID: 1727551528542-->
+<!--ID: 1729505204721-->
+
 
 
 Soit $x = (x_1, \dots, x_d) \in \mathbb R^d$ Et posons $A_n = ]x_1-\frac{1}{n}, x_1 + \frac{1}{n}[ \times \cdots \times ]x_d-\frac{1}{n}, x_d + \frac{1}{n}[$

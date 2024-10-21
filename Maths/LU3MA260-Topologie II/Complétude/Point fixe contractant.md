@@ -1,13 +1,15 @@
 ## Définition contractant
 Soit $(X, d)$ un espace métrique avec $f: X \to X$. On dit qu'elle est $k$-contractante si et seulement si: #!
 $$\forall (x,y) \in X^2, d(f(x), f(y)) \leq kd(x,y)$$
-<!--ID: 1727641811453-->
+<!--ID: 1729504820709-->
+
 
 
 ## Définition point fixe
 Pour une fonction $f$ on appelle point fixe, un élément $x \in X$ tel que: #!
 $$f(x) = x$$
-<!--ID: 1727641811455-->
+<!--ID: 1729504820710-->
+
 
 
 ## Théorème du point fixe de Picard
@@ -16,7 +18,8 @@ On énonce le théorème suivant: #!
 Soit $(X,d)$ un espace métrique complet et soit $f: X \to X$ une fonction $k$-contractante avec $(k < 1)$.
 Alors il existe un unique point fixe à $f$.
 De plus $\forall x_0 \in X$, la suite récurrente définie par $x_{n+1} = f(x_n)$ converge vers cet unique point fixe
-<!--ID: 1727641811457-->
+<!--ID: 1729504820712-->
+
 
 
 ### Preuve

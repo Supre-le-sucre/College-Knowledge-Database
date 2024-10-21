@@ -3,7 +3,8 @@ On dit que $\mathcal P \in \mathcal P(E)$ est un $\pi$-système si: #!
 
 i) $E \in \mathcal P$
 ii) $\mathcal P$ est stable par intersection ==finie==
-<!--ID: 1727551528529-->
+<!--ID: 1729505204728-->
+
 
 
 ## Définition d'une classe monotone
@@ -13,7 +14,8 @@ i) $E \in \mathcal L$
 ii) $\mathcal L$ est stable par différence propre (i.e $B \subseteq C$, alors $C \setminus B \in \mathcal L$)
 iii) $\mathcal L$ est stable par union dénombrable croissante
 **Remarque**: Une tribu est un $\pi$-système et une classe monotone
-<!--ID: 1727551528533-->
+<!--ID: 1729505204730-->
+
 
 
 ## Théorème: tribu induite d'un $\pi$-système (admis)
@@ -21,7 +23,8 @@ Observons que: #!
 
 Si $\mathcal L$ est une classe monotone sur $E$ et que $\mathcal P$ est un $\pi$-système tel que $\mathcal P \subseteq \mathcal L$, alors
 $$\sigma(\mathcal P) \subseteq \mathcal L$$
-<!--ID: 1727551528535-->
+<!--ID: 1729505204732-->
+
 
 
 ## Théorème: Conséquence de mesure sur un $\pi$-système
@@ -34,7 +37,8 @@ On considère un $\pi$-système $\mathcal P$ sur $E$ tel que $\forall A \in \mat
 Alors:
 - Si $\mu_1$, $\mu_2$ sont finies alors $\mu_1 \equiv \mu_2$
 - Si $\exists E_n \in \mathcal P^\mathbb N$, $E_n \subseteq E_{n+1}$ et que $\bigcup E_n = E$ avec $\forall n \in \mathbb N$, $\mu_1(E_n) = \mu_2(E_n)$ alors $\mu_1 \equiv \mu_2$ (admis)
-<!--ID: 1727551528537-->
+<!--ID: 1729505204734-->
+
 
 
 ### Preuve
@@ -82,7 +86,8 @@ On considère la propriété suivante: #!
 Soit $\mu_1$, $\mu_2$, 2 mesures de $(\mathbb R, \mathcal B(\mathbb R))$ tel que $\forall a \leq b$
 $$\mu_1(]a,b]) = \mu_2(]a,b]) < \infty$$
 Alors $\mu_1 \equiv \mu_2$
-<!--ID: 1727551528538-->
+<!--ID: 1729505204735-->
+
 
 
 ### Preuve
