@@ -22,3 +22,5 @@ iii) $\exists B_n \in \mathcal E^\mathbb N$ 2 à 2 disjoints tel que $\bigcup B_
 <!--ID: 1729505204717-->
 
 
+
+
