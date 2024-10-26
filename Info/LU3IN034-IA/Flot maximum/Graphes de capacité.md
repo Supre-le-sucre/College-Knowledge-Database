@@ -2,7 +2,6 @@
 On définit plus précisément un graphe ==orienté== de la façon suivante $G =(V, E, c, s, t)$
 où #!
 - $c: E \to \mathbb R$ est la capacité (quantité d'information pouvant passer)
-- $s$ et $t$ sont respectivement les sources et les puits qui représente les sommets entrant et les sommets sortant
+- $s$ et $t$ qui sont respectivement le sommet source et le sommet puit. 
 <!--ID: 1726076885829-->
-
 
