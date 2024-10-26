@@ -21,7 +21,7 @@ On observe que $|E_f| \leq 2 |E|$
 
 ## Définition
 Un chemin augmentant est #!
-Est un chemin entre $s$ et $t$ dans le graphe d'écart
+Est un chemin entre $s$ et $t$ dans le graphe d'écart. En d'autres termes, le chemin augmentant permet de constater si le graphe ne peut pas recevoir du flot supplémentaire
 <!--ID: 1727256183789-->
 
 
