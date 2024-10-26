@@ -23,6 +23,21 @@ Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
 ![[Pasted image 20241026200803.png]]
 On observe qu'il n'y a pas de chemin liant $s$ à $t$ dans le dernier graphe d'écart. Cela signifie donc qu'il n'y a pas de chemin augmentant. Nous avons donc trouver le flot maximum $f^*$ dont la valeur de flot $|f^*| = 12$
 
+## Marquage de Ford & Fulkerson
+Pour ne pas utiliser de graphe d'écart on utile l'algorithme de marquage suivant: #!
+
+```
+marquer s d'un +
+	répéter jusqu'à ce que t soit marqué
+		Si il existe e = (u,v) avec u marqué et v non marqué et f(e) < c(e)
+			alors marquer v d'un + et père(v) <- u
+		Sinon
+			Si il existe e = (u,v) avec v marqué et u non marqué et f(e) > 0
+			alors marquer u d'un - et père(u) <- v
+```
+Le père d'un sommet est son père dans le graphe d'écart.
+Un sommet est marqué d'un $+$ si son père peut encore lui donner un flot supplémentaire. Il est marqué d'un $-$ s'il ne peut donner de flot supplémentaire.
+
 ## Trouver la coupe minimum
 Pour trouver la [[Coupe|coupe]] minimum d'un [[Graphes de capacité|graphe]] $G=(V, E, c, s, t)$ en connaissant son flot maximum $f^*$: #!
 
