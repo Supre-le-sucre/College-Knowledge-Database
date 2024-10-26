@@ -21,50 +21,7 @@ Le graphe ci-dessous admet une valeur de flot $|f| = 6$
 ## Définition du flot maximum
 On qualifie une fonction de flot $f^*$ de $G$ de maximum si et seulement si: #!
 Il n'existe pas d'autres fonctions de flot $f$ telle que $|f| > |f^*|$
-# Flot maximum - [[Coupe]] minimum
 
-
-## Lemmes
-Pour donner le théorème du flot maximum-coupe minimale, il nous faut définir les 4 lemmes suivants concernant le flot et le [[Graphes d'écart (ou résiduel)]]: #!
-
-a) $f'$ est un flot dans $G_f$ ([[Graphes d'écart (ou résiduel)|graphe d'écart]]) si et seulement si $f+f'$ est un flot dans $G$
-b) $f'$ est un flot maximal dans $G_f$ si et seulement si $f +f'$ est un flot maximal dans $G$
-c) $|f \pm f'| = |f| \pm |f'|$
-d) Si $f$ un flot quelconque et $f^*$ un flot maximum de $G$ alors la valeur du flot maximal dans $G_f$ est égale à $|f^*| - |f|$
-<!--ID: 1726076885879-->
-
-
-
-## Théorème flot maximum-coupe minimale
-Les assertions suivantes sont équivalentes: #!
-
-i) $f$ est un flot maximum de $G= (V, E, c)$
-ii) Il existe une coupe maximum $(A, B)$ telle que $c(A, B) = |f|$
-iii) Il n'existe pas de chemin augmentant dans $G_f$
-<!--ID: 1726076885888-->
-
-
-## Algorithme de Ford & Fulkerson
-
-a) On commence par un flot de valeur 0
-b) On détermine un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] minimale entre les arcs)
-c) On continue jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
-
-Pour éviter de tracer le graphe d'écart, on peut procéder comme suit:
-```
-marquer s d'un +
-	répéter jusqu'à ce que t soit marqué
-		Si il existe e = (u,v) avec u marqué et v non marqué et f(e) < c(e)
-			alors marquer v d'un + et père(v) <- u
-		Sinon
-			Si il existe e = (u,v) avec v marqué et u non marqué et f(e) > 0
-			alors marquer u d'un - et père(u) <- v
-```
-
-### Complexité
-La complexité de l'algorithme de Ford et Fulkerson est tel que: #!
-Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
-<!--ID: 1726076885898-->
 
 # Pré-flots
 

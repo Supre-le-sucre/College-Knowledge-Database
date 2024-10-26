@@ -1,0 +1,34 @@
+# Théorème de la coupe minimum
+Les assertions suivantes sont équivalentes: #!
+
+i) $f$ est un [[Flots#Définition du flot maximum|flot maximum]] de $G= (V, E, c)$
+ii) Il existe une [[Coupe|coupe]], appelée coupe maximum $(A, B)$ de [[Coupe#Capacité d'une coupe|capacité]] $c(A, B) = |f|$
+iii) Il n'existe pas de [[Graphes d'écart (ou résiduel)#Définition|chemin augmentant]] dans $G_f$
+
+
+# Algorithme de Ford & Fulkerson
+L'algorithme cherche à établir un [[Flots|flot]] maximum dans un graphe $G$: #!
+
+**Etape I** On commence avec un flot $f = 0$ dans $G$
+**Etape II** On détermine un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] ==minimale== entre les arcs)
+**Etape III** On répète ça jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
+
+## Exemple d'exécutions
+![[Pasted image 20241026200109.png]]
+
+
+Pour éviter de tracer le graphe d'écart, on peut procéder comme suit:
+```
+marquer s d'un +
+	répéter jusqu'à ce que t soit marqué
+		Si il existe e = (u,v) avec u marqué et v non marqué et f(e) < c(e)
+			alors marquer v d'un + et père(v) <- u
+		Sinon
+			Si il existe e = (u,v) avec v marqué et u non marqué et f(e) > 0
+			alors marquer u d'un - et père(u) <- v
+```
+
+### Complexité
+La complexité de l'algorithme de Ford et Fulkerson est tel que: #!
+Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
+<!--ID: 1726076885898-->
