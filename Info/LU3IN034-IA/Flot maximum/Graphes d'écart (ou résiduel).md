@@ -8,7 +8,7 @@ Avec $f$ le [[Flots]]
 
 ## Graphe d'écart ou résiduel
 Le graphe d'écart de $G = (V, E, c)$ est le graphe décrit par: #!
-$$G_f = (V, E_f, r) \;\;\; E_f = \set{\set{u,v}\; |\; r(u,v) > 0}$$
+$$G_f = (V, E_f, r) \;\;\; E_f = \set{\set{u,v} \in E\; |\; r(u,v) > 0}$$
 où $r$ est la [[#Capacité résiduelle]]
 On observe que $|E_f| \leq 2 |E|$
 **ATTENTION**: Le graphe d'écart possède aussi des arcs ==qui ne sont pas dans le graphe de départ !== On n'oublie pas la caractérisation antisymétrique du flot, en effet un sommet qui reçoit renverra ce qu'il reçoit au sommet qui lui donne dans le graphe résiduel
@@ -16,6 +16,9 @@ On observe que $|E_f| \leq 2 |E|$
 
 #### Exemple
 ![[Pasted image 20241026191436.png]]
+
+## Lemmes des flots dans un graphe d'écart
+On qualifie la valeur du flot $|f'|$ du graphe d'écart
 
 # Choisir le Chemin augmentant
 
