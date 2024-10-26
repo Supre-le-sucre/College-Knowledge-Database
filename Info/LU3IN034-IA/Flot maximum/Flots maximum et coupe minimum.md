@@ -54,8 +54,20 @@ L'avantage de cette algorithme, c'est que l'on trouvera plus efficacement la val
 
 ## Complexité de l'algorithme
 ### Propriété sur la capacité résiduelle d'un chemin critique
-Dans un [[Graphes de capacité|graphe]] $G = (V, E, c)$ de flot maximum $f$, le [[Graphes d'écart (ou résiduel)#Chemin de capacité critique|chemin critique]] a une capacité résiduelle d'au
+Dans un [[Graphes de capacité|graphe]] $G = (V, E, c)$ de flot maximum $f^*$, le [[Graphes d'écart (ou résiduel)#Chemin de capacité critique|chemin critique]] $p^*$ a une capacité résiduelle d'au moins: #!
+$$c(p^*) \geq \frac{|f|}{|E|}$$
 
-### Exemple
+### Nombre d'itérations
+L'algorithme de Edmonds-Karp augmente le flot autant de fois que:  #!
+$$O(|E| \log(|f^*|))$$
+Avec $f^*$ un flot maximum
+<!--ID: 1727256183829-->
+
+### Complexité finale
+La complexité finale de l'algorithme de Edmonds-Karp est en: #!
+$$O( | E |^2 \log(n) \log(|f^*|))$$
+Car on trouve un chemin augmentant au bout de $O(|E| \log(n))$ itérations.
+
+## Exemple
 ![[Pasted image 20241026203943.png]]
 On choisira ici le chemin augmentant $s-u-t$. Dans l'autre algorithme, on aurait pu choisir parmi tous les autres.

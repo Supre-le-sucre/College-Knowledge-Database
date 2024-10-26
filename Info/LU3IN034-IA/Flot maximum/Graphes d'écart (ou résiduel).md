@@ -47,9 +47,4 @@ Dans un graphe $G = (V, E, c)$ de flot maximum $F$, la capacité résiduel du ch
 <!--ID: 1727256183814-->
 
 
-## Complexité de l'algorithme de selection de chemin
-Pour sélectionner le bon chemin augmentant, on doit choisir le chemin critique.
-Le nombre d'itérations de l'algorithme est de:  #!
-$$O(|E| \log(F))$$
-<!--ID: 1727256183829-->
 
