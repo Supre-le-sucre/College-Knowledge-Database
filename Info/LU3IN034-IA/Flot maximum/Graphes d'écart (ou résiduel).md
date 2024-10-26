@@ -32,7 +32,6 @@ Un chemin augmentant est #!
 Est un chemin entre $s$ et $t$ dans le graphe d'écart. En d'autres termes, le chemin augmentant permet de constater si le graphe ne peut pas recevoir du flot supplémentaire
 <!--ID: 1727256183789-->
 
-
 ## Capacité résiduel d'un chemin
 La capacité résiduel d'un chemin $p$ dans le graphe résiduel $G_f$... #! 
 C'est la capacité résiduel minimale de ses arcs.
