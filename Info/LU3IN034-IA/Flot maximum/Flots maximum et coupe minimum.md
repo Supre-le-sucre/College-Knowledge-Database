@@ -14,7 +14,6 @@ L'algorithme cherche à établir un [[Flots|flot]] maximum dans un graphe $G$: #
 **Etape III** On répète ça jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
 
 ## Exemple d'exécutions
-![[Pasted image 20241026200109.png]]
 
 
 Pour éviter de tracer le graphe d'écart, on peut procéder comme suit:
