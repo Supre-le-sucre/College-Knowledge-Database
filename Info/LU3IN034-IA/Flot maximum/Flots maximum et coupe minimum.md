@@ -22,6 +22,7 @@ Le flot maximum est obtenu au bout d'au plus $O(|f^*|)$ étapes d'augmentation
 ![[Pasted image 20241026200622.png]]
 ![[Pasted image 20241026200803.png]]
 On observe qu'il n'y a pas de chemin liant $s$ à $t$ dans le dernier graphe d'écart. Cela signifie donc qu'il n'y a pas de chemin augmentant. Nous avons donc trouver le flot maximum $f^*$ dont la valeur de flot $|f^*| = 12$
+*==Note importante:== à partir de la deuxième étape, on peut observer un flot négative de $v$ vers $u$, c'est parce que le flot est antisymétrique, donc il doit garder cette propriété*
 
 ## Marquage de Ford & Fulkerson
 Pour ne pas utiliser de graphe d'écart on utile l'algorithme de marquage suivant: #!
