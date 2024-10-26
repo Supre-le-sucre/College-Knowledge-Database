@@ -18,6 +18,9 @@ En d'autres termes, il s'agit du flot en circulation dans le graphe. L'égalité
 ![[Pasted image 20241026185306.png]]
 Le graphe ci-dessous admet une valeur de flot $|f| = 6$
 
+## Définition du flot maximum
+On qualifie une fonction de flot $f^*$ de $G$ de maximum si et seulement si: #!
+Il n'existe pas d'autres fonctions de flot $f$ telle que $|f| > |f^*|$
 # Flot maximum - [[Coupe]] minimum
 
 
