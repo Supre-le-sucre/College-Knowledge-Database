@@ -11,13 +11,18 @@ Un arc est dit saturé si $f(u, v) = c(u, v)$
 ### Valeur du flot
 Dans un graphe, la valeur du flot $f$, notée $|f|$ est donnée par: #!
 $$|f| = \sum_{v \in V} f(s, v) = \sum_{u \in V} f(u, t)$$
+En d'autres termes, il s'agit du flot en circulation dans le graphe. L'égalité entre la source et le puit viens du fait que tout ce qui rentre dans un sommet doit ressortir.
 <!--ID: 1726076885870-->
 
+#### Exemple
+![[Pasted image 20241026185306.png]]
+Le graphe ci-dessous admet une valeur de flot $|f| = 6$
 
 # Flot maximum - [[Coupe]] minimum
 
 ## Définition
-Un flot est dit maximum, s'il existe une coupe $(A,B)$ tel que la capacité de cette coupe est égale au flot
+Un flot est dit maximum si et seulement si: #!
+Il existe une [[Coupe]] $(A,B)$ tel que la capacité de cette coupe est égale au flot
 
 ## Lemmes
 Pour donner le théorème du flot maximum-coupe minimale, il nous faut définir les 4 lemmes suivants concernant le flot et le [[Graphes d'écart (ou résiduel)]]: #!
