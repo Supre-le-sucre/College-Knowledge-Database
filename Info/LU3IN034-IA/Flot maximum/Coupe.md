@@ -1,4 +1,3 @@
-
 ## Définition d'une coupe
 On dit que $(A, B)$ est une coupe pour $G = (V, E, c, s, t)$ un [[Graphes de capacité]] si: #!
 
@@ -16,7 +15,9 @@ On définit le [[Flots|flot]] d'une coupe $(A,B)$: #!
 $$f(A, B) = \sum_{u \in A, v \in B} f(u,v)$$
 Autrement dit, il s'agit de la somme des flots des arcs connectant la partie A et B de la coupe.
 <!--ID: 1726076885917-->
-
+## Définition
+Un [[Flots||flot]] $|f^*|$ de $G$ est dit maximum si et seulement si: #!
+Il n'existe pas de coupe $(A, B)$ de $G$ tel que que le flot de cette coupe soit $f(A, B) > |f^*|$
 
 ## Comment trouver une coupe minimale ?
 On effectue l'algorithme suivant: #!
