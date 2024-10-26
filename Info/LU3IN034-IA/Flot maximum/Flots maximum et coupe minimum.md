@@ -18,6 +18,12 @@ L'algorithme cherche à établir un [[Flots|flot]] maximum dans un graphe $G$: #
 ![[Pasted image 20241026200803.png]]
 On observe qu'il n'y a pas de chemin liant $s$ à $t$ dans le dernier graphe d'écart. Cela signifie donc qu'il n'y a pas de chemin augmentant. Nous avons donc trouver le flot maximum $f^*$ dont la valeur de flot $|f^*| = 12$
 
+## Trouver la coupe minimum
+Pour trouver la coupe minimum d'un graphe $G$ en connaissant son flot maximum $f^*$: #!
+
+**Etape I**: On pose le graphe d'écart $G_{f^*}$
+
+
 
 Pour éviter de tracer le graphe d'écart, on peut procéder comme suit:
 ```
