@@ -13,7 +13,10 @@ L'algorithme cherche à établir un [[Flots|flot]] maximum dans un graphe $G$: #
 **Etape II** On détermine un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] ==minimale== entre les arcs)
 **Etape III** On répète ça jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
 
-## Exemple d'exécutions
+## Exemple d'exécution
+![[Pasted image 20241026200622.png]]
+![[Pasted image 20241026200803.png]]
+On observe qu'il n'y a pas de chemin liant $s$ à $t$ dans le dernier graphe d'écart. Cela signifie donc qu'il n'y a pas de chemin augmentant. Nous avons donc trouver le flot maximum $f^*$ dont la valeur de flot $|f^*| = 12$
 
 
 Pour éviter de tracer le graphe d'écart, on peut procéder comme suit:
