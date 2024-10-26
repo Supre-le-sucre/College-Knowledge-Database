@@ -11,6 +11,7 @@ Le graphe d'écart de $G = (V, E, c)$ est le graphe décrit par: #!
 $$G_f = (V, E_f, r) \;\;\; E_f = \set{\set{u,v}\; |\; r(u,v) > 0}$$
 où $r$ est la [[#Capacité résiduelle]]
 On observe que $|E_f| \leq 2 |E|$
+**ATTENTION**: Le graphe d'écart possède aussi des arcs ==qui ne sont pas dans le graphe de départ !==
 <!--ID: 1726076885850-->
 
 # Choisir le Chemin augmentant
