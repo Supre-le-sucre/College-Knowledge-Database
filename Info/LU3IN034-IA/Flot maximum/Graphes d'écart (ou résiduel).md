@@ -11,14 +11,17 @@ Le graphe d'écart de $G = (V, E, c)$ est le graphe décrit par: #!
 $$G_f = (V, E_f, r) \;\;\; E_f = \set{\set{u,v}\; |\; r(u,v) > 0}$$
 où $r$ est la [[#Capacité résiduelle]]
 On observe que $|E_f| \leq 2 |E|$
-**ATTENTION**: Le graphe d'écart possède aussi des arcs ==qui ne sont pas dans le graphe de départ !==
+**ATTENTION**: Le graphe d'écart possède aussi des arcs ==qui ne sont pas dans le graphe de départ !== On n'oublie pas la caractérisation antisymétrique du flot, en effet un sommet qui reçoit renverra ce qu'il reçoit au sommet qui lui donne dans le graphe résiduel
 <!--ID: 1726076885850-->
+
+#### Exemple
+![[Pasted image 20241026191436.png]]
 
 # Choisir le Chemin augmentant
 
 ## Définition
 Un chemin augmentant est #!
-Un chemin dans un graphe d'écart tel que la capacité résiduel de chaque arc du chemin augmente.
+Est un chemin entre $s$ et $t$ dans le graphe d'écart
 <!--ID: 1727256183789-->
 
 
