@@ -21,7 +21,9 @@ On observe que $|E_f| \leq 2 |E|$
 On qualifie la $f'$ une fonction de flot dans $G_f$ et $f$ une fonction de flot dans $G$. On observe alors que
 
 i) $f'$ est un flot de $G_f$ si et seulement si la fonction $f + f'$ est une fonction de flot dans $G$
-ii) $|f'|$ est un [[Flots#Définition|flot maximum]] dans $G_f$ si et seulement 
+ii) $f'$ est un [[Flots#Définition du flot maximum|flot maximum]] dans $G_f$ si et seulement si $f + f'$ est un flot maximum de $G$
+iii) $|f \pm f'| = |f| \pm |f'|$
+iv) Soit $f^*$ un flot maximum de $G$, alors la valeur du flot max dans $G_f$ est égale à $|f^*| -|f|$
 
 # Choisir le Chemin augmentant
 
