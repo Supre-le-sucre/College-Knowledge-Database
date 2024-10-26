@@ -10,7 +10,7 @@ iii) Il n'existe pas de [[Graphes d'écart (ou résiduel)#Définition|chemin aug
 L'algorithme cherche à établir un [[Flots|flot]] maximum dans un graphe $G$: #!
 
 **Etape I** On commence avec un flot $f = 0$ dans $G$
-**Etape II** On détermine un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] ==minimale== entre les arcs)
+**Etape II** On choisit un chemin augmentant $p$ dans $G_f$ et on pousse $d$ unités supplémentaires de $s$ à $t$ (avec $d$ la capacité [[Graphes d'écart (ou résiduel)|résiduelle]] ==minimale== entre les arcs)
 **Etape III** On répète ça jusqu'à ce qu'il n'existe plus de chemin augmentant sur $G_f$
 
 ## Complexité
@@ -46,3 +46,16 @@ Pour trouver la [[Coupe|coupe]] minimum d'un [[Graphes de capacité|graphe]] $G=
 **Etape III** On détermine $B = V\setminus A$
 On a alors que $(A, B)$ qui est une coupe minimum
 
+# Algorithme de Edmonds-Karp
+L'algorithme d'Edmonds-Karp pour déterminer un flot maximum est tel que: #!
+
+Il s'agit du même algorithme que Ford & Fulkerson à l'exception que le choix du chemin augmentant n'est plus arbitraire. On décide de prendre le [[Graphes d'écart (ou résiduel)#Chemin critique|chemin critique]].
+L'avantage de cette algorithme, c'est que l'on trouvera plus efficacement la valeur du flot maximum
+
+## Complexité de l'algorithme
+### Propriété sur la capacité résiduelle d'un chemin critique
+Dans un [[Graphes de capacité|graphe]] $G = (V, E, c)$ de flot maximum $f$, le [[Graphes d'écart (ou résiduel)#Chemin de capacité critique|chemin critique]] a une capacité résiduelle d'au
+
+### Exemple
+![[Pasted image 20241026203943.png]]
+On choisira ici le chemin augmentant $s-u-t$. Dans l'autre algorithme, on aurait pu choisir parmi tous les autres.

@@ -27,19 +27,20 @@ iv) Soit $f^*$ un flot maximum de $G$, alors la valeur du flot max dans $G_f$ es
 
 # Chemin augmentant
 
-## Définition
+## Définition de chemin augmentant
 Un chemin augmentant est #!
 Est un chemin entre $s$ et $t$ dans le graphe d'écart. En d'autres termes, le chemin augmentant permet de constater si le graphe ne peut pas recevoir du flot supplémentaire
 <!--ID: 1727256183789-->
 
 ## Capacité résiduel d'un chemin
-La capacité résiduel d'un chemin $p$ dans le graphe résiduel $G_f$... #! 
-C'est la capacité résiduel minimale de ses arcs.
-On qualifie le chemin de capacité critique, celui dont la capacité résiduelle au maximum.
-<!--ID: 1727256183800-->
+La capacité résiduel d'un chemin $p$ dans le graphe résiduel $G_f$... 
+La capacité résiduel ==minimale== de ses arcs.
 
+## Chemin de capacité critique
+On qualifie le chemin de capacité critique: #!
+Celui dont la capacité résiduelle est maximum.
 
-## Propriété sur le chemin critique
+## Propriété sur le chemin de capacité critique
 On observe la propriété suivante: #!
 
 Dans un graphe $G = (V, E, c)$ de flot maximum $F$, la capacité résiduel du chemin critique est d'au moins $\frac{F}{|E|}$
