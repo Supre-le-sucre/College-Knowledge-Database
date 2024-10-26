@@ -18,7 +18,10 @@ On observe que $|E_f| \leq 2 |E|$
 ![[Pasted image 20241026191436.png]]
 
 ## Lemmes des flots dans un graphe d'écart
-On qualifie la valeur du flot $|f'|$ du graphe d'écart
+On qualifie la $f'$ une fonction de flot dans $G_f$ et $f$ une fonction de flot dans $G$. On observe alors que
+
+i) $f'$ est un flot de $G_f$ si et seulement si la fonction $f + f'$ est une fonction de flot dans $G$
+ii) $|f'|$ est un [[Flots#Définition|flot maximum]] dans $G_f$ si et seulement 
 
 # Choisir le Chemin augmentant
 
