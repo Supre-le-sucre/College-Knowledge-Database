@@ -26,3 +26,12 @@ x_{j} \geq 0 & j= 1, 2, \dots, n
 x_{j} \geq 0 & j= 1, 2, \dots, n 
 \end{cases}$$Notons alors la tournure matricielle que peuvent avoir ces problèmes. Cela nous permettra de les résoudre plus simplement ultérieurement.
 
+## Observations rudimentaire
+On observe que dans un programme linéaire: #!
+
+- L'**optimum** que l'on cherche est un sommet de la région réalisable
+- Si la ligne de maximisation ou minimisation est parallèle à une contrainte, il existe alors plusieurs points **optimaux**
+- Dans la région réalisable, il n'y a qu'un nombre de sommets finis
+Ces observations rencontrent des exceptions:
+- Si le programme linéaire est irréalisable (des contraintes sont contradictoires) 
+- Si la région réalisable n'est pas bornée (les contraintes ne suffisent pas pour borner la région)
