@@ -75,4 +75,6 @@ On choisira ici le chemin augmentant $s-u-t$. Dans l'autre algorithme, on aurait
 *==Note importante:== Sur le graphe de départ, on peut observer un flot négative de $v$ vers $u$, c'est parce que le flot est antisymétrique, donc il doit garder cette propriété. Ce qu'il se passe de v vers u est donc expliciter, ce qui fait que le graphe d'écart n'a pas d'arcs en plus*
 
 ## Algorithme d'Edmonds-Karp II
-Quelle chemin augmentant faut-il prendre s'il existe 
+Quelle chemin augmentant faut-il prendre s'il existe plusieurs chemin critique ? #!
+
+On prends alors le chemin critique ayant le nombre d'arcs minimum. Pour cela, on effectue un parcours en largeur avec évaluation des distances
