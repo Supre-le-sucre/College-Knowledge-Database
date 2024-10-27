@@ -67,7 +67,7 @@ Avec $f^*$ un flot maximum
 ### Complexité finale
 La complexité finale de l'algorithme de Edmonds-Karp est en: #!
 $$O( | E |^2 \log(n) \log(|f^*|))$$
-Car on trouve un chemin augmentant au bout de $O(|E| \log(n))$ itérations.
+Car on trouve un chemin critique au bout de $O(|E| \log(n))$ itérations.
 
 ## Exemple
 ![[Pasted image 20241026203943.png]]
