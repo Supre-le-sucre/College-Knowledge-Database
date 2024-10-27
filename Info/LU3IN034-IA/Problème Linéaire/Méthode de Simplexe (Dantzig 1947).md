@@ -15,3 +15,16 @@ Il y aura $n$ variables (d'écart ou non) qui seront nulles.
 
 #### Exemple
 ![[Pasted image 20241027180309.png]]
+
+## Définitions
+Lors du déroulement de simplexe, les variables prennent des noms particuliers, dont voici la définition:
+
+- **Variable non basique**: Une variable mise à zéro
+- **Variable basique**: Une variable non nulle
+- **Base**: L'affectation courante des variables à un moment donné de l'algorithme simplexe
+
+## Propriété sur la base courante et les variables
+Dans l'algorithme de simplexe, lorsque deux sommets sont voisins on observe que: #!
+
+Les ensembles de variables basiques et non basiques sont les mêmes à l'exception d'un seul et unique élément.
+Le processus de simplexe consiste alors à échanger une paire de variable de l'ensemble basique à l'ensemble non basique
