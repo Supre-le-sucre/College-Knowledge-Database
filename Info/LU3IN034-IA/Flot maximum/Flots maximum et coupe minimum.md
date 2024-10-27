@@ -73,3 +73,6 @@ Car on trouve un chemin augmentant au bout de $O(|E| \log(n))$ itérations.
 ![[Pasted image 20241026203943.png]]
 On choisira ici le chemin augmentant $s-u-t$. Dans l'autre algorithme, on aurait pu choisir parmi tous les autres.
 *==Note importante:== Sur le graphe de départ, on peut observer un flot négative de $v$ vers $u$, c'est parce que le flot est antisymétrique, donc il doit garder cette propriété. Ce qu'il se passe de v vers u est donc expliciter, ce qui fait que le graphe d'écart n'a pas d'arcs en plus*
+
+## Algorithme d'Edmonds-Karp II
+Quelle chemin augmentant faut-il prendre s'il existe 
