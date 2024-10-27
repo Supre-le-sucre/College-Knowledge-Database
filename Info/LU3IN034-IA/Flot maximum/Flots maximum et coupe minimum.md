@@ -94,3 +94,4 @@ Le nombre d'itérations de cet algorithme est donc d'au plus $$O(|V| \cdot |E|)$
 Le flot maximum est alors obtenu en
 $$O(|E|^2 \cdot |V|)$$
 (Car un parcours en largeur se fait en $O(|E| + |V|) = O(|E|)$)
+
