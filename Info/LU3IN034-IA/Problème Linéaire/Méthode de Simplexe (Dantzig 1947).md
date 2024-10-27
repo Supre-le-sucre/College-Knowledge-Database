@@ -66,5 +66,25 @@ s_{3}& = 400 - x_{1} -x_{2} \\
 \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\ \\
 z&=x_{1} + 6x_{2}
 \end{align*}
+$$Dans ce dictionnaire, les variables basiques sont $s_{1}, s_{2}$ et $s_{3}$, et les variables non basiques sont $x_{1}$ et $x_{2}$
+Dans cette situation, $x_{2}$ a le plus grand rapport d'augmentation d'objectif (il a un coefficient égal à $6$, alors que le coefficient de $x_{1}$ est de $1$)
+**NOTONS QUE**: si l'objectif était une minimisation, on aurait voulu prendre le plus petit coefficient !
 
+$x_{2}$ va donc entrer dans la base... Sélectionnons la variable basique ayant le plus petit rapport de contrainte avec $x_{2}$:
+- $s_{1}$ a un rapport infini: $s_{1} = 200 - x_{1} + 0x_{2}$, le rapport est donc $\frac{200}{0} = \infty$
+- $s_{2}$ a un rapport de $\frac{300}{1} = 300$
+- $s_{3}$ a un rapport de $\frac{400}{1} = 400$
+C'est donc $s_{2}$ qui va devenir non-basique, car c'est elle qui a le rapport de contrainte le plus faible
+Donc...
+On rends $s_{2}$ non basique soit $s_{2} = 0$, donc on a que $x_{2} = 300$. Le reste des valeurs ne changent pas: $s_{1} = 200, s_{3} = 400, x_{1}=0$
+
+Le second dictionnaire est alors
+$$
+\begin{align*}
+s_{1}& = 200 - x_{1} & &s_{1} &= 200-x_{1} & s_{1} & = 200 - x_{1}\\
+x_{2}& = 300 - s_{2} & \Rightarrow & x_{2} &=300 - s_{2} & x_{2} & = 300 - s_{2}\\
+s_{3}& = 400 - x_{1} - x_{2} & &s_{3} &=400 - x_{1} - (300-s_{2}) & s_{3} & = 100 - x_{1} +s_{2} \\
+\_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\
+z&=x_{1} + 6x_{2} & & z & = x_{1} + 6(300-s_{2}) & z & = 1800 +x_{1} -6s_{2}
+\end{align*}
 $$
