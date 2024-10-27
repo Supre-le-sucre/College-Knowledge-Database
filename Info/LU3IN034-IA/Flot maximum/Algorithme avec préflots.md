@@ -14,3 +14,4 @@ $$
 ## Etiquetage d'un préflot
 Pour une fonction d'étiquetage $h: V \to \mathbb{N}$, on dit que celle-ci est compatible avec le préflot $\tilde{ f}$ de graphe d'écart $G_{\tilde{ f}} = \left(V_{\tilde{ f}}, E_{\tilde{ f}}\right)$ si et seulement si: #!
 
+$h(t) = 0$ et $h(s) = |V| = n$
