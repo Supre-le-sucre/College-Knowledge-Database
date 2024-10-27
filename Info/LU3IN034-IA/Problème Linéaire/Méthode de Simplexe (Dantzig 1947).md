@@ -107,3 +107,5 @@ Pour l'obtenir, on a donc $x_{1} = 100$ et $x_{2} = 300$
 
 ## Méthode matricielle
 La méthode matricielle est la même que celle posant le dictionnaire, elle est plus efficace dans les grands problèmes car il ne faut pas réécrire toutes les variables
+
+### Exemple
