@@ -35,5 +35,28 @@ Le processus de simplexe consiste alors à échanger une paire de variable de l'
 Simplexe s'exécute comme suit pour un dictionnaire: #!
 
 - A l'étape initiale, les variables de bases du problèmes sont à 0, seules les variables d'écarts sont basiques.
-- On sélectionne la variable ==non basique== ayant le plus grand rapport d'augmentation dans la fonction objectif
-- 
+- On sélectionne la variable ==non basique== $x$ ayant le plus grand rapport d'augmentation dans la fonction objectif. On la fait entrer dans la base
+- Par rapport à la variable non basique $x$, on vérifie laquelle variable basique $y$ a ==le plus petit rapport restrictif== par rapport à $x$. Par exemple, le rapport de $y$ par rapport à $x$ tel que $y = a + bx$ est $\frac{a}{b}$. On fait alors sortir $y$ de la base
+
+### Exemple
+On considère le problème linéaire suivant
+$$
+\begin{cases}
+\max x_{1} + 6x_2  \\ \\
+x_{1} \leq 200 \\
+x_{2} \leq 300 \\
+x_{1} + x_{2} \leq 400 \\ \\
+x_1, x_{2} \geq 0 
+\end{cases} \quad \xRightarrow{\text{Création des variables d'écarts}} \quad
+\begin{cases}
+\max z = x_{1} + 6x_2  \\ \\
+x_{1} +s_{1} = 200 \\
+x_{2} + s_{2} = 300 \\
+x_{1} + x_{2} + s_{3} = 400 \\ \\
+x_1, x_{2}, s_{1}, s_{2}, s_{3} \geq 0 
+\end{cases}
+$$
+On pose alors le premier dictionnaire où $x_{1} = x_{2} = 0$
+$$
+
+$$
