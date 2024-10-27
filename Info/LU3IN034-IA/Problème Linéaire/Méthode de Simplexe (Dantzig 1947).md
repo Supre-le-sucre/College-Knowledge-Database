@@ -100,8 +100,10 @@ z&=1800 + x_{1} - 6s_{2} & z&=1800 + (100 + s_{2}-s_{3}) - 6s_{2} & z&= 1900 - 5
 \end{align*}$$
 
 Le troisième dictionnaire nous montrer bien qu'il est impossible d'améliorer l'objectif: les coefficients sont tous négatif
-==**NOTONS QUE**==: Les coefficient devrait être tous positifs si il s'agissait d'une minimisation
+==**NOTONS QUE**==: Les coefficient devrait être tous positifs s'il s'agissait d'une minimisation
 
 On a donc que $z= 1900$, c'est le meilleur résultat possible...
 Pour l'obtenir, on a donc $x_{1} = 100$ et $x_{2} = 300$
 
+## Méthode matricielle
+La méthode matricielle est la même que celle posant le dictionnaire, elle est plus efficace dans les grands problèmes car il ne faut pas réécrire toutes les variables
