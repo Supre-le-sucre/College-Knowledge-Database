@@ -78,3 +78,13 @@ On choisira ici le chemin augmentant $s-u-t$. Dans l'autre algorithme, on aurait
 Quelle chemin augmentant faut-il prendre s'il existe plusieurs chemin critique ? #!
 
 On prends alors le chemin critique ayant le nombre d'arcs minimum. Pour cela, on effectue un [[Parcours en largeur#Implémentation d'un parcours en largeur|parcours en largeur avec évaluation des distances]]
+
+### Définition d'un arc avant
+Un arc $(u,v)$ est qualifié d'arc avant dans un parcours en largeur si: #!
+
+Il existe $i$ tel que $u \in V_i$ et $v \in V_{i+1}$. Avec $V_{i}$ l'ensemble des sommets à distances $i$ de $s$ dans $G$
+
+#### Observation
+En utilisant l'algorithme d'Edmonds-Karp, on observe un phénomène intéressant sur les arcs avant: #!
+
+L'algorithme va saturer au moins un arc-avant qui va disparaître alors dans le prochain graphe d'écart.
