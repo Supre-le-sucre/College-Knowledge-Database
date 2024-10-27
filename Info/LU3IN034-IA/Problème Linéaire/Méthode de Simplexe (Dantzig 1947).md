@@ -58,7 +58,6 @@ x_1, x_{2}, s_{1}, s_{2}, s_{3} \geq 0
 $$
 On pose alors le premier dictionnaire où $x_{1} = x_{2} = 0$
 $$
-\text{Dictionnaire I } \Rightarrow \quad 
 \begin{align*}
 s_{1}& = 200 - x_{1} \\
 s_{2}& = 300 - x_{2} \\
@@ -68,7 +67,7 @@ z&=x_{1} + 6x_{2}
 \end{align*}
 $$Dans ce dictionnaire, les variables basiques sont $s_{1}, s_{2}$ et $s_{3}$, et les variables non basiques sont $x_{1}$ et $x_{2}$
 Dans cette situation, $x_{2}$ a le plus grand rapport d'augmentation d'objectif (il a un coefficient égal à $6$, alors que le coefficient de $x_{1}$ est de $1$)
-**NOTONS QUE**: si l'objectif était une minimisation, on aurait voulu prendre le plus petit coefficient !
+==**NOTONS QUE**==: si l'objectif était une minimisation, on aurait voulu prendre le plus petit coefficient !
 
 $x_{2}$ va donc entrer dans la base... Sélectionnons la variable basique ayant le plus petit rapport de contrainte avec $x_{2}$:
 - $s_{1}$ a un rapport infini: $s_{1} = 200 - x_{1} + 0x_{2}$, le rapport est donc $\frac{200}{0} = \infty$
@@ -87,4 +86,22 @@ s_{3}& = 400 - x_{1} - x_{2} & s_{3} &=400 - x_{1} - (300-s_{2}) & s_{3} & = 100
 \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\
 z&=x_{1} + 6x_{2} & z & = x_{1} + 6(300-s_{2}) & z & = 1800 +x_{1} -6s_{2}
 \end{align*}
-$$Maintenant $x_{1}$ est la variable qui augmentera l'objectif, et le plus petit rapport est en $s_{1}$
+$$Maintenant $x_{1}$ est la variable qui augmentera l'objectif, et le plus petit rapport est en $s_{3}$
+
+Donc on a $s_{3} = 0$, donc $x_{1} = 100 +s_{2} = 100 + 0 = 100$ car en effet $s_{2} = 0$. Les autres variables sont inchangées $s_{2} = 0, s_{1} =200, x_{2} = 300$
+
+D'où le troisième dictionnaire:
+$$\begin{align*}
+s_{1}& = 200 - x_{1} & s_{1} &= 200 - (100+ s_{2} -s_{3}) & s_{1} &= 100 - s_{2} + s_{3}\\
+x_{2}& = 300 - s_{2} & x_{2} &= 300 - s_{2} &  x_{2}&=300 - s_{2} \\
+x_{1}& = 100 + s_{2} -s_{3} &  x_{1} & = 100 + s_{2} -s_{3} & x_{1} &= 100 + s_{2} -s_{3}\\
+\_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\\
+z&=1800 + x_{1} - 6s_{2} & z&=1800 + (100 + s_{2}-s_{3}) - 6s_{2} & z&= 1900 - 5s_{2} -s_{3}
+\end{align*}$$
+
+Le troisième dictionnaire nous montrer bien qu'il est impossible d'améliorer l'objectif: les coefficients sont tous négatif
+==**NOTONS QUE**==: Les coefficient devrait être tous positifs si il s'agissait d'une minimisation
+
+On a donc que $z= 1900$, c'est le meilleur résultat possible...
+Pour l'obtenir, on a donc $x_{1} = 100$ et $x_{2} = 300$
+
