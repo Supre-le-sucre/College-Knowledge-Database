@@ -1,6 +1,7 @@
 ## Définition d'une solution dégénéré
 On dit qu'une solution est dégénéré dans un programme [[Méthode de Simplexe (Dantzig 1947)|simplexe]] lorsque: #!
-au moins une des variables des bases est nulles
+au moins une des variables des bases est nulles.
+Une solution dégénérée ne fait pas augmenter la fonction objectif au cours de l'itération.
 
 ## Définition du cyclage
 On dit qu'il y a un cyclage dans le programme [[Méthode de Simplexe (Dantzig 1947)|simplexe]] lorsque: #!
