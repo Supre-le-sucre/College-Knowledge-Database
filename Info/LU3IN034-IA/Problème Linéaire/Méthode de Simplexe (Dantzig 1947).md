@@ -28,3 +28,12 @@ Dans l'algorithme de simplexe, lorsque deux sommets sont voisins on observe que:
 
 Les ensembles de variables basiques et non basiques sont les mêmes à l'exception d'un seul et unique élément.
 Le processus de simplexe consiste alors à échanger une paire de variable de l'ensemble basique à l'ensemble non basique
+
+# Exécution de simplexe
+
+## Par dictionnaire
+Simplexe s'exécute comme suit pour un dictionnaire: #!
+
+- A l'étape initiale, les variables de bases du problèmes sont à 0, seules les variables d'écarts sont basiques.
+- On sélectionne la variable ==non basique== ayant le plus grand rapport d'augmentation dans la fonction objectif
+- 
