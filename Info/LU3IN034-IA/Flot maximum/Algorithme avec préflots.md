@@ -11,10 +11,18 @@ Comme ce qui entre dans un sommet n'est pas nécessairement ressorti dans un pr�
 $$
 ex_{f}(v) = \sum_{e \text{ entrant à }v} \tilde{f}(e) - \sum_{e \text{ sortant à }v}\tilde{ f}(e)
 $$
+
 ## Etiquetage d'un préflot
 Pour une fonction d'étiquetage $h: V \to \mathbb{N}$, on dit que celle-ci est compatible avec le préflot $\tilde{ f}$ de graphe d'écart $G_{\tilde{ f}} = \left(V_{\tilde{ f}}, E_{\tilde{ f}}\right)$ si et seulement si: #!
 
 $h(t) = 0$ et $h(s) = |V| = n$
 $$
 \forall(v,f) \in E_{\tilde{f}}, \quad h(v) \leq h(w)+1
-$$
+$$L'étiquetage peut alors faire penser à la hauteur d'un sommet
+
+
+## Propriété de l'étiquetage compatible
+On observe les 2 propriétés suivantes: #!
+
+- Si un préflot $\tilde{f}$ est compatible avec un étiquetage $h$, alors il n'existe pas de chemin augmentant dans $G_{\tilde{f}}$
+- Si $f$ est ==un flot== compatible avec $h$, alors dans ce cas, il s'agit d'un [[Flots maximum et coupe minimum|flot maximum]]
