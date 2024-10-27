@@ -136,3 +136,69 @@ $$
 -z & +x_{1} + 6x_{2} & & & & & &= 0
 \end{align}
 $$
+
+Ceci donne la matrice dictionnaire suivante
+$$
+\begin{pmatrix}
+1&0&1&0&0&200 \\
+0&1&0&1&0&300 \\
+1&1&0&0&0&400 \\
+1&6&0&0&0&0
+\end{pmatrix}
+$$
+>On examine alors tous les nombres de la dernière ligne. La colonne ayant le nombre le plus grand sur cette ligne est alors sélectionnée, c'est la **colonne de pivot** (c'est l'homologue de sélection de la variable entrante)
+
+Dans notre exemple, c'est la deuxième colonne qui respecte cette condition
+$$
+\begin{pmatrix}
+1&\mathbf{0}&1&0&0&200 \\
+0&\mathbf{1}&0&1&0&300 \\
+1&\mathbf{1}&0&0&0&400 \\
+1&\mathbf{6}&0&0&0&0
+\end{pmatrix}
+	$$
+> On regarde ensuite, la colonne en ne regardant que les lignes avec ==un coefficient strictement positif==.
+   En posant $s$ la donnée la plus à droite de la ligne et $r$ le coefficient sur la colonne de pivot, on sélectionné la **ligne de pivot** telle que le rapport $\frac{s}{r}$ est minimum. (c'est l'homologue de la sélection de notre variable sortante)
+
+Dans notre exemple, c'est la deuxième ligne qui respecte cette condition
+$$
+\begin{pmatrix}
+1&\mathbf{0}&1&0&0&200 \\
+\mathbf{0}&\mathbf{1}&\mathbf{0}&\mathbf{1}&\mathbf{0}&\mathbf{300} \\
+1&\mathbf{1}&0&0&0&400 \\
+1&\mathbf{6}&0&0&0&0
+\end{pmatrix}
+$$
+Le **nombre de pivot** est l'intersection entre la colonne et la ligne de pivot, dans notre exemple, ce nombre vaut $\mathbf{1}$ 
+
+> On divise maintenant chaque entrées de la ligne de pivot par $\mathbf{1}$, le nombre de pivot
+
+$$
+\begin{pmatrix}
+1&{0}&1&0&0&200 \\
+\mathbf{\frac{0}{1}}&\mathbf{\frac{1}{1}}&\mathbf{\frac{0}{1}}&\mathbf{\frac{1}{1}}&\mathbf{\frac{0}{1}}&\mathbf{\frac{300}{1}} \\
+1&{1}&0&0&0&400 \\
+1&{6}&0&0&0&0
+\end{pmatrix} = 
+\begin{pmatrix}
+1&{0}&1&0&0&200 \\
+\mathbf{{0}}&\mathbf{1}&\mathbf{0}&\mathbf{1}&\mathbf{0}&\mathbf{300} \\
+1&{1}&0&0&0&400 \\
+1&{6}&0&0&0&0
+\end{pmatrix}
+$$
+
+> Puis on soustrait à chaque ligne, la ligne de pivot, de sorte que la colonne de pivot ne soit composée que de 0 à l'exception du nombre de pivot
+
+Dans notre exemple $L_{1}$ ne change pas, car le coefficient de la colonne de pivot est déjà nul en revanche, toutes les autres lignes changent: $L_{3} \leftarrow L_{3} - L_{2}$ et $L_{4} \leftarrow L_{4} - 6L_{2}$
+$$
+\begin{pmatrix}
+1&{0}&1&0&0&200 \\
+{0}&{1}&{0}&{1}&{0}&{300} \\
+\mathbf{1}&\mathbf{0}&\mathbf{0}&\mathbf{-1}&\mathbf{0}&\mathbf{100} \\
+\mathbf{1}&\mathbf{0}&\mathbf{0}&\mathbf{-6}&\mathbf{0}&\mathbf{-1800}
+\end{pmatrix}
+$$
+
+> On continue le procédé jusqu'à ce que tous les coefficient de la dernière ligne soit négatifs (ou positif si le problème est un problème de minimisation !!)
+
