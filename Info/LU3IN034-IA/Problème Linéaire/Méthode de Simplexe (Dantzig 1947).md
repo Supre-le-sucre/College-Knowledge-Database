@@ -109,3 +109,30 @@ Pour l'obtenir, on a donc $x_{1} = 100$ et $x_{2} = 300$
 La méthode matricielle est la même que celle posant le dictionnaire, elle est plus efficace dans les grands problèmes car il ne faut pas réécrire toutes les variables
 
 ### Exemple
+On considère le problème linéaire suivant
+$$
+\begin{cases}
+\max x_{1} + 6x_2  \\ \\
+x_{1} \leq 200 \\
+x_{2} \leq 300 \\
+x_{1} + x_{2} \leq 400 \\ \\
+x_1, x_{2} \geq 0 
+\end{cases} \quad \xRightarrow{\text{Création des variables d'écarts}} \quad
+\begin{cases}
+\max z = x_{1} + 6x_2  \\ \\
+x_{1} +s_{1} = 200 \\
+x_{2} + s_{2} = 300 \\
+x_{1} + x_{2} + s_{3} = 400 \\ \\
+x_1, x_{2}, s_{1}, s_{2}, s_{3} \geq 0 
+\end{cases}
+$$
+
+On pose alors le système
+$$
+\begin{align}
+&+x_{1} & & + s_{1} & & &&=200 \\
+&& +x_{2} & & +s_{2} & & &=300 \\ \\
+&+x_{1} &+x_{2} & & & +s_{3} &&= 400 \\ \\
+-z & +x_{1} + 6x_{2} & & & & & &= 0
+\end{align}
+$$
