@@ -23,11 +23,3 @@ On qualifie une fonction de flot $f^*$ de $G$ de maximum si et seulement si: #!
 Il n'existe pas d'autres fonctions de flot $f$ telle que $|f| > |f^*|$
 
 
-# Pré-flots
-
-## Définition
-Soit $G = (V, E, c)$. On définit un pré-flot: #!
-
-Une fonction $f: E \to \mathbb R^+$ telle que: $$\forall e \in E, 0 \leq f(e) \leq c(e)$$$$\sum_{e \text{ entrant à } v}f(e) \geq \sum_{e \text{ sortant à } u} c(e)$$
-<!--ID: 1727256183841-->
-
