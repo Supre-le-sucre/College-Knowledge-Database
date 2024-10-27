@@ -142,7 +142,7 @@ $$
 \begin{pmatrix}
 1&0&1&0&0&200 \\
 0&1&0&1&0&300 \\
-1&1&0&0&0&400 \\
+1&1&0&0&1&400 \\
 1&6&0&0&0&0
 \end{pmatrix}
 $$
@@ -153,7 +153,7 @@ $$
 \begin{pmatrix}
 1&\mathbf{0}&1&0&0&200 \\
 0&\mathbf{1}&0&1&0&300 \\
-1&\mathbf{1}&0&0&0&400 \\
+1&\mathbf{1}&0&0&1&400 \\
 1&\mathbf{6}&0&0&0&0
 \end{pmatrix}
 	$$
@@ -165,7 +165,7 @@ $$
 \begin{pmatrix}
 1&\mathbf{0}&1&0&0&200 \\
 \mathbf{0}&\mathbf{1}&\mathbf{0}&\mathbf{1}&\mathbf{0}&\mathbf{300} \\
-1&\mathbf{1}&0&0&0&400 \\
+1&\mathbf{1}&0&0&1&400 \\
 1&\mathbf{6}&0&0&0&0
 \end{pmatrix}
 $$
@@ -177,13 +177,13 @@ $$
 \begin{pmatrix}
 1&{0}&1&0&0&200 \\
 \mathbf{\frac{0}{1}}&\mathbf{\frac{1}{1}}&\mathbf{\frac{0}{1}}&\mathbf{\frac{1}{1}}&\mathbf{\frac{0}{1}}&\mathbf{\frac{300}{1}} \\
-1&{1}&0&0&0&400 \\
+1&{1}&0&0&1&400 \\
 1&{6}&0&0&0&0
 \end{pmatrix} = 
 \begin{pmatrix}
 1&{0}&1&0&0&200 \\
 \mathbf{{0}}&\mathbf{1}&\mathbf{0}&\mathbf{1}&\mathbf{0}&\mathbf{300} \\
-1&{1}&0&0&0&400 \\
+1&{1}&0&0&1&400 \\
 1&{6}&0&0&0&0
 \end{pmatrix}
 $$
@@ -195,10 +195,27 @@ $$
 \begin{pmatrix}
 1&{0}&1&0&0&200 \\
 {0}&{1}&{0}&{1}&{0}&{300} \\
-\mathbf{1}&\mathbf{0}&\mathbf{0}&\mathbf{-1}&\mathbf{0}&\mathbf{100} \\
+\mathbf{1}&\mathbf{0}&\mathbf{0}&\mathbf{-1}&\mathbf{1}&\mathbf{100} \\
 \mathbf{1}&\mathbf{0}&\mathbf{0}&\mathbf{-6}&\mathbf{0}&\mathbf{-1800}
 \end{pmatrix}
 $$
 
 > On continue le procédé jusqu'à ce que tous les coefficient de la dernière ligne soit négatifs (ou positif si le problème est un problème de minimisation !!)
 
+$$
+\begin{pmatrix}
+1&0&1&0&0&200 \\
+0&1&0&1&0&300 \\
+1&0&0&-1&1&100 \\
+1&0&0&-6&0&-1800
+\end{pmatrix} \xrightarrow[L_{1} \leftarrow L_{1} - L_{3}, \; L_{4} \leftarrow L_{4} - L_{3}]{L_{3} \text{ ligne de pivot}}
+\begin{pmatrix}
+0&0&1&1&0&100 \\
+0&1&0&1&0&300 \\
+1&0&0&-1&0&100 \\
+0&0&0&-5&-1&-1900
+\end{pmatrix}
+$$
+
+On peut ensuite conclure, en reprenant le système de base que $-z = -1900$ donc $z=1900$ est notre solution optimale.
+Et que $x_{1} = 100$ d'après la première colonne et $x_{2} = 300$ d'après la seconde colonne
