@@ -58,6 +58,7 @@ x_1, x_{2}, s_{1}, s_{2}, s_{3} \geq 0
 $$
 On pose alors le premier dictionnaire où $x_{1} = x_{2} = 0$
 $$
+\text{Dictionnaire I } \Rightarrow \quad 
 \begin{align*}
 s_{1}& = 200 - x_{1} \\
 s_{2}& = 300 - x_{2} \\
