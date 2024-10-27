@@ -88,5 +88,9 @@ Il existe $i$ tel que $u \in V_i$ et $v \in V_{i+1}$. Avec $V_{i}$ l'ensemble de
 En utilisant l'algorithme d'Edmonds-Karp, on observe un phénomène intéressant sur les arcs avant: #!
 
 L'algorithme va saturer au moins un arc-avant qui va disparaître alors dans le prochain graphe d'écart.
-Cela signifie donc que la distance $d$ de $s$ à $t$ ne ==diminue jamais==, mais ==ne fait qu'augmenter==. Toutes les $|E|$ itérations, $d$ incrémente d'au moins $1$ et ceci peut se faire au plus $|V|$ fois (une fois par chaque sommet).
+Cela signifie donc que la distance $d$ de $s$ à $t$ ne ==diminue jamais==, mais ==ne fait qu'augmenter==. Toutes les $|E|$ itérations (car on évalue chaque chemin de $s$ à $t$), $d$ incrémente d'au moins $1$ et ceci peut se faire au plus $|V|$ fois (chaque sommet pourrait être invalidés à la fin).
 Le nombre d'itérations de cet algorithme est donc d'au plus $$O(|V| \cdot |E|)$$
+### Complexité de l'algorithme d'Edmonds-Karp II
+Le flot maximum est alors obtenu en
+$$O(|E|^2 \cdot |V|)$$
+(Car un parcours en largeur se fait en $O(|E| + |V|) = O(|E|)$)
