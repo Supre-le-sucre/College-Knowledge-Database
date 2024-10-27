@@ -40,4 +40,5 @@ Et un préflot $f$ tel que:
 **NOTE**: Ici le préflot et l'étiquetage sont <u>compatibles</u>. ==**OR**==, il s'agit ici d'un ==**PREFLOT**==, donc il ne s'agit pas encore d'un flot maximum !!
 
 
-
+## Push
+Pour
