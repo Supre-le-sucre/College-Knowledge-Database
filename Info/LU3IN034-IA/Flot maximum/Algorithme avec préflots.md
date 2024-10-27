@@ -18,7 +18,8 @@ Pour une fonction d'étiquetage $h: V \to \mathbb{N}$, on dit que celle-ci est c
 $h(t) = 0$ et $h(s) = |V| = n$
 $$
 \forall(v,f) \in E_{\tilde{f}}, \quad h(v) \leq h(w)+1
-$$L'étiquetage peut alors faire penser à la hauteur d'un sommet
+$$L'étiquetage peut alors faire penser à la hauteur d'un sommet. 
+Un sommet ne fait couler son flot que vers des étages plus bas, le flot ne pouvant couler vers le haut... On verra cela un peu plus tard...
 
 
 ## Propriété de l'étiquetage compatible
@@ -41,4 +42,30 @@ Et un préflot $f$ tel que:
 
 
 ## Push
-Pour
+Pour transformer le préflot en un flot classique, il faut *le faire couler*, donc on applique cette fonction quand un excédant positif existe entre un sommet de hauteur plus important que l'autre.
+Avec formalisme, il faut alors que $\exists(v,w) \in E_{f}, \;ex_{f}(v) > 0, \;h(v) > h(w)$
+On a alors 2 cas de figure:
+
+- $(v,w) \in E$, l'arête existe donc dans le graphe de départ, *on fait alors couler le flot...* $$\delta = \min(ex_{f}(e),\: c(e)-f(e)), \quad f(e) \text{ augmente de } \delta$$avec $\delta$ qui évite la saturation de l'arc sans dépasser la valeur de l'excédant
+- $(v,w) \not\in E$, l'arête n'existe pas dans le graphe de départ, *on a laissé couler trop de flot, qu'on va récupérer* $$\delta = \min(ex_{f}(e),\: f(e)), \quad f(e) \text{ diminue de } \delta$$ avec $\delta$ qui évite un excédant négatif
+
+## Re label
+==Il est nécessaire de conserver la compatibilité==, car on transforme progressivement le préflot en un flot classique... Et on a vu qu'un flot compatible avec un étiquetage $h$ impliqué nécessairement qu'il était maximum.
+Donc le réétiquetage est nécessaire quand $\exists v \in V, \; ex_{f}(v) > 0, \quad \forall(v,w) \in E_{f}, \;h(w) \geq h(v)$
+Dans ce cas, on incrémente $h(v)$ de $1$
+
+## Algorithme final
+L'algorithme de préflot est alors comme suit: #!
+
+```
+Initialisation
+
+Tant que il existe v != t avec ex(v) > 0:
+	Si on a (v,w) dans Ef avec h(v) > h(w):
+		On push sur cet arête
+	Sinon:
+		On relabel le sommet v
+Fin tant que
+```
+A la fin de cet algorithme, le flot obtenu est alors maximal, car compatible avec l'étiquetage.
+
