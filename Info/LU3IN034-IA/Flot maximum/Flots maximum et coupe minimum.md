@@ -84,7 +84,9 @@ Un arc $(u,v)$ est qualifié d'arc avant dans un parcours en largeur si: #!
 
 Il existe $i$ tel que $u \in V_i$ et $v \in V_{i+1}$. Avec $V_{i}$ l'ensemble des sommets à distances $i$ de $s$ dans $G$
 
-#### Observation
+#### Analyse de l'algorithme
 En utilisant l'algorithme d'Edmonds-Karp, on observe un phénomène intéressant sur les arcs avant: #!
 
 L'algorithme va saturer au moins un arc-avant qui va disparaître alors dans le prochain graphe d'écart.
+Cela signifie donc que la distance $d$ de $s$ à $t$ ne ==diminue jamais==, mais ==ne fait qu'augmenter==. Toutes les $|E|$ itérations, $d$ incrémente d'au moins $1$ et ceci peut se faire au plus $|V|$ fois (une fois par chaque sommet).
+Le nombre d'itérations de cet algorithme est donc d'au plus $$O(|V| \cdot |E|)$$
