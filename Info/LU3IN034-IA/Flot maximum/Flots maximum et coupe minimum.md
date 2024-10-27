@@ -77,4 +77,4 @@ On choisira ici le chemin augmentant $s-u-t$. Dans l'autre algorithme, on aurait
 ## Algorithme d'Edmonds-Karp II
 Quelle chemin augmentant faut-il prendre s'il existe plusieurs chemin critique ? #!
 
-On prends alors le chemin critique ayant le nombre d'arcs minimum. Pour cela, on effectue un parcours en largeur avec évaluation des distances
+On prends alors le chemin critique ayant le nombre d'arcs minimum. Pour cela, on effectue un [[Parcours en largeur#Implémentation d'un parcours en largeur|parcours en largeur avec évaluation des distances]]
