@@ -4,6 +4,8 @@ L'algorithme de simplexe est utilisé pour résoudre des [[Problème Linéaire d
 Dans la méthode simplexe, on introduit des variables d'écart comme suit: #!
 
 Chacune de ces variables transforment les inégalités du problèmes en égalité. L'objectif étant de se déplacer de sommet en sommet voisins.
+<!--ID: 1730114115911-->
+
 
 ### Exemple
 ![[Pasted image 20241027175940.png]]
@@ -12,6 +14,8 @@ Chacune de ces variables transforment les inégalités du problèmes en égalit�
 Un problème ayant $m$ contraintes aura alors $m$ variables d'écarts et on a aussi que si le problèmes est composé de $(x_{1}, \dots, x_{n})$ variables, alors à chaque sommet: #!
 
 Il y aura $n$ variables (d'écart ou non) qui seront nulles.
+<!--ID: 1730114115913-->
+
 
 #### Exemple
 ![[Pasted image 20241027180309.png]]
@@ -28,6 +32,8 @@ Dans l'algorithme de simplexe, lorsque deux sommets sont voisins on observe que:
 
 Les ensembles de variables basiques et non basiques sont les mêmes à l'exception d'un seul et unique élément.
 Le processus de simplexe consiste alors à échanger une paire de variable de l'ensemble basique à l'ensemble non basique
+<!--ID: 1730114115915-->
+
 
 # Exécution de simplexe
 
@@ -37,6 +43,8 @@ Simplexe s'exécute comme suit pour un dictionnaire: #!
 - A l'étape initiale, les variables de bases du problèmes sont à 0, seules les variables d'écarts sont basiques.
 - On sélectionne la variable ==non basique== $x$ ayant le plus grand rapport d'augmentation dans la fonction objectif. On la fait entrer dans la base
 - Par rapport à la variable non basique $x$, on vérifie laquelle variable basique $y$ a ==le plus petit rapport restrictif== par rapport à $x$. Par exemple, le rapport de $y$ par rapport à $x$ tel que $y = a + bx$ est $\frac{a}{b}$. On fait alors sortir $y$ de la base
+<!--ID: 1730114115917-->
+
 
 ### Exemple
 On considère le problème linéaire suivant

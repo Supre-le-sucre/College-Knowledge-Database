@@ -11,6 +11,8 @@ On donne les mots de vocabulaire suivante sur un programme linéaire: #!
 - Un **sommet** est l'unique point sur lequel se rencontrent un sous-ensemble d'hyperplans. Il est caractérisée par $n$ inégalités
 - Deux sommets sont dis **voisins** s'ils partagent $n-1$ inégalités communes dans leur définition
 Notons que ces définitions ont un aspect très géométrique. En effet, les programmes linéaires simples peuvent être facilement assimilé à des problèmes géométriques évidents
+<!--ID: 1730114115905-->
+
 
 ## Forme standard d'un programme linéaire
 En cherchant les variables $(x_{1}, \dots, x_{n})$ on obtient alors deux types de programme linéaire: #!
@@ -25,6 +27,8 @@ x_{j} \geq 0 & j= 1, 2, \dots, n
 \sum_{j=1}^n a_{ij}x_{j} \leq b_{j} & i = 1,2,\dots, m \\ \\
 x_{j} \geq 0 & j= 1, 2, \dots, n 
 \end{cases}$$Notons alors la tournure matricielle que peuvent avoir ces problèmes. Cela nous permettra de les résoudre plus simplement ultérieurement.
+<!--ID: 1730114115907-->
+
 
 ## Observations rudimentaire
 On observe que dans un programme linéaire: #!
@@ -35,3 +39,5 @@ On observe que dans un programme linéaire: #!
 Ces observations rencontrent des exceptions:
 - Si le programme linéaire est irréalisable (des contraintes sont contradictoires) 
 - Si la région réalisable n'est pas bornée (les contraintes ne suffisent pas pour borner la région)
+<!--ID: 1730114115909-->
+

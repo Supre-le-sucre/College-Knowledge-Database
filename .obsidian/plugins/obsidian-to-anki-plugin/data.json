@@ -53,7 +53,7 @@
       "Info/LU3IN034-IA": "",
       "Info/LU3IN034-IA/Graphes": "3IN034: Graphes",
       "Info/LU3IN034-IA/Flot maximum": "3IN034: Flots maximum",
-      "Info/LU3IN034-IA/Problème Linéaire": "3IN034: Problèmes linéaires",
+      "Info/LU3IN034-IA/Problème Linéaire": "3IN034: Programmes linéaires",
       "Info/LU3IN003-Algo": "",
       "Maths/LU3MA260-Topologie II": "",
       "Maths/LU3MA263-Mesures": "",
@@ -62,7 +62,8 @@
       "Maths/LU3MA260-Topologie II/Espaces Métriques": "3MA260: Espaces métriques",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables",
       "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
-      "Maths/LU3MA232-Analyse numérique": "3MA232: Analyse numérique"
+      "Maths/LU3MA232-Analyse numérique": "3MA232: Analyse numérique",
+      "Info/LU3IN034-IA/Couplage stable": "3IN034: Couplage stable"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -107,7 +108,8 @@
       "Maths/LU3MA260-Topologie II/Espaces Métriques": "",
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "",
       "Maths/LU3MA263-Mesures/Mesures": "",
-      "Maths/LU3MA232-Analyse numérique": ""
+      "Maths/LU3MA232-Analyse numérique": "",
+      "Info/LU3IN034-IA/Couplage stable": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -379,12 +381,12 @@
     "Info/LU2IN119-Ocaml/Fonctions.md": "d0a9c66104ddb7fe4fcc91aee6fb5a42",
     "Info/LU2IN119-Ocaml/Conditions.md": "14bba7524cbfdc1a78ba8c64204aa8d2",
     "Info/LU3IN034-IA/Problème du couplage stable.md": "e757f9478a17b0b2c82e0f419291b7e8",
-    "Info/LU3IN034-IA/Flot maximum/Graphes de capacité.md": "1cf6874ffa2b33b9c96e8b2a41990619",
-    "Info/LU3IN034-IA/Flot maximum/Graphes d'écart (ou résiduel).md": "0998f4b9bc7e47e7b9e69dc743d77091",
-    "Info/LU3IN034-IA/Flot maximum/Flots.md": "cfc95761a65412d1fe1e1105a4b0bd89",
-    "Info/LU3IN034-IA/Flot maximum/Coupe.md": "588ae4763ddaba600b61d4c76833dbe1",
-    "Info/LU3IN034-IA/Problème Linéaire/Problème Linéaire d'optimisation.md": "dfad91a691afbf76a3432ed4ecb4f451",
-    "Maths/LU3MA263-Mesures/Mesures/Vocabulaire de la mesure.md": "b72d9578bfadc71c06b1d74c474e29aa",
+    "Info/LU3IN034-IA/Flot maximum/Graphes de capacité.md": "fbf9c1cc05c82e09ebe57df516cad975",
+    "Info/LU3IN034-IA/Flot maximum/Graphes d'écart (ou résiduel).md": "c55d8553cf29c118c4534fb49a4582e3",
+    "Info/LU3IN034-IA/Flot maximum/Flots.md": "c814bd493e88bfda6b9727e826d27af7",
+    "Info/LU3IN034-IA/Flot maximum/Coupe.md": "c5ef2f85f78f1a5f9f860ec9b7534e77",
+    "Info/LU3IN034-IA/Problème Linéaire/Problème Linéaire d'optimisation.md": "bca058b48a07816197504f058662d50e",
+    "Maths/LU3MA263-Mesures/Mesures/Vocabulaire de la mesure.md": "e9149ef3a6581349141df39965795837",
     "Maths/LU3MA263-Mesures/Mesures/Topologie.md": "0fd2621d55b42c77eeee55a19f859c16",
     "Maths/LU3MA263-Mesures/Mesures/Propriétés fondamentales de la mesure.md": "a79e90ca6deeaa74ad252b8408afff2e",
     "Maths/LU3MA263-Mesures/Mesures/Pi-système et classe monotone.md": "ae8cdeb7bf00932ea4009f4917060055",
@@ -424,7 +426,13 @@
     "Maths/LU3MA232-Analyse numérique/Méthode de Newton.md": "b0b1e172fbc7ab4e17088171928a4a89",
     "Maths/LU3MA232-Analyse numérique/Cauchy-Lipschitz.md": "7d2e18147720f38998c2ad6985fed089",
     "Maths/LU3MA232-Analyse numérique/Fonctions lipschitzienne multi-dimensionnelles.md": "390818cefb563f2f770c325b73a6e725",
-    "Maths/LU3MA232-Analyse numérique/Taylor-Lagrange.md": "3177649dc32e188d7aca05984bbb85a2"
+    "Maths/LU3MA232-Analyse numérique/Taylor-Lagrange.md": "3177649dc32e188d7aca05984bbb85a2",
+    "Info/LU3IN034-IA/Couplage stable/Problème du couplage stable.md": "2485f4c1ad744eb902d672743a79bd4e",
+    "Info/LU3IN034-IA/Problème Linéaire/Trouver un dictionnaire réalisable.md": "cd8f89989d83aee23fdd341306dcfb67",
+    "Info/LU3IN034-IA/Problème Linéaire/Méthode de Simplexe (Dantzig 1947).md": "535af7dde62f8f50622e5b4c362aaf32",
+    "Info/LU3IN034-IA/Problème Linéaire/Dégénérescence et cyclage.md": "cb75df3a9fc9ad1a3092eee044e48363",
+    "Info/LU3IN034-IA/Flot maximum/Algorithme avec préflots.md": "c52ab7053fab05438b4bd20afeea0576",
+    "Info/LU3IN034-IA/Flot maximum/Flots maximum et coupe minimum.md": "40636cb3a4de550fc410e5be82de946b"
   },
   "fields_dict": {
     "Basic": [
