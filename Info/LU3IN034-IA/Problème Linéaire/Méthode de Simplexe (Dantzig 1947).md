@@ -64,6 +64,7 @@ x_{1} + x_{2} + s_{3} = 400 \\ \\
 x_1, x_{2}, s_{1}, s_{2}, s_{3} \geq 0 
 \end{cases}
 $$
+
 On pose alors le premier dictionnaire où $x_{1} = x_{2} = 0$
 $$
 \begin{align*}
@@ -73,7 +74,9 @@ s_{3}& = 400 - x_{1} -x_{2} \\
 \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\ \\
 z&=x_{1} + 6x_{2}
 \end{align*}
-$$Dans ce dictionnaire, les variables basiques sont $s_{1}, s_{2}$ et $s_{3}$, et les variables non basiques sont $x_{1}$ et $x_{2}$
+$$
+
+Dans ce dictionnaire, les variables basiques sont $s_{1}, s_{2}$ et $s_{3}$, et les variables non basiques sont $x_{1}$ et $x_{2}$
 Dans cette situation, $x_{2}$ a le plus grand rapport d'augmentation d'objectif (il a un coefficient égal à $6$, alors que le coefficient de $x_{1}$ est de $1$)
 ==**NOTONS QUE**==: si l'objectif était une minimisation, on aurait voulu prendre le plus petit coefficient !
 
@@ -94,7 +97,8 @@ s_{3}& = 400 - x_{1} - x_{2} & s_{3} &=400 - x_{1} - (300-s_{2}) & s_{3} & = 100
 \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & \_\_&\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\
 z&=x_{1} + 6x_{2} & z & = x_{1} + 6(300-s_{2}) & z & = 1800 +x_{1} -6s_{2}
 \end{align*}
-$$Maintenant $x_{1}$ est la variable qui augmentera l'objectif, et le plus petit rapport est en $s_{3}$
+$$
+Maintenant $x_{1}$ est la variable qui augmentera l'objectif, et le plus petit rapport est en $s_{3}$
 
 Donc on a $s_{3} = 0$, donc $x_{1} = 100 +s_{2} = 100 + 0 = 100$ car en effet $s_{2} = 0$. Les autres variables sont inchangées $s_{2} = 0, s_{1} =200, x_{2} = 300$
 
@@ -154,6 +158,7 @@ $$
 1&6&0&0&0&0
 \end{pmatrix}
 $$
+
 >On examine alors tous les nombres de la dernière ligne. La colonne ayant le nombre le plus grand sur cette ligne est alors sélectionnée, c'est la **colonne de pivot** (c'est l'homologue de sélection de la variable entrante)
 
 Dans notre exemple, c'est la deuxième colonne qui respecte cette condition
@@ -165,6 +170,7 @@ $$
 1&\mathbf{6}&0&0&0&0
 \end{pmatrix}
 	$$
+
 > On regarde ensuite, la colonne en ne regardant que les lignes avec ==un coefficient strictement positif==.
    En posant $s$ la donnée la plus à droite de la ligne et $r$ le coefficient sur la colonne de pivot, on sélectionné la **ligne de pivot** telle que le rapport $\frac{s}{r}$ est minimum. (c'est l'homologue de la sélection de notre variable sortante)
 
@@ -177,6 +183,7 @@ $$
 1&\mathbf{6}&0&0&0&0
 \end{pmatrix}
 $$
+
 Le **nombre de pivot** est l'intersection entre la colonne et la ligne de pivot, dans notre exemple, ce nombre vaut $\mathbf{1}$ 
 
 > On divise maintenant chaque entrées de la ligne de pivot par $\mathbf{1}$, le nombre de pivot
