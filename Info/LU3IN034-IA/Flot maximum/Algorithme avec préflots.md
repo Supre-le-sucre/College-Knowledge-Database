@@ -68,9 +68,6 @@ L'algorithme de préflot est alors comme suit: #!
 
 ```
 Initialisation
-<!--ID: 1730114115941-->
-
-
 Tant que il existe v != t avec ex(v) > 0:
 	Si on a (v,w) dans Ef avec h(v) > h(w):
 		On push sur cet arête
