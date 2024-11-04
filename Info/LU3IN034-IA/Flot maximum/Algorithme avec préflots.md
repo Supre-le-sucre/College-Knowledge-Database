@@ -65,7 +65,6 @@ Dans ce cas, on incrémente $h(v)$ de $1$
 
 ## Algorithme final
 L'algorithme de préflot est alors comme suit: #!
-
 ```
 Initialisation
 Tant que il existe v != t avec ex(v) > 0:
@@ -76,4 +75,5 @@ Tant que il existe v != t avec ex(v) > 0:
 Fin tant que
 ```
 A la fin de cet algorithme, le flot obtenu est alors maximal, car compatible avec l'étiquetage.
+<!--ID: 1730756384886-->
 
