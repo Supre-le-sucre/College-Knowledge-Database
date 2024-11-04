@@ -42,7 +42,7 @@ Simplexe s'exécute comme suit pour un dictionnaire: #!
 
 - A l'étape initiale, les variables de bases du problèmes sont à 0, seules les variables d'écarts sont basiques.
 - On sélectionne la variable ==non basique== $x$ ayant le plus grand rapport d'augmentation dans la fonction objectif. On la fait entrer dans la base
-- Par rapport à la variable non basique $x$, on vérifie laquelle variable basique $y$ a ==le plus petit rapport restrictif== par rapport à $x$. Par exemple, le rapport de $y$ par rapport à $x$ tel que $y = a + bx$ est $\frac{a}{b}$. On fait alors sortir $y$ de la base
+- Par rapport à la variable non basique $x$, on vérifie laquelle variable basique $y$ a ==le plus petit rapport restrictif== par rapport à $x$ et avec un ==coefficient négatif==. Par exemple, le rapport de $y$ par rapport à $x$ tel que $y = a - bx$ est $\frac{a}{b}$. On fait alors sortir $y$ de la base
 <!--ID: 1730114115917-->
 
 
