@@ -22,7 +22,7 @@ Pour une fonction d'étiquetage $h: V \to \mathbb{N}$, on dit que celle-ci est c
 
 $h(t) = 0$ et $h(s) = |V| = n$
 $$
-\forall(v,f) \in E_{\tilde{f}}, \quad h(v) \leq h(w)+1
+\forall(v,w) \in E_{\tilde{f}}, \quad h(v) \leq h(w)+1
 $$L'étiquetage peut alors faire penser à la hauteur d'un sommet. 
 Un sommet ne fait couler son flot que vers des étages plus bas, le flot ne pouvant couler vers le haut... On verra cela un peu plus tard...
 <!--ID: 1730114115938-->
