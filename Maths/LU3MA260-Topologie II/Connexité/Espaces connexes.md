@@ -27,4 +27,5 @@ Montrons donc que pour tout application continue $f$, la fonction $f: X_{1} \cup
 On a alors que les restrictions $f_{|X_{1}}$ et $f_{|X_{2}}$ sont continues.
 Comme $X_{1}$ et $X_{2}$ connexes, on a alors que $f_{{|X_{1}}} = c_{1}$ et $f_{{|X_{2}}} = c_{2}$. Or comme l'intersection entre $X_{1}$ et $X_{2}$ est non vide, il partage un point donc $c_{1} = c_{2}$, d'où $f$ constante sur $X_{1} \cup X_{2}$ et donc $X_{1} \cup X_{2}$ connexe
 
-Pour 3)
+Pour 3) la preuve est un peu plus délicate
+Posons $X_{1}$ et $X_{2}$ connexes et montrons que $X_{1} \times X_{2}$ est connexe
