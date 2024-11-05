@@ -42,3 +42,4 @@ $\tilde{ O} \cap \tilde{ O'} = \emptyset$ et $\tilde{ O} \sqcup \tilde{ O'} = X_
 
 Soit $x_{1} \in X_{1}$ et $Y_{x_{1}} = \{ x_{1} \} \cup X_{2}$ connexe également
 Et $Y_{x_{1}} \cap Y_{{x_{2}}}$
+On a donc $\forall x_{1}, x_{2} \in X_{1} \times X_{2}$
