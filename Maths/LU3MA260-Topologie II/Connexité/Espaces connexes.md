@@ -29,3 +29,12 @@ Comme $X_{1}$ et $X_{2}$ connexes, on a alors que $f_{{|X_{1}}} = c_{1}$ et $f_{
 
 Pour 3) la preuve est un peu plus délicate
 Posons $X_{1}$ et $X_{2}$ connexes et montrons que $X_{1} \times X_{2}$ est connexe
+
+Soit $X_{1} \times X_{2} = O \cup O'$ avec $O$ et $O'$ ouvert et $O \cap O' = \emptyset$, on montre alors que $O = X_{1} \times X_{2}$ ou $O' = X_{1} \times X_{2}$
+
+Soit $x_{2} \in X_2$ et soit $Y_{x_{2}} = X_{1} \times \{x_{2}\}$
+$\forall x_{2} \in X_{2}$ on a que $Y_{x_{2}}$ est un espace connexe, car en effet, $f: Y_{{x_{2}}} \to \{0, 1\}$
+est constante car $X_{1}$ est connexe et il suffit de prendre $\tilde{f}: X_{1} \to \{0, 1\}$ avec $\tilde{ f}(x) =f(x, x_{2})$ pour s'en convaincre.
+
+On a donc nécessairement $X_{1} \times \{x_{2}\} \subset O \sqcup O'$ .
+En effet, $\tilde{ O} = X_{1} \times \{ x_{2} \}$
