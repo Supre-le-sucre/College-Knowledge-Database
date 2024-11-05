@@ -37,4 +37,8 @@ $\forall x_{2} \in X_{2}$ on a que $Y_{x_{2}}$ est un espace connexe, car en eff
 est constante car $X_{1}$ est connexe et il suffit de prendre $\tilde{f}: X_{1} \to \{0, 1\}$ avec $\tilde{ f}(x) =f(x, x_{2})$ pour s'en convaincre.
 
 On a donc nécessairement $X_{1} \times \{x_{2}\} \subset O \sqcup O'$ .
-En effet, $\tilde{ O} = X_{1} \times \{ x_{2} \}$
+En effet, $\tilde{ O} = X_{1} \times \{ x_{2} \} \cap O$ est un ouvert de $X_{1} \times \{ x_{2} \}$ et pareil avec $O'$
+$\tilde{ O} \cap \tilde{ O'} = \emptyset$ et $\tilde{ O} \sqcup \tilde{ O'} = X_{1} \{  x_{2} \} \implies \tilde{O} = \emptyset$ ou $\tilde{ O'} = \emptyset$
+
+Soit $x_{1} \in X_{1}$ et $Y_{x_{1}} = \{ x_{1} \} \cup X_{2}$ connexe également
+Et $Y_{x_{1}} \cap Y_{{x_{2}}}$
