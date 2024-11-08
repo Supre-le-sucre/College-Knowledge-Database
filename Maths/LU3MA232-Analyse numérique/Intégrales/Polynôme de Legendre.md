@@ -56,8 +56,5 @@ On observe que: #!
 
 Le polynôme $P_{n}$ admet $n$ racines simples, toutes situés dans $]-1, 1[$
 
-### Preuve
-Montrons un résultat plus général
 
-#### Lemme
-Soit $0 \leq k \leq n$ alors $$
+## Méthode de Quadrature de Gauss-Legendre
