@@ -39,3 +39,10 @@ Et d'autres part, en repartant de la division euclidienne
 $$
 \int_{-1}^1M(y)dy = \int_{-1}^1Q(y)P_{n}(y)dy + \int_{-1}^1R(y)dy
 $$
+Or on rappelle que $P_{n}$ est orthogonale à tous les $P_{i}$ avec $i \leq n-1$ et il se trouve que $Q$ est un polynôme de degré $n-1$. Donc il peut s'écrire comme comme combinaison linéaire de ces $P_{i}$. On observe alors le produit scalaire de l'[[Polynôme de Legendre|espace de départ]]
+$$\int_{-1}^1Q(y)P_{n}(y)dy = 0$$
+
+Donc on a bien $$
+\int_{-1}^1M(y)dy = \int_{-1}^1R(y)dy
+$$
+D'autre part.
