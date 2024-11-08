@@ -30,4 +30,34 @@ $$
 
 Il reste maintenant à montrer que les $(Q_{n})_{n \in \mathbb{N}}$ sont orthogonaux entre eux.
 Soit $m < n$
-$$\left\langle \frac{(2n)!}{n!} Q_{m}, \frac{(2m)!}{m!}Q_{n}\right\rangle$$
+$$\left\langle \frac{(2n)!}{n!} Q_{n}, \frac{(2m)!}{m!}Q_{m}\right\rangle = \int_{-1}^1 \left(   \left( x^2 -1 \right)^n\right)^{(n)}\left(   \left( x^2 -1 \right)^m\right)^{(m)} dx = I_{m,n}$$
+
+On effectue alors $m+1$ intégrations par partie
+Pour la première on a que $$
+I_{m,n}= \left[ \left(   \left( x^2 -1 \right)^n\right)^{(n-1)}  \left(\left( x^2 -1 \right)^m\right)^{(m)} \right]_{-1}^1 - \int_{-1}^1 \left(   \left( x^2 -1 \right)^m\right)^{(m+1)} \left(   \left( x^2 -1 \right)^n\right)^{(n-1)}   
+$$
+Or $$
+\left[ \left(   \left( x^2 -1 \right)^n\right)^{(n-1)}  \left(\left( x^2 -1 \right)^m\right)^{(m)} \right]_{-1}^1 = 0
+$$
+Car $-1$ et $1$ sont les racines de multiplicités $1$ d'un tel polynôme
+Et donc en continuant
+$$- \int_{-1}^1 \left(   \left( x^2 -1 \right)^m\right)^{(m+1)} \left(   \left( x^2 -1 \right)^n\right)^{(n-1)}  = \int_{-1}^1 \left(   \left( x^2 -1 \right)^m\right)^{(m+2)} \left(   \left( x^2 -1 \right)^n\right)^{(n-2)} \cdots  $$
+D'où finalement
+$$
+I_{{m,n}} = (-1)^{m+1} \int_{-1}^1 \left(   \left( x^2 -1 \right)^m\right)^{(2m+1)} \left(   \left( x^2 -1 \right)^n\right)^{(n-m-1)}dx
+$$
+Or $\left(   \left( x^2 -1 \right)^m\right)^{(2m+1)} = 0$ car dérivée une fois de plus que son degré et $n-m-1 \geq 0$
+Donc $I_{m,n} = 0$
+
+On a donc bien $P_{n} = Q_{n}$
+
+## Racines de $P_{n}$
+On observe que: #!
+
+Le polynôme $P_{n}$ admet $n$ racines simples, toutes situés dans $]-1, 1[$
+
+### Preuve
+Montrons un résultat plus général
+
+#### Lemme
+Soit $0 \leq k \leq n$ alors 
