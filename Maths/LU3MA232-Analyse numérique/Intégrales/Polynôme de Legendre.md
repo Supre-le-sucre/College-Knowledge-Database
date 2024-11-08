@@ -30,3 +30,4 @@ $$
 
 Il reste maintenant à montrer que les $(Q_{n})_{n \in \mathbb{N}}$ sont orthogonaux entre eux.
 Soit $m < n$
+$$\langle$$
