@@ -30,4 +30,4 @@ $$
 
 Il reste maintenant à montrer que les $(Q_{n})_{n \in \mathbb{N}}$ sont orthogonaux entre eux.
 Soit $m < n$
-$$\langle$$
+$$\left\langle \frac{(2n)!}{n!} Q_{m}, \frac{(2m)!}{m!}Q_{n}\right\rangle$$
