@@ -8,7 +8,7 @@ $$
 y_{n+1} = y_{n} + h F(t_{n}, y_{n-k}, y_{n-k+1}, \dots, y_{n}, y_{n+1},h) 
 $$
 
-## Définition du schéma d'Adams
+## Définition du schéma d'Adams-Bashfourth 
 On définit le schéma de la façon suivante: #!
 
 $$
@@ -28,3 +28,22 @@ On observe que
 y_{n+1} = y_{n} + \frac{3}{2}hf(t_{n}, y_{n}) -\frac{1}{2}hf(t_{n-1}, y_{n-1})
 $$
 	Il s'agit d'un schéma d'ordre $2$
+
+
+## Théorème sur l'ordre du schéma d'Adams-Bashfourth 
+On observe que: #!
+
+Le schéma d'Adams-Bashfourth à $p$ est d'ordre $p$
+
+
+## Schéma d'Adams-Moulton
+On définit le schéma suivant: #!
+
+$$
+y_{n+1} = y_{n} +h \sum_{k=-1}^{p-2} \beta_{k}f(t_{n-k}, y_{n-k})
+$$
+Avec les $\beta$ les poids de la quadrature $\int_{0}^1 \phi(u)du = \sum_{k=-1}^{p-2} \beta_{k} \phi(-k)$ soit d'ordre au moins $p-1$
+
+### Observations
+On observe que
+- Si $p=1$ alors cette méthode est la même qu'Euler implicite
