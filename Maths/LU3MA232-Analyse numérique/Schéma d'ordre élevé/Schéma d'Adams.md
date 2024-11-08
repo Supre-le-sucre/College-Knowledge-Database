@@ -24,3 +24,7 @@ $$
 ### Observations
 On observe que
 - Si $p=1$ alors cette méthode est la même qu'Euler explicite
+- Si $p=2$ alors $$
+y_{n+1} = y_{n} + \frac{3}{2}hf(t_{n}, y_{n}) -\frac{1}{2}hf(t_{n-1}, y_{n-1})
+$$
+	Il s'agit d'un schéma d'ordre $2$
