@@ -68,3 +68,9 @@ $$
 ||L_{f}(h)||_{\infty} = ||2fh||_{\infty} \leq ||2 f||_{\infty}||h||_{\infty} < + \infty
 $$
 Car $f$ et $h$ sont continues.
+
+## Proposition sur la continuité
+On observe que: #!
+
+Les fonctions $f: \Omega \to F$ et $a \in \Omega$ tel que $f$ différentiable au point $a$, alors elle est aussi continue au point $a$
+
