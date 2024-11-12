@@ -46,6 +46,10 @@ Donc $A$ est bien définie.
 
 De plus
 $$
-A(I+H) = \lim_{  n \to \infty } S_{n}\circ(I+H) =  \lim_{ n \to \infty } \sum_{k=0}^{n} (-H)^k(I+H) = \lim_{ n \to \infty } (-H)^{n+1} + I = I
+A(I+H) = \lim_{  n \to \infty } S_{n}\circ(I+H) =  \lim_{ n \to \infty } \sum_{k=0}^{n} (-H)^k(I+H) = \lim_{ n \to \infty } H^{n+1}(-1)^n + I = I
 $$
+Car en effet $$\sum_{k=0}^{n} (-H)^k(I+H) = \sum_{k=0}^{n}(-H)^k + \sum_{k=0}^{n}(-H)^{k} \times H $$
+On obtient une série télescopique.
 Le même résultat a lieu dans l'autre sens.
+
+#### Montrons ensuite qu'elle est differentiable
