@@ -23,3 +23,29 @@ $$f(2+h_{1}, 1+h_{2}) = f(2, 1) + D_{f}(a)(h) + o(h)$$
 
 ### Matricielle
 On s'intéresse cette fois à la différentielle de $f: H \in B(0, 1) \mapsto (I+H)^{-1}$
+
+#### Montrons d'abords que $f$ est bien défini
+On sait qu'en dimension 1:
+$$
+\frac{1}{(1+x)} = \sum_{k=0}^{+\infty}(-x)^k 
+$$
+Un bon candidat serait alors $A = \sum_{k=0}^{+\infty}(-H)^k$ et en plus de vouloir $A(I+H) = (I+H)A = I$ on veut aussi montrer que $A$ est bien défini.
+Comme l'espace des matrices de dimension $n$ est complet (car fini et normé), il suffit alors de montrer que la suite $S_{n} = \sum_{k=0}^{n}(-H)^k$ est de Cauchy et nous aurons montrer sa convergence (i.e $A$ sera bien défini)
+
+Or pour $p > n$
+$$
+||S_{p} -S_{n}|| = \left| \left| \sum_{k=n}^{p}(-H)^k  \right|  \right| \leq \sum_{k=n}^{p} ||H||^k 
+$$
+Et comme $H \in B(0, 1)$ et que
+$$
+\sum_{k=n}^{p} ||H||^k  \leq \sum_{k=n}^{+\infty}||H||^k 
+$$
+Comme $\sum_{k=n}^{+\infty}||H||^k \to 0$ lorsque $n$ tends vers l'infini (reste d'une série convergente)
+On a bien que $||S_{p} -S_{n}|| \to 0$ lorsque $n$ tends vers $+\infty$, et donc la suite est bien de Cauchy.
+Donc $A$ est bien définie.
+
+De plus
+$$
+A(I+H) = \lim_{  n \to \infty } S_{n}\circ(I+H) =  \lim_{ n \to \infty } \sum_{k=0}^{n} (-H)^k(I+H) = \lim_{ n \to \infty } (-H)^{n+1} + I = I
+$$
+Le même résultat a lieu dans l'autre sens.
