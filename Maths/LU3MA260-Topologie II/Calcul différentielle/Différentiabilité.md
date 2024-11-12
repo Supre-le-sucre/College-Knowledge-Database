@@ -52,7 +52,8 @@ Car en effet $$\sum_{k=0}^{n} (-H)^k(I+H) = \sum_{k=0}^{n}(-H)^k + \sum_{k=0}^{n
 On obtient une série télescopique.
 Le même résultat a lieu dans l'autre sens.
 
-#### Montrons ensuite qu'elle est differentiable
+#### Montrons ensuite qu'elle est differentiable au point 0
+
 
 ### Espaces de fonctions
 En posant l'espace $E = \mathcal C([0, 1], \mathbb{R}), ||\cdot||_{\infty}$
@@ -62,8 +63,4 @@ On pose alors $$
 g(f+h) = (f+h)^2 = f^2 + 2fh + h^2 = g(f) + 2fh + o(h)
 $$
 
-Un candidat pour $L_{f}(h)$ est alors $2fh$. On a bien que $L_{f}$ est linéaire dans l'espace de fonction considéré. En revanche il y a ambiguïté sur sa continuité. Montrons donc qu'elle est continue.
-
-$$
-||L_{f}(h)||_{\infty} = ||2fh||_{\infty} \leq ||2 f||_{\infty}||h||_{\infty}
-$$
+Un candidat pour $L_{f}(h)$ est alors $2fh$. On a bien que $L_{f}$ est linéaire dans l'espace de fonction considéré. En revanche il y a ambiguïté sur sa continuité. Mais elle est bien continue comme produit de fonctions continues.
