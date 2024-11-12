@@ -10,4 +10,5 @@ On dit alors que $L_{a}$ est le différentielle de $f$ au point $a$ et on note s
 Pour $f(x, y) = xe^{3y}$ a-t-on $f$ différentiable au point $(2, 1)$
 On évalue donc la fonction avec
 $$f(2 + h_{1}, 1 + h_{2}) = (2+h_{1})e^{3(1+h_{2})} = (2+h_{1})e^3\times e^{3h_{2}}$$
-En effectuant un développement limité 
+En effectuant un développement limité d'exponentiel, alors on obtient
+$$f(2+h_{1}, 1+h_{2})$$
