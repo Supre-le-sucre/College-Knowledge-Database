@@ -74,3 +74,12 @@ On observe que: #!
 
 Les fonctions $f: \Omega \to F$ et $a \in \Omega$ tel que $f$ différentiable au point $a$, alors elle est aussi continue au point $a$
 
+### Preuve
+Il suffit de faire tendre $h$ vers $0$ dans la formule de différentiabilité de $f$ en $a$.
+Comme $L_{a}(h)$ est linéaire, si $h$ tends vers $0$ alors lui aussi. D'où la continuité en $a$
+
+## Définition
+On dit que $f$ est différentiable si et seulement si: #!
+
+Elle est différentiable en tout point de son espace de définition.
+
