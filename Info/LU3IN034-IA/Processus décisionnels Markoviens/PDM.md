@@ -23,3 +23,12 @@ La valeur d'une politique en l'état $s$ à un instant $t$ se définit de la fa�
 En posant l'état $1$ comme la dernière décision
 - **Dernière décision** $$V_{d,1}(s) = R(s, d_{1}(s))$$
 - **Décision à l'étape t** $$V_{d,t}(s) = R(s, d_{t}(s)) + \sum_{s' \in S}T(s,a)(s')V_{d,t-1} (s')$$
+
+## Calcul de la politique optimale
+On pose $V^*$ la valeur optimale et $d^*$ la décision optimale. Elles sont définies récursivement de la façon suivante. (En commençant par 1)
+
+$V_{1}^* = \max R(s,a)$ et $d^*_{1} = \arg \max_{a} R(s, a)$
+Et puis
+
+$V_{t}^* = \max( R(s, a) + \sum_{s' \in S}T(s,a)(s')V^*_{d,t-1} (s')$
+Et $d^*$ donné par l'argument $a$ de ce max
