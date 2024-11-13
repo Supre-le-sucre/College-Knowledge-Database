@@ -14,4 +14,4 @@ On pose la règle de décision, la fonction $d_{i}: S \to A$ qui à l'instant $i
 Dans le cadre d'un horizon infini, tous les chemins se valent, étant donné que ces chemins donnent tous une récompense infinie.
 On pose alors le facteur d'actualisation comme suit: #!
 
-$\gamma \in ]0, 1[$ qualifié de facteur d'actualisation permet de pondéré la récompense au fur et à mesure des itérations, il dépend de si on veut gagner une récompense rapidement (proche de 0) ou dans longtemps proche de $1$. On calcule alors l'espérance $$\mathbb E\left( \sum_{t=1}^{+\infty} \gamma R(s, d_{t}(s)) \right) $$
+$\gamma \in ]0, 1[$ qualifié de facteur d'actualisation permet de pondéré la récompense au fur et à mesure des itérations, il dépend de si on veut gagner une récompense rapidement (proche de 0) ou dans longtemps proche de $1$. On calcule alors l'espérance $$\mathbb E\left( \sum_{t=1}^{+\infty} \gamma^t R(s, d_{t}(s)) \right) \leq \frac{M}{1 - \gamma} $$
