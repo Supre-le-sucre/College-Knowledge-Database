@@ -15,3 +15,11 @@ Dans le cadre d'un horizon infini, tous les chemins se valent, étant donné que
 On pose alors le facteur d'actualisation comme suit: #!
 
 $\gamma \in ]0, 1[$ qualifié de facteur d'actualisation permet de pondéré la récompense au fur et à mesure des itérations, il dépend de si on veut gagner une récompense rapidement (proche de 0) ou dans longtemps proche de $1$. On calcule alors l'espérance $$\mathbb E\left( \sum_{t=1}^{+\infty} \gamma^t R(s, d_{t}(s)) \right) \leq \frac{M}{1 - \gamma} $$
+
+## Valeur d'une politique
+Une politique représente l'ensemble des décisions à chaque étape sur un horizon.
+La valeur d'une politique en l'état $s$ à un instant $t$ se définit de la façon suivante
+
+En posant l'état $1$ comme la dernière décision
+- **Dernière décision** $$V_{d,1}(s) = R(s, d_{1}(s))$$
+- **Décision à l'étape t** $$V_{d,t}(s) = R(s, d_{t}(s)) + \sum_{s' \in S}T(s,a)(s')V_{d,t-1} (s')$$
