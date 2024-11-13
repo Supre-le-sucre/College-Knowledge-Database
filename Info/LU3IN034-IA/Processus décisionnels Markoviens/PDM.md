@@ -7,8 +7,8 @@ Il s'agit d'un tuple $(S, A, T, R)$ avec
 - $T: S \times A \to L(S)$ ($L(S)$ représente les lois de probas à support fini sur $S$) qui pour tout couple d'état et d'action, renvoie la loi de probabilité $T(s, a)$. C'est à dire les probabilités d'atteindre un état en sachant que l'action $a$ a été réalisé sur l'état $s$
 - $R: S \times A \to \mathbb{R}$ qui qualifie la récompense immédiate obtenu si le couple état action a eu lieu.
 
-On pose la rè
-**Notre problème**: C'est de maximiser la récompense sur un "horizon" fini (donc jusqu'à $N$ itérations d'actions) ou un horizon infini. (Maximiser l'==espérance de la récompense==)
+On pose la règle de décision, la fonction $d_{i}: S \to A$ qui à l'instant $i$ et suivant un état $s$, on obtient une action $a$
+**Notre problème**: C'est de maximiser la récompense sur un "horizon" fini (donc jusqu'à $N$ itérations d'actions) ou un horizon infini. (Maximiser l'==espérance de la récompense==: $$\mathbb E\left( \sum_{t=1}^{N} R(s, d_{t}(s)) \right)$$
 
 ## Horizon infini
 Dans le cadre d'un horizon infini, tous les chemins se valent, étant donné que ces chemins donnent tous une récompense infinie.
