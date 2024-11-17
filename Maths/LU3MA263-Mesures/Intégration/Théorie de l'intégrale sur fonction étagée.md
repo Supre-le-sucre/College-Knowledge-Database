@@ -29,6 +29,9 @@ Et ainsi on a
 $$
 \begin{align*}
 \sum_{{y} \in s(E)} y \mu(A \cap s^{-1}(\{ y \})) = &\sum_{l=1}^p \gamma_{l} \mu(A \cap B_{l}) \\
-= & \sum_{l=1}^p \sum_{{k \in I_{l}}} \gamma_{l}\mu(A \cap A_{k})
+= & \sum_{l=1}^p \sum_{{k \in I_{l}}} \gamma_{l}\mu(A \cap A_{k}) \\
+= & \sum_{l=1}^p \sum_{{k \in I_{l}}} c_{k} \mu(A \cap A_{k}) \\
+= & \sum_{k=0}^n c_{k} c_{k} \mu(A \cap A_{k}) = \int_{A}s \; d\mu
 \end{align*}
 $$
+Comme on peut le voir, nous avons pu réécrire la même intégrale de deux manières différentes, ce qui montre bien que l'unicité de sa définition.
