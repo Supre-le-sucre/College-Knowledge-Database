@@ -89,4 +89,6 @@ $\Rightarrow$: Cette preuve est assez basique, il suffit de poser la projet $pro
 Cette fonction est continue, donc en particulier elle est donc $(\mathcal B(\mathbb{R}^2), \mathcal B(\mathbb{R}))$-mesurable.
 Or $f = proj_{1} \circ h$ donc la propriété de la composition nous donne bien que si $h$ mesurable, $f$ le sera aussi
 
+On refait la même chose avec $proj_{2}$ pour montrer la mesurabilité de $g$
+
 $$
