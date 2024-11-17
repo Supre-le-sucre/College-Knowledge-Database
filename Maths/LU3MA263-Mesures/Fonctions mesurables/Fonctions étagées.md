@@ -15,4 +15,9 @@ $$
 ## Lemme technique
 On observe la propriété suivante qui nous sera bien utile pour la suite: #!
 
-Soit $(E, \mathcal E)$ un espace mesurable avec $f: E \to [0,\infty]$ mesurable. Alors il existe $B_{n} \in \mathcal E$ et $c_{n} \in ]0, \infty[$
+Soit $(E, \mathcal E)$ un espace mesurable avec $f: E \to [0,\infty]$ mesurable. Alors il existe $B_{n} \in \mathcal E$ et $c_{n} \in ]0, \infty[$ tel que
+$$
+f = \sum_{n\in \mathbb{N}} c_{n} \mathbb 1_{B_{n}}
+$$
+
+### Preuve
