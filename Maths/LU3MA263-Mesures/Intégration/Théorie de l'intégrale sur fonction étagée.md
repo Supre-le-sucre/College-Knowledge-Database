@@ -17,4 +17,7 @@ s = \sum_{k=0}^nc_{k}
  \mathbb 1_{A_{k}}
  $$
  avec $c_{k}\geq 0$ avec $A_{k}$ deux à deux disjoints, alors on a nécessairement $\{ c_{1}, \dots, c_{k} \} = \{ \gamma_{1}, \dots \gamma_{p} \}$
- 
+ Pour avoir des indices qui coïncident, On va poser l'espace suivant
+ $$
+B_{l} = \bigcup_{k \in I_{l}} A_{k}
+$$ 
