@@ -11,6 +11,7 @@ s = \sum_{k=1}^{n} c_{k}\mathbb 1_{A_{k}}
 $$**Remarque**: Une fonction étagée n'admet pas une seule et unique décomposition $$
 s = \mathbb 1_{E} = \mathbb 1_{A} + \mathbb 1_{A^c}
 $$
+## Propriété convergence vers une fonction mesurable
 
 ## Lemme technique
 On observe la propriété suivante qui nous sera bien utile pour la suite: #!
@@ -21,3 +22,4 @@ f = \sum_{n\in \mathbb{N}} c_{n} \mathbb 1_{B_{n}}
 $$
 
 ### Preuve
+Soit $s_{n}$ une suite de fonctions mesurable étagée positive avec $s_{n} \leq s_{n+1}$
