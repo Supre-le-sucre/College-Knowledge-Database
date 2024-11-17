@@ -102,6 +102,12 @@ $$
 h^{-1}(R)
  = & \{ x \in E,\; (f(x), g(x)) \in ]a,b[\times]c,d[ \} \\
 = & \{ x \in E,\; f(x) \in ]a,b[, \; g(x) \in ]c,d[\} \\
-= &
+= & f^{-1}(]a,b[) \cap g^{-1}(]c,d[)
 \end{align*}
 $$
+Comme $f$ et $g$ sont mesurable, on a donc bien que $h$ est mesurable
+
+### Corollaire
+A partir de cela on observe que la mesurabilité est aussi conservée par opérations de fonctions: #!
+
+Soit $f,g$ mesurables, alors les fonctions $f+g$ et $fg$ sont aussi mesurables
