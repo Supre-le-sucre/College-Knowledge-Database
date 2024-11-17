@@ -19,5 +19,8 @@ s = \sum_{k=0}^nc_{k}
  avec $c_{k}\geq 0$ avec $A_{k}$ deux à deux disjoints, alors on a nécessairement $\{ c_{1}, \dots, c_{k} \} = \{ \gamma_{1}, \dots \gamma_{p} \}$
  Pour avoir des indices qui coïncident, On va poser l'espace suivant
  $$
+I_{l} = \{ k \in \{ 1, \dots, n \} : c_{k} = \gamma_{l} \}
+$$
+Ce qui nous permet ainsi de poser l'égalité suivante. $$
 B_{l} = \bigcup_{k \in I_{l}} A_{k}
 $$ 
