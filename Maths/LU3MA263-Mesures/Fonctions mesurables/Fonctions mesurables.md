@@ -77,3 +77,13 @@ En effet si $f$ continue, alors $\forall O \in \tau'$, $f^{-1}(O) \in \tau$ et c
 
 Ainsi d'après la propriété précédente le résultat est valide
 $$\tag*{$\blacksquare$}$$
+
+
+## Stabilité des fonctions mesurables sur la deuxième dimension
+Soit $(E, \mathcal E)$ un espace mesurable avec $f,g:E \to \mathbb R$. On pose $h(x) = (f(x), g(x))$: #!
+
+$h$ est $(\mathcal E, \mathcal B(\mathbb{R}^2))$-mesurable si et seulement si $f$ et $g$ sont $(\mathcal E, \mathcal B(\mathbb{R}^2))$
+
+### Preuve
+$\Rightarrow$: Cette preuve est assez basique, il suffit de poser la projet $proj_{1}: \mathbb R^2 \to \mathbb{R}$ tel que $proj_{1}: (x,y) \mapsto x$.
+Cette fonction est continue, donc en particulier elle est donc $$
