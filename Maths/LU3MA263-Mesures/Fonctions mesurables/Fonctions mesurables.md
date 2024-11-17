@@ -95,4 +95,13 @@ $\Leftarrow$: On suppose cette fois $f$ et $g$ mesurables
 On pose $\mathcal R = \{ ]a,b[\times]c,d[, \quad a < b, \; c < d \}$
 Observons que $\sigma(\mathcal R) = \mathcal B(\mathbb{R}^2)$, donc pour montrer sa mesurabilité de $h$ il suffit de le faire sur $\mathcal R$ soit on veut montrer $$
 \forall R \in \mathcal R, \quad \quad h^{-1}(\mathcal R) \in \mathcal E
+$$On pose $R =]a,b[\times]c,d[$. Et on observe que
+$$
+\begin{align*}
+
+h^{-1}(R)
+ = & \{ x \in E,\; (f(x), g(x)) \in ]a,b[\times]c,d[ \} \\
+= & \{ x \in E,\; f(x) \in ]a,b[, \; g(x) \in ]c,d[\} \\
+= &
+\end{align*}
 $$
