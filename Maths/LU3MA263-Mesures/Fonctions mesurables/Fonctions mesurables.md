@@ -110,4 +110,4 @@ Comme $f$ et $g$ sont mesurable, on a donc bien que $h$ est mesurable
 ### Corollaire
 A partir de cela on observe que la mesurabilité est aussi conservée par opérations de fonctions: #!
 
-Soit $f,g$ mesurables, alors les fonctions $f+g$ et $fg$ sont aussi mesurables
+Soit $f,g$ mesurables, alors les fonctions $f+g$ et $fg$ sont aussi mesurables. On a aussi que $\sum f_{n}$ est mesurable par la stabilité de la limite simple et de l'addition
