@@ -91,4 +91,8 @@ Or $f = proj_{1} \circ h$ donc la propriété de la composition nous donne bien 
 
 On refait la même chose avec $proj_{2}$ pour montrer la mesurabilité de $g$
 
+$\Leftarrow$: On suppose cette fois $f$ et $g$ mesurables
+On pose $\mathcal R = \{ ]a,b[\times]c,d[, \quad a < b, \; c < d \}$
+Observons que $\sigma(\mathcal R) = \mathcal B(\mathbb{R}^2)$, donc pour montrer sa mesurabilité de $h$ il suffit de le faire sur $\mathcal R$ soit on veut montrer $$
+\forall R \in \mathcal R, \quad \quad h^{-1}(\mathcal R) \in \mathcal E
 $$
