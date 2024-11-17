@@ -27,4 +27,19 @@ f = \sum_{n\in \mathbb{N}} c_{n} \mathbb 1_{B_{n}}
 $$
 
 ### Preuve
-Soit $s_{n}$ une suite de fonctions mesurable étagée positive avec $s_{n} \leq s_{n+1}$
+Soit $s_{n}$ une suite de fonctions mesurable étagée positive avec $s_{n} \leq s_{n+1}$ et tel que $\lim_{ n \to \infty } s_n = f$
+
+On pose $t_{0} = s_{0}$ et $t_{n} = s_{n} - s_{n-1}$
+Les fonctions $t_{n}$ sont aussi étagée positive.
+Ainsi $\exists N_{n}$ tel que $\exists (c_{1}^n, \dots, c_{N_{n}}^n) > 0$ et $\exists (A_{1}^n, \dots, A_{N_{n}}^n)$ avec $$
+t_{n} = \sum_{k=1}^{N_{n}}c_{k}^n\mathbb 1_{A_{k}^n} 
+$$
+Et en particulier, on observe que $\sum_{k=0}^{n}t_{k }=s_{n}$
+D'où finalement $$
+\sum_{k\in \mathbb{N}} t_{k} = \lim_{ n \to \infty } \sum_{k=0}^{n}t_{k} = \lim_{ n \to \infty } s_{n} =f
+$$
+Avec donc
+$$
+f = \sum_{n\in\mathbb{N}}\sum_{k=1}^{N_{n}}c_{k}^n \mathbb 1_{A_{k}^n}  = \sum_{n \in \mathbb{N}}c_{n} \mathbb 1_{B_{n}}
+$$
+Par réorganisation des indices (possibles car somme à termes positif)
