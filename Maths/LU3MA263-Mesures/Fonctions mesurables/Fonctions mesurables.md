@@ -86,4 +86,7 @@ $h$ est $(\mathcal E, \mathcal B(\mathbb{R}^2))$-mesurable si et seulement si $f
 
 ### Preuve
 $\Rightarrow$: Cette preuve est assez basique, il suffit de poser la projet $proj_{1}: \mathbb R^2 \to \mathbb{R}$ tel que $proj_{1}: (x,y) \mapsto x$.
-Cette fonction est continue, donc en particulier elle est donc $$
+Cette fonction est continue, donc en particulier elle est donc $(\mathcal B(\mathbb{R}^2), \mathcal B(\mathbb{R}))$-mesurable.
+Or $f = proj_{1} \circ h$ donc la propriété de la composition nous donne bien que si $h$ mesurable, $f$ le sera aussi
+
+$$
