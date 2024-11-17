@@ -12,7 +12,12 @@ $$**Remarque**: Une fonction étagée n'admet pas une seule et unique décomposi
 s = \mathbb 1_{E} = \mathbb 1_{A} + \mathbb 1_{A^c}
 $$
 ## Propriété convergence vers une fonction mesurable
+On observe la propriété suivante: #!
 
+Soit $f: E \to [0, \infty]$ une fonction $\mathcal E$ mesurable.
+Alors il existe une suite $s_{n}: E \to [0, \infty]$ de fonction étagée $\mathcal E$ mesurable telle que $s_{n} \leq s_{{n+1}}$ et $$
+\lim_{ n \to \infty } s_{n}=f \quad \quad \text{ et } \quad \quad s_{n} \leq f
+$$
 ## Lemme technique
 On observe la propriété suivante qui nous sera bien utile pour la suite: #!
 
