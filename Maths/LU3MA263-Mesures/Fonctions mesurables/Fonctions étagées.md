@@ -11,3 +11,8 @@ s = \sum_{k=1}^{n} c_{k}\mathbb 1_{A_{k}}
 $$**Remarque**: Une fonction étagée n'admet pas une seule et unique décomposition $$
 s = \mathbb 1_{E} = \mathbb 1_{A} + \mathbb 1_{A^c}
 $$
+
+## Lemme technique
+On observe la propriété suivante qui nous sera bien utile pour la suite: #!
+
+Soit $(E, \mathcal E)$ un espace mesurable avec $f: E \to [0,\infty]$ mesurable. Alors il existe $B_{n} \in \mathcal E$ et $c_{n} \in ]0, \infty[$
