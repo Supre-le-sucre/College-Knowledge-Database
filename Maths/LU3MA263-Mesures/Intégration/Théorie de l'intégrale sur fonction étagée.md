@@ -88,4 +88,12 @@ D'où
 $$
 s_{1} + cs_{2} = \sum_{1 \leq k\leq n, \; 1\leq j \leq m} (a_{k} + c b_{j})\;\mathbb 1_{A^1_{k} \cap A^2_{j}} 
 $$
-
+Cela permet donc de donner $\forall A \in \mathcal E$, une intégrale définie par somme
+$$
+\begin{align*}
+\int_{A}(s_{1} + cs_{2})d\mu =& \sum_{1 \leq k\leq n, \; 1\leq j \leq m} (a_{k} + c b_{j})\mu(A^1_{k} \cap A^2_{j} \cap A) \\
+=& \sum_{1 \leq k\leq n, \; 1\leq j \leq m} a_{k}\mu(A^1_{k} \cap A^2_{j} \cap A) + c \sum_{1 \leq k\leq n, \; 1\leq j \leq m} b_{j}\mu(A^1_{k} \cap A^2_{j} \cap A) \\
+=& \sum_{k=1}^{n} a_{k} \sum_{j=1}^{m} \mu(A^1_{k} \cap A^2_{j} \cap A) +c \sum_{j=1}^{m} b_{j} \sum_{k=1}^{n} \mu(A^1_{k} \cap A^2_{j} \cap A)
+\end{align*}
+$$
+Or comme les $A^1_{k}$ et $A^2_{j}$ sont deux à deux disjoints on peut dire que 
