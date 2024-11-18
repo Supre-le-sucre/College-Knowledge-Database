@@ -56,4 +56,28 @@ iv) <u>Cohérence de l'indicatrice</u> $\forall A, B \in \mathcal E$ $$
 $$
 v) <u>Cohérence de l'espace négligeable</u> $\forall A \in \mathcal E, \mu(A)= 0, \forall s \in S_{+}$ $$
 \int_{A}sd\mu = 0
-$$ vi) <u>Obtention d'une mesure</u>
+$$ vi) <u>Obtention d'une mesure</u> $\forall s \in S_{+}, A \in \mathcal E$ l'application telle que
+$$
+\nu_{s}(A) = \int_{A}sd\mu
+$$
+est une mesure sur $(E, \mathcal E)$
+
+### Preuve
+Ces propriétés constituent la bases de la théorie de l'intégration, il est donc nécessaire de bien concevoir les preuves auxquels elles sont associées
+
+i) <u>Linéarité</u>
+Posons
+$$
+s_{1} = \sum_{k=1}^{n} a_{k}\mathbb 1_{A_{k}^1} \quad \quad s_{2} = \sum_{k=1}^{m} b_{k}\mathbb 1_{A_{k}^2}
+$$
+Rappelons que les $A^1_{k}$ et $A^2_{k}$ sont des ensembles de $\mathcal E$ qui sont respectivement deux à deux disjoints.
+Rappelons que dans ce cas les $a_{k}$ et $b_{k}$ ne prennent que les valeurs que peuvent prendre $s_{1}$ et $s_{2}$ respectivement, et que l'on peut poser l'égalité suivante
+$$
+A^1_{i} = s_{1}^{-1}(\{ a_{i} \}) \quad \quad A^2_{i} = s_{2}^{-1}(\{ b_{i} \})
+$$
+Etant donné $s_{1}, s_{2}$ est une fonction, nous somme garanties que ces suites d'ensemble ==forment une partition== de $E$. (Car $s_{1}, s_{2}$ définie sur $E$, et les préimages d'ensembles disjoints restent disjoints)
+
+La suite d'ensemble $(A^1_{k} \cap A^2_{j})_{k \leq m, \;j \leq n}$
+Ainsi $$
+\forall x \in A^1_{k} \cap A^2_{j} \quad \quad s_{1}(x)=a_{k}, \; s_{2}(x)=b_{j}
+$$
