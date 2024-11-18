@@ -124,4 +124,6 @@ Soit $s_{1}, s_{2} \in S_{+}$ et $A \in \mathcal E$, on suppose $s_{1} \leq s_{2
 On pose alors $s'_{1} = s_{1}\mathbb 1_{A}$ et $s'_{2} = s_{2}\mathbb 1_{A}$ d'où finalement $s'_{1} \leq s'_{2}$ sur l'ensemble $E$ tout entier
 
 La fonction $s = s'_{2} - s'_{1}$ est donc bien une fonction étagée positive et mesurable d'où $\int_{E}sd\mu \geq 0$
-Donc on peut utiliser la propriété de linéairité (i) comme suit
+Donc on peut utiliser la propriété de linéarité (i) comme suit $$
+\int_{E}s'_{1}d\mu
+$$
