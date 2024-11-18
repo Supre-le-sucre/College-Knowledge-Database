@@ -105,3 +105,8 @@ $$
 = & \int_{A} s_{1} d\mu + c\int_{A}s_{2}d\mu
 \end{align*}
 $$
+
+ii) <u>Equivalence d'intégrale</u> 
+Soit $s \in S_{+}$ tel que $$
+s = \sum_{k=0}^{n} c_{k} \mathbb 1_{A_{k}}
+$$
