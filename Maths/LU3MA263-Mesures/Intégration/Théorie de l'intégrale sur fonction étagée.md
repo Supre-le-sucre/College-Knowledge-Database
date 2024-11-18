@@ -96,4 +96,12 @@ $$
 =& \sum_{k=1}^{n} a_{k} \sum_{j=1}^{m} \mu(A^1_{k} \cap A^2_{j} \cap A) +c \sum_{j=1}^{m} b_{j} \sum_{k=1}^{n} \mu(A^1_{k} \cap A^2_{j} \cap A)
 \end{align*}
 $$
-Or comme les $A^1_{k}$ et $A^2_{j}$ sont deux à deux disjoints on peut dire que 
+Or comme les $A^1_{k}$ et $A^2_{j}$ sont deux à deux disjoints on peut employer la sigma additivité de la [[Mesure]]. En se rappelant que $\bigcup A^1_{k} = E$  et $\bigcup A^2_{j} = E$
+$$
+\begin{align*}
+\int_{A}(s_{1} + cs_{2})d\mu =& \sum_{k=1}^{n} a_{k} \sum_{j=1}^{m} \mu(A^1_{k} \cap A^2_{j} \cap A) +c \sum_{j=1}^{m} b_{j} \sum_{k=1}^{n} \mu(A^1_{k} \cap A^2_{j} \cap A) \\
+= & \sum_{k=1}^{n} a_{k} \mu\left( A^1_{k} \cap \bigcup_{j=1}^m A^2_{j} \cap A \right) + c \sum_{j=1}^{m} b_{j} \mu\left( \bigcup_{k=1}^n A^1_{k} \cap  A^2_{j} \cap A \right) \\
+= & \sum_{k=1}^{n} a_{k} \mu\left( A^1_{k}  \cap A \right) + c \sum_{j=1}^{m} b_{j} \mu\left(  A^2_{j} \cap A \right) \\
+= & \int_{A} s_{1} d\mu + c\int_{A}s_{2}d\mu
+\end{align*}
+$$
