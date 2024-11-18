@@ -81,3 +81,11 @@ La suite d'ensemble $(A^1_{k} \cap A^2_{j})_{k \leq m, \;j \leq n}$
 Ainsi $$
 \forall x \in A^1_{k} \cap A^2_{j} \quad \quad s_{1}(x)=a_{k}, \; s_{2}(x)=b_{j}
 $$
+Ce qui nous permet de réécrire: $$
+s_{1} = \sum_{k=1}^{n} a_{k}\mathbb 1_{A^1_{k} \cap A^2_{j}} \quad \quad s_{2} = \sum_{k=1}^{m} b_{k}\mathbb 1_{A^1_{k} \cap A^2_{j}}
+$$
+D'où
+$$
+s_{1} + cs_{2} = \sum_{1 \leq k\leq n, \; 1\leq j \leq m} (a_{k} + c b_{j})\;\mathbb 1_{A^1_{k} \cap A^2_{j}} 
+$$
+
