@@ -108,5 +108,20 @@ $$
 
 ii) <u>Equivalence d'intégrale</u> 
 Soit $s \in S_{+}$ tel que $$
-s = \sum_{k=0}^{n} c_{k} \mathbb 1_{A_{k}}
+s = \sum_{k=1}^{n} c_{k} \mathbb 1_{A_{k}}
 $$
+Avec $A_{k}$ deux à deux disjoints.
+En posant $$
+s' = s\mathbb 1_{A} = \sum_{k=1}^{n} c_{k} \mathbb 1_{A_{k}}1_{A} = \sum_{k=1}^{n} c_{k} \mathbb 1_{A_{k} \cap {A}}
+$$
+Et $A_{k} \cap A \in \mathcal E$ qui sont 2 à 2 disjoints, d'où
+$$
+\int_{E}s'd\mu=\sum_{k=1}^{n} c_{k}\mu(A_{k} \cap A \cap E) = \int_{A}sd\mu
+$$
+
+iii) <u>Conservation de l'ordre</u>
+Soit $s_{1}, s_{2} \in S_{+}$ et $A \in \mathcal E$, on suppose $s_{1} \leq s_{2}$ sur l'ensemble $A$
+On pose alors $s'_{1} = s_{1}\mathbb 1_{A}$ et $s'_{2} = s_{2}\mathbb 1_{A}$ d'où finalement $s'_{1} \leq s'_{2}$ sur l'ensemble $E$ tout entier
+
+La fonction $s = s'_{2} - s'_{1}$ est donc bien une fonction étagée positive et mesurable d'où $\int_{E}sd\mu \geq 0$
+Donc on peut utiliser la propriété de linéairité (i) comme suit
