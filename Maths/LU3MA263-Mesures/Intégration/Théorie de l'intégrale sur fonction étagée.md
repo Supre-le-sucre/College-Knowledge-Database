@@ -1,7 +1,7 @@
 ## Définition
 On définit une intégrale sur une [[Fonctions étagées#Définition|fonction étagée]] de la façon suivante: #!
 
-Dans un espace mesuré $(E, \mathcal E, \mu)$, dans lequel on note $S_{i}$ l'ensemble des fonctions étagées positive $s : E \to [0, \infty]$. On définit l'intégrale de $s$ contre $\mu$ sur l'ensemble $A \in \mathcal E$, l'application telle que $$
+Dans un espace mesuré $(E, \mathcal E, \mu)$, dans lequel on note $S_{+}$ l'ensemble des fonctions étagées positive $s : E \to [0, \infty]$. On définit l'intégrale de $s$ contre $\mu$ sur l'ensemble $A \in \mathcal E$, l'application telle que $$
 \int_{A}s\;d\mu = \sum_{k=0}^{n}c_{k}\:\mu(A_{k} \cap A)
 $$
 Avec les $A_{k}$ deux à deux disjoints
@@ -35,3 +35,25 @@ $$
 \end{align*}
 $$
 Comme on peut le voir, nous avons pu réécrire la même intégrale de deux manières différentes, ce qui montre bien que l'unicité de sa définition.
+
+
+## Propriété de bases de l'intégrales
+Pour un espace mesuré $(E, \mathcal E, \mu)$, on observe que les propriétés de bases sont satisfaites: #!
+
+i) <u>Linéarité</u>: $\forall s_{1},s_{2} \in S_{+}, \forall c \geq 0, \forall A \in \mathcal E$ $$
+\int_{A}(s_{1}+cs_{2})d\mu = \int_{A}s_{1}d\mu + c \int_{A}s_{2}d\mu
+$$
+ii) <u>Equivalence d'intégrale</u> $\forall s \in S_{+}, \forall A \in \mathcal E$ $$
+\int_{A}sd\mu = \int_{E}s \times\mathbb 1_{A}d\mu
+$$
+iii) <u>Conservation de l'ordre</u> $\forall s_{1} \leq s_{2} \in S_{+}, \forall A \in \mathcal E$
+$$
+\int_{A}s_{1}d\mu \leq \int_{A}s_{2}d\mu
+$$
+
+iv) <u>Cohérence de l'indicatrice</u> $\forall A, B \in \mathcal E$ $$
+\int_{A} \mathbb 1 _{B} d\mu = \mu(A \cap B)
+$$
+v) <u>Cohérence de l'espace négligeable</u> $\forall A \in \mathcal E, \mu(A)= 0, \forall s \in S_{+}$ $$
+\int_{A}sd\mu = 0
+$$ vi) <u>Obtention d'une mesure</u>
