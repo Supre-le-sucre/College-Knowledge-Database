@@ -11,4 +11,10 @@ f'(a) = 0
 $$
 
 ### Preuve
-Pour le prouver
+On prouve le le minimum, mais le maximum se prouve de la même façon
+
+Supposons alors $\exists \varepsilon >0, \forall x \in B(a, \varepsilon), f(x) \geq f(a)$
+Et on a $$
+f(a+h) = f(a) +hf'(a) +o(h) \implies f(a+h) - f(a) = hf'(a) + o(h)
+$$
+Or $\forall h \in B(0, \varepsilon)$
