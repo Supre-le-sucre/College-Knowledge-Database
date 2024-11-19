@@ -100,9 +100,7 @@ D_{f \circ g}(a) = D_{g}(f(a))\circ D_{f}(a)
 $$
 
 ## Propriété, différentielle de l'inverse d'un homéomorphisme
-Soit $f: \Omega_{E} \to \Omega_{F}$ un homéomorphisme, alors si elle est différentiable en $a$ on observe que
-
-$f^{-1}$ est différentiable en $f(a)$
+Soit $f: \Omega_{E} \to \Omega_{F}$ un homéomorphisme, alors si elle est différentiable en $a$ et que $f^{-1}$ est différentiable en $f(a)$
 $$
 D_{f^{-1}}(f(a)) = \left( D_{f}(a) \right)^{-1}
 $$
