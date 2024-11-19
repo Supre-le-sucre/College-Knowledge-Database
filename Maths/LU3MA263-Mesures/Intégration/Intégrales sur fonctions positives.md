@@ -34,3 +34,29 @@ $$
 
 ### Preuve
 Les preuves de ces propriétés découlent de la définition ainsi que des [[Théorie de l'intégrale sur fonction étagée#Propriété de bases de l'intégrales|propriété de bases de l'intégrale sur fonctions étagées]]
+
+
+## Propriété de linéarité de l'intégrale sur fonction
+Soit $f,g: E \to [0, \infty]$ et $\mathcal E$-mesurables avec $c \geq 0$, alors: #!
+$$
+\int_{E}(f+cg)d\mu=\int_{E}fd\mu+c\int_{E}gd\mu
+$$
+
+### Preuve
+Soit $(s_{n})_{n \in \mathbb{N}}$ une suite de fonctions de $S_{+}$ tel que $s_{n} \leq s_{n+1}$ et $\lim_{ n \to \infty } s_{n} = f$ possible par le [[Fonctions étagées#Propriété convergence vers une fonction mesurable|lemme technique]]
+
+On pose aussi une suite $s'_{n}$ de $S_{+}$ de même propriété qui cette fois converge vers $g$.
+On sait que l'[[Théorie de l'intégrale sur fonction étagée|intégrale est linéaire]] sur les fonctions étagées i.e
+$$
+\int_{E}(s_{n}+cs'_{n}) d\mu = \int_{E}s_{n}d\mu+c\int_{E}s'_n
+d\mu$$
+Comme la suite de $s_{n}$ et de $s'_{n}$ est croissante, il est possible d'appliquer [[Convergence monotone|le théorème de convergence monotone]] 
+
+$$
+\begin{align*}
+\int_{E}(s_{n}+cs'_{n}) d\mu = & \int_{E}s_{n}d\mu+ c\int_{E}s'_n \\ \\
+\lim_{ n \to \infty } \int_{E}(s_{n}+cs'_n)d\mu = & \lim_{ n \to \infty } \left( \int_{E}s_{n}d\mu \right) + \lim_{ n \to \infty } \left(c \int_{E} s'_{n}d\mu \right) \\ \\
+ \int_{E}\left(\lim_{ n \to \infty }(s_{n}+cs'_n)d\mu\right) = &   \int_{E}\left(\lim_{ n \to \infty }s_{n}\right)d\mu  +  c \int_{E} \left(\lim_{ n \to \infty }s'_{n}\right)d\mu  \\ \\
+\int_{E}(f+cg)d\mu= &\int_{E} fd\mu +c \int_{E}gd\mu
+\end{align*}
+$$
