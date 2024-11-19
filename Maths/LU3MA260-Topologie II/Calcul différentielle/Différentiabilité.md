@@ -83,3 +83,4 @@ On dit que $f$ est différentiable si et seulement si: #!
 
 Elle est différentiable en tout point de son espace de définition.
 
+## Propriété sur les opérations
