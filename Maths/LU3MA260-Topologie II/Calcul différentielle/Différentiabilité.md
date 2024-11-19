@@ -105,3 +105,21 @@ $$
 D_{f^{-1}}(f(a)) = \left( D_{f}(a) \right)^{-1}
 $$
 
+### Preuve
+Observe que $f^{-1}(f(a+h)) = a+h$
+Et de plus, par définition de la différentielle, on obtient
+$$
+f^{-1}(f(a+h)) = f^{-1}(f(a)+ D_{f}(a)(h) + o(h))
+$$
+Posons $\tilde{h} = D_{f}(a)(h) + o(h)$ et ré appliquons la définition du différentielle de $f^{-1}$
+$$
+\begin{align*}
+
+f^{-1}(f(a+h)) = & f^{-1}(f(a)) + D_{f^{-1}}(f(a))\tilde{h} + o(\tilde{h}) \\
+a+h =& a+ D_{f^{-1}}(f(a))(\tilde{h}) + o(\tilde{h}) \\
+h = & D_{f^{-1}}(f(a))(\tilde{h}) + o(\tilde{h}) \\
+h= & D_{f^{-1}}(f(a)) \circ D_{f}(a)(h) + o(h)
+
+\end{align*}
+$$
+
