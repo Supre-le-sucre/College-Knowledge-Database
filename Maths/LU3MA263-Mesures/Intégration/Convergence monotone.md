@@ -8,3 +8,7 @@ On a déjà que $f$ est mesurable par limite simple de fonction mesurable, mais 
 $$
 
 **Remarque**: Beppo-Levi sert donc à intervertir limite et intégrales
+
+
+### Preuve
+La preuve est longue, et j'ai pas le temps là :D

@@ -60,3 +60,17 @@ $$
 \int_{E}(f+cg)d\mu= &\int_{E} fd\mu +c \int_{E}gd\mu
 \end{align*}
 $$
+
+## Inversion $\sum$ et $\int$ 
+Soit $f_{n}: E \to [0, \infty]$, $\mathcal E$-mesurable et positive, alors on a que: #!
+
+$$
+\int_{E}\left(\sum_{n \in \mathbb{N}}f_{n}\right)d\mu = \sum_{n \in \mathbb{N}} \left(\int_{E} f_{n} d\mu\right)
+$$
+
+### Preuve
+On utilise ici la somme partielle de $\sum f_{n}$ que l'on défini par $g_{n}= \sum^n_{k=0} f_{n}$
+Comme les $f_{n}$ sont positifs on a donc $g_{n} \leq g_{n+1}$, et on utilise le [[Convergence monotone#Théorème|TCM]].
+
+C'est ensuite immédiat
+
