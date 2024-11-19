@@ -85,3 +85,10 @@ Elle est différentiable en tout point de son espace de définition.
 
 ## Propriété sur les opérations
 Soit $f_{1}, f_{2}: \Omega \to F$ différentiable en $a$, alors: #!
+
+$$
+D_{f_{1}+f_{2}}(a) = D_{f_{1}}(a)+D_{f_{2}}(a)
+$$$$
+D_{f_{1}f_{2}}(a) = f_{1}(a)D_{f_{2}}(a)+f_{2}(a)D_{f_{1}}(a)
+$$
+## Propriété sur la composition
