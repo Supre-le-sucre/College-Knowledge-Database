@@ -21,3 +21,4 @@ Or $\forall h \in B(0, \varepsilon)$...
 
 Si $h \geq 0$ $f'(a) + \frac{o(h)}{h} \geq 0$
 et sinon $f'(a) + \frac{o(h)}{h} \leq 0$
+
