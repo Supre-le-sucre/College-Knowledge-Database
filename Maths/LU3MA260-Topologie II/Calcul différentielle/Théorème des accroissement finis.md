@@ -12,3 +12,5 @@ $$
 ### Preuve
 Consulter Poly.
 
+## Corollaire
+Soit $f: \Omega \to F$ avec $\Omega$ ouvert, tel qu'il existe $(a,b) \in \Omega$ avec $[a,b] \subset \Omega$: #!
