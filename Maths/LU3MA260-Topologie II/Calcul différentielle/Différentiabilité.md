@@ -84,3 +84,4 @@ On dit que $f$ est différentiable si et seulement si: #!
 Elle est différentiable en tout point de son espace de définition.
 
 ## Propriété sur les opérations
+Soit $f_{1}, f_{2}: \Omega \to F$ différentiable en $a$, alors: #!
