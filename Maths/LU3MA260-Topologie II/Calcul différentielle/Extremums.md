@@ -27,3 +27,7 @@ Soit $f: \Omega \to F$ et supposons que $a$ est un extremum local, alors dans ce
 $$
 D_{f}(a) = 0
 $$
+
+## Point critique
+Un point est qualifié de critique lorsque: #!
+La différentielle en ce point est nulle
