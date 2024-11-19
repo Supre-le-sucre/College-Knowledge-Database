@@ -105,6 +105,3 @@ $$
 D_{f^{-1}}(f(a)) = \left( D_{f}(a) \right)^{-1}
 $$
 
-### Preuve
-Observe que $f^{-1}(f(a+h)) = a+h$
-Et de plus, par définition de la différentielle
