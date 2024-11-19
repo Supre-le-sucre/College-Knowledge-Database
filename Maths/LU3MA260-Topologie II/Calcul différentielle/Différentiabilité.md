@@ -92,3 +92,9 @@ $$$$
 D_{f_{1}f_{2}}(a) = f_{1}(a)D_{f_{2}}(a)+f_{2}(a)D_{f_{1}}(a)
 $$
 ## Propriété sur la composition
+On observe que pour $f: \Omega \to F$ et $g: F \to G$ et $f$ différentiable en $a$ et $g$ différentiable en $f(a)$ alors on a la différentielle suivante: #!
+
+$f \circ g$ est différentiable en $a$
+$$
+D_{f \circ g}(a) = D_{g}(f(a))\circ D_{f}(a)
+$$
