@@ -13,5 +13,19 @@ Par le [[Convergence monotone|TCM]] on a que
 $$
 \int_{E}
  \left( \lim_{ n \to \infty } g_{n} \right) d\mu = \lim_{ n \to \infty } \left( \int_{E} g_{n} d\mu \right)$$
- Et on a en particulier que $\lim_{ n \to \infty } g_{n} = \lim\inf_{ n \to \infty } f_{n}$
- 
+Et on a en particulier que $\lim_{ n \to \infty } g_{n} = \lim\inf_{ n \to \infty } f_{n}$
+D'autre part, observons que $g_{n} \leq f_{n}$
+Par propriété de l'intégrale $$
+\int_{E}g_{n} d\mu \leq \int_{E}f_{n}d\mu
+$$
+Et par stabilité de la $\lim\inf$ on a que
+$$
+\lim\inf_{ n \to \infty } \left(  \int_{E}g_{n} d\mu \right) \leq \lim\inf_{ n \to \infty } \left(\int_{E}f_{n}d\mu\right)
+$$
+$$\lim_{ n \to \infty } \left(  \int_{E}g_{n} d\mu \right) \leq \lim\inf_{ n \to \infty } \left(\int_{E}f_{n}d\mu\right)$$
+Car, en effet, $g_{n}$ converge nécessairement vers la limite inf de $f$, ce qui fait que comme elle est convergence, sa limite inf et sup est la même que sa limite
+
+D'où l'égalité vérifiée d'après la formule de départ
+$$
+\int_{E}\liminf_{ n \to \infty } f_{n} d\mu = \liminf_{ n \to \infty } \int_{E} f_{n} d\mu 
+$$
