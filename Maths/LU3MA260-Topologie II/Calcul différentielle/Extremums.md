@@ -22,3 +22,8 @@ Or $\forall h \in B(0, \varepsilon)$...
 Si $h \geq 0$ $f'(a) + \frac{o(h)}{h} \geq 0$
 et sinon $f'(a) + \frac{o(h)}{h} \leq 0$
 
+## Propriété sur les extremums locaux multi-dimensionnels
+Soit $f: \Omega \to F$ et supposons que $a$ est un extremum local, alors dans ce cas: #!
+$$
+D_{f}(a) = 0
+$$
