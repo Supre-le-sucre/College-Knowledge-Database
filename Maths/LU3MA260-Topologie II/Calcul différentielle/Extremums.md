@@ -31,3 +31,7 @@ $$
 ## Point critique
 Un point est qualifié de critique lorsque: #!
 La différentielle en ce point est nulle
+
+## Vecteur gradient
+On définit le gradient au point $a$ de la façon suivante: #!
+
