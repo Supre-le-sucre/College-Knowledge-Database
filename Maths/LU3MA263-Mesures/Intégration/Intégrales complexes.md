@@ -8,4 +8,9 @@ $$
 On note $\mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu)$ l'ensemble de ces fonctions
 
 ## Partie imaginaire et conjugué d'intégrales complexes
-Soit $f \in \mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu)$
+Soit $f \in \mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu)$ alors on a que: #!
+
+$$
+\beg
+\mathrm{Re}\left( \int_{A}fd\mu \right) = \int_{A}\mathrm{Re}(f)d\mu
+$$
