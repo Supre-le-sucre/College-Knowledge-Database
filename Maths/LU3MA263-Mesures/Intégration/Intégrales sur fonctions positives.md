@@ -50,7 +50,7 @@ On sait que l'[[Théorie de l'intégrale sur fonction étagée|intégrale est li
 $$
 \int_{E}(s_{n}+cs'_{n}) d\mu = \int_{E}s_{n}d\mu+c\int_{E}s'_n
 d\mu$$
-Comme la suite de $s_{n}$ et de $s'_{n}$ est croissante, il est possible d'appliquer [[Convergence monotone|le théorème de convergence monotone]] 
+Comme la suite de $s_{n}$ et de $s'_{n}$ est croissante, il est possible d'appliquer [[Convergence monotone et dominée|le théorème de convergence monotone]] 
 
 $$
 \begin{align*}
@@ -70,7 +70,7 @@ $$
 
 ### Preuve
 On utilise ici la somme partielle de $\sum f_{n}$ que l'on défini par $g_{n}= \sum^n_{k=0} f_{n}$
-Comme les $f_{n}$ sont positifs on a donc $g_{n} \leq g_{n+1}$, et on utilise le [[Convergence monotone#Théorème|TCM]].
+Comme les $f_{n}$ sont positifs on a donc $g_{n} \leq g_{n+1}$, et on utilise le [[Convergence monotone et dominée#Théorème|TCM]].
 
 C'est ensuite immédiat
 

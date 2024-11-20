@@ -12,3 +12,15 @@ $$
 
 ### Preuve
 La preuve est longue, et j'ai pas le temps là :D
+
+
+## Théorème de convergence dominé
+On énonce le théorème suivant: #!
+
+Soit $f_{n}: E \to \mathbb{C}$ une suite de fonctions $\mathcal E$-mesurable. On suppose que
+- $\forall x \in E, \lim_{ n \to \infty }f_{n}(x)=f(x)$
+- $\exists g:E \to \mathbb{C}$ intégrable, telle que $\forall n \in \mathbb{N}, |f_{n}| < g$
+Alors dans ce cas:
+- $f$ est une fonction $\mathcal E$-mesurable et $f$ et $f_{n}$ sont $\mu$-intégrables
+- $\lim_{ n \to \infty }\int_{E}|f_{n}-f| =0$
+- $\lim_{ n \to \infty }\int_{E}f_{n}=\int_{E}f$
