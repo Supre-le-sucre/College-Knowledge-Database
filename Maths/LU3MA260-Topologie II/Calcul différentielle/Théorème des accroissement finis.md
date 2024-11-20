@@ -13,4 +13,11 @@ $$
 Consulter Poly.
 
 ## Corollaire
-Soit $f: \Omega \to F$ avec $\Omega$ ouvert, tel qu'il existe $(a,b) \in \Omega$ avec $[a,b] \subset \Omega$: #!
+Par rapport au théorème des accroissements finis, soit $f: \Omega \to F$ avec $\Omega$ ouvert, tel qu'il existe $(a,b) \in \Omega$ avec $[a,b] \subset \Omega$: #!
+
+1)
+$$\exists M, \forall x \in [a,b], ||D_{f}(x)|| \leq M \implies ||f(b) -f(a)|| \leq M||b-a||$$
+2)
+$$
+\exists M, \forall x \in [a,b], ||D_{f}(x) -D_f(a)|| \leq ||f(b)-f(a)-D_{f}(a)(b-a)|| \leq M \implies M||b-a||
+$$
