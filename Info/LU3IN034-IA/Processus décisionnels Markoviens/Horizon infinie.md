@@ -34,3 +34,6 @@ La suite est définie par $V_{0} = 0$ et $V_{t} = LV_{t-1}$
 
 Si $|V_{t-1}(s) - V_{t}(s)| < \varepsilon$
 Alors $\max_{s \in S} |V_{d(V(t))}(S) -V^*(S)| < 2 \varepsilon \frac{\gamma}{1 - \gamma}$
+
+
+## Itération de la politique
