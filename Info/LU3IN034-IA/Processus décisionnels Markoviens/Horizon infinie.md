@@ -36,4 +36,9 @@ Si $|V_{t-1}(s) - V_{t}(s)| < \varepsilon$
 Alors $\max_{s \in S} |V_{d(V(t))}(S) -V^*(S)| < 2 \varepsilon \frac{\gamma}{1 - \gamma}$
 
 
-## Itération de la politique
+## Propriété sur l'itération de la politique
+Soit $\Pi$ une politique stationnaire de valeur $V_{\gamma}^\pi$. Alors toute politique $\pi'$ choisie dans
+$$
+\arg \max_{\gamma} \{ R_{\delta} + \gamma T_{\gamma}V_{\gamma}^\pi \}
+$$
+vérifie l'inégalité $V_{\gamma}^{\pi'} \geq V_{\gamma}^\pi$
