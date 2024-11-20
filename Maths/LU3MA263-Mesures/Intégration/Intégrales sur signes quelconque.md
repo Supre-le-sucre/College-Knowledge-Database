@@ -14,4 +14,9 @@ En posant $f_{+} = \max(0, f)$ et $f_{-} = \max(0,-f)$, on donne l'égalité sui
 \int_{A}fd\mu = \int_{A} f_{+} d\mu - \int_{A}f_{-}d\mu
 $$
 
-## Propriété de l'intégrale sur $\mathcal L^1_{\mathbb{R}}(E, \mathcal E, \mu)$
+## Inégalité triangulaire de l'intégrale sur $\mathcal L^1_{\mathbb{R}}(E, \mathcal E, \mu)$
+On observe la propriété suivante: #!
+$$
+\left| \int_{E}fd\mu \right| \leq \int_{E} |f| d\mu
+$$
+
