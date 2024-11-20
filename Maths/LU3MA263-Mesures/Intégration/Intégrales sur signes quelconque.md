@@ -13,3 +13,5 @@ On définit l'intégrale de $f \in \mathcal L^1_{\mathbb{R}}(E, \mathcal E, \mu)
 En posant $f_{+} = \max(0, f)$ et $f_{-} = \max(0,-f)$, on donne l'égalité suivante: $$
 \int_{A}fd\mu = \int_{A} f_{+} d\mu - \int_{A}f_{-}d\mu
 $$
+
+## Propriété de l'intégrale sur $\mathcal L^1_{\mathbb{R}}(E, \mathcal E, \mu)$
