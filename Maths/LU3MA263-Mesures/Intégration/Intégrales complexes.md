@@ -11,6 +11,9 @@ On note $\mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu)$ l'ensemble de ces foncti
 Soit $f \in \mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu)$ alors on a que: #!
 
 $$
-\beg
-\mathrm{Re}\left( \int_{A}fd\mu \right) = \int_{A}\mathrm{Re}(f)d\mu
+\begin{align*}
+\mathrm{Re}\left( \int_{A}fd\mu \right) = &\int_{A}\mathrm{Re}(f)d\mu \\
+\mathrm{Im}\left( \int_{A}fd\mu \right) = &\int_{A}\mathrm{Im}(f)d\mu \\
+\int_{A}\overline{f}d\mu =& \overline{\int_{A}fd\mu}
+\end{align*}
 $$
