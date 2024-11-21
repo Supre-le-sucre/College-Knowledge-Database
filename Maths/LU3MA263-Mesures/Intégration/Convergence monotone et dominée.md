@@ -6,6 +6,8 @@ Ainsi en posant $f = \lim_{ n \to \infty } f_{n}$ on a aussi $f = \sup_{n \in \m
 On a déjà que $f$ est mesurable par limite simple de fonction mesurable, mais aussi que $$
 \int_{E}fd\mu = \int_{E}\lim_{ n \to \infty } f_{n}d\mu=\lim_{ n \to \infty } \int_{E} f_{n}d\mu
 $$
+<!--ID: 1732147465882-->
+
 
 **Remarque**: Beppo-Levi sert donc à intervertir limite et intégrales
 
@@ -24,3 +26,5 @@ Alors dans ce cas:
 - $f$ est une fonction $\mathcal E$-mesurable et $f$ et $f_{n}$ sont $\mu$-intégrables
 - $\lim_{ n \to \infty }\int_{E}|f_{n}-f| =0$
 - $\lim_{ n \to \infty }\int_{E}f_{n}=\int_{E}f$
+<!--ID: 1732147465884-->
+

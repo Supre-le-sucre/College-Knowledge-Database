@@ -4,11 +4,15 @@ Soit $(E, \mathcal E, \mu)$ un espace mesuré, et $f: E \to [0, \infty]$ une fon
 $$
 \int_{A} fd\mu = \sup\left\{ \int_{A}sd\mu, s \in S_{+}, \forall x \in A, 0 \leq s(x) \leq f(x) \right\} 
 $$
+<!--ID: 1732147465902-->
+
 
 ## Propriété
 On note les propriétés fondamentales de l'intégrale sur fonctions positives: #!
 
 Soit $f, g: E \to [0, \infty]$, $\mathcal E$-mesurable. Alors
+<!--ID: 1732147465905-->
+
 
 i) <u>Conservation de l'ordre</u> $f \leq g$ sur $A \in \mathcal E$
 $$
@@ -41,6 +45,8 @@ Soit $f,g: E \to [0, \infty]$ et $\mathcal E$-mesurables avec $c \geq 0$, alors:
 $$
 \int_{E}(f+cg)d\mu=\int_{E}fd\mu+c\int_{E}gd\mu
 $$
+<!--ID: 1732147465907-->
+
 
 ### Preuve
 Soit $(s_{n})_{n \in \mathbb{N}}$ une suite de fonctions de $S_{+}$ tel que $s_{n} \leq s_{n+1}$ et $\lim_{ n \to \infty } s_{n} = f$ possible par le [[Fonctions étagées#Propriété convergence vers une fonction mesurable|lemme technique]]
@@ -67,6 +73,8 @@ Soit $f_{n}: E \to [0, \infty]$, $\mathcal E$-mesurable et positive, alors on a 
 $$
 \int_{E}\left(\sum_{n \in \mathbb{N}}f_{n}\right)d\mu = \sum_{n \in \mathbb{N}} \left(\int_{E} f_{n} d\mu\right)
 $$
+<!--ID: 1732147465909-->
+
 
 ### Preuve
 On utilise ici la somme partielle de $\sum f_{n}$ que l'on défini par $g_{n}= \sum^n_{k=0} f_{n}$

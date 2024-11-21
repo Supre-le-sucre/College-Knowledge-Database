@@ -83,6 +83,8 @@ $$\tag*{$\blacksquare$}$$
 Soit $(E, \mathcal E)$ un espace mesurable avec $f,g:E \to \mathbb R$. On pose $h(x) = (f(x), g(x))$: #!
 
 $h$ est $(\mathcal E, \mathcal B(\mathbb{R}^2))$-mesurable si et seulement si $f$ et $g$ sont $(\mathcal E, \mathcal B(\mathbb{R}^2))$
+<!--ID: 1732147465918-->
+
 
 ### Preuve
 $\Rightarrow$: Cette preuve est assez basique, il suffit de poser la projet $proj_{1}: \mathbb R^2 \to \mathbb{R}$ tel que $proj_{1}: (x,y) \mapsto x$.
@@ -111,3 +113,4 @@ Comme $f$ et $g$ sont mesurable, on a donc bien que $h$ est mesurable
 A partir de cela on observe que la mesurabilité est aussi conservée par opérations de fonctions: #!
 
 Soit $f,g$ mesurables, alors les fonctions $f+g$ et $fg$ sont aussi mesurables. On a aussi que $\sum f_{n}$ est mesurable par la stabilité de la limite simple et de l'addition
+<!--ID: 1732147465920-->

@@ -5,6 +5,8 @@ Dans un espace mesuré $(E, \mathcal E, \mu)$, dans lequel on note $S_{+}$ l'ens
 \int_{A}s\;d\mu = \sum_{k=0}^{n}c_{k}\:\mu(A_{k} \cap A)
 $$
 Avec les $A_{k}$ deux à deux disjoints
+<!--ID: 1732147465898-->
+
 
 ### Remarque importante
 On rappelle qu'une [[Fonctions étagées#Définition|fonction étagée]] peut s'écrire de plusieurs façon différentes. Il est donc nécessaire de prouver ==l'unicité de la définition de l'intégrale==.
@@ -50,6 +52,8 @@ iii) <u>Conservation de l'ordre</u> $\forall s_{1} \leq s_{2} \in S_{+}, \forall
 $$
 \int_{A}s_{1}d\mu \leq \int_{A}s_{2}d\mu
 $$
+<!--ID: 1732147465900-->
+
 
 iv) <u>Cohérence de l'indicatrice</u> $\forall A, B \in \mathcal E$ $$
 \int_{A} \mathbb 1 _{B} d\mu = \mu(A \cap B)

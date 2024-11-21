@@ -1,6 +1,8 @@
 ## Mesurabilité de $\mathbb 1$
 La fonction indicatrice est mesurable de $A \subset E$ est $(\mathcal E, \mathcal E)$-mesurable si et seulement si: #!
 $$A \in \mathcal E$$
+<!--ID: 1732147465911-->
+
 
 ## Définition
 Une fonction $s: E \to \mathbb{R}$ $\mathcal E$-mesurable est dite étagée si et seulement si: #!
@@ -13,6 +15,8 @@ s = \mathbb 1_{E} = \mathbb 1_{A} + \mathbb 1_{A^c}
 $$
 ## Propriété convergence vers une fonction mesurable
 On observe la propriété suivante: #!
+<!--ID: 1732147465914-->
+
 
 Soit $f: E \to [0, \infty]$ une fonction $\mathcal E$ mesurable.
 Alors il existe une suite $s_{n}: E \to [0, \infty]$ de fonction étagée $\mathcal E$ mesurable telle que $s_{n} \leq s_{{n+1}}$ et $$
@@ -25,6 +29,8 @@ Soit $(E, \mathcal E)$ un espace mesurable avec $f: E \to [0,\infty]$ mesurable.
 $$
 f = \sum_{n\in \mathbb{N}} c_{n} \mathbb 1_{B_{n}}
 $$
+<!--ID: 1732147465916-->
+
 
 ### Preuve
 Soit $s_{n}$ une suite de fonctions mesurable étagée positive avec $s_{n} \leq s_{n+1}$ et tel que $\lim_{ n \to \infty } s_n = f$
