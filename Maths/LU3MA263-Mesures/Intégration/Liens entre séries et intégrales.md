@@ -47,3 +47,11 @@ $$
 $$
 
 ## Corollaire sur la convergence des séries (domination)
+On observe le phénomène suivant: #!
+
+Soit $(a_{n})_{n \in \mathbb{N}}$ et pour tout $p \in \mathbb{N}$, soient $(a_{n}^{(p)})$ des suites à valeurs dans $\mathbb{C}$ avec les hypothèses suivantes: 
+- $\exists (b_{n})_{n \in \mathbb{N}}$ dans $[0, \infty[$ tel que $\sum_{n \in \mathbb{N}} b_{n} <\infty$ et $|a_{n}^{(p)}| \leq b_{n}, \forall p,n$
+- $\lim_{ p \to \infty } a_{n}^{(p)} = a_{n}$
+Alors dans ce cas $$
+\lim_{ p \to \infty } \sum_{{n \in \mathbb{N}}} |a_{n}^{{(p)}} - a_{n}| = 0 \quad \text{ et } \quad \lim_{ p \to \infty }  \sum_{{n \in \mathbb{N}}} a_{n}^{{(p)}} = \sum_{{n \in \mathbb{N}}}a_{n}
+$$
