@@ -29,7 +29,7 @@ $$
 \nu(A) = \int_{A} fd\mu = \int_{E}f \mathbb 1_{A}d\mu
 $$
 On observe alors que $\forall g: E \to \mathbb{C}$ avec $\mathcal E$-mesurable ==ou== $\nu$ intégrable que $$
-\int_{E} g d\nu = \int_{E}gd\mu
+\int_{E} g d\nu = \int_{E}fgd\mu
 $$
 <!--ID: 1732221918005-->
 
