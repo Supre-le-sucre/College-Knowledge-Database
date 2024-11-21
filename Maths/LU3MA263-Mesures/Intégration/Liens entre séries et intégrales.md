@@ -33,5 +33,17 @@ $$
 \sum_{n \in \mathbb{N}} |f(n)| = \int_{E}|f|d\#
 $$
 
-## Corollaire sur les séries
-Soit $(a_{n})_{n \in \mathbb{N}}$ et pour tout $p \in \mathbb{N}$, soient $(a_{n}^{(p)})$
+## Corollaires sur les séries positives
+Soit $(a_{n})_{n \in \mathbb{N}}$ et pour tout $p \in \mathbb{N}$, soient $(a_{n}^{(p)})$ des suites à valeurs dans $[0, \infty]$. Alors les assertions suivantes sont vérifiées: #!
+
+- Si $(a_{n}^{(p)})$ est croissante et $\lim_{ p \to \infty } (a_{n}^{(p)}) = a_{n}$ alors $$
+\lim_{ p \to \infty } \sum_{n \in \mathbb{N}} (a_{n}^{(p)}) = \sum_{n \in \mathbb{N}} a_{n}
+$$
+- L'interversion des sommes est possible $$
+\sum_{p \in \mathbb{N}}\left( \sum_{n \in \mathbb{N}} a_{n}^{(p)}  \right) =\sum_{n \in \mathbb{N}}\left( \sum_{p \in \mathbb{N}} a_{n}^{(p)}  \right) 
+$$
+- Lemme de Fatou sur les suites $$
+\sum_{n \in \mathbb{N}}\liminf_{ n \to \infty } a_{n}^{(p)} \leq \liminf_{ n \to \infty } \sum_{n \in \mathbb{N}}a_{n}^{(p)}
+$$
+
+## Corollaire sur la convergence des séries (domination)
