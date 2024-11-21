@@ -4,37 +4,34 @@ Soit $(E, \mathcal E, \mu)$ un espace mesuré, et $f: E \to [0, \infty]$ une fon
 $$
 \int_{A} fd\mu = \sup\left\{ \int_{A}sd\mu, s \in S_{+}, \forall x \in A, 0 \leq s(x) \leq f(x) \right\} 
 $$
-<!--ID: 1732147465902-->
+<!--ID: 1732221918022-->
+
+
 
 
 ## Propriété
 On note les propriétés fondamentales de l'intégrale sur fonctions positives: #!
 
 Soit $f, g: E \to [0, \infty]$, $\mathcal E$-mesurable. Alors
-<!--ID: 1732147465905-->
-
-
 i) <u>Conservation de l'ordre</u> $f \leq g$ sur $A \in \mathcal E$
 $$
 \int_{A}fd\mu \leq \int_{A}gd\mu
 $$
-
 ii) <u>Cohérence de la fonction nulle</u> si $f=0$ sur $A \in \mathcal E$ $$
 \int_{A} fd\mu = 0
-$$
-iii) <u>Cohérence de l'espace négligeable</u> $\mu(A)= 0$
+$$iii) <u>Cohérence de l'espace négligeable</u> $\mu(A)= 0$
 $$
 \int_{A}fd\mu = 0
 $$
-
 iv) <u>Cohérence par produit de l'indicatrice</u> $\forall A \in \mathcal E$
 $$
 \int_{A} f d\mu = \int_{E}f\mathbb 1_{A}d\mu
-$$
-v) <u>Linéarité de l'intégrale</u>, $\forall c \geq 0$
+$$v) <u>Linéarité de l'intégrale</u>, $\forall c \geq 0$
 $$
 \int_{A}cfd\mu = c\int_{A}fd\mu
 $$
+<!--ID: 1732221918025-->
+
 
 ### Preuve
 Les preuves de ces propriétés découlent de la définition ainsi que des [[Théorie de l'intégrale sur fonction étagée#Propriété de bases de l'intégrales|propriété de bases de l'intégrale sur fonctions étagées]]
@@ -45,7 +42,9 @@ Soit $f,g: E \to [0, \infty]$ et $\mathcal E$-mesurables avec $c \geq 0$, alors:
 $$
 \int_{E}(f+cg)d\mu=\int_{E}fd\mu+c\int_{E}gd\mu
 $$
-<!--ID: 1732147465907-->
+<!--ID: 1732221918027-->
+
+
 
 
 ### Preuve
@@ -73,7 +72,9 @@ Soit $f_{n}: E \to [0, \infty]$, $\mathcal E$-mesurable et positive, alors on a 
 $$
 \int_{E}\left(\sum_{n \in \mathbb{N}}f_{n}\right)d\mu = \sum_{n \in \mathbb{N}} \left(\int_{E} f_{n} d\mu\right)
 $$
-<!--ID: 1732147465909-->
+<!--ID: 1732221918029-->
+
+
 
 
 ### Preuve

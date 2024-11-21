@@ -63,7 +63,13 @@
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "3MA263: Fonctions mesurables",
       "Maths/LU3MA263-Mesures/Mesures": "3MA263: Mesures",
       "Maths/LU3MA232-Analyse numérique": "3MA232: Analyse numérique",
-      "Info/LU3IN034-IA/Couplage stable": "3IN034: Couplage stable"
+      "Info/LU3IN034-IA/Couplage stable": "3IN034: Couplage stable",
+      "Maths/LU3MA260-Topologie II/Connexité": "",
+      "Maths/LU3MA260-Topologie II/Calcul différentielle": "3MA260: Calcul différentielle",
+      "Maths/LU3MA232-Analyse numérique/Intégrales": "3MA232: Analyse numérique intégrales",
+      "Maths/LU3MA232-Analyse numérique/Schéma d'ordre élevé": "",
+      "Maths/LU3MA263-Mesures/Intégration": "3MA263: Intégrations",
+      "Info/LU3IN034-IA/Processus décisionnels Markoviens": ""
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -109,7 +115,13 @@
       "Maths/LU3MA263-Mesures/Fonctions mesurables": "",
       "Maths/LU3MA263-Mesures/Mesures": "",
       "Maths/LU3MA232-Analyse numérique": "",
-      "Info/LU3IN034-IA/Couplage stable": ""
+      "Info/LU3IN034-IA/Couplage stable": "",
+      "Maths/LU3MA260-Topologie II/Connexité": "",
+      "Maths/LU3MA260-Topologie II/Calcul différentielle": "",
+      "Maths/LU3MA232-Analyse numérique/Intégrales": "",
+      "Maths/LU3MA232-Analyse numérique/Schéma d'ordre élevé": "",
+      "Maths/LU3MA263-Mesures/Intégration": "",
+      "Info/LU3IN034-IA/Processus décisionnels Markoviens": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -355,7 +367,7 @@
     "Maths/LU2MA241-Probas/Chapitre 5 - Variable aléatoire à densité/Vecteurs aléatoire à densité.md": "209b5dd574e9b90cd54ddd525d92c5c4",
     "Maths/LU2MA241-Probas/Chapitre 5 - Variable aléatoire à densité/Variable aléatoire normale (gaussienne).md": "a168a3d2536d27b8a54ee97b101f6d9c",
     "Maths/LU2MA211-Lebesgue/Outils d'analyse/Formule de changement de variable.md": "4d2482ddd6bd667d677a976f68fafdd2",
-    "Maths/LU2MA211-Lebesgue/Outils d'analyse/Centre de gravité d'un espace.md": "b806322d419832664d51380b805fe39a",
+    "Maths/LU2MA211-Lebesgue/Outils d'analyse/Centre de gravité d'un espace.md": "ee6d38293124010167c5b9f73bf2d92f",
     "Maths/LU2MA211-Lebesgue/Transformée de Fourier/Parseval.md": "6b0bcd6f73ee65d8d5a59b2ea7cc78cd",
     "Maths/LU2MA211-Lebesgue/Transformée de Fourier/Inversion de Fourier.md": "317d55edf817c2fbf03eaa3ca8f9c25d",
     "Maths/LU2MA211-Lebesgue/Transformée de Fourier/Convolution et Fourier.md": "3c35e4f643e5149a8746d8cf9227d54c",
@@ -436,20 +448,23 @@
     "Maths/LU3MA232-Analyse numérique/Schéma d'ordre élevé/Schéma d'Adams.md": "93b299e0416c8b6ab88ea31fca777f70",
     "Maths/LU3MA232-Analyse numérique/Intégrales/Quadrature de Gauss Legendre.md": "9ed7d6d91aec51b7902697f33c818f16",
     "Maths/LU3MA232-Analyse numérique/Intégrales/Polynôme de Legendre.md": "17f63cefc4b83f6498bec442131032c4",
-    "Maths/LU3MA263-Mesures/Intégration/Intégrale de Lebesgue.md": "beb69d94e36f6935fa49e38e2bc16f48",
-    "Maths/LU3MA263-Mesures/Intégration/Mesures images.md": "31a0557092c37dbe98496fdb516e2a83",
-    "Maths/LU3MA263-Mesures/Intégration/Convergence monotone et dominée.md": "718669708dc43df8edc3af23ce0fa9bc",
-    "Maths/LU3MA263-Mesures/Intégration/Intégrales complexes.md": "bc4a6b409b5b2cccb9438a0cdf8fea8b",
-    "Maths/LU3MA263-Mesures/Intégration/Intégrales sur signes quelconque.md": "ba950899e955add6c09fe693047f423f",
-    "Maths/LU3MA263-Mesures/Intégration/Lemme de Fatou.md": "b5fbdb6eacb2e5b2f4a8af1706abde4a",
-    "Maths/LU3MA263-Mesures/Intégration/Théorie de l'intégrale sur fonction étagée.md": "fbf3244edf68fd633ebe68715996cf17",
-    "Maths/LU3MA263-Mesures/Intégration/Intégrales sur fonctions positives.md": "e9c34be8fdad91e224e1f31100762586",
+    "Maths/LU3MA263-Mesures/Intégration/Intégrale de Lebesgue.md": "7a5fc5b6ac13caa63fd17618ff8d3696",
+    "Maths/LU3MA263-Mesures/Intégration/Mesures images.md": "f7fa59d5d7688d14f3c8eced3740ec59",
+    "Maths/LU3MA263-Mesures/Intégration/Convergence monotone et dominée.md": "ca3ef24a0503eaef80519d435607b9fa",
+    "Maths/LU3MA263-Mesures/Intégration/Intégrales complexes.md": "9e99602077808234972045685be79d25",
+    "Maths/LU3MA263-Mesures/Intégration/Intégrales sur signes quelconque.md": "ac8f6d5b6ae5ac724bba2522c7548c80",
+    "Maths/LU3MA263-Mesures/Intégration/Lemme de Fatou.md": "6e08174dcf1b764f4d67fa54c11f25cd",
+    "Maths/LU3MA263-Mesures/Intégration/Théorie de l'intégrale sur fonction étagée.md": "d9dc3fcbb64b6a31cd4c0f8b9ce28a7a",
+    "Maths/LU3MA263-Mesures/Intégration/Intégrales sur fonctions positives.md": "a53a28d77dc45f7ee0e4b40273b58a7f",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Fonctions étagées.md": "f01c5c4df20db7f0281130c274c4cbb5",
     "Maths/LU3MA260-Topologie II/Connexité/Espaces connexes.md": "3c96a7dc64d31d5e199d2d5ec39c4ff5",
     "Maths/LU3MA260-Topologie II/Calcul différentielle/Dérivées partielles.md": "1d45339fb7e6d7326a332de66446c758",
-    "Maths/LU3MA260-Topologie II/Calcul différentielle/Différentiabilité.md": "d1d1f6c5874ed5e1ee49c1bd45e9dfb3",
+    "Maths/LU3MA260-Topologie II/Calcul différentielle/Différentiabilité.md": "2378c5c83c97982ed41184b6eca41266",
     "Info/LU3IN034-IA/Processus décisionnels Markoviens/PDM.md": "3df5d7caff92f1ff6bd341816abb55dc",
-    "Info/LU3IN034-IA/Processus décisionnels Markoviens/Horizon infinie.md": "b6e9ce793006d82430dd2f7027aa99fe"
+    "Info/LU3IN034-IA/Processus décisionnels Markoviens/Horizon infinie.md": "14536c768806aa5b71cae72b295cb6ef",
+    "Maths/LU3MA263-Mesures/Intégration/Liens entre séries et intégrales.md": "07b00107f763b56e06784a0be4b88e3e",
+    "Maths/LU3MA260-Topologie II/Calcul différentielle/Théorème des accroissement finis.md": "1461b8ad49a0d7e7112c282f50fd3a4a",
+    "Maths/LU3MA260-Topologie II/Calcul différentielle/Extremums.md": "b85a558b742027aa2e605b813e302083"
   },
   "fields_dict": {
     "Basic": [

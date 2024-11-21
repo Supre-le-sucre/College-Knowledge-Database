@@ -5,7 +5,9 @@ Dans un espace mesuré $(E, \mathcal E, \mu)$, dans lequel on note $S_{+}$ l'ens
 \int_{A}s\;d\mu = \sum_{k=0}^{n}c_{k}\:\mu(A_{k} \cap A)
 $$
 Avec les $A_{k}$ deux à deux disjoints
-<!--ID: 1732147465898-->
+<!--ID: 1732221918014-->
+
+
 
 
 ### Remarque importante
@@ -52,9 +54,6 @@ iii) <u>Conservation de l'ordre</u> $\forall s_{1} \leq s_{2} \in S_{+}, \forall
 $$
 \int_{A}s_{1}d\mu \leq \int_{A}s_{2}d\mu
 $$
-<!--ID: 1732147465900-->
-
-
 iv) <u>Cohérence de l'indicatrice</u> $\forall A, B \in \mathcal E$ $$
 \int_{A} \mathbb 1 _{B} d\mu = \mu(A \cap B)
 $$
@@ -65,6 +64,8 @@ $$
 \nu_{s}(A) = \int_{A}sd\mu
 $$
 est une mesure sur $(E, \mathcal E)$
+<!--ID: 1732221918015-->
+
 
 ### Preuve
 Ces propriétés constituent la bases de la théorie de l'intégration, il est donc nécessaire de bien concevoir les preuves auxquels elles sont associées

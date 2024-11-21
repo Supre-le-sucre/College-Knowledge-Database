@@ -4,4 +4,6 @@ Soit $f: [a,b] \to \mathbb{C}$ continue. Alors elle est Lebesgue intégrable et 
 $$
 \int_{[a,b]} fdl = \int_{a}^b f(t)dt
 $$
-<!--ID: 1732147465871-->
+<!--ID: 1732221918031-->
+
+

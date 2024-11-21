@@ -6,7 +6,9 @@ $$
 \int_{E}|f|d\mu < +\infty
 $$
 On note $\mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu)$ l'ensemble de ces fonctions
-<!--ID: 1732147465886-->
+<!--ID: 1732221918019-->
+
+
 
 
 ## Partie imaginaire et conjugué d'intégrales complexes
@@ -19,4 +21,6 @@ $$
 \int_{A}\overline{f}d\mu =& \overline{\int_{A}fd\mu}
 \end{align*}
 $$
-<!--ID: 1732147465887-->
+<!--ID: 1732221918020-->
+
+

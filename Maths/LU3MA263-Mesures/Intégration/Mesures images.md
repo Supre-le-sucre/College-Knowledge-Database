@@ -3,7 +3,9 @@ Dans un espace mesuré $(E, \mathcal E, \mu)$, $(\mathcal E, \mathcal E')$ deux 
 $$
 \nu(B) = \mu \left( f^{-1}(B) \right) \quad \text{ aussi noté } \quad \nu = \mu\circ f^{-1}
 $$
-<!--ID: 1732147465876-->
+<!--ID: 1732221918002-->
+
+
 
 
 ## Théorème de transfert
@@ -12,7 +14,9 @@ Dans un espace mesuré $(E, \mathcal E, \mu)$, $(\mathcal E, \mathcal E')$ deux 
 $$
 \forall h \in \mathcal L^1_{\mathbb{C}}(E, \mathcal E, \mu), \quad \int_{E'}h(y)\nu(dy) = \int_{E} h \circ f(x) \mu(dx)
 $$
-<!--ID: 1732147465878-->
+<!--ID: 1732221918004-->
+
+
 
 
 ### Preuve
@@ -27,7 +31,9 @@ $$
 On observe alors que $\forall g: E \to \mathbb{C}$ avec $\mathcal E$-mesurable ==ou== $\nu$ intégrable que $$
 \int_{E} g d\nu = \int_{E}gd\mu
 $$
-<!--ID: 1732147465880-->
+<!--ID: 1732221918005-->
+
+
 
 
 ### Preuve
