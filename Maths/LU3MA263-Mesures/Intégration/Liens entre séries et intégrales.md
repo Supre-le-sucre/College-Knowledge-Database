@@ -32,3 +32,6 @@ De plus si c'est le cas, on pose l'égalité
 $$
 \sum_{n \in \mathbb{N}} |f(n)| = \int_{E}|f|d\#
 $$
+
+## Corollaire sur les séries
+Soit $(a_{n})_{n \in \mathbb{N}}$ et pour tout $p \in \mathbb{N}$, soient $(a_{n}^{(p)})$
