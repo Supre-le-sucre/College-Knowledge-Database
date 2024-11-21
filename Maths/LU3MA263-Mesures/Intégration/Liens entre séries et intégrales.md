@@ -51,7 +51,7 @@ $$
 \sum_{p \in \mathbb{N}}\left( \sum_{n \in \mathbb{N}} a_{n}^{(p)}  \right) =\sum_{n \in \mathbb{N}}\left( \sum_{p \in \mathbb{N}} a_{n}^{(p)}  \right) 
 $$
 - Lemme de Fatou sur les suites $$
-\sum_{n \in \mathbb{N}}\liminf_{ n \to \infty } a_{n}^{(p)} \leq \liminf_{ n \to \infty } \sum_{n \in \mathbb{N}}a_{n}^{(p)}
+\sum_{n \in \mathbb{N}}\liminf_{ p \to \infty } a_{n}^{(p)} \leq \liminf_{ p \to \infty } \sum_{n \in \mathbb{N}}a_{n}^{(p)}
 $$
 <!--ID: 1732221917999-->
 
