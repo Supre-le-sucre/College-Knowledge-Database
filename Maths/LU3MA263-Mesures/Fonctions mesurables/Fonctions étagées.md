@@ -18,7 +18,7 @@ Soit $f: E \to [0, \infty]$ une fonction $\mathcal E$ mesurable.
 Alors il existe une suite $s_{n}: E \to [0, \infty]$ de fonction étagée $\mathcal E$ mesurable telle que $s_{n} \leq s_{{n+1}}$ et $$
 \lim_{ n \to \infty } s_{n}=f \quad \quad \text{ et } \quad \quad s_{n} \leq f
 $$
-## Lemme technique
+# Lemme technique
 On observe la propriété suivante qui nous sera bien utile pour la suite: #!
 
 Soit $(E, \mathcal E)$ un espace mesurable avec $f: E \to [0,\infty]$ mesurable. Alors il existe $B_{n} \in \mathcal E$ et $c_{n} \in ]0, \infty[$ tel que

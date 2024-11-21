@@ -127,3 +127,40 @@ La fonction $s = s'_{2} - s'_{1}$ est donc bien une fonction étagée positive e
 Donc on peut utiliser la propriété de linéarité (i) comme suit $$
 \int_{E}s'_{1}d\mu + \int_{E} s d\mu \geq \int_{E}s'_{1}d\mu
 $$
+et
+$$
+\int_{E}s'_{1}d\mu + \int_{E}sd\mu = \int_{E}(s'_{1} +s)d\mu= \int_{E}s'_{2}d\mu
+$$
+
+iv) <u>Cohérence de l'indicatrice</u>
+Donné par la définition
+
+v) <u>Cohérence de l'espace négligeable</u>
+Donné par la définition
+
+vi) <u>Obtention d'une mesure</u>
+Soit $s  \in S_{+}$ et $\nu(A) = \int_{A}sd\mu$
+
+-Ensemble vide
+$\nu(\emptyset) = \int_{\emptyset}sd\mu = 0$ d'après (v)
+
+-Sigma additivité
+$B = \bigcup B_{n}$
+On a $s = \sum c_{k}\mathbb 1_{A_k}$ avec $(A_{k})$ deux à deux disjoints
+
+Et d'où
+$$
+\nu(B) = \sum_{k=1}^{n}c_{k}\mu(A_{k}\cap B) 
+$$
+$$
+\nu(B) = \sum_{k=1}^{n}c_{k}\mu\left( A_{k}\cap \left(\bigcup_{n \in \mathbb{N}} B_{n}\right) \right) 
+$$
+$$\nu(B) = \sum_{k=1}^{n}c_{k}\mu\left( \bigcup_{n \in \mathbb{N}}(A_{k}\cap  B_{n}) \right) $$
+Et les $(A_{k}\cap  B_{n})_{n \in \mathbb{N}}$ sont disjoints 2 à 2, donc par sigma additivité de $\mu$...
+$$
+\nu(B) = \sum_{k=1}^{n}\sum_{n \in \mathbb{N}}c_{k}\mu\left( A_{k}\cap  B_{n}\right) 
+$$
+Or comme il s'agit de ==sommes à termes positives==, celles ci sont ==permutables==
+$$
+\nu(B) = \sum_{n \in \mathbb{N}}\sum_{k=1}^{n}c_{k}\mu\left( A_{k}\cap  B_{n}\right) =\sum_{n \in \mathbb{N}}\nu(B_{n})
+$$
