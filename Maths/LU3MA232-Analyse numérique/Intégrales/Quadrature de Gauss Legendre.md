@@ -6,11 +6,15 @@ On pose $$
 \int_{-1}^1 f(y)dy \approx 2 \sum_{i=1}^{n}\lambda_{i}f(y_{i})  
 $$
 Avec des $\lambda_{i}$ choisit pour avoir une méthode d'ordre au moins $n-1$
+<!--ID: 1732560471863-->
+
 
 ## Théorème sur l'ordre de Gauss-Legendre
 On observe que la méthode de Gauss-Legendre est telle que: #!
 
 Lorsqu'elle est basée sur les racines de $P_{n}$ est d'ordre $2n-1$
+<!--ID: 1732560471865-->
+
 
 
 ### Preuve

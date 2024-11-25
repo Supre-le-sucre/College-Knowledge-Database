@@ -5,6 +5,8 @@ Il existe application linéaire $L_{a} \in \mathcal L(E, F)$ tel que $$
 f(a+h) = f(a) + L_{a}(h) + o(h)
 $$
 On dit alors que $L_{a}$ est le différentielle de $f$ au point $a$ et on note souvent $L_{a} = D_{f}(a)$
+<!--ID: 1732560471851-->
+
 
 ## Exemple
 ### Générique
@@ -73,6 +75,8 @@ Car $f$ et $h$ sont continues.
 On observe que: #!
 
 Les fonctions $f: \Omega \to F$ et $a \in \Omega$ tel que $f$ différentiable au point $a$, alors elle est aussi continue au point $a$
+<!--ID: 1732560471853-->
+
 
 ### Preuve
 Il suffit de faire tendre $h$ vers $0$ dans la formule de différentiabilité de $f$ en $a$.
@@ -82,6 +86,8 @@ Comme $L_{a}(h)$ est linéaire, si $h$ tends vers $0$ alors lui aussi. D'où la 
 On dit que $f$ est différentiable si et seulement si: #!
 
 Elle est différentiable en tout point de son espace de définition.
+<!--ID: 1732560471854-->
+
 
 ## Propriété sur les opérations
 Soit $f_{1}, f_{2}: \Omega \to F$ différentiable en $a$, alors: #!
@@ -91,6 +97,9 @@ D_{f_{1}+f_{2}}(a) = D_{f_{1}}(a)+D_{f_{2}}(a)
 $$$$
 D_{f_{1}f_{2}}(a) = f_{1}(a)D_{f_{2}}(a)+f_{2}(a)D_{f_{1}}(a)
 $$
+<!--ID: 1732560541730-->
+
+
 ## Propriété sur la composition
 On observe que pour $f: \Omega \to F$ et $g: F \to G$ et $f$ différentiable en $a$ et $g$ différentiable en $f(a)$ alors on a la différentielle suivante: #!
 
@@ -98,12 +107,17 @@ $f \circ g$ est différentiable en $a$
 $$
 D_{f \circ g}(a) = D_{g}(f(a))\circ D_{f}(a)
 $$
+<!--ID: 1732560541733-->
+
+
 
 ## Propriété, différentielle de l'inverse d'un homéomorphisme
-Soit $f: \Omega_{E} \to \Omega_{F}$ un homéomorphisme, alors si elle est différentiable en $a$ et que $f^{-1}$ est différentiable en $f(a)$
+Soit $f: \Omega_{E} \to \Omega_{F}$ un homéomorphisme, alors si elle est différentiable en $a$ et que $f^{-1}$ est différentiable en $f(a)$: #!
 $$
 D_{f^{-1}}(f(a)) = \left( D_{f}(a) \right)^{-1}
 $$
+<!--ID: 1732560541734-->
+
 
 ### Preuve
 Observe que $f^{-1}(f(a+h)) = a+h$

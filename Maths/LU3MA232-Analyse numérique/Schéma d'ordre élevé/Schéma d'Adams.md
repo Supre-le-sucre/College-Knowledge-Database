@@ -7,6 +7,8 @@ Dans le cas implicite:
 $$
 y_{n+1} = y_{n} + h F(t_{n}, y_{n-k}, y_{n-k+1}, \dots, y_{n}, y_{n+1},h) 
 $$
+<!--ID: 1732560471857-->
+
 
 ## Définition du schéma d'Adams-Bashfourth 
 On définit le schéma de la façon suivante: #!
@@ -15,6 +17,8 @@ $$
 y_{n+1} = y_{n} + h \sum_{k=0}^{p-1} \alpha_{k}f(t_{n-k}, y_{n-k})
 $$
 Où $\alpha_{k}$ sont les poids tels que la méthode de quadrature $\int_{0}^1 \phi(u)du = \sum_{k=0}^{p-1} \alpha_{k} \phi(-k)$ soit d'ordre au moins $p-1$
+<!--ID: 1732560471859-->
+
 
 **Remarque**: L'idée viens du fait que $y(t_{n+1}) = y(t_{n}) + \int_{t_{n}}^{t_{n+1}} y'(s)\, ds$ et que $y'(s)= f(s, y(s))$
 Car dans ce cas, par changement de variable: $$
@@ -34,6 +38,8 @@ $$
 On observe que: #!
 
 Le schéma d'Adams-Bashfourth à $p$ est d'ordre $p$
+<!--ID: 1732560471860-->
+
 
 
 ## Schéma d'Adams-Moulton
@@ -43,6 +49,8 @@ $$
 y_{n+1} = y_{n} +h \sum_{k=-1}^{p-2} \beta_{k}f(t_{n-k}, y_{n-k})
 $$
 Avec les $\beta$ les poids de la quadrature $\int_{0}^1 \phi(u)du = \sum_{k=-1}^{p-2} \beta_{k} \phi(-k)$ soit d'ordre au moins $p-1$
+<!--ID: 1732560471861-->
+
 
 ### Observations
 On observe que

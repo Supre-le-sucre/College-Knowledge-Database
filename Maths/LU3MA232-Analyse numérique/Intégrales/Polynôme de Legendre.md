@@ -2,12 +2,16 @@
 On définit les polynôme de Legendre de la façon suivante: #!
 
 En posant l'espace vectoriel des polynômes généré par $Vect(1, X, X^2, \dots, X^n)$ muni du produit scalaire $\langle P, Q \rangle = \int _{-1}^1P(x)Q(x) \, dx$ En appliquant le procédé d'[[Orthogonalisation de Gram-Schmidt]] on obtient une base composée de $P_{n}$ appelé polynôme de Legendre 
+<!--ID: 1732560471867-->
+
 
 ## Propriété
 Les polynômes de Legendre sont toujours de la forme suivante: #!
 $$
 P_{n} = \frac{n!}{(2n)!} \left( \left( x^2-1 \right)^n  \right)^{(n)} 
 $$
+<!--ID: 1732560471868-->
+
 
 **Remarque** Les polynômes sont uniques à un scalaire près. Ces polynômes sont aussi orthogonaux et de degré $n$. C'est ce qui nous servirai pour le prouver
 ### Preuve
@@ -55,6 +59,8 @@ On a donc bien $P_{n} = Q_{n}$
 On observe que: #!
 
 Le polynôme $P_{n}$ admet $n$ racines simples, toutes situés dans $]-1, 1[$
+<!--ID: 1732560471869-->
+
 
 
 ## Méthode de Quadrature de Gauss-Legendre

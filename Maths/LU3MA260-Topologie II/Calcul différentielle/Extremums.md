@@ -3,12 +3,16 @@ Soit $(X, d)$ et $f: X \to \mathbb{R}$ une fonction avec $x_{0} \in X$ alors on 
 
 - f admet un maximum (resp. minimum) global en $x_{0}$ si et seulement si $\forall x \in X, f(x) \leq f(x_{0})$ (resp. $f(x) \geq f(x_{0})$)
 - f admet un maximum (resp. minimum) local en $x_{0}$ si et seulement si $\exists \varepsilon > 0, \forall x \in B(x_{0}, \varepsilon), f(x) \leq f(x_{0})$ (resp. $f(x) \geq f(x_{0})$)
+<!--ID: 1732560471840-->
+
 
 ## Propriété sur les extremums locaux
 Soit $f: \mathbb{R} \to \mathbb{R}$ et supposons que $a$ est un extremum local, alors dans ce cas: #!
 $$
 f'(a) = 0
 $$
+<!--ID: 1732560471843-->
+
 
 ### Preuve
 On prouve le le minimum, mais le maximum se prouve de la même façon
@@ -27,10 +31,14 @@ Soit $f: \Omega \to F$ et supposons que $a$ est un extremum local, alors dans ce
 $$
 D_{f}(a) = 0
 $$
+<!--ID: 1732560471845-->
+
 
 ## Point critique
 Un point est qualifié de critique lorsque: #!
 La différentielle en ce point est nulle
+<!--ID: 1732560471846-->
+
 
 ## Vecteur gradient
 On définit le gradient au point $a$ de la façon suivante: #!
