@@ -25,3 +25,14 @@ $$
 $$
 <!--ID: 1732560518168-->
 
+## Preuve
+(1) Voir Poly
+
+(2) On applique (1) avec $g(x) = f(x) - D_{f}(a)(x-a)$ en effet $D_{g}(x) = D_{f}(x) - D_{f}(a)$
+
+## Corollaire
+Soit $\Omega$ un ouvert connexe, et $f: \Omega \to F$ si $D_{f}(x)=0, \forall x \in \Omega$: #!
+Alors $f$ est connexe.
+
+### Preuve
+Soit $a \in f(\Omega)$ et montrons que $\forall x \in \Omega, f(x)= a$
