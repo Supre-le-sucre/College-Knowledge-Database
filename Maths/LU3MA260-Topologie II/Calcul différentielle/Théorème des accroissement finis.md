@@ -24,3 +24,4 @@ $$
 \exists M, \forall x \in [a,b], ||D_{f}(x) -D_f(a)|| \leq ||f(b)-f(a)-D_{f}(a)(b-a)|| \leq M \implies M||b-a||
 $$
 <!--ID: 1732560518168-->
+
