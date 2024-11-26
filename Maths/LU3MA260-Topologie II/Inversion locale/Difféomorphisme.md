@@ -16,6 +16,14 @@ Pour simplifier posons $E = F$ et montrons que $f$ est localement bijective et $
 Pour le premier point, soit $a$ tel que $D_{f}(a) \in \mathcal L(E)$ inversible et $(D_{f}(a))^{-1} \in \mathcal L(E)$
 Donc $f(a+h) = f(a) + D_{f}(a)(h) + o(h)$
 
+Avons-nous (avec $\mathcal V(x)$ le voisinage de $x$ défini selon $\varepsilon$)
+$$
+\exists \varepsilon>0, \forall y \in B(0, \varepsilon_{1}), \exists !\; h \in \mathcal V(x) \text{ tel que } D_{f}(a)(h) + o(h) = y
+$$
+??
+
+
+
 
 ### Corollaire
 Soit $f: \Omega \to F$ de classe $\mathcal C ^1$ sur $\Omega$. Supposons que $\forall a \in \Omega$, et $D_{f}(a)$ suivant les hypothèses du théorème précédent alors: #!
