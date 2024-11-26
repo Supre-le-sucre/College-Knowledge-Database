@@ -35,6 +35,7 @@ Regardons $g_{h_{1}}: ]-\varepsilon, \varepsilon[ \to F$ tel que
 $$
 g_{h_{1}}(h_{2}) = f(x_{1} +h_{1}, x_{2} + h_{2}) - f(x_{1} + h_{1}, x_{2})
  - h_{2} \frac{\partial f}{\partial x_{2}} h_{2}(x_{1} + h_{1}, x_{2})$$
+Et, on a que $\frac{\partial f}{\partial x_{2}}$ est continue sur $\Omega$ et donc uniformément continue sur $B_{f}(x, \varepsilon)$
 
 
 ## Corollaire
