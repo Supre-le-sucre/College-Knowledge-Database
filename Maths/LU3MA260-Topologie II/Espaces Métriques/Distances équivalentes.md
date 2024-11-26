@@ -1,3 +1,4 @@
+#topo
 ## Définition: Taupologiquement équivalente
 Soit $(X, d)$ et $(X, d')$ 2 espaces métriques. On dit que les distances $d$ et $d'$ sont taupologiquement équivalente si et seulement si: #!
 

@@ -1,3 +1,4 @@
+#topo
 ## Propriété de distances équivalente
 On se donne 2 espaces métriques $(X, d_X), (Y, d_Y)$ et on considère $X \times Y$
 Alors les 3 distances sur cette espace sont équivalentes: #!

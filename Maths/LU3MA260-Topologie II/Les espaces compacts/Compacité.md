@@ -1,3 +1,4 @@
+#topo
 ## Définition
 Un espace $(X, d)$ est dit compact si #!
 Toute suite de $X$ admet une valeur d'adhérence. Autrement dit, si toute suite de $X$ admettent une sous-suite convergente 

@@ -1,3 +1,4 @@
+#topo
 ## Définition
 Soit un espace métrique $(X, d)$ et une suite $(x_n)_{n \in \mathbb N} \in X^\mathbb N$. On dit que $(x_n)$ est de Cauchy si et seulement si: #!
 

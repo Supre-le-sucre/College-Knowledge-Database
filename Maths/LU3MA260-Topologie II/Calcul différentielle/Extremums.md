@@ -1,3 +1,4 @@
+#topo
 ## Définition
 Soit $(X, d)$ et $f: X \to \mathbb{R}$ une fonction avec $x_{0} \in X$ alors on définit les extremums de la façon suivante: #!
 

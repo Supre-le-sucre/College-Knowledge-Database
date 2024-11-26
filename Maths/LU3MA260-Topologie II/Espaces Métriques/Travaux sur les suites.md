@@ -1,3 +1,4 @@
+#topo
 ## Définition de la convergence
 Sur un espace métrique $(X, d)$, on dit que la suite $(x_n)_{n \in \mathbb N}$ converge vers une limite $l \in X$ lorsque: #!
 

@@ -1,3 +1,4 @@
+#topo
 ## Définition
 Soit $(X,d)$ un espace métrique.
 On considère $x \in X$ et $V \subseteq X$. On dit que $V$ est un voisinage de $x$ si et seulement si: #!

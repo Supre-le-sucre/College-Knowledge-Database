@@ -1,3 +1,4 @@
+#topo
 ## Définition contractant
 Soit $(X, d)$ un espace métrique avec $f: X \to X$. On dit qu'elle est $k$-contractante si et seulement si: #!
 $$\forall (x,y) \in X^2, d(f(x), f(y)) \leq kd(x,y)$$

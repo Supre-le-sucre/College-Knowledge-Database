@@ -1,3 +1,4 @@
+#topo
 ## Définition
 Soit un espace métrique $(X, d)$, avec $x \in X$ et $\alpha > 0$.
 On appelle la boule fermée de centre $x$ et de rayon $\alpha$, l'ensemble: #!

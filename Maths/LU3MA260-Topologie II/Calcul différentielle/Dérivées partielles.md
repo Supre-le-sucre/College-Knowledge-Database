@@ -1,3 +1,4 @@
+#topo
 ## Définition
 Soit $f: \Omega \to \mathbb{R}^p$ et $f: x \mapsto (f_{1}(x), \dots, f_{{n}}(x))$ et $a \in \Omega$ on dit que $f$ admet une dérivée partielle au point $a$ à la $i$ ème variable si et seulement si: #!
 

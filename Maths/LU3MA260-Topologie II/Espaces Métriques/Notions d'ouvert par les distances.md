@@ -1,3 +1,4 @@
+#topo
 ## Définition d'une distance
 Pour $X$ un ensemble, on dit que $d: X^2 \to \mathbb R^+$ est une distance de $X$ lorsque: #!
 
