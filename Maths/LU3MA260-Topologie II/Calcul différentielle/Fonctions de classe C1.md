@@ -17,3 +17,5 @@ Alors $f$ est différentiable sur $\Omega$
 Soit $E=\mathbb{R}^m$, $f$ est de classe $\mathcal C ^ 1$ si et seulement si: #!
 
 Les dérivées partielles de $f$ existent et sont continues.
+
+### Preuve
