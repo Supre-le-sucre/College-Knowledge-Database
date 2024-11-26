@@ -36,7 +36,18 @@ $$
 g_{h_{1}}(h_{2}) = f(x_{1} +h_{1}, x_{2} + h_{2}) - f(x_{1} + h_{1}, x_{2})
  - h_{2} \frac{\partial f}{\partial x_{2}} h_{2}(x_{1} + h_{1}, x_{2})$$
 Et, on a que $\frac{\partial f}{\partial x_{2}}$ est continue sur $\Omega$ et donc uniformément continue sur $B_{f}(x, \varepsilon)$
-
+D'où
+$$
+\left| \left| \frac{\partial f}{\partial x_{2}} (x_{1} + h_{1}, x_{2} + h_{2}) -  \frac{\partial f}{\partial x_{2}} (x_{1} + h_{1}, x_{2}) \right|  \right| = O(h_{2}) 
+$$
+Donc d'après le [[Théorème des accroissement finis]] on a alors
+$$
+\begin{align*}
+||g_{h_{1}}(h_{2}) - g_{h_{1}}(0)|| \leq & O(h_{2}) \times h_{2} \\
+||g_{h_{1}}(h_{2})|| \leq& O(h_{2}) h_{2}
+\end{align*}
+$$
+En conclusion on a donc que $o_{h_{1}}(h_{2}) = O(h_{2})h_{2}$
 
 ## Corollaire
 Soit $E=\mathbb{R}^m$, $f$ est de classe $\mathcal C ^ 1$ si et seulement si: #!
