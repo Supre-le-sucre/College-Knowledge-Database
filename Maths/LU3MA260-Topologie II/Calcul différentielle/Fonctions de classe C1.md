@@ -12,6 +12,30 @@ Soit $E = \mathbb{R}^m$ et $f: \Omega \to F$: Si les hypothèses suivantes sont 
 
 Alors $f$ est différentiable sur $\Omega$
 
+### Preuve du théorème
+Pour simplifier, on prouve le théorème sur $m=2$, mais la preuve reste la même en dimension supérieur.
+
+Le candidat de la différentiable, obligatoire ici (voir propriétés précédentes) est
+$$
+D_{f}(x)(h) = \frac{\partial f}{\partial x_{1}} h_{1} + \frac{\partial f}{\partial x_{2}} h_{2}
+$$
+On se demande maintenant si
+$$
+f(x_{1} + h_{1}, x_{2} + h_{2}) = f(x_{1}, x_{2}) + D_{f}(x)(h) + o(h)
+$$
+Si on prouve ça, alors on aura montrer que $f$ est bien différentiable.
+
+Calculons $f(x_{1} + h_{1}, x_{2} + h_{2})$. Par développement limité
+$$
+\begin{align*}
+f(x_{1} + h_{1}, x_{2} + h_{2}) =& f(x_{1} + h_{1}, x_{2}) + h_{2} \frac{\partial f}{\partial x_{2}}(x_{1} + h_{1}, x_{2}) + o_{h_{1}}(h_{2})
+\end{align*}
+$$
+Regardons $g_{h_{1}}: ]-\varepsilon, \varepsilon[ \to F$ tel que
+$$
+g_{h_{1}}(h_{2}) = f(x_{1} +h_{1}, x_{2} + h_{2}) - f(x_{1} + h_{1}, x_{2})
+ - h_{2} \frac{\partial f}{\partial x_{2}} h_{2}(x_{1} + h_{1}, x_{2})$$
+
 
 ## Corollaire
 Soit $E=\mathbb{R}^m$, $f$ est de classe $\mathcal C ^ 1$ si et seulement si: #!
@@ -29,3 +53,6 @@ $$
 \sup_{||h|| \leq 1} || D_{f}(x)(h) - D_{f}(y)(h)||_{F} = \sup_{||h|| \leq 1} \left| \left| \sum^m_{i=1} \left(\frac{\partial f}{\partial x_{i}}(x) - \frac{\partial f}{\partial x_{i}}(x)\right)h_{i} \right|  \right| \leq C\sum_{i=1}^{m} \left| \left|\frac{\partial f}{\partial x_{i}}(x) - \frac{\partial f}{\partial x_{i}}(x)\right|  \right|
 $$
 Et $\left| \left|\frac{\partial f}{\partial x_{i}}(x) - \frac{\partial f}{\partial x_{i}}(x)\right|  \right| \to 0$ lorsque $x \to y$ car les dérivées partielles sont continues.
+Donc $g$ est continue car lipschitzienne
+
+
