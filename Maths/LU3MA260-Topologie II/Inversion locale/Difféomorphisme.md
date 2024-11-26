@@ -22,7 +22,13 @@ $$
 $$
 ??
 
+Soit $y \in B(0, \varepsilon_{1})$ et observons que
+$D_{f}(a)(h) + o(h) =y \Leftrightarrow h + (D_{f}(a))^{-1}(o(h)) = (D_{f}(a))^{-1}(y)= z$
 
+D'où le questionnement
+$$
+\text{Pour } y \text{ fixé}, \exists! \; h \in X \text{ tel que } h + \tilde{o}(h)= z \Leftrightarrow z - \tilde{o}(h)=h
+$$
 
 
 ### Corollaire
