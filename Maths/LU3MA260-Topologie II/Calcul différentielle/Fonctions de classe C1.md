@@ -19,3 +19,13 @@ Soit $E=\mathbb{R}^m$, $f$ est de classe $\mathcal C ^ 1$ si et seulement si: #!
 Les dérivées partielles de $f$ existent et sont continues.
 
 ### Preuve
+$\Leftarrow$ D'après le théorème, $f$ est différentiable en tout point de $\Omega$ et $\forall x \in \Omega$, on a que 
+$$D_{f}(x)(h) = \sum^m_{i=1} \frac{\partial f}{\partial x_{i}}(x)h_{i}$$
+Il ne reste plus qu'à montrer que $g: \Omega \to \mathcal L(E, F)$ avec $g: x \mapsto D_{f}(x)$ est continue.
+
+Soient $$x \in \Omega, ||D_{f}(x) - D_{f}(y)||_{\mathcal L(E, F)} = \sup_{||h|| \leq 1} || D_{f}(x)(h) - D_{f}(y)(h)||_{F}$$
+Par définition.
+$$
+\sup_{||h|| \leq 1} || D_{f}(x)(h) - D_{f}(y)(h)||_{F} = \sup_{||h|| \leq 1} \left| \left| \sum^m_{i=1} \left(\frac{\partial f}{\partial x_{i}}(x) - \frac{\partial f}{\partial x_{i}}(x)\right)h_{i} \right|  \right| \leq C\sum_{i=1}^{m} \left| \left|\frac{\partial f}{\partial x_{i}}(x) - \frac{\partial f}{\partial x_{i}}(x)\right|  \right|
+$$
+Et $\left| \left|\frac{\partial f}{\partial x_{i}}(x) - \frac{\partial f}{\partial x_{i}}(x)\right|  \right| \to 0$ lorsque $x \to y$ car les dérivées partielles sont continues.
