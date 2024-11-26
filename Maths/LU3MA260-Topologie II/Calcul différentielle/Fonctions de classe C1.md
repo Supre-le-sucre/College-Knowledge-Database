@@ -47,7 +47,25 @@ $$
 ||g_{h_{1}}(h_{2})|| \leq& O(h_{2}) h_{2}
 \end{align*}
 $$
-En conclusion on a donc que $o_{h_{1}}(h_{2}) = O(h_{2})h_{2}$
+En conclusion on a donc que $o_{h_{1}}(h_{2}) = O(h_{2})h_{2}$ donc finalement
+$$
+f(x_{1} + h_{1}, x_{2} + h_{2}) = f(x_{1} + h_{1}, x_{2}) + h_{2} \frac{\partial f}{\partial x_{2}} (x_{1} + h_{1}, x_{2}) + o(h_{2})
+$$
+Et par raisonnement analogue au raisonnement précédent on a
+$$
+\frac{\partial f}{\partial x_{2}} (x_{1} + h_{1}, x_{2}) = \frac{\partial f}{\partial x_{2}} (x_{1}, x_{2}) + O(h_{1})
+$$
+D'où
+$$
+f(x_{1} + h_{1}, x_{2} + h_{2}) = f(x_{1} + h_{1}, x_{2}) + h_{2} \frac{\partial f}{\partial x_{2}} (x_{1}, x_{2}) + o(h) 
+$$
+Car $h_{1} \times O(h_{2}) = o(h)$
+
+Puis enfin, on réitère de la même façon pour la première variable
+$$
+f(x_{1} + h_{1}, x_{2} + h_{2}) = f(x_{1} ,x_{2}) + h_{1} \frac{\partial f}{\partial x_{1}} (x_{1}, x_{2})h_{2} \frac{\partial f}{\partial x_{2}} (x_{1} , x_{2}) + o(h) 
+$$
+
 
 ## Corollaire
 Soit $E=\mathbb{R}^m$, $f$ est de classe $\mathcal C ^ 1$ si et seulement si: #!
