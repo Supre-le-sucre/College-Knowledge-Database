@@ -10,6 +10,11 @@ Soit $a \in \Omega$ tel que $D_{f}(a) \in \mathcal L(E, F)$ inversible tel que $
 
 Alors il existe $U,V$, respectivement ouvert de $E$ et $F$ tel que $f: U \to V$ est un $\mathcal C^1$-difféomorphisme.
 
+### Idée de preuve
+Pour simplifier posons $E = F$ et montrons que $f$ est localement bijective et $f^{-1}$ localement différentiable et de classe $\mathcal C ^1$
+
+Pour le premier point, soit $a$ tel que $D_{f}(a) \in \mathcal L(E)$ inversible et $(D_{f}(a))^{-1} \in \mathcal L(E)$
+Donc $f(a+h) = f(a) + D_{f}(a)(h) + o(h)$
 
 
 ### Corollaire
