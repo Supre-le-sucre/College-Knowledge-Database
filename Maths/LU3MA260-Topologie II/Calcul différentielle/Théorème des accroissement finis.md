@@ -32,7 +32,18 @@ $$
 
 ## Corollaire
 Soit $\Omega$ un ouvert connexe, et $f: \Omega \to F$ si $D_{f}(x)=0, \forall x \in \Omega$: #!
-Alors $f$ est connexe.
+Alors $f$ est constante.
 
 ### Preuve
 Soit $a \in f(\Omega)$ et montrons que $\forall x \in \Omega, f(x)= a$
+
+Si on arrive à montrer que $f^{-1}(\{ a \})$ est à la fois ouvert et fermé, comme $\Omega$ est connexe, alors dans ce cas $f^{-1}(\{ a \}) = \emptyset$ ou bien $f^{-1}(\{ a \}) = \Omega$
+
+Comme $f$ est continue (car différentiable en tout point), alors $f^{-1}(\{ a \})$ est un fermé. Il ne reste plus qu'à montrer qu'il est ouvert.
+
+Soit $x \in f^{-1}(\{ a \})$. Come $\Omega$ est ouvert, $\exists \varepsilon>0$ tel que $B(x, \varepsilon) \subset \Omega$.
+Or comme $D_{f}(x) = 0$ pour tout $x \in \Omega$, on peut majorer par le TAF la norme suivante
+$$
+\forall z \in B(x, \varepsilon), \quad ||f(z)-f(x)|| \leq 0 \times||z-x|| \leq 0
+$$
+Donc $f(z)= a, \forall z \in B(x, \varepsilon)$, donc $B(x, \varepsilon) \subset f^{-1}(\{  a \})$ donc c'est bien un ouvert.
