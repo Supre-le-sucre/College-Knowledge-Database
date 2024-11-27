@@ -25,4 +25,4 @@ $$Avec $\lambda_{1}$ choisi pour être exact avec toute fonction constante (donc
 $$
 \int_{0}^{1}f(x)dx = \lambda_{1}f\left( \frac{1}{2} \right)
 $$
-Cette méthode est par ailleurs exact pour tout polynôme de degré 1 ou inférieur
+Cette méthode est par ailleurs exact pour tout polynôme de degré 1 ou inférieur (et $\lambda_{1} = 1$)
