@@ -54,3 +54,7 @@ $$
 $$
 Cette propriété est bien utile, notamment quand il s'agit de décomposer les intervalles en subdivision plus petites, pour maximiser la précision
 
+# Méthode de Newton-Cotes
+On donne la méthode suivante: #!
+
+En posant $y_{i} = \frac{i}{n}$, la méthode de quadrature associé au poids tels qu'elle soit bien définie pour des polynôme de degré $n-1$, la méthode est d'ordre $n$ si $n$ est impair et $n+1$ si $n$ ets impair 
