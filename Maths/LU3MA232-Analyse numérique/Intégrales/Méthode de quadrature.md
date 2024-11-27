@@ -16,3 +16,13 @@ $$
 
 ## Méthodes classiques
 On distingue les méthodes de quadrature de base
+
+- Méthode du triangle à droite $$
+\int_{0}^{1}f(x)dx = \lambda_{1}f(1)
+$$Avec $\lambda_{1}$ choisi pour être exact avec toute fonction constante (donc $\lambda_{1} = 1$)
+
+- Méthode du point milieu
+$$
+\int_{0}^{1}f(x)dx = \lambda_{1}f\left( \frac{1}{2} \right)
+$$
+Cette méthode est par ailleurs exact pour tout polynôme de degré 1 ou inférieur
