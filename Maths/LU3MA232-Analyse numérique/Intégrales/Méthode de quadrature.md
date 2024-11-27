@@ -62,3 +62,10 @@ Cette propriété est bien utile, notamment quand il s'agit de décomposer les i
 On donne la méthode suivante: #!
 
 En posant $y_{i} = \frac{i}{n}$, la méthode de quadrature associé au poids tels qu'elle soit bien définie pour des polynôme de degré $n-1$, la méthode est d'ordre $n$ si $n$ est impair et $n+1$ si $n$ ets impair 
+
+## Corollaire
+Comme la méthode de Newton-Cotes noté $J_{n}$ reviens à considérer les subdivisions de fermé sur $[a,b]$ alors on a que: #!
+
+$$
+\left| \int_{a}^{b} f(x) - J_{n}(f) \right| \leq 2\left( \frac{b-a}{n} \right) ^{{n+1}}\sup_{[a,b]} |f^{(n+1)}|
+$$
