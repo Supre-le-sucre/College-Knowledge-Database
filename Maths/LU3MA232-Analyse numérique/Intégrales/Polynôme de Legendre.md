@@ -62,7 +62,3 @@ Le polynôme $P_{n}$ admet $n$ racines simples, toutes situés dans $]-1, 1[$
 <!--ID: 1732560471869-->
 
 
-
-## Méthode de Quadrature de Gauss-Legendre
-La méthode de quadrature est la suivante: #!
-
