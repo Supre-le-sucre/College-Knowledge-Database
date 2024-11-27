@@ -54,6 +54,10 @@ $$
 $$
 Cette propriété est bien utile, notamment quand il s'agit de décomposer les intervalles en subdivision plus petites, pour maximiser la précision
 
+
+## Corollaire sur la généralisation de l'erreur
+
+
 # Méthode de Newton-Cotes
 On donne la méthode suivante: #!
 
