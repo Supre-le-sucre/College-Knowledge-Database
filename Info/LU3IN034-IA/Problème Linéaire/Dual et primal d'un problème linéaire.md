@@ -66,4 +66,10 @@ $X$ est une solution optimal de $\mathcal P$, et $V$ est une solution optimal de
 ## Théorème: lien entre l'optimal primal et dual
 $X^*$ est la solution optimale du problème $\mathcal P$ et $V^{*}$ la solution au dual $\mathcal D$ si et seulement si: #!
 
-$V^{*}(AX^{*} - b)$
+$$
+\begin{cases}
+V^{*}(AX^{*} - b) &= &0 \\
+X^{*}(^tAV^{*} - c) &= &0
+\end{cases}
+$$
+
