@@ -21,7 +21,7 @@ $$
 $$
 Dans ce cas $\beta$ est obtenu par [[Problème Linéaire d'optimisation|programmation linéaire]]
 
-## Exemple ou $p=1$
+## Exemple où $p=1$
 On souhaite faire l'apprentissage d'une droite d'équation $y = \beta_{0} + \beta_{1}x$ en fonction $n$ observations: $(x_{i}, y_{i})$
 Donc on a l'objectif suivant
 $$
@@ -63,3 +63,9 @@ $$
 u_{i} - v_{i} = y_{i} - \beta_{0} -\beta_{1}x_{i}
 \end{align}
 $$
+
+## Régression linéaire multiple avec le critère LAD
+Souvent $p > 1$, il faut donc trouver un critère viable en tout temps
+Posons $n$ le nombre d'observations de la forme $(x_{i,1}, \cdots, x_{i,p}, y_{i})$
+
+Cette fois-ci, observons que $|x| = \max(x, -x)$. On a donc que $|x|$ est le plus petit majorant entre $x$ et $-x$
