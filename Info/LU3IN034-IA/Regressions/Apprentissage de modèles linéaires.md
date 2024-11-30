@@ -69,3 +69,17 @@ Souvent $p > 1$, il faut donc trouver un critère viable en tout temps
 Posons $n$ le nombre d'observations de la forme $(x_{i,1}, \cdots, x_{i,p}, y_{i})$
 
 Cette fois-ci, observons que $|x| = \max(x, -x)$. On a donc que $|x|$ est le plus petit majorant entre $x$ et $-x$
+Pour minimiser $|x|$ on peut poser $z=|x|$ avec 
+$$
+\begin{cases} 
+\min z \\
+z\geq x \\
+z \geq -x
+\end{cases}
+$$
+En posant l'écart de l'observation $i$ tel que $$e_{i} = y_{i} - \beta_{0} -\beta_{1}x_{i}$$
+Et en étudiant sa valeur $|e_{i}|$ et $e_{i}$, on peut donc écrire la régression linéaire comme le PL de la forme suivante
+$$
+	\begin{cases}
+	\end{cases}
+$
