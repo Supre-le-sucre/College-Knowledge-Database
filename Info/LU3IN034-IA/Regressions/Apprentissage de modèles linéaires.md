@@ -56,7 +56,7 @@ $$
 e_{i} =\; & y_{i} - \beta_{0} -\beta_{1}x_{i}
 \end{align}
 $$
-D'où, en posant cela avec $u_{i}$ et $v_{i}$ on a
+D'où, en posant cela avec $u_{i}$ et $v_{i}$ ==positive== on a
 $$
 \begin{align}
 \min \sum_{i=1}^{n} (u_{i} + v_{i})  \\
