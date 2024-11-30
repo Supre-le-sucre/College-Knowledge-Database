@@ -20,3 +20,10 @@ fin Tant que
 
 ## Comment choisir et décider ?
 Proposons l'établissement d'une fonction d'évaluation
+
+- Posons $k^{*}(n,m)$ le coût d'un chemin optimal de $n$ à $m$ (qui vaut $+\infty$ s'il n'existe pas de chemin tel)
+- $g^*(n) = k^*(n_{0}, n)$ est le coût du meilleur chemin pour joindre $n$ depuis $n_{0}$
+- $h^{*}(n) = \min_{\gamma \in \Gamma}k^*(n, \gamma)$ est le plus petit coût permettant de joindre $n$ à un état but
+- $f^{*}(n) = g^{*}(n) + h^{*}(n)$ le coût du meilleur chemin solution passant par $n$
+
+On pose $g$ et $h$ les fonctions caractérisant le meilleur chemin actuellement connu
