@@ -82,6 +82,7 @@ Et en étudiant sa valeur $|e_{i}|$ et $e_{i}$, on peut donc écrire la régress
 $$
 \begin{cases} 
  \min \sum_{i=1}^{n} z_{i} \\
- z_{i} \geq y_{i}
+ z_{i} \geq y_{i} - \beta_{0} - \sum_{j=1}^{p} \beta_{j}x_{i,j} \\
+z_{i} \geq - y_{i} + \beta_{0} + \sum_{j=1}^{p} \beta_{j}x_{i,j}
 \end{cases}
 $$
