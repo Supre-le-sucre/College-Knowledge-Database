@@ -46,4 +46,7 @@ Dans un problème $\mathcal P$ de maximisation
 - Si une contrainte est de la forme $=$, la variable du dual sera non signée et le second membre sera exprimé positivement dans la fonction objectif
 - Si une contrainte est de la forme $\geq$, la variable du dual sera signée ($\geq 0$) et le second membre sera exprimé **négativement** dans la fonction objectif
 
+### Exemple
+![[Pasted image 20241130111956.png]]
+
 
