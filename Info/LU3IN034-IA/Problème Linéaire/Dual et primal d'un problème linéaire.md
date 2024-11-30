@@ -61,3 +61,9 @@ $$
 Si $X$ est une solution réalisable du primal $\mathcal P$, et $V$ une solution réalisation du dual $\mathcal D$ tel que $bX = cV$ alors: #!
 
 $X$ est une solution optimal de $\mathcal P$, et $V$ est une solution optimal de $\mathcal D$
+
+
+## Théorème: lien entre l'optimal primal et dual
+$X^*$ est la solution optimale du problème $\mathcal P$ et $V^{*}$ la solution au dual $\mathcal D$ si et seulement si: #!
+
+$V^{*}(AX^{*} - b)$
