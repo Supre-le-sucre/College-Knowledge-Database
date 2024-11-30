@@ -49,4 +49,17 @@ v_{i} & = & \frac{|e_{i}|-e_{i}}{2}
 \end{cases}
 $$
 
-Comme on cherche à minimiser $|e_{i}|$ on peut poser le programme linéaire suivant
+Comme on cherche à minimiser $|e_{i}|$ on peut poser le programme linéaire suivant:
+$$
+\begin{align}
+&\min |e_{i}| \\
+e_{i} =\; & y_{i} - \beta_{0} -\beta_{1}x_{i}
+\end{align}
+$$
+D'où, en posant cela avec $u_{i}$ et $v_{i}$ on a
+$$
+\begin{align}
+\min \sum_{i=1}^{n} (u_{i} + v_{i})  \\
+u_{i} - v_{i} = y_{i} - \beta_{0} -\beta_{1}x_{i}
+\end{align}
+$$
