@@ -39,4 +39,7 @@ Par rapport au problème primal $\mathcal P$, le problème dual $\mathcal D$ pr�
 - ==Le dual du dual est le problème primal==
 
 ## Cas du dual dans les problèmes généraux
-Dans le cas où un problème $\mathcal P$ n'est plus canonique, il faut que son dual $\mathcal D$ soit correctement arrangé.
+Dans le cas où un problème $\mathcal P$ n'est plus canonique, il faut que son dual $\mathcal D$ soit correctement arrangé: #!
+
+Dans le problèmes primal, si une inégalité
+
