@@ -26,4 +26,5 @@ Proposons l'établissement d'une fonction d'évaluation
 - $h^{*}(n) = \min_{\gamma \in \Gamma}k^*(n, \gamma)$ est le plus petit coût permettant de joindre $n$ à un état but
 - $f^{*}(n) = g^{*}(n) + h^{*}(n)$ le coût du meilleur chemin solution passant par $n$
 
-On pose $g$ et $h$ les fonctions caractérisant le meilleur chemin actuellement connu
+On pose $g$ qui caractérise la valeur du meilleur chemin connu. Et $h$ une euristique qui calcule de façon optimiste la valeur de $h^{*}$
+L'objectif du choix est de toujours vouloir minimiser la fonction $f$ de sorte à s'approcher de $f^{*}$. On parle alors de recherche [[Heuristique]]
