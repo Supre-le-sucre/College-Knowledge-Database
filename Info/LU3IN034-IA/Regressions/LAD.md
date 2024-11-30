@@ -11,13 +11,13 @@ $$
 On peut déterminer $||\cdot||$ de plusieurs façon différentes:
 - Le critère de moindre carré, ou on prends la norme carré
 $$
-\sum_{i=1}^{p}\left( y_{i} -\sum_{j=0}^{p}\beta_{j}x_{ij}  \right)^2
+\sum_{i=1}^{n}\left( y_{i} -\sum_{j=0}^{p}\beta_{j}x_{ij}  \right)^2
 $$
 Dans ce cas $\beta$ est résolu par optimisation convexe
 
 - Le critère de LAD qui prends la norme de Manhattan
 $$
-\sum_{i=1}^{p}\left| y_{i} -\sum_{j=0}^{p}\beta_{j}x_{ij}  \right|
+\sum_{i=1}^{n}\left| y_{i} -\sum_{j=0}^{p}\beta_{j}x_{ij}  \right|
 $$
 Dans ce cas $\beta$ est obtenu par [[Problème Linéaire d'optimisation|programmation linéaire]]
 
