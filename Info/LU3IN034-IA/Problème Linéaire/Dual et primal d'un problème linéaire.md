@@ -26,7 +26,7 @@ $$
 $$
 Où $V$ est le vecteur de variable du problème $\mathcal D$ de taille $p$ (le nombre de contrainte du problème $\mathcal P$). Si $\mathcal P$ était un problème de maximisation, $\mathcal D$ aurait été un problème de ==minimisation== et les inégalités aurait aussi changé de sens.
 
-## Observation préliminaire
+## Observations préliminaires
 Par rapport au problème primal $\mathcal P$, le problème dual $\mathcal D$ présente les caractéristiques suivantes: #!
 
 - Si $\mathcal P$ est un problème de maximisation (resp. min) alors $\mathcal D$ sera un problème de minimisation (resp. max)
@@ -36,4 +36,7 @@ Par rapport au problème primal $\mathcal P$, le problème dual $\mathcal D$ pr�
 - Les second membre des inégalités de $\mathcal D$ sont les coefficients de la fonction objectif de $\mathcal P$
 - Les lignes de la matrice de contrainte de $\mathcal D$ sont les colonnes de celle de $\mathcal P$
 - ==A l'optimum, les fonctions objectifs ont des valeurs égales==
+- ==Le dual du dual est le problème primal==
 
+## Cas du dual dans les problèmes généraux
+Dans le cas où un problème $\mathcal P$ n'est plus canonique, il faut que son dual $\mathcal D$ soit correctement arrangé.
