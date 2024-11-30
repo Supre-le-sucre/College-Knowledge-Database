@@ -80,6 +80,8 @@ $$
 En posant l'écart de l'observation $i$ tel que $$e_{i} = y_{i} - \beta_{0} -\beta_{1}x_{i}$$
 Et en étudiant sa valeur $|e_{i}|$ et $e_{i}$, on peut donc écrire la régression linéaire comme le PL de la forme suivante
 $$
-	\begin{cases}
-	\end{cases}
-$
+\begin{cases} 
+ \min \sum_{i=1}^{n} z_{i} \\
+ z_{i} \geq y_{i}
+\end{cases}
+$$
