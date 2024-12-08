@@ -28,4 +28,4 @@ Autrement dit, on choisit l'action qui engendre la plus grande récompense, sach
 
 
 ## Exemple
-On considère une grille dans laquelle on place un robot.
+On considère une grille dans laquelle on place un robot. Le robot
