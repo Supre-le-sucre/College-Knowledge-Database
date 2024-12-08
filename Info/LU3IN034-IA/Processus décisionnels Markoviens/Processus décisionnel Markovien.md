@@ -21,14 +21,17 @@ Une politique est un n-uplet de "règle de décision" qui permet de prendre une 
 
 
 
-**Notre problème**: C'est de maximiser la récompense sur un "horizon" fini (donc jusqu'à $N$ itérations d'actions) ou un horizon infini. (Maximiser l'==espérance de la récompense==: $$\mathbb E\left( \sum_{t=1}^{N} R(s, d_{t}(s)) \right)$$
+## Formulation du problème
+Bien souvent, on cherche à trouver une "politique optimale" permettant de maximiser la récompense. 
 
+Dans le cas d'un horizon finie, la formulation est simple, car il s'agit de maximiser l'**espérance de la récompense**: 
+$$\mathbb E\left( \sum_{t=1}^{N} R(s, d_{t}(s)) \right)$$
 
-## Horizon infini
-Dans le cadre d'un horizon infini, tous les chemins se valent, étant donné que ces chemins donnent tous une récompense infinie.
-On pose alors le facteur d'actualisation comme suit: #!
+Dans le cas d'un horizon infini, notons que la récompense ne ==dépend pas== de la temporalité dans laquelle nous nous trouvons. Ainsi donc, **toutes les politiques se valent car elles rapportent toutes une récompense infinie**.
+Afin de tendre vers une politique idéale, on cherche donc à maximiser l'espérance de la récompense **en rajoutant un facteur d'actualisation** qui change en fonction de la temporalité.
 
-$\gamma \in ]0, 1[$ qualifié de facteur d'actualisation permet de pondéré la récompense au fur et à mesure des itérations, il dépend de si on veut gagner une récompense rapidement (proche de 0) ou dans longtemps proche de $1$. On calcule alors l'espérance $$\mathbb E\left( \sum_{t=1}^{+\infty} \gamma^t R(s, d_{t}(s)) \right) \leq \frac{M}{1 - \gamma} $$
+On note $\gamma \in ]0, 1[$  ce facteur. Il permet donc de pondéré la récompense au fur et à mesure des itérations. 
+Sa valeur dépend de si on veut gagner une récompense rapidement (proche de 0) ou dans longtemps proche de $1$. On calcule alors l'espérance $$\mathbb E\left( \sum_{t=1}^{+\infty} \gamma^t R(s, d_{t}(s)) \right) \leq \frac{M}{1 - \gamma} $$
 
 ## Valeur d'une politique
 Une politique représente l'ensemble des décisions à chaque étape sur un horizon.
