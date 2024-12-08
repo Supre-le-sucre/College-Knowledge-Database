@@ -33,20 +33,4 @@ Afin de tendre vers une politique idéale, on cherche donc à maximiser l'espér
 
 On note $\gamma \in ]0, 1[$  ce facteur. Il permet donc de pondéré la récompense au fur et à mesure des itérations. 
 Sa valeur dépend de si on veut gagner une récompense rapidement (proche de 0) ou dans longtemps proche de $1$. On calcule alors l'espérance $$\mathbb E\left( \sum_{t=1}^{+\infty} \gamma^t R(s, d_{t}(s)) \right) \leq \frac{M}{1 - \gamma} $$
-
-## Valeur d'une politique
-Une politique représente l'ensemble des décisions à chaque étape sur un horizon.
-La valeur d'une politique en l'état $s$ à un instant $t$ se définit de la façon suivante correspond à l'**espérance de la récompense** à une certaine étape de décision
-
-En posant l'état $1$ comme la dernière décision
-- **Dernière décision** $$V_{d,1}(s) = R(s, d_{1}(s))$$
-- **Décision à l'étape t** $$V_{d,t}(s) = R(s, d_{t}(s)) + \sum_{s' \in S}T(s,a)(s')V_{d,t-1} (s')$$
-
-## Calcul de la politique optimale
-On pose $V^*$ la valeur optimale et $d^*$ la décision optimale. Elles sont définies récursivement de la façon suivante. (En commençant par 1)
-
-$V_{1}^* = \max R(s,a)$ et $d^*_{1} = \arg \max_{a} R(s, a)$
-Et puis
-
-$V_{t}^* = \max( R(s, a) + \sum_{s' \in S}T(s,a)(s')V^*_{d,t-1} (s')$
-Et $d^*$ donné par l'argument $a$ de ce max
+**A noter que:** Il est aussi possible de poser ce facteur dans un horizon fini.
