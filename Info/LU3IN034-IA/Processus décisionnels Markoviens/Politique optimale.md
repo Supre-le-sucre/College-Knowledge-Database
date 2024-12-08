@@ -28,4 +28,16 @@ Autrement dit, on choisit l'action qui engendre la plus grande récompense, sach
 
 
 ## Exemple
-On considère une grille dans laquelle on place un robot. Le robot
+On considère une grille dans laquelle on place un robot. La grille peut être obstrué, empêchant le robot de passer sur une case.
+
+Le robot peut choisir de se déplacer sur la droite ou vers le bas, si la case directement adjacente au robot est obstruée, il ne peut pas choisir ce déplacement. 
+
+Le robot ne peut pas choisir avec certitude sa trajectoire, cela signifie donc, qu'il peut soit avancer tout droit, soit partir en diagonal.
+La loi change en fonction de l'obstruction comme suit:
+![[Pasted image 20241208202615.png]]
+Autrement dit:
+Dans le premier cas, s'il n'y a pas d'obstruction, le robot ira tout droit dans la direction souhaitée (vers la droite ou vers le bas) dans 60% des cas, mais il ira en diagonale (vers la droite ou vers le bas, cela dépendra de l'action choisie) dans 20% des cas.
+
+Si une seule case est obstruée sur le chemin choisi, il aura 70% de chance d'avancer tout droit, et 30% de chance d'avancer en diagonal
+
+Si les deux cases sont obstrué, le robot avancera forcément dans la bonne direction.
