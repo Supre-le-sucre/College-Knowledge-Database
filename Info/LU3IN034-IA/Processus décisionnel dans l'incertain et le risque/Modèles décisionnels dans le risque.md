@@ -57,3 +57,10 @@ où $u$ est une application définie par une transformation affine près et tell
 $$
 \forall P > Q \Leftrightarrow U(P) \geq U(Q)
 $$
+
+# Utilité de la conséquence
+On note $u(x)$ l'utilité de la conséquence $x$ pour l'agent, elle caractérise notamment ses préférence vis à vis du risque.
+L'utilité est linéaire pour les probabilité
+
+## Concavité convexité
+La concavité de $u$ se traduit comme une aversion du risque, alors que la convexité, comme un oût du risque
