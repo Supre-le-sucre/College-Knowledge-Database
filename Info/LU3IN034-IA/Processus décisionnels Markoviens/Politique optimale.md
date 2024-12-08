@@ -50,7 +50,10 @@ La récompense dépend de la case, elle est indiquée sur le coin supérieur gau
 Les cases qui ne sont **pas marquées**, n'apporte **pas de récompense** (la récompense **est nulle**)
 
 On représente le graphe de décision/hasard du problème comme suit.
-Un état est marqué par un nœud carré, une décision par un nœud circulaire, les flèches jaunes indiquent la direction décidée par le robot
-
 ![[Pasted image 20241208204132.png]]
-Les espérances de gain sont indiquée en bleu, au dessus de chaque nœud
+Un **état** est marqué par un **nœud carré**, une **décision** par un **nœud circulaire**.
+Les **espérances de gain** sont indiquée en bleu, au dessus de chaque nœud.
+
+A chaque état, on voit qu'il existe un *arc* vers un nœud d'action. Cet arc représente l'action de se diriger *vers la droite ou vers le bas*. Parfois, il n'y a qu'un seul arc, c'est parce qu'il n'y a qu'une seule décision à prendre pour cet état.
+
+La politique optimale est indiquée par les flèches jaunes. C'est à dire, qu'à chaque état, le meilleur choix est de suivre la direction indiquée par la flèche. 
