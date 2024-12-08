@@ -28,6 +28,7 @@ Dans le cas d'un horizon finie, la formulation est simple, car il s'agit de maxi
 $$\mathbb E\left( \sum_{t=1}^{N} R(s, d_{t}(s)) \right)$$
 
 Dans le cas d'un horizon infini, notons que la récompense ne ==dépend pas== de la temporalité dans laquelle nous nous trouvons. Ainsi donc, **toutes les politiques se valent car elles rapportent toutes une récompense infinie**.
+
 Afin de tendre vers une politique idéale, on cherche donc à maximiser l'espérance de la récompense **en rajoutant un facteur d'actualisation** qui change en fonction de la temporalité.
 
 On note $\gamma \in ]0, 1[$  ce facteur. Il permet donc de pondéré la récompense au fur et à mesure des itérations. 
