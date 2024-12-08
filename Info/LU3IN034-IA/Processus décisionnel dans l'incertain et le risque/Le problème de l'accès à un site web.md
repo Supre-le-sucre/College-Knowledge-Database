@@ -23,5 +23,24 @@ Pour cela, on étudie l'arbre de décision inverse: cet arbre représente le cas
 L'espérance de gain est alors à 247, la valeur de l'information parfaite est donc de 247-112 = 135
 
 Un informateur, qui a déjà travaillé avec le site web que l'on étudie, nous propose ses services
-L'informateur a une probabilité de nous indiquer s'il faut acheter ou ne pas acheter les informations.
-Il a les probabilités suivantes
+L'informateur a une probabilité de nous indiquer s'il faut acheter ou ne pas acheter les informations. Ses conseils sont associés aux probabilités conditionnels suivantes
+
+|                                          | $I_{1}$: "Acheter l'accès au site" | $I_{2}$: "N'achetez pas les accès" |
+| ---------------------------------------- | ---------------------------------- | ---------------------------------- |
+| $s_{1}$: Le site est de mauvaise qualité | 44%                                | 56%                                |
+| $s_{2}$: Le site est de moyenne qualité  | 60%                                | 40%                                |
+| $s_{3}$: Le site est de bonne qualité    | 81%                                | 19%                                |
+*Par exemple la première case se lit: la probabilité que l'informateur nous disent d'acheter le site, sachant que celui-ci est de mauvaise qualité est de 44%*
+
+Le coût de service de l'informateur est de $c$
+En utilisant les lois de probabilités Bayésienne
+$$
+P(s_{j} | I_{k}) = \frac{P(I_{k}| s_{j}) P(s_{j})}{P(I_{k})} = \frac{P(I_{k}| s_{j}) P(s_{j})}{\sum_{i}P(I_{k}|s_{i})P(s_{i})}
+$$
+
+Il est possible de dresser l'arbre de décision suivant, où le nœud de départ représente la décision de payer l'informateur ou non.
+![[Pasted image 20241209004446.png]]
+L'arbre en haut est le même que le précédent, c'est le cas où nous n'avons pas choisi de payer l'informateur
+
+L'arbre en bas représente la version où nous avons payé l'informateur.
+Ici l'informateur est viable s'il ne coûte que 127-112 = 15, autrement, ses informations coûterait trop cher.
