@@ -1,8 +1,8 @@
-
 ## Politique stationnaire
 On dit qu'une politique est *stationnaire* si et seulement si: #!
 
 $$V_{d}(s) = R(s, d(s)) + \sum_{s' \in S}T(s,a)(s')V_{d,t-1} (s') \quad \quad \forall s \in S$$
+Autrement dit, une politique stationnaire, est une politique qui **ne dépend pas de la temporalité du problème**
 
 ## Théorème de Harvard
 On énonce le théorème suivant: #!
