@@ -1,5 +1,5 @@
 ## Valeur d'une politique
-Une politique représente l'ensemble des décisions à chaque étape sur un horizon.
+Une [[Processus décisionnel Markovien#Politique|Politique]] représente l'ensemble des décisions à chaque étape sur un horizon.
 La valeur d'une politique en l'état $s$ à un instant $t$ se définit de la façon suivante correspond à l'**espérance de la récompense** à une certaine étape de décision
 
 En posant l'état $1$ comme la dernière décision (elle est facile à choisir, car il n'y a plus d'incertitude d'état comparé aux autres états)
