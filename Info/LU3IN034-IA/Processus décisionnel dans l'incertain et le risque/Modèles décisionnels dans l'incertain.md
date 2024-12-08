@@ -60,7 +60,7 @@ $$
 Ce critère est souvent inapproprié, étant donné que l'incertain est bien trop souvent non équiprobable
 
 # Critère EU (Expected Utility)
-Le critère d'utilité attendu se veut plus informé que celui de Laplace. On dresse ici une loi de probabilité *"plausible"* en fonction de chaque état et on choisit celle ayant la conséquence la plus élevé.
+Le critère d'utilité espéré se veut plus informé que celui de Laplace. On dresse ici une loi de probabilité *"plausible"* en fonction de chaque état et on choisit celle ayant la conséquence la plus élevé.
 Ce critère dépend donc de la loi qu'on aura choisit de fixer nous même.
 ==ATTENTION== cette loi ne peut ==JAMAIS== représenter la réalité du problème, car il est tout justement ==INCERTAIN==. Sinon on serait dans le [[Modèles décisionnels dans le risque|risque]] (cf. [[Différence entre l'incertain et le risque]])!!
 $$
