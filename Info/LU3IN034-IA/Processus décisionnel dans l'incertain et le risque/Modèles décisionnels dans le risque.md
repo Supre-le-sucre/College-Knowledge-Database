@@ -63,4 +63,4 @@ On note $u(x)$ l'utilité de la conséquence $x$ pour l'agent, elle caractérise
 L'utilité est linéaire pour les probabilité
 
 ## Concavité convexité
-La concavité de $u$ se traduit comme une aversion du risque, alors que la convexité, comme un oût du risque
+La concavité de $u$ se traduit comme une aversion du risque, alors que la convexité, comme un goût du risque
