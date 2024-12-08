@@ -22,7 +22,7 @@ Autrement dit, on prends l'action avec la meilleur récompense.
 - Décision à $t$ étapes de la fin (en posant un facteur de pondération $\gamma \in ]0, 1[$)
 $$
 V_{t}^{*}(s) = \max_{a} \left[ R(s, a) + \gamma \sum_{s' \in S} T(s, a)(s') V^{*}_{t-1}(s')\right] \quad \quad $$ $$
- d_{1}^* = \arg\max_{a}\left[ R(s, a) + \gamma \sum_{s' \in S} T(s, a)(s') V^{*}_{t-1}(s')\right]
+ d_{t}^* = \arg\max_{a}\left[ R(s, a) + \gamma \sum_{s' \in S} T(s, a)(s') V^{*}_{t-1}(s')\right]
 $$
 Autrement dit, on choisit l'action qui engendre la plus grande récompense, sachant l'espérance de la récompense à l'état suivant.
 
