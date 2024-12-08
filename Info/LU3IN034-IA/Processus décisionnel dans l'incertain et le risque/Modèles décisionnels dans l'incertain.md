@@ -1,3 +1,4 @@
+(cf. [[Différence entre l'incertain et le risque]])
 Considérons le problème de décision suivant
 - Un ensemble d'était $S$
 - Un ensemble fini de conséquence $X = \{ x_{1}, \dots, x_{m} \}$
@@ -48,7 +49,7 @@ $$
 ## Exemple
 ![[Pasted image 20241208224153.png]]
 Le tableau des actes est indiqué à gauche, celui des regrets à droite.
-On va ici choisir l'acte $f_{3}$ car le regret est minimal.
+On va ici choisir l'acte $f_{3}$ car le pire regret est minimal.
 
 # Critère de Laplace
 L'idée de ce critère est de lever l'incertain en supposant que tous les éléments sont équiprobable.
@@ -57,3 +58,11 @@ $$
 \arg \max_{ f \in X^S} \sum_{s \in S} \frac{1}{|S|}f(s)
 $$
 Ce critère est souvent inapproprié, étant donné que l'incertain est bien trop souvent non équiprobable
+
+# Critère EU (Expected Utility)
+Le critère d'utilité attendu se veut plus informé que celui de Laplace. On dresse ici une loi de probabilité *"plausible"* en fonction de chaque état et on choisit celle ayant la conséquence la plus élevé.
+Ce critère dépend donc de la loi qu'on aura choisit de fixer nous même.
+==ATTENTION== cette loi ne peut ==JAMAIS== représenter la réalité du problème, car il est tout justement ==INCERTAIN==. Sinon on serait dans le [[Modèles décisionnels dans le risque|risque]] (cf. [[Différence entre l'incertain et le risque]])!!
+$$
+\arg \max_{ f \in X^S} \sum_{s \in S} p(s)f(s)
+$$

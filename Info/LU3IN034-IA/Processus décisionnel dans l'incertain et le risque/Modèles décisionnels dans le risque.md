@@ -1,0 +1,1 @@
+(cf. [[Différence entre l'incertain et le risque]])
