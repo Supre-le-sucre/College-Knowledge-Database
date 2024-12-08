@@ -27,3 +27,33 @@ $$
 \lambda P + (1-\lambda)Q
 $$
 ![[Pasted image 20241208232156.png]]
+
+## Axiome du modèle EU dans le risque
+On observe les axiomes suivants
+
+- Comparabilité transitive complète
+Toute les loteries $P, Q$ sont comparables
+En considérant les loteries $P,Q$ et $R$ on a que $P > Q$ et $Q > R$ implique que $P> R$
+
+- Continuité
+Pour toutes loteries $P > Q > R$, il existe $\alpha, \beta \in ]0, 1[$ tel que
+$$
+\alpha P + (1-\alpha)R > Q \quad \quad Q > \beta P+ (1- \beta)R
+$$
+
+- Indépendance
+Pour toutes loteries $P, Q, R$, pour tout $\alpha \in ]0, 1]$
+$$
+P > Q \Leftrightarrow \alpha P + (1-\alpha)R > \alpha Q + (1- \alpha)R
+$$
+
+## Théorème de von Neumann et Morgenstern
+Si la relation d'ordre sur les loteries respectes les axiomes précédent, alors il existe une fonction d'utilité de loterie $U$ de la forme
+
+$$
+U(P) = \sum_{x \in X} P(x) u(x)
+$$
+où $u$ est une application définie par une transformation affine près et telle que
+$$
+\forall P > Q \Leftrightarrow U(P) \geq U(Q)
+$$
