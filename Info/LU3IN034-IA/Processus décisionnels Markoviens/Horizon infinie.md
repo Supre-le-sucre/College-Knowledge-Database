@@ -9,36 +9,46 @@ Autrement dit, une politique stationnaire, est une politique qui **ne dépend pa
 On énonce le théorème suivant: #!
 
 Il existe une politique stationnaire optimale pour tout état initial d'un problème d'horizon infini. Sa valeur est donné par le système (qui admet une solution unique) suivant
-$$V^*(s) = \max_{a} \left[R(s, d(s)) + \sum_{s' \in S}T(s,a)(s')V^{*} (s')\right] \quad \quad \forall s \in S$$
+$$V^*(s) = \max_{a} \left[R(s, d(s)) + \gamma\sum_{s' \in S}T(s,a)(s')V^{*} (s')\right] \quad \quad \forall s \in S$$
 Ce système d'équation est appelé: Equation de Bellman
 
-## Formulation vectorielle et approche itérative
+# Formulation vectorielle et approche itérative
 
-$\forall s \in S$ posons $LV(s) = \max_{a \in  A}\left[ R(s, d(s)) + \sum_{s' \in S}T(s,a)(s')V(s')  \right]$
-
-Le vecteur $LV$ est alors obtenu avec chaque état du système Et on pose
-
-$LV = \max \left\{ R_{\pi} + \gamma T_{\pi}V \right\}$
+$\forall s \in S$ posons $$LV(s) = \max_{a \in  A}\left[ R(s, d(s)) + \gamma\sum_{s' \in S}T(s,a)(s')V(s')  \right]$$
+$$LV = \max_{\pi} \left\{ R_{\pi} + \gamma T_{\pi}V \right\}$$
 L'équation de Bellman devient $V = LV$
 
-
-## Proposition j'ai abandonné là
-
+## Proposition sur la lipchitzianité de LV
+Pour tout état $s$, on peut établir l'inégalité suivante
 $$
 ||LV - LV'|| \leq \gamma ||V -V'||
 $$
 
 
-## Proposition 2 la deuxième t'as capté
-La suite est définie par $V_{0} = 0$ et $V_{t} = LV_{t-1}$
+## Théorème du point fixe
+Comme $LV$ est lipchitzienne, alors la suite définie par $V_{0} = 0$ et $V_{t} = LV_{t-1}$
+est convergente vers $V^*$ tel que $V^* = LV^{*}$
 
-Si $|V_{t-1}(s) - V_{t}(s)| < \varepsilon$
-Alors $\max_{s \in S} |V_{d(V(t))}(S) -V^*(S)| < 2 \varepsilon \frac{\gamma}{1 - \gamma}$
+## Borne de l'erreur (Williams et Baird)
+Ainsi donc, on peut calculer jusqu'à $|V_{t-1}(s) - V_{t}(s)| < \varepsilon$ et obtenir une approximation de $V^*$
+On aura en effet, une borne sur l'erreur tel que
+$$\max_{s \in S} |V_{d(V(t))}(S) -V^*(S)| < 2 \varepsilon \frac{\gamma}{1 - \gamma}$$
 
 
-## Propriété sur l'itération de la politique
-Soit $\Pi$ une politique stationnaire de valeur $V_{\gamma}^\pi$. Alors toute politique $\pi'$ choisie dans
+# Formulation en [[Problème Linéaire d'optimisation|programmation linéaire]]
+
+## Proposition
+On observe que
 $$
-\arg \max_{\gamma} \{ R_{\delta} + \gamma T_{\gamma}V_{\gamma}^\pi \}
+V \geq LV \implies V \geq V^{*}
 $$
-vérifie l'inégalité $V_{\gamma}^{\pi'} \geq V_{\gamma}^\pi$
+
+## Formulation du PL
+Par rapport à la proposition précédente, on cherche donc à minimiser les $V$ tout en conserver l'inégalité du membre de gauche. D'où
+$$
+\begin{align*}
+\min \sum_{s \in S} V(s) \\
+\forall s \in S, V(s) \geq LV(s)
+\end{align*}
+$$
+L'optimum du PL ci-dessus est alors $V^*$
