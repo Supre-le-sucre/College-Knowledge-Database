@@ -34,6 +34,8 @@ $$
 ## Corollaire
 Soit $\Omega$ un ouvert connexe, et $f: \Omega \to F$ si $D_{f}(x)=0, \forall x \in \Omega$: #!
 Alors $f$ est constante.
+<!--ID: 1734268137906-->
+
 
 ### Preuve
 Soit $a \in f(\Omega)$ et montrons que $\forall x \in \Omega, f(x)= a$

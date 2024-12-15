@@ -4,6 +4,8 @@ On dit qu'une politique est *stationnaire* si et seulement si: #!
 
 $$V_{d, t}(s) = R(s, d(s)) + \gamma\sum_{s' \in S}T(s,a)(s')V_{d, t-1} (s') \quad \quad \forall s \in S$$
 Autrement dit, une politique stationnaire, est une politique qui **ne dépend pas de la temporalité du problème**
+<!--ID: 1734268137935-->
+
 
 ## Théorème de Howard
 On énonce le théorème suivant: #!
@@ -11,6 +13,8 @@ On énonce le théorème suivant: #!
 Il existe une politique stationnaire optimale pour tout état initial d'un problème d'horizon infini. Sa valeur est donné par le système (qui admet une solution unique) suivant
 $$V^*(s) = \max_{a} \left[R(s, d(s)) + \gamma\sum_{s' \in S}T(s,a)(s')V^{*} (s')\right] \quad \quad \forall s \in S$$
 Ce système d'équation est appelé: Equation de Bellman
+<!--ID: 1734268137937-->
+
 
 # Formulation vectorielle et approche itérative
 

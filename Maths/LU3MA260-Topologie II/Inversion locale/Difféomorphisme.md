@@ -3,12 +3,16 @@
 Soit $\Phi : U \to V$ où $U, V$ respectivement ouvert de $E$ et $F$. On dit que $\Phi$ est un $\mathcal C^1$-difféomorphisme si et seulement si: #!
 
 Elle est de classe $\mathcal C ^1$, bijective et si son inverse est de classe $\mathcal C ^1$
+<!--ID: 1734268137898-->
+
 
 ## Théorème
 Soit $E$ et $F$ deux espaces de Banach et $f: \Omega \to F$ une fonction de classe $\mathcal C ^1$
 Soit $a \in \Omega$ tel que $D_{f}(a) \in \mathcal L(E, F)$ inversible tel que $(D_{f}(a))^{-1} \in \mathcal L(E, F)$: #!
 
 Alors il existe $U,V$, respectivement ouvert de $E$ et $F$ tel que $f: U \to V$ est un $\mathcal C^1$-difféomorphisme.
+<!--ID: 1734268137901-->
+
 
 ### Idée de preuve
 Pour simplifier posons $E = F$ et montrons que $f$ est localement bijective et $f^{-1}$ localement différentiable et de classe $\mathcal C ^1$
@@ -36,6 +40,8 @@ Soit $f: \Omega \to F$ de classe $\mathcal C ^1$ sur $\Omega$. Supposons que $\f
 
 $\forall O$ ouvert de $\Omega$, on a que $f(O)$ est un ouvert de $F$
 Si $f$ est injective, alors $f: \Omega \to f(\Omega)$ est un $\mathcal C ^1$-difféomorphisme
+<!--ID: 1734268137903-->
+
 
 #### Preuve
 Soit $O$ un ouvert de $\Omega$, a-t-on que $f(O)$ est un ouvert de $F$ ?

@@ -25,6 +25,8 @@ $$
 \end{align}
 $$
 Où $V$ est le vecteur de variable du problème $\mathcal D$ de taille $p$ (le nombre de contrainte du problème $\mathcal P$). Si $\mathcal P$ était un problème de maximisation, $\mathcal D$ aurait été un problème de ==minimisation== et les inégalités aurait aussi changé de sens.
+<!--ID: 1734268137939-->
+
 
 ## Observations préliminaires
 Par rapport au problème primal $\mathcal P$, le problème dual $\mathcal D$ présente les caractéristiques suivantes: #!
@@ -37,6 +39,8 @@ Par rapport au problème primal $\mathcal P$, le problème dual $\mathcal D$ pr�
 - Les lignes de la matrice de contrainte de $\mathcal D$ sont les colonnes de celle de $\mathcal P$
 - ==A l'optimum, les fonctions objectifs ont des valeurs égales==
 - ==Le dual du dual est le problème primal==
+<!--ID: 1734268137941-->
+
 
 ## Cas du dual dans les problèmes généraux
 Dans le cas où un problème $\mathcal P$ n'est plus canonique, il faut que son dual $\mathcal D$ soit correctement arrangé: #!
@@ -46,6 +50,8 @@ Dans un problème $\mathcal P$ de maximisation
 - Si une contrainte est de la forme $=$, la variable du dual sera non signée et le second membre sera exprimé positivement dans la fonction objectif
 - Si une contrainte est de la forme $\geq$, la variable du dual sera signée ($\geq 0$) et le second membre sera exprimé **négativement** dans la fonction objectif
 Dans un problème $\mathcal P$ de minimisation, la variable du second membre aura le signe inverse dans le dual.
+<!--ID: 1734268137942-->
+
 
 ### Exemple
 ![[Pasted image 20241130111956.png]]
@@ -56,11 +62,15 @@ Si $X$ est une solution réalisable du primal $\mathcal P$, et $V$ une solution 
 $$
 bX  \leq cV
 $$
+<!--ID: 1734268137944-->
+
 
 ### Corollaire
 Si $X$ est une solution réalisable du primal $\mathcal P$, et $V$ une solution réalisation du dual $\mathcal D$ tel que $bX = cV$ alors: #!
 
 $X$ est une solution optimal de $\mathcal P$, et $V$ est une solution optimal de $\mathcal D$
+<!--ID: 1734268137946-->
+
 
 
 ## Théorème: lien entre l'optimal primal et dual
@@ -72,4 +82,6 @@ V^{*}(AX^{*} - b) &= &0 \\
 X^{*}(^tAV^{*} - c) &= &0
 \end{cases}
 $$
+<!--ID: 1734268137947-->
+
 

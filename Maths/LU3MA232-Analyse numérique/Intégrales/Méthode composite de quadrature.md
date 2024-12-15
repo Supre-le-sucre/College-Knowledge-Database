@@ -7,6 +7,8 @@ $$Auquel cas on écrit donc
 $$
 \int_{0}^{1}f(x)dx = \sum_{i=1}^N I_{\frac{i-1}{N}, \frac{i}{N}}(f)
 $$
+<!--ID: 1734268137929-->
+
 
 ## Méthode composite courante
 En se basant sur les [[Méthode de quadrature#Méthodes classiques|méthodes de quadrature classiques]]
@@ -29,3 +31,4 @@ $$
 On observe le phénomène suivant: #!
 
 Pour une [[Méthode de quadrature]] $I$ subdivisé en $\frac{1}{N}$, la méthode de quadrature composite, converge en $\frac{1}{N^{k+1}}$ si $f$ est une fonction de classe $\mathcal C^{{k+1}}$
+<!--ID: 1734268137931-->
