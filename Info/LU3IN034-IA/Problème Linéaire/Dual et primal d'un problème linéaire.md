@@ -1,4 +1,4 @@
-
+	
 On considère ici le programme linéaire primal canonique $\mathcal P$ avec
 - $X = \begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix}$  les variables du problème
 - $b = (b_{1}, \cdots ,b_{n})$ les coefficients de la fonction objectif
