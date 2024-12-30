@@ -58,3 +58,10 @@ Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathb
 \mathbb{E}\left( \sum_{n \in \mathbb{N}} X_{n} \right) = \sum_{ n \in \mathbb{N}} \mathbb{E}(X_{n})
 $$
 
+
+## Variance
+On définit la variance d'une [[Variable aléatoire]] $X$ de la façon suivante: #!
+
+$$
+Var(X) = \mathbb{E}((X - \mathbb{E}(X))^{2}) = \mathbb{E}(X^{2}) - \mathbb{E}(X)^{2}
+$$

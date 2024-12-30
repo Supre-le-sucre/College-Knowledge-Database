@@ -6,3 +6,11 @@ Pour $f$ une fonction mesurable positive, la [[Variable aléatoire|loi]] de $X$ 
 $$
 Avec nécessairement que $\int_{\mathbb{R}}f  \ dl = 1$
 
+## Propriété de la formule de transfert
+Dans le cas d'une variable aléatoire $X$ de densité $f$ par rapport à $l$, observons que: #!
+
+Soit $g: \mathbb{R} \to [0, \infty]$, une fonction mesurable. Alors on a que $$
+
+\mathbb{E}(g(X)) = \int_{\mathbb{R}}g \ d\mu_{X} = \int_{\mathbb{R}} gf dl 
+$$
+De même si $g$ est à valeur dans $\mathbb{C}$, tant qu'on a que $\mathbb{E}(|g(X)|) <\infty$
