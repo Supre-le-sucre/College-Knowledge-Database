@@ -25,9 +25,15 @@ $$
 # Définition
 
 ## Théorème
-$(E_{1}, \mathcal E_{1}, \mu_{1})$ et $(E_{2}, \mathcal E_{2}, \mu_{2})$ deux espaces mesurés avec $\mu_{1}$ et $\mu_{2}$, $\sigma$-finies alors observons les propriétés suivantes: #!
+Soit $(E_{1}, \mathcal E_{1}, \mu_{1})$ et $(E_{2}, \mathcal E_{2}, \mu_{2})$ deux espaces mesurés avec $\mu_{1}$ et $\mu_{2}$, $\sigma$-finies alors observons les propriétés suivantes: #!
 
 1) $\forall C \in \mathcal E_{1} \otimes \mathcal E_{2}$ $$
 x \mapsto \mu_{2}(C_{x}^{1}) \text{ et } y \mapsto \mu_{1}(C_{y}^{2})
 $$Sont respectivement $\mathcal E_{1}$ et $\mathcal E_{2}$ mesurables.
-2) 
+2) On a l'égalité $$
+\int_{E_{1}} \mu_{2}(C^{1}_{x}) d\mu_{1} = \int_{E_{2}} \mu_{1}(C^{2}_{y}) d\mu_{1}
+$$Et on note cette quantité $\mu_{1} \otimes \mu_{2}(C)$
+3) $\mu_{1} \otimes \mu_{2}$ est alors une mesure, que l'on appelle mesure produit
+4) C'est l'unique mesure sur $(E_{1} \times E_{2}, \mathcal E_{1} \otimes \mathcal E_{2})$ telle que: $$
+\mu_{1} \otimes \mu_{2}(A \times B) = \mu_{1}(A)\mu_{2}(B)
+$$
