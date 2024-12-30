@@ -44,4 +44,10 @@ $$
 ## Théorème de convergence dominée
 Sur l'espérance, on a le théorème suivant: #!
 
-Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathbb{C}$
+Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathbb{C}$ en supposant que
+- $\exists X$ tel que l'on a $\lim_{ n \to \infty } X_{n} =  X$
+- $\exists Y$ une variable aléatoire positive telle que $\mathbb E(Y) <\infty$ et $|X_{n}| \leq Y$ presque sûrement
+Alors $X$ et $X_{n}$ sont intégrables et $$
+\lim_{ n \to \infty } \mathbb{E}(\left| X_{n} - X \right| ) = 0 \text{ et } \lim_{ n \to \infty } \mathbb{E}(X_{n}) = \mathbb{E}(X)
+$$
+
