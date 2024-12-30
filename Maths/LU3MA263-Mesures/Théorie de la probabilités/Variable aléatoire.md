@@ -40,3 +40,8 @@ Soit $(E, \mathcal E)$ un espace mesurable tel que $\forall y \in E$ et $\{  y \
 L'ensemble $X(\Omega)$ est dénombrable
 
 ## Loi d'une variable aléatoire discrète
+La loi de $X$ est donné par: #!
+
+$$
+\mu_{X} = \sum_{y \in X(\Omega)}a_{y}\delta_{y} \text{ où } a_{y} = \mathbb{P}(X =y)
+$$
