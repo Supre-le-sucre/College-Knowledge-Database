@@ -33,3 +33,15 @@ Sur l'espérance on pose le théorème suivant: #!
 Pour $(X_{n})_{n _{in \mathbb{N}}}$ une suite de variable aléatoire positive alors on a $$
 \mathbb E\left( \sum_{n \in \mathbb{N}} X_{n}  \right) = \sum_{n \in \mathbb{N}} \mathbb E(X_{n})
 $$
+
+## Lemme de Fatou
+Sur l'espérance on a le lemme suivant: #!
+
+Soit $(X_{n})_{n \in \mathbb{N}}$ une suite de variables aléatoire positives alors on a que $$
+\mathbb{E}(\liminf_{ n \to \infty } X_{n}) \leq \liminf_{ n \to \infty } \mathbb{E}(X_{n})
+$$
+
+## Théorème de convergence dominée
+Sur l'espérance, on a le théorème suivant: #!
+
+Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathbb{C}$
