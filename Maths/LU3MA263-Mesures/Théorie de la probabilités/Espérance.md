@@ -51,3 +51,10 @@ Alors $X$ et $X_{n}$ sont intégrables et $$
 \lim_{ n \to \infty } \mathbb{E}(\left| X_{n} - X \right| ) = 0 \text{ et } \lim_{ n \to \infty } \mathbb{E}(X_{n}) = \mathbb{E}(X)
 $$
 
+## Inversion $\sum$ et $\int$ dans le cas général
+Sur l'espérance, on a le théorème suivant: #!
+
+Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathbb{C}$ avec $\mathbb{E}(|X_{n}|) <\infty$. Alors $\sum_{n \in \mathbb{N}} X_{n}$ absolument et on a $$
+\mathbb{E}\left( \sum_{n \in \mathbb{N}} X_{n} \right) = \sum_{ n \in \mathbb{N}} \mathbb{E}(X_{n})
+$$
+
