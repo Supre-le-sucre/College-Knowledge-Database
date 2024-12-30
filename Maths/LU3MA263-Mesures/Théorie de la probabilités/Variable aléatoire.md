@@ -8,3 +8,10 @@ On notera que souvent que: $$
 $$
 Une variable aléatoire est qualifiée de réelle si son espace d'arrivé est $(\mathbb{R}, \mathcal B(\mathbb{R}))$
 
+## Espérance
+Soit $X: \Omega \to [0, \infty]$ une variable aléatoire, on définit son espérance comme suit: #!
+
+$$
+\mathbb E(X) = \int_{\Omega} X d\mathbb P
+$$
+Pour $X: \Omega \to \mathbb{C}$, l'espérance existe si $\mathbb E(|X|) < \infty$
