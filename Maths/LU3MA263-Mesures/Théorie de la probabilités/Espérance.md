@@ -19,3 +19,17 @@ $$
 $$
 |X| \leq C \implies \mathbb E(|X|) \leq \mathbb E(C) \leq C \ \mathbb P(\Omega) \leq C < \infty
 $$
+
+## Théorème de convergence monotone
+Sur l'espérance on pose le théorème suivant: #!
+
+Soit $(X_{n})_{n \in \mathbb{N}}$ une suite de variable aléatoire à valeur dans $[0, \infty]$ et croissante.
+En posant $X = \lim_{n \to \infty } X_{n} = \sup X_{n}$ alors on obtient: $$
+\lim_{ n \to \infty } \mathbb E(X_{n}) =  \mathbb E(X)
+$$
+## Inversion $\sum$ et $\int$ 
+Sur l'espérance on pose le théorème suivant: #!
+
+Pour $(X_{n})_{n _{in \mathbb{N}}}$ une suite de variable aléatoire positive alors on a $$
+\mathbb E\left( \sum_{n \in \mathbb{N}} X_{n}  \right) = \sum_{n \in \mathbb{N}} \mathbb E(X_{n})
+$$
