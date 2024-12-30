@@ -1,4 +1,3 @@
-
 ## Définition
 On définit une variable aléatoire dans un espace mesurable $(E, \mathcal E)$ et l'espace probabilisé $(\Omega, \mathcal F, \mathbb{P})$ comme étant: #!
 
@@ -31,3 +30,6 @@ Alors $\forall h: E \to [0, \infty]$, $\mathcal E$-mesurable on a alors $$
 \int_{\Omega}h(X)d\mathbb P = \mathbb{E}(h(X)) = \int_{E}h d\mu_{X}
 $$
 De même si $h$ est à valeur dans $\mathbb{C}$ et $\mathbb{E}(|h(X)|) < \infty$
+
+
+# Cas discret
