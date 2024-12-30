@@ -5,6 +5,8 @@ Soit $(E_{1}, \mathcal E_{1})$ et $(E_{2}, \mathcal E_{2})$ deux espaces mesurab
 $$
 \sigma(\mathcal P) = \mathcal E_{1} \otimes \mathcal E_{2}
 $$
+<!--ID: 1735577784387-->
+
 
 ## Définition d'une section
 Pour $C \subset E_{1} \times E_{2}$ et $(x,y) \in E_{1} \times E_{2}$, on note: #!
@@ -14,6 +16,8 @@ C^{1}_{x} = \{ y' \in E_{2}, (x, y') \in C\} \subset E_{2}
 C^{2}_{y} = \{ x' \in E_{1}, (x', y) \in C\} \subset E_{1}
 $$
 $C^{1}_{x}$ est la section de $C$ en la première cordonnée, fixé à $x$
+<!--ID: 1735577784389-->
+
 
 ## Lemme sur les sections
 On observe que pour $C \in \mathcal E_{1} \otimes \mathcal E_{2}$ alors: #!
@@ -21,6 +25,8 @@ On observe que pour $C \in \mathcal E_{1} \otimes \mathcal E_{2}$ alors: #!
 $$
 \forall(x,y) \in E_{1} \times E_{2}, C_{x}^{1} \in \mathcal E_{2} \text{ et } C_{y}^{2} \in \mathcal E_{1}
 $$
+<!--ID: 1735577784390-->
+
 
 # Définition
 
@@ -37,3 +43,4 @@ $$Et on note cette quantité $\mu_{1} \otimes \mu_{2}(C)$
 4) C'est l'unique mesure sur $(E_{1} \times E_{2}, \mathcal E_{1} \otimes \mathcal E_{2})$ telle que: $$
 \mu_{1} \otimes \mu_{2}(A \times B) = \mu_{1}(A)\mu_{2}(B)
 $$
+<!--ID: 1735577784392-->

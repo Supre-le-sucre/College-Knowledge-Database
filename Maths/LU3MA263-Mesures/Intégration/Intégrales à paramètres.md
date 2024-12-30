@@ -9,6 +9,8 @@ Soit $C \subseteq \mathbb{R}^{d}$ un fermé de $\mathbb{R}^d$ muni de la converg
 $$
 ## Théorème de la dérivabilité
 On énonce le théorème sur la dérivabilité des intégrales à paramètres comme suit: #!
+<!--ID: 1735577784439-->
+
 
 Soit $I$ un intervalle d'extrémité distinctes de $\mathbb{R}$ et $(E, \mathcal E, \mu)$ un espace mesuré. Soit une fonction $f: E \times I \to \mathbb{C}$ telle que:
 - $\forall y \in I$, l'application partielle $f(\cdot, y)$ est $(\mathcal E, \mathcal B(\mathbb{C}))$-mesurable

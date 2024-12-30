@@ -2,6 +2,8 @@
 ### Corollaire
 On peut déduire qu'un espace est connexe de la façon suivante: #!
 Un espace connexe par arcs est connexe ==La réciproque est fausse==
+<!--ID: 1735577784377-->
+
 
 #### Preuve
 Supposons que $X$ est non connexe, donc $X=O \sqcup O'$, avec $O \cap O' = \emptyset$ 
@@ -14,6 +16,8 @@ On observe la stabilité suivante: #!
 1) L'image d'un connexe par une fonction continue est connexe
 2) L'union de deux connexes d'intersections non vide est connexe
 3) Le produit de deux connexes est connexe
+<!--ID: 1735577784380-->
+
 
 ### Preuve
 

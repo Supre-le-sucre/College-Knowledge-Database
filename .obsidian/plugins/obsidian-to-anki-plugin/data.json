@@ -70,10 +70,12 @@
       "Maths/LU3MA232-Analyse numérique/Schéma d'ordre élevé": "",
       "Maths/LU3MA263-Mesures/Intégration": "3MA263: Intégrations",
       "Info/LU3IN034-IA/Processus décisionnels Markoviens": "",
-      "Info/LU3IN034-IA/Algorithme A étoile": "",
+      "Info/LU3IN034-IA/Algorithme A étoile": "3IN034: A étoile",
       "Info/LU3IN034-IA/Processus décisionnel dans l'incertain et le risque": "",
       "Info/LU3IN034-IA/Regressions": "",
-      "Maths/LU3MA260-Topologie II/Inversion locale": "3MA260: Calcul différentielle"
+      "Maths/LU3MA260-Topologie II/Inversion locale": "3MA260: Calcul différentielle",
+      "Maths/LU3MA263-Mesures/Théorie de la probabilités": "3MA263: Théorie de la probabilité",
+      "Maths/LU3MA263-Mesures/Mesure produit": "3MA263: Mesure produit"
     },
     "FOLDER_TAGS": {
       "Info": "",
@@ -129,7 +131,9 @@
       "Info/LU3IN034-IA/Algorithme A étoile": "",
       "Info/LU3IN034-IA/Processus décisionnel dans l'incertain et le risque": "",
       "Info/LU3IN034-IA/Regressions": "",
-      "Maths/LU3MA260-Topologie II/Inversion locale": ""
+      "Maths/LU3MA260-Topologie II/Inversion locale": "",
+      "Maths/LU3MA263-Mesures/Théorie de la probabilités": "",
+      "Maths/LU3MA263-Mesures/Mesure produit": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -274,7 +278,7 @@
     "Maths/LU2MA211-Lebesgue/Outils d'analyse/Théorème de Fubini.md": "55337c44875a1522cabdce50f8f9caef",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Inégalité probabiliste.md": "e547f57a9c10765b286f8bb3dc6446cc",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Variances et covariances.md": "ef19fcc7f94d39af5a563d8b9ea0c554",
-    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Moments.md": "0c85c2cc692b14e516c576e627551759",
+    "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Moments.md": "03049f0bb89493e0d8947665f70a9c0b",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi de Poisson.md": "38bd53fb0b4ba645db3eb6122022575b",
     "Maths/LU2MA241-Probas/Chapitre 3 - Lois/Loi binomiale.md": "3bc0fce5f0c065cf6ea71fe3750d99bd",
     "Info/LU2IN003-Algo/Parcours.md": "77ac7bcb43af07d986e8c2eb1ec88a7e",
@@ -420,15 +424,15 @@
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Bornes inf et sup.md": "c0ad0ca7b7e673a6c28f2d9c91727d46",
     "Maths/LU3MA260-Topologie II/Les espaces compacts/Suites extraites.md": "c7e087285097f43f0fb47976b096f382",
     "Maths/LU3MA260-Topologie II/Les espaces compacts/Compacité.md": "36e85b28d292118b0212e38fce094caf",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Voisinage.md": "307652880c533fe08fbb655ffb178935",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Travaux sur les suites.md": "67a0750c78b322c43f2ce368d3e72d96",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Voisinage.md": "29b9cc9574a556eab18520bed758a5b3",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Travaux sur les suites.md": "d56abdeaacb45d3fdf3aa7aab17923cd",
     "Maths/LU3MA260-Topologie II/Espaces Métriques/Sous-espaces métriques.md": "6fd3479c5ac253967d433c5de34a384c",
     "Maths/LU3MA260-Topologie II/Espaces Métriques/Produits d'espaces métriques.md": "3649656c186926206c606e179ab41c9c",
     "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions de fermé, adhérence et frontière.md": "919f7e2f36d259e4bf1fdf71f9f34179",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions d'ouvert par les distances.md": "5b593f2bb6c33bf01c299cac1c00aea6",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Distances équivalentes.md": "1a1d67722377132e36b249466671e106",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Boule fermée.md": "fbea9ac1c6d4de64e1b2c4df3ed40b31",
-    "Maths/LU3MA260-Topologie II/Espaces Métriques/Applications continues.md": "704e861cce5848bc3ac617783e700b73",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Notions d'ouvert par les distances.md": "320f88c95feee880074b1948763cf95c",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Distances équivalentes.md": "82863adcf18e2692ae458f0d791c2358",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Boule fermée.md": "aabb358d2557da876bc6fe711fc8d387",
+    "Maths/LU3MA260-Topologie II/Espaces Métriques/Applications continues.md": "78ce233638108860e2db03a7b0ac6e9e",
     "Maths/LU3MA260-Topologie II/Complétude/Suites de Cauchy.md": "6bf400310c72574fdc7109f24a869812",
     "Maths/LU3MA260-Topologie II/Complétude/Point fixe contractant.md": "8fc8be8a6cb99d003a0a80e8a4614a80",
     "Maths/LU3MA260-Topologie II/Complétude/Espaces de fonctions.md": "a9c5cf287b3d3818604709ae76798ac6",
@@ -465,7 +469,7 @@
     "Maths/LU3MA263-Mesures/Intégration/Théorie de l'intégrale sur fonction étagée.md": "d9dc3fcbb64b6a31cd4c0f8b9ce28a7a",
     "Maths/LU3MA263-Mesures/Intégration/Intégrales sur fonctions positives.md": "a53a28d77dc45f7ee0e4b40273b58a7f",
     "Maths/LU3MA263-Mesures/Fonctions mesurables/Fonctions étagées.md": "f01c5c4df20db7f0281130c274c4cbb5",
-    "Maths/LU3MA260-Topologie II/Connexité/Espaces connexes.md": "070ed15f64c9d72047e714fb45959f04",
+    "Maths/LU3MA260-Topologie II/Connexité/Espaces connexes.md": "f4b3f0f894fd81b7c897efb078b740d4",
     "Maths/LU3MA260-Topologie II/Calcul différentielle/Dérivées partielles.md": "a2da5533fe47a2c93dc742dc8d08fc1d",
     "Maths/LU3MA260-Topologie II/Calcul différentielle/Différentiabilité.md": "2beb1b5104eaa6a138586f538b835cd4",
     "Info/LU3IN034-IA/Processus décisionnels Markoviens/PDM.md": "3df5d7caff92f1ff6bd341816abb55dc",
@@ -491,7 +495,15 @@
     "Info/LU3IN034-IA/Algorithme A étoile/Procédure de recherche.md": "ae279a128885ae1700873fefea33bbf5",
     "Info/LU3IN034-IA/Algorithme A étoile/Heuristique.md": "74e254bbee5b405c6e309c5d858fde7f",
     "Info/LU3IN034-IA/Algorithme A étoile/Graphes d'états.md": "e1d78f101bfed2112bdf16b2a1841af6",
-    "Info/LU3IN034-IA/Algorithme A étoile/Algorithme A étoile.md": "97de2c4c5f11a29b29e76a3bff88a865"
+    "Info/LU3IN034-IA/Algorithme A étoile/Algorithme A étoile.md": "97de2c4c5f11a29b29e76a3bff88a865",
+    "Maths/LU3MA263-Mesures/Mesure produit/Théorème de Fubini.md": "4f390b92969056226c65810dc3a922e5",
+    "Maths/LU3MA263-Mesures/Mesure produit/Mesure produit.md": "7dddef20ac52ceb6e5ce1bcb2f442f93",
+    "Maths/LU3MA263-Mesures/Théorie de la probabilités/Inégalités.md": "5f9b77f8d16134fba4836c2e90f1572f",
+    "Maths/LU3MA263-Mesures/Théorie de la probabilités/Fonctions de répartitions.md": "b994e378073ee0feb5e02c44bb057b29",
+    "Maths/LU3MA263-Mesures/Théorie de la probabilités/Variable aléatoire à densité.md": "2d0d0363d040efa7c6fab439f7607dd5",
+    "Maths/LU3MA263-Mesures/Théorie de la probabilités/Espérance.md": "027616195b633c959d05e41a277eca7c",
+    "Maths/LU3MA263-Mesures/Théorie de la probabilités/Variable aléatoire.md": "1d37b6a9f6b2e379ce102f04078fbf39",
+    "Maths/LU3MA263-Mesures/Intégration/Intégrales à paramètres.md": "455f5f82cc8bf94d996a6001ec3f3859"
   },
   "fields_dict": {
     "Basic": [
