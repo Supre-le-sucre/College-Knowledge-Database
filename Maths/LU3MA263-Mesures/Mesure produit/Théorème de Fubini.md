@@ -4,7 +4,8 @@ Soit $(E_{1}, \mathcal E_{1})$ et $(E_{2}, \mathcal E_{2})$ deux espaces mesurab
 $$
 \forall x_{0} \in E_{1}, y \mapsto f(x_{0}, y) \text{ est } \mathcal E_{2}\text{-mesurable, et vice-versa}
 $$
-<!--ID: 1735577784382-->
+<!--ID: 1735577943215-->
+
 
 
 ## Théorème de Fubini positif
@@ -18,7 +19,8 @@ $$
 $$
 \int_{E_{1} \times E_{2}} f d(\mu_{1} \otimes \mu_{2}) = \int_{E_{1}}\left( \int_{E_{2}} f(x,y)\mu_{2}(dy)\right)\mu_{1}(dx) = \int_{E_{2}}\left( \int_{E_{1}} f(x,y)\mu_{1}(dx)\right)\mu_{2}(dy)
 $$
-<!--ID: 1735577784384-->
+<!--ID: 1735577943217-->
+
 
 
 ## Théorème de Fubini général
@@ -31,4 +33,5 @@ $$ est telle que $\int_{E_{2}} |h| d\mu_{2}< \infty$ et $\mathcal E_{2}$-mesurab
 3) On a l'égalité suivante $$
 \int_{E_{1} \times E_{2}} f d(\mu_{1} \otimes \mu_{2}) = \int_{E_{1}}\left( \int_{E_{2}} f(x,y)\mu_{2}(dy)\right)\mu_{1}(dx) = \int_{E_{2}}\left( \int_{E_{1}} f(x,y)\mu_{1}(dx)\right)\mu_{2}(dy)
 $$
-<!--ID: 1735577784386-->
+<!--ID: 1735577943219-->
+

@@ -19,7 +19,8 @@ $$
 $$
 |X| \leq C \implies \mathbb E(|X|) \leq \mathbb E(C) \leq C \ \mathbb P(\Omega) \leq C < \infty
 $$
-<!--ID: 1735577784417-->
+<!--ID: 1735577943246-->
+
 
 
 ## Théorème de convergence monotone
@@ -31,7 +32,8 @@ En posant $X = \lim_{n \to \infty } X_{n} = \sup X_{n}$ alors on obtient: $$
 $$
 ## Inversion $\sum$ et $\int$ 
 Sur l'espérance on pose le théorème suivant: #!
-<!--ID: 1735577784419-->
+<!--ID: 1735577943248-->
+
 
 
 Pour $(X_{n})_{n _{in \mathbb{N}}}$ une suite de variable aléatoire positive alors on a $$
@@ -44,7 +46,8 @@ Sur l'espérance on a le lemme suivant: #!
 Soit $(X_{n})_{n \in \mathbb{N}}$ une suite de variables aléatoire positives alors on a que $$
 \mathbb{E}(\liminf_{ n \to \infty } X_{n}) \leq \liminf_{ n \to \infty } \mathbb{E}(X_{n})
 $$
-<!--ID: 1735577784421-->
+<!--ID: 1735577943249-->
+
 
 
 ## Théorème de convergence dominée
@@ -56,7 +59,8 @@ Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathb
 Alors $X$ et $X_{n}$ sont intégrables et $$
 \lim_{ n \to \infty } \mathbb{E}(\left| X_{n} - X \right| ) = 0 \text{ et } \lim_{ n \to \infty } \mathbb{E}(X_{n}) = \mathbb{E}(X)
 $$
-<!--ID: 1735577784423-->
+<!--ID: 1735577943251-->
+
 
 
 ## Inversion $\sum$ et $\int$ dans le cas général
@@ -65,7 +69,8 @@ Sur l'espérance, on a le théorème suivant: #!
 Soit $(X_{n})_{n \in \mathbb{N}}$ une variable aléatoire à valeur dans $\mathbb{C}$ avec $\mathbb{E}(|X_{n}|) <\infty$. Alors $\sum_{n \in \mathbb{N}} X_{n}$ absolument et on a $$
 \mathbb{E}\left( \sum_{n \in \mathbb{N}} X_{n} \right) = \sum_{ n \in \mathbb{N}} \mathbb{E}(X_{n})
 $$
-<!--ID: 1735577784425-->
+<!--ID: 1735577943253-->
+
 
 
 
@@ -75,4 +80,5 @@ On définit la variance d'une [[Variable aléatoire]] $X$ de la façon suivante:
 $$
 Var(X) = \mathbb{E}((X - \mathbb{E}(X))^{2}) = \mathbb{E}(X^{2}) - \mathbb{E}(X)^{2}
 $$
-<!--ID: 1735577784426-->
+<!--ID: 1735577943255-->
+

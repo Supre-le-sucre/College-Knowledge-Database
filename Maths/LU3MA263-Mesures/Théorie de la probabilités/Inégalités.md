@@ -5,7 +5,8 @@ Soit $I$ un intervalle de $\mathbb{R}$ et soit $\phi: I \to \mathbb{R}$ une fonc
 $$
 \mathbb{E}(X) \in I \text{ et } \phi(\mathbb{E}(X)) \leq \mathbb{E}(\phi(X))
 $$
-<!--ID: 1735577784394-->
+<!--ID: 1735577943228-->
+
 
 
 
@@ -15,7 +16,8 @@ Soit $p, q \in \mathbb{N}^*$ tel que $p < q$, l'inégalité de Jensen permet d'a
 Si $X$ admet un [[Moments|moment]] d'ordre $q$ alors il admet aussi un moment d'ordre $p$. i.e $$
 \mathbb{E}(|X|^{q}) < \infty \text{ et } \mathbb{E}(|X| ^p ) < \infty
 $$
-<!--ID: 1735577784396-->
+<!--ID: 1735577943229-->
+
 
 
 ## Inégalité de Holder
@@ -24,7 +26,8 @@ Soit $p \geq 1$ et soit $q \geq 1$ tel que $\frac{1}{p} + \frac{1}{q} = 1$ alors
 $$
 \forall X, Y \text{ variables aléatoires } \mathbb{E}(|XY|) \leq \mathbb{E}(|X|^p)^{\frac{1}{p}}\mathbb{E}(|X|^q)^{\frac{1}{q}}
 $$
-<!--ID: 1735577784398-->
+<!--ID: 1735577943231-->
+
 
 
 ## Inégalité de Minkowski
@@ -33,7 +36,8 @@ $\forall X, Y$ variables aléatoires et pour $p > 2$ on a que: #!
 $$
 (\mathbb{E}((|X|+|Y|)^p)^{\frac{1}{p}} \leq \mathbb{E}(|X|^p)^{\frac{1}{p}} + \mathbb{E}(|Y|^p)^{\frac{1}{p}}
 $$
-<!--ID: 1735577784401-->
+<!--ID: 1735577943232-->
+
 
 
 ## Inégalité de Markov
@@ -69,4 +73,5 @@ $$
 \mathbb{P}(|X - \mathbb{E}(X)| \geq a) \leq \frac{Var(X)}{a^{2}}
 $$
 Où $Var(X)$ est la [[Maths/LU3MA263-Mesures/Théorie de la probabilités/Espérance#V0ariance|variance]] de $X$
-<!--ID: 1735577784402-->
+<!--ID: 1735577943234-->
+
