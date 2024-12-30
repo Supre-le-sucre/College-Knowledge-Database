@@ -33,3 +33,10 @@ De même si $h$ est à valeur dans $\mathbb{C}$ et $\mathbb{E}(|h(X)|) < \infty$
 
 
 # Cas discret
+
+## Définition
+Soit $(E, \mathcal E)$ un espace mesurable tel que $\forall y \in E$ et $\{  y \} \in \mathcal E$. On dit que $X: \Omega \to E$ est discrète si: #!
+
+L'ensemble $X(\Omega)$ est dénombrable
+
+## Loi d'une variable aléatoire discrète
