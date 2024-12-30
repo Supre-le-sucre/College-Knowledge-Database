@@ -45,3 +45,10 @@ La loi de $X$ est donné par: #!
 $$
 \mu_{X} = \sum_{y \in X(\Omega)}a_{y}\delta_{y} \text{ où } a_{y} = \mathbb{P}(X =y)
 $$
+
+## Combinaison de fonction avec une variable aléatoire
+Dans le cas d'une variable aléatoire discrètes on a que: #!
+
+Pour toute fonction $f: E \to \mathbb{R}$ est $\mathcal E$-mesurable **positive ou bornée**. Alors $f(X)$ est aussi une variable aléatoire discrète, d'où $$
+\mathbb{E}(f(X)) = \sum_{y \in X(\Omega)}f(y)\mathbb{P}(X=y)
+$$
